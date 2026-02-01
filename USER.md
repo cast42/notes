@@ -10,6 +10,10 @@
 
 ## Context
 
+- GitHub: https://github.com/cast42 (username: cast42)
+- Blog: https://cast42.github.io/blog/
+- Python project template: https://github.com/cast42/python-minimal-boilerplate
+
 *(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)*
 
 ---
