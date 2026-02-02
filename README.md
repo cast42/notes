@@ -1,14 +1,20 @@
 # Notes
 
-This is my personal notes folder.
+This is my personal notes repo.
 
 ## Structure
 
-- `coaching/` — coaching notes, sessions, frameworks, experiments
-- `learning/` — what I’m learning, summaries, experiments, questions
+- `inbox/` — agent + human scratchpad (daily capture)
+- `topics/` — evergreen topic notes (including subfolders)
+  - `topics/coaching/`
+  - `topics/learning/`
+  - `topics/rag.md`, `topics/embeddings.md`, `topics/duckdb.md`
+- `meetings/` — dated meeting notes
+- `refs/` — reference material (papers, links)
+- `_meta/` — tags, glossary, conventions
 
 ## Conventions
 
-- Use ISO dates for dated notes: `YYYY-MM-DD.md`
-- Prefer short, scannable sections.
-- Keep an `inbox.md` per area for quick capture.
+- Use ISO dates: `YYYY-MM-DD.md`
+- Prefer short sections + bullets
+- Capture first, organize later

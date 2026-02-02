@@ -1,9 +1,0 @@
-# Learning topics
-
-## Active
-
-- 
-
-## Backlog
-
-- 
