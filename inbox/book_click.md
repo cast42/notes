@@ -2,6 +2,8 @@
 
 Source: https://www.theclickbook.com
 
+Authors: Jake Knapp, John Zeratsky
+
 ## What it is (context)
 
 *Click* is a new book/sprint method from the author of *Sprint*.
@@ -12,6 +14,10 @@ From the site:
 - Day 1 (afternoon): craft differentiation
 - Day 2: evaluate multiple options and choose an approach
 - Output: a **Founding Hypothesis** — a clear statement of what you believe that can be proved (or disproved) with Design Sprints
+
+## Founding Hypothesis (visual)
+
+![Founding Hypothesis template](assets/founding-hypothesis.jpg)
 
 ## The hypothesis to set up in the Foundation Sprint
 
