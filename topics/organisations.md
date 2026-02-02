@@ -31,6 +31,10 @@
 
 - YouTube: https://www.youtube.com/watch?v=M7JM0TiFkeA
 
+## NotebookLM
+
+- https://notebooklm.google.com/notebook/907a66f4-0f9d-42bc-a648-2a86543f5739
+
 ## Transcript (from longcut.ai)
 
 I took over a team in the technology organization and it was considered the worst performing team in the whole organization and I thought oh my god what am I going to do with this team it's all going to be really bad and it's a career ending situation and when I spoke to them they were all super interesting thoughtful kind and really smart interesting wonderful people and I realized it's not them it's how they were set up how they were led the core set of process of culture that they were pushed into, they couldn't win.
