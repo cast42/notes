@@ -1,9 +1,11 @@
-# Designing Things / People — Lode
+# Designing Things People Love
 
 ## Source
 
 - X post: https://x.com/felixleezd/status/1983202401898377287
-
+- author: Jony Ive
+- based on Dieter Rams: https://barryborsboom.wordpress.com/2008/10/04/dieter-rams-jonathan-ive/
+  
 ## Checklist
 
 - Who is it for?
