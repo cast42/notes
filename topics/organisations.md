@@ -10,7 +10,22 @@
 
 ## Notes
 
-- 
+## Quotes (with timestamps)
+
+1. **It's Not the People, It's the Organization** [00:20]
+   > "it's not them. It's how they were set up, how they were led, the core set of process of culture that they were pushed into. They couldn't win."
+
+2. **People Have the Answers in Trust Culture** [00:35]
+   > "If you talk to people in the organization, they have the answers. They know what's wrong. They know what to do. They know what's not working."
+
+3. **Unlearning Need for All Answers** [11:42]
+   > "I didn't need all of the answers. That the people uh I recruited, the people who I worked with, they're actually incredibly smart."
+
+4. **Embrace Probabilistic Thinking** [15:01]
+   > "why don't you just um show in your answers in your decisions that you maybe are 70% sure you might not be 100% sure"
+
+5. **Set Unpriorities for Focus** [18:18]
+   > "as leaders we often think we need to set priorities as leaders we also need to set unpriorities. You know what aren't we going to do?"
 
 ## Video
 
