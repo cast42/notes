@@ -25,7 +25,7 @@ Some people also name their worktrees and set up shell aliases (za, zb, zc) so t
 
 See: [https://code.claude.com/docs/en/common-workflows#run-parallel-claude-code-sessions-with-git-worktrees](https://code.claude.com/docs/en/common-workflows#run-parallel-claude-code-sessions-with-git-worktrees)
 
-![](https://x.com/bcherny/status/2017742743125299476/photo/1)
+![figure](https://x.com/bcherny/status/2017742743125299476/photo/1)
 
 ## 2. Start every complex task in plan mode. Pour your energy into the plan so Claude can 1-shot the implementation.
 
@@ -33,7 +33,7 @@ One person has one Claude write the plan, then they spin up a second Claude to r
 
 Another says the moment something goes sideways, they switch back to plan mode and re-plan. Don't keep pushing. They also explicitly tell Claude to enter plan mode for verification steps, not just for the build
 
-![](https://x.com/bcherny/status/2017742745365057733/photo/1)
+![figure](https://x.com/bcherny/status/2017742745365057733/photo/1)
 
 ## 3. Invest in your http://CLAUDE.md.
 
@@ -43,7 +43,7 @@ Ruthlessly edit your http://CLAUDE.md over time. Keep iterating until Claude's m
 
 One engineer tells Claude to maintain a notes directory for every task/project, updated after every PR. They then point http://CLAUDE.md at it.
 
-![](https://x.com/bcherny/status/2017742747067945390/photo/1)
+![figure](https://x.com/bcherny/status/2017742747067945390/photo/1)
 
 ## 4. Create your own skills and commit them to git. Reuse across every project.
 
@@ -63,7 +63,7 @@ Or, just say "Go fix the failing CI tests." Don't micromanage how.
 
 Point Claude at docker logs to troubleshoot distributed systems -- it's surprisingly capable at this.
 
-![](https://x.com/bcherny/status/2017742750473720121/photo/1)
+![figure](https://x.com/bcherny/status/2017742750473720121/photo/1)
 
 ## 6. Level up your prompting
 
@@ -83,7 +83,7 @@ Use voice dictation. You speak 3x faster than you type, and your prompts get way
 
 More tips: [https://code.claude.com/docs/en/terminal-config](https://code.claude.com/docs/en/terminal-config)
 
-![](https://x.com/bcherny/status/2017742753971769626/photo/1)
+![figure](https://x.com/bcherny/status/2017742753971769626/photo/1)
 
 ## 8. Use subagents
 
@@ -91,9 +91,9 @@ a. Append "use subagents" to any request where you want Claude to throw more com
 
 b. Offload individual tasks to subagents to keep your main agent's context window clean and focused
 
-c. Route permission requests to Opus 4.5 via a hook — let it scan for attacks and auto-approve the safe ones (see [https://code.claude.com/docs/en/hooks#permissionrequest](https://code.claude.com/docs/en/hooks#permissionrequest)
+c. Route permission requests to Opus 4.5 via a hook — let it scan for attacks and auto-approve the safe ones (see [https://code.claude.com/docs/en/hooks#permissionrequest](https://code.claude.com/docs/en/hooks#permissionrequest) )
 
-[![](https://x.com/bcherny/status/2017742755737555434/photo/1)
+![figure](https://x.com/bcherny/status/2017742755737555434/photo/1)
 
 ## 9. Use Claude for data & analytics
 
