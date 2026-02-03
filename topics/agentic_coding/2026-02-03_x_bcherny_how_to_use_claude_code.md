@@ -1,14 +1,19 @@
 ---
-title: "How to use Claude Code by Boris Cherny (Anthropic)"
-author: "Boris Cherny"
-source: "https://x.com/bcherny/status/2017742741636321619?s=20"
+title: "How to use Claude Code (tips from Boris Cherny)"
+date: 2026-02-03
 type: note
 topics:
+  - agentic_coding
+tags:
+  - claude
+  - claude_code
+  - agents
   - coding
-  - agentic
-  - claude code
-  - antropic
-created: 2026-02-03
+people:
+  - Boris Cherny
+source:
+  kind: x
+  url: https://x.com/bcherny/status/2017742741636321619?s=20
 ---
 
 # How to use Claude Code by Boris Cherny (Anthropic)
