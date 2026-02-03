@@ -1,5 +1,5 @@
 ---
-title: "The most important skill to learn in the next 10 years"
+title: "How to use Claude Code by Boris Cherny (Anthropic)"
 author: "Boris Cherny"
 source: "https://x.com/bcherny/status/2017742741636321619?s=20"
 type: note
