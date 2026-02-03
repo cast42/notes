@@ -1,9 +1,27 @@
-# The creator of Clawd: “I ship code I don’t read” — notes
+---
+title: "The creator of Clawd: ‘I ship code I don’t read’ — Peter Steinberger"
+date: 2026-02-03
+type: note
+topics:
+  - agentic_coding
+tags:
+  - agents
+  - coding
+  - codex
+  - openclaw
+  - workflow
+people:
+  - Peter Steinberger
+source:
+  kind: youtube
+  url: https://www.youtube.com/watch?v=8lF7HmQ_RgY
+  channel: The Pragmatic Engineer
+  length: "1:54:04"
+---
 
-Source (YouTube): https://www.youtube.com/watch?v=8lF7HmQ_RgY
-Channel: The Pragmatic Engineer
-Guest: Peter Steinberger (aka @steipete)
-Length: 1:54:04
+## TL;DR
+
+Agentic coding works when you **close the loop** (the agent can run/verify/debug its own work) and you enforce a fast **local gate** (build + lint + tests). Review shifts from “read every line” to validating outcomes and intent — **PRs become prompt requests**.
 
 ## What stuck with me
 
@@ -20,28 +38,28 @@ Length: 1:54:04
 
 This is a rough timeline based on what Peter says in the interview (timestamps from the YouTube transcript UI).
 
-- **Rural Austria, early tinkering**: got hooked on computers as a teenager and kept building/experimenting.  
+- **Rural Austria, early tinkering**: got hooked on computers as a teenager and kept building/experimenting.
   Timestamp: ~00:02:01+
 
-- **Working while studying**: describes coming from a poor family and needing to finance his studies via work; early professional experience included Microsoft MFC nightmares and quietly switching stacks when needed.  
+- **Working while studying**: describes coming from a poor family and needing to finance his studies via work; early professional experience included Microsoft MFC nightmares and quietly switching stacks when needed.
   Timestamp: ~00:03:13–00:04:25
 
-- **Early iPhone moment (“it clicked”) → building apps**: a frustration with a web experience on the iPhone pushes him to download Xcode and build.  
+- **Early iPhone moment (“it clicked”) → building apps**: a frustration with a web experience on the iPhone pushes him to download Xcode and build.
   Timestamp: ~00:04:43–00:06:10
 
-- **First commercial success**: he ships an app, charges for it, and makes meaningful money quickly (“$10k in the first month”).  
+- **First commercial success**: he ships an app, charges for it, and makes meaningful money quickly (“$10k in the first month”).
   Timestamp: ~00:07:10
 
-- **PSPDFKit origin story**: after other work/freelancing, he gets pulled into a magazine/iPad PDF-viewer problem, rewrites it, and extracts the PDF component as a product.  
-  Timestamp: ~00:09:40–00:12:25
+- **PSPDFKit origin story**: after other work/freelancing, he gets pulled into a magazine/iPad PDF-viewer problem, rewrites it, and extracts the PDF component as a product.
+  Timestamp: ~00:09:40–00:00:12:25
 
-- **Scaling PSPDFKit**: he builds and scales PSPDFKit into a serious developer-tools business. The episode discusses product taste/polish, tech stack, pricing, writing, and culture.  
+- **Scaling PSPDFKit**: he builds and scales PSPDFKit into a serious developer-tools business. The episode discusses product taste/polish, tech stack, pricing, writing, and culture.
   Timestamp: ~00:19:14 onward
 
-- **Burnout + stepping away**: he describes burning too hard, CEO stress, and needing time to decompress, including long stretches not turning on a computer.  
+- **Burnout + stepping away**: he describes burning too hard, CEO stress, and needing time to decompress, including long stretches not turning on a computer.
   Timestamp: ~00:29:42–00:34:54
 
-- **Return to building, now centered on LLMs/agents**: comes back and sees AI as “good enough to see the potential,” then goes all-in on agentic workflows.  
+- **Return to building, now centered on LLMs/agents**: comes back and sees AI as “good enough to see the potential,” then goes all-in on agentic workflows.
   Timestamp: ~00:34:54–00:49:10
 
 ---
@@ -54,7 +72,7 @@ Peter keeps returning to a simple requirement: agents are effective when the wor
 - **Why it matters**: without fast feedback, agent output becomes “vibe coding” and you end up manually patching and steering.
 
 Key quote (approx):
-- “*The good thing how to be effective with coding agent is always like you have to close the loop. It needs to be able to debug and test itself.*”  
+- “*The good thing how to be effective with coding agent is always like you have to close the loop. It needs to be able to debug and test itself.*”
   Timestamp: ~00:57:31–00:57:38
 
 Peter points out why code is a sweet spot for LLMs: validation is cheap relative to other domains.
@@ -69,7 +87,7 @@ Instead of waiting on slow remote CI, Peter emphasizes a local gate that runs qu
 - The practical effect: merge fast, accept that main may “slip” sometimes, but keep the loop tight.
 
 Key quote (approx):
-- “*Full gate is like linting and building and and checking and running all the tests.*”  
+- “*Full gate is like linting and building and and checking and running all the tests.*”
   Timestamp: ~01:39:34–01:39:40
 
 ---
@@ -82,7 +100,7 @@ A repeated theme: Peter doesn’t obsess over each line; he obsesses over the sy
 - He uses the phrase **“weave in the code”** for integrating a change into the existing structure.
 
 Key quote (approx):
-- “*…then we weave in the code. It’s literally… weaving in code into an existing structure.*”  
+- “*…then we weave in the code. It’s literally… weaving in code into an existing structure.*”
   Timestamp: ~01:38:17–01:38:26
 
 ---
@@ -95,9 +113,9 @@ Peter reframes contributions:
 - He’d rather receive a **prompt request** that clearly describes what to build.
 
 Key quotes (approx):
-- “*Pull requests… I see them more as prompt requests…*”  
+- “*Pull requests… I see them more as prompt requests…*”
   Timestamp: ~01:37:00+
-- “*I read the prompts more than I read the code…*”  
+- “*I read the prompts more than I read the code…*”
   Timestamp: ~01:48:06–01:48:12
 
 This matches the broader shift: review moves from line-by-line diffs to validating outcomes + gate results + architectural fit.
@@ -114,18 +132,18 @@ From the discussion:
 - His claim: **Codex is slower because it reads more**; that makes it better at weaving features into an existing codebase.
 
 Key quote (approx):
-- “*Codex… will just be silent and just read files for 10 minutes…*”  
+- “*Codex… will just be silent and just read files for 10 minutes…*”
   Timestamp: ~00:47:29–00:47:35
 
 And:
-- “*Codex is just so much better because it… reads more… sees a bigger picture of your codebase… weaves in new features better.*”  
+- “*Codex is just so much better because it… reads more… sees a bigger picture of your codebase… weaves in new features better.*”
   Timestamp: ~00:47:07–00:47:29
 
 ### Parallel agents
 
 He runs multiple agents in parallel and “juggles” them:
 
-- “*I use between five and 10 agents in parallel…*”  
+- “*I use between five and 10 agents in parallel…*”
   Timestamp: ~00:46:24–00:46:33
 
 It’s more mentally taxing but keeps him in flow.
@@ -139,7 +157,7 @@ He repeatedly emphasizes a conversation-first mode:
 - only then trigger implementation
 
 Key quote (approx):
-- “*I have a conversation with the model… what options do we have…*”  
+- “*I have a conversation with the model… what options do we have…*”
   Timestamp: ~00:47:47–00:48:19
 
 ---
@@ -151,7 +169,7 @@ Key quote (approx):
 Peter suggests working in open source and building real things.
 
 Key quote (approx):
-- “*Someone who’s active on GitHub and does open source…*”  
+- “*Someone who’s active on GitHub and does open source…*”
   Timestamp: ~01:43:05+
 
 ### Develop “system understanding”
@@ -163,7 +181,7 @@ He argues the differentiator isn’t typing code; it’s knowing:
 - how to set up feedback loops
 
 Key quote (approx):
-- “*Everything is just the right question away.*”  
+- “*Everything is just the right question away.*”
   Timestamp: ~00:52:46–00:52:52
 
 ### Prompts are the new artifact
