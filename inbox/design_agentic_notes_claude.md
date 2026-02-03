@@ -1,3 +1,12 @@
+---
+title: "Agentic Notes System: A Practical Proposal"
+date: 2026-02-02
+type: inbox
+topics:
+  - inbox
+tags: []
+---
+
 # Agentic Notes System: A Practical Proposal
 
 ## Executive Summary

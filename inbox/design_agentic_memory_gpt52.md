@@ -1,3 +1,12 @@
+---
+title: "Notes Catalog"
+date: 2026-02-02
+type: inbox
+topics:
+  - inbox
+tags: []
+---
+
 Designing a Markdown-Based Knowledge Base for Humans and AI
 
 Goals and Principles

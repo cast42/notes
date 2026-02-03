@@ -1,3 +1,12 @@
+---
+title: "Success"
+date: 2026-02-02
+type: note
+topics:
+  - coaching
+tags: []
+---
+
 # Success
 
 ## Source

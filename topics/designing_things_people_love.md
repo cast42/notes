@@ -1,3 +1,12 @@
+---
+title: "Designing Things People Love"
+date: 2026-02-02
+type: note
+topics:
+  - designing_things_people_love
+tags: []
+---
+
 # Designing Things People Love
 
 ## Source

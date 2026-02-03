@@ -1,3 +1,12 @@
+---
+title: "Book: *Click* (theclickbook.com)"
+date: 2026-02-02
+type: inbox
+topics:
+  - inbox
+tags: []
+---
+
 # Book: *Click* (theclickbook.com)
 
 Source: https://www.theclickbook.com

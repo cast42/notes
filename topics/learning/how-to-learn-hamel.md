@@ -1,3 +1,12 @@
+---
+title: "How to learn (Hamel Husain)"
+date: 2026-02-02
+type: note
+topics:
+  - learning
+tags: []
+---
+
 # How to learn (Hamel Husain)
 
 Source: https://hamel.dev/notes/how-to-learn/

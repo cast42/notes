@@ -1,3 +1,12 @@
+---
+title: "Demand needs purchasing power (AGI economics)"
+date: 2026-02-03
+type: note
+topics:
+  - AGI
+tags: []
+---
+
 # Demand needs purchasing power (AGI economics)
 
 Source (X): https://x.com/i/status/2016317410853220827
