@@ -3,7 +3,7 @@ title: "Success formula: skill × leverage × positioning × luck (Jaynit)"
 date: 2026-02-01
 type: note
 topics:
-  - agentic_coding
+  - coaching
 tags:
   - leverage
   - career
@@ -39,4 +39,4 @@ Embedded from the post:
 
 ![figure](https://pbs.twimg.com/media/HAEkdRaasAIaC-Q?format=png&name=medium)
 
-Local copies (repo): `topics/agentic_coding/assets/jaynit_success_formula/`
+Local copies (repo): `topics/agentic_coding/assets/jaynit_success_formula/` (not moved)
