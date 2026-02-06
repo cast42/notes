@@ -24,6 +24,7 @@ source:
 - Skill repo: https://github.com/levineam/qmd-skill
 - Skill file (raw): https://raw.githubusercontent.com/levineam/qmd-skill/main/SKILL.md
 - QMD (by Tobi): https://github.com/tobi/qmd
+- X: Tobi noting “QMD based memory built right in” (OpenClaw 2026.2.2): https://x.com/tobi/status/2018881321313997151
 
 ## What the skill does
 
