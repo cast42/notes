@@ -38,7 +38,7 @@ The key visual is two lines:
 
 ## Figure
 
-![Two slopes intersect over time](assets/ousterhout_thought_for_the_weekend/ousterhout_slope_graph.jpg)
+![Two slopes intersect over time](assets/ousterhout_thought_for_the_weekend/ousterhout_slope_graph_source.jpg)
 
 ## Links
 - YouTube: <https://www.youtube.com/watch?v=mE98Is1quwY>
