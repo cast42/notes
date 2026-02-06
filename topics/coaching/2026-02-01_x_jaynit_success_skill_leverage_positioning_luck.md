@@ -31,6 +31,20 @@ The tweet frames “success” as multiplicative: you don’t just need skill �
   - For agentic coding: this can mean choosing projects where iteration loops are tight (tests), and outcomes are easy to validate.
 - **Luck**: you can’t control it directly, but you can increase surface area (more “shots on goal”).
 
+### Luck as a lifestyle (Dan Koe)
+A useful reframe: “luck” can be treated as an *operating mode*:
+
+- High energy
+- In the right place
+- Around the right people
+- Producing more than consuming
+- Avoiding any and all distractions
+- Able to manage multiple interests
+- High agency and self-educated
+- Doesn't quit after one mistake
+
+Source: <https://x.com/thedankoe/status/1885744655901598154>
+
 ## Figures
 
 Embedded from the post:
