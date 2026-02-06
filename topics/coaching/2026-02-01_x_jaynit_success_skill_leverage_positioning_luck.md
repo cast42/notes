@@ -45,6 +45,15 @@ A useful reframe: “luck” can be treated as an *operating mode*:
 
 Source: <https://x.com/thedankoe/status/1885744655901598154>
 
+Another framing (Dan Koe):
+- Success comes down to:
+  1) What you do.
+  2) How many people know what you do.
+  3) Making what you do valuable to those that know what you do.
+- “You aren’t ‘lucky’ because you don’t do anything. And if you do, you haven’t put it in front of enough people.”
+
+Source: <https://x.com/thedankoe/status/1712790556210758093>
+
 ## Figures
 
 Embedded from the post:
