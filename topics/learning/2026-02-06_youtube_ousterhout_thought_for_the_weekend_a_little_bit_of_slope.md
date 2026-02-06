@@ -23,6 +23,7 @@ A small sustained improvement rate (**slope**) beats a big initial advantage (**
 The practical takeaway: optimize for habits and systems that keep you improving, not for impressive starting conditions.
 
 ## Takeaways
+- Quote: “How much you know is not what matters, it's how quickly you learn that's important.”
 - **Slope > intercept**: initial talent/resources matter, but the improvement rate dominates long horizons.
 - If you want better outcomes, focus on:
   - consistent practice
