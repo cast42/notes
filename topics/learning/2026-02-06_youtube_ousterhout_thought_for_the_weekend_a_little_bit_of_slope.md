@@ -1,6 +1,6 @@
 ---
 title: "Thought for the weekend: A little bit of slope makes up for a lot of y-intercept (John Ousterhout)"
-date: 2026-02-06
+date: 2026-01-21
 type: note
 topics:
   - learning
@@ -13,6 +13,7 @@ people:
 source:
   kind: youtube
   url: https://www.youtube.com/watch?v=mE98Is1quwY
+  post: https://x.com/JohnOusterhout/status/2014084792745165275
 ---
 
 # Thought for the weekend: A little bit of slope makes up for a lot of y-intercept (John Ousterhout)
@@ -42,3 +43,4 @@ The key visual is two lines:
 
 ## Links
 - YouTube: <https://www.youtube.com/watch?v=mE98Is1quwY>
+- X post: <https://x.com/JohnOusterhout/status/2014084792745165275>
