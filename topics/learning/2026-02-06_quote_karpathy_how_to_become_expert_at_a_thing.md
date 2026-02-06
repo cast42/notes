@@ -1,6 +1,6 @@
 ---
 title: "How to become expert at a thing (Karpathy)"
-date: 2026-02-06
+date: 2020-11-07
 type: note
 topics:
   - learning
@@ -11,8 +11,8 @@ tags:
 people:
   - Andrej Karpathy
 source:
-  kind: quote
-  url: https://x.com/karpathy
+  kind: x
+  url: https://x.com/karpathy/status/1325154823856033793
 ---
 
 # How to become expert at a thing (Karpathy)
@@ -31,4 +31,4 @@ A simple learning loop: **do real projects**, **learn on demand**, **teach what 
 3. Only compare yourself to younger you, never to others.
 
 ## Links
-- Karpathy on X: <https://x.com/karpathy>
+- X post: <https://x.com/karpathy/status/1325154823856033793>
