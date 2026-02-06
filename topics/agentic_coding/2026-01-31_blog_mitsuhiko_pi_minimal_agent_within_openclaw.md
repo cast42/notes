@@ -21,6 +21,10 @@ source:
 
 OpenClaw’s “coding agent” core is **Pi** (by Mario Zechner): a deliberately minimal agent (short system prompt, only 4 tools: **Read/Write/Edit/Bash**) that stays powerful via an **extension system** with persistent state + hot reload + a terminal UI. The blog post argues this architecture makes agents *malleable like clay*: the agent can extend itself by writing code rather than requiring a huge built-in tool surface.
 
+> openclaw is an agent connected to a communication channel of your choice that [just runs code](https://lucumr.pocoo.org/2025/7/3/tools/).
+
+(Also captured as its own note under the OpenClaw topic: `topics/openclaw/2026-02-06_blog_mitsuhiko_openclaw_just_runs_code.md`.)
+
 ## What Pi is (according to the post)
 
 Pi is a coding agent the author uses almost exclusively. It’s notable for:
