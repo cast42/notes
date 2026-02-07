@@ -19,25 +19,53 @@ source:
 # Pi — the AI harness that powers OpenClaw (Armin Ronacher & Mario Zechner)
 
 ## TL;DR
-A video discussion about **Pi**, described as “the AI harness that powers OpenClaw”.
-I’m interested because:
-- **Armin Ronacher** is the creator of **Flask**
-- **Pi** is the agent/harness used in OpenClaw, so understanding it helps understand how OpenClaw “just runs code” in practice.
+Pi is described as a **minimal coding agent harness**: essentially a **while loop** around a frontier LLM plus a small set of tools (read/write/edit files + bash), designed to be **malleable**, **self-modifying**, and easy to extend.
 
-## Takeaways (initial)
-- Pi is framed as a *harness* (i.e. the scaffolding around models/tools) rather than “just a model choice”.
-- The conversation is likely to cover: tool execution, environments, memory/context handling, and how to keep an agent reliable.
+Why I care:
+- **Armin Ronacher** built Flask (and has strong “tools should be deterministic” instincts).
+- **Pi** is the harness behind OpenClaw-style agents, so understanding it clarifies how OpenClaw “just runs code” in practice.
+
+## Takeaways
+- Pi’s core claim: for coding agents, **bash + filesystem tools are enough** (“bash is all you need”).
+- Many harnesses (Claude Code, etc.) change underneath you (tools/system prompts), breaking workflows; Pi aims to stay **minimal** and let you adapt it to *your* workflow.
+- **Hot-reloadable extensions** + tiny system prompt → you can add features quickly (UI, custom review commands, etc.).
+- **Security/prompt injection remains unresolved**; giving “normies” powerful agents is risky.
+- On “memory”: for coding, **code is truth**; extra memory systems are often overhead. For personal bots, file-based summaries can work but may create an unhealthy “emotional binding”.
 
 ## Details
 
-### Transcript (TODO)
-I installed the `youtube-full` agent skill (TranscriptAPI-backed) so we can pull a clean transcript and expand this note with:
-- key ideas + architecture points
-- quotes with timestamps
-- actionable takeaways for using/extending Pi inside OpenClaw
+### What is an agent?
+> “An agent is basically just an LLM that [you] give tools… tools can affect changes on the computer or the real world… or give the LLM information that it doesn’t have inherently built into its weights.” ([370.88s])
 
-Pending: TranscriptAPI key setup (`TRANSCRIPT_API_KEY`).
+### Pi in one line
+> “Pi is a while loop that calls an LM with four tools.” ([218.08s])
+
+### Bash is all you need
+> “SOTA LLMs are really good at just reading, writing, editing files and calling bash… it turns out bash is all you need.” ([233.92s])
+
+Related Vercel eval on this hypothesis (bash vs SQL vs hybrid):
+- <https://vercel.com/blog/testing-if-bash-is-all-you-need>
+
+### Prompt injection explanation (good concrete example)
+Armin’s example: if an agent can web-fetch + read local files, a malicious webpage can instruct it to exfiltrate local data.
+> “An LLM cannot differentiate between my input [and] the input of a third party… and for normie agents, they don’t show you the details… in the back it exfiltrated your data.” ([657.68s]–[735.76s])
+
+### MCP vs scripts/skills (composability)
+A strong claim in the conversation:
+- MCP tooling tends to route everything through the LLM context, which is **wasteful** and not composable.
+- Shell scripts / tools on disk are **hot-editable**, discoverable, and can be composed without stuffing everything into model context.
+
+> “That’s the big problem with MCP. It’s not composable. Everything has to go through the context of the LLM.” ([2474.24s]–[2484.40s])
+
+### Practical uses (outside “coding for coding’s sake”)
+- Bureaucracy automation: converting school PDFs into calendar events; extracting important dates/words.
+- Light 3D-printing (mounting brackets) with agent assistance.
+- Helping a scientist spouse build a Python data pipeline from Excel → stats + charts (domain expert verifies I/O).
+
+### Quotes
+- “Bash is all you need.” ([2068.56s])
+- “Code is truth. Code is the ground truth.” ([1987.84s])
 
 ## Links
 - YouTube: <https://youtu.be/AEmHcFH1UgQ>
-- YouTube (full): <https://www.youtube.com/watch?v=AEmHcFH1UgQ>
+- Transcript extracted via TranscriptAPI (key now configured): video id `AEmHcFH1UgQ`
