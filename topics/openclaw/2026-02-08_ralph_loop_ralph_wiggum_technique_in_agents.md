@@ -57,6 +57,18 @@ Ralph-style looping is a natural fit for:
 
 OpenClaw also has explicit discussion of a “Ralph Loop” feature (iteration until STOP) as a configurable behavior.
 
+## Insights from Geoffrey Huntley’s video (first principles)
+From: <https://youtu.be/4Nna09dG_c0>
+
+Key themes (paraphrased from the talk):
+- **Economics claim**: running Ralph “in a loop” with a frontier model yields a calculable *unit cost* for software development; he cites **$1042/hour** (based on Sonnet API costs over a 24h loop) while outputting “multiple days/weeks of work” worth of backlog in that time.
+- **Software development vs software engineering**: development becomes cheap/automatable; engineering becomes about keeping the system on rails.
+- **Tooling metaphor**: don’t start with a jackhammer; learn the “screwdriver” (manual, first-principles operation) before power tooling.
+- **Avoid compaction/context rot**: treat the context window as an **array**; keep loops narrow so the window slides less; compaction is “the devil”.
+- **Specs are the pin**: generate specs via conversation, then review/edit; maintain a “pin” (a living spec/lookup table) that guides search tools and reduces invention.
+- **Low control, high oversight**: each loop should have one objective; let the LLM pick the “most important next step”, but constrain with tests/checkpoints.
+- **Agents all the way down**: he sketches “loops on loops” (actors/pub-sub vibes) and autonomous deployers (“weavers”) guarded by analytics/feature flags.
+
 ## Notes / cautions
 - This loop can be **expensive** (tokens, time) and can amplify mistakes if the prompt doesn’t constrain risk.
 - Works best with:
@@ -66,4 +78,5 @@ OpenClaw also has explicit discussion of a “Ralph Loop” feature (iteration u
 
 ## Links
 - Huntley explainer: <https://ghuntley.com/ralph/>
+- Huntley video: <https://youtu.be/4Nna09dG_c0>
 - OpenClaw issue mentioning Ralph Loop behavior: <https://github.com/openclaw/openclaw/issues/6890>
