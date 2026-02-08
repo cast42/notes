@@ -35,7 +35,8 @@ He highlights the pragmatic benefits: simpler, and fewer issues around **securit
 > 👋 Early versions of Claude Code used RAG + a local vector db, but we found pretty quickly that agentic search generally works better. It is also simpler and doesn’t have the same issues around security, privacy, staleness, and reliability.
 
 ## Figure
-Screenshot to add (pending your next message).
+
+![figure](assets/bcherny_claude_code_agentic_search_vs_rag/screenshot.jpg)
 
 ## Links
 - X post: <https://x.com/bcherny/status/2017824286489383315>
