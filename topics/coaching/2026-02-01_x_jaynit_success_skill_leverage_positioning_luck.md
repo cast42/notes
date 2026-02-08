@@ -45,6 +45,8 @@ A useful reframe: “luck” can be treated as an *operating mode*:
 
 Source: <https://x.com/thedankoe/status/1885744655901598154>
 
+(You also referenced the same “luck is a lifestyle” checklist via: <https://x.com/thedankoe/status/1712790556210758093>)
+
 Another framing (Dan Koe):
 - Success comes down to:
   1) What you do.
