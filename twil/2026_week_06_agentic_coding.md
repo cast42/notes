@@ -1,21 +1,23 @@
 ---
-title: "TWIL — 2026 week 06: OpenClaw as the center of gravity"
+title: "TWIL — 2026 week 06: Agentic coding as the center of gravity"
 date: 2026-02-08
 type: twil
 topics:
   - twil
 tags:
-  - openclaw
+  - agentic_coding
 meta:
   week: "2026-W06"
   range: "2026-02-02..2026-02-08"
   intent: "memory compaction"
 ---
 
-# TWIL — 2026 week 06: OpenClaw as the center of gravity
+# TWIL — 2026 week 06: Agentic coding as the center of gravity
+
+> Main topic selection: week 06 contained **8× `agentic_coding`** notes vs **7× `openclaw`**, so the “top-of-mind” topic is **agentic_coding**.
 
 ## TL;DR
-This week was basically one story: **OpenClaw became the “spine”** that a bunch of other ideas snapped onto.
+This week was basically one story: **agentic coding became the “spine”** that a bunch of other ideas snapped onto.
 
 We started with *agents that just run tools*, which led to questions about **harness design** (Pi), which led to **iteration loops** (Ralph), which led to **operational concerns** (security, reliability, evals), which led to broader implications (software economics, GenBI).
 
