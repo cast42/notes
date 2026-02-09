@@ -7,3 +7,5 @@
 
 # Local tooling
 .qmd/
+
+.cache/
