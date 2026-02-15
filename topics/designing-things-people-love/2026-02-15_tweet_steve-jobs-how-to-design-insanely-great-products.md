@@ -31,7 +31,7 @@ topics: [designing-things-people-love]
 
 ## Raw
 
-- Raw text: topics/designing-things-people-love/raw/2026-02-15_tweet_steve-jobs-how-to-design-insanely-great-products.raw.md
+- Raw text: [2026-02-15_tweet_steve-jobs-how-to-design-insanely-great-products.raw.md](raw/2026-02-15_tweet_steve-jobs-how-to-design-insanely-great-products.raw.md)
 - Extractor: fxtwitter+ocr
 
 ## My notes
