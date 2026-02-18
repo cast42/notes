@@ -27,6 +27,10 @@ topics: [app_design]
 - App UI translation: type scale (sizes), line-height, max line length, consistent margins.
 - Use typographic contrast (size/weight) instead of decorative UI chrome.
 
+## Images
+
+![](https://pbs.twimg.com/media/HBTTlaOXAAAS8hI.jpg?name=orig)
+
 ## Links
 
 - Permalink: https://x.com/mynameisceline/status/2023474777877540939

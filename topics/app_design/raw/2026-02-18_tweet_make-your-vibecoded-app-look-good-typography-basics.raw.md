@@ -28,6 +28,8 @@ all the articles on X about ‘how to make your vibecoded app look good’ could
 Media:
 - Image: https://pbs.twimg.com/media/HBTTlaOXAAAS8hI.jpg?name=orig
 
+![](https://pbs.twimg.com/media/HBTTlaOXAAAS8hI.jpg?name=orig)
+
 Recommended book (PDF link provided by user):
 - The Elements of Typographic Style (Robert Bringhurst)
 - PDF: https://readings.design/PDF/the_elements_of_typographic_style.pdf
