@@ -35,8 +35,9 @@ topics: [agentic_coding]
 
 ## Raw
 
-- Raw text: topics/agentic_coding/raw/2026-02-18_tweet_code-factory-repo-control-plane-for-coding-agents.raw.md
-- Extractor: fxtwitter
+- Raw tweet metadata: [topics/agentic_coding/raw/2026-02-18_tweet_code-factory-repo-control-plane-for-coding-agents.raw.md](raw/2026-02-18_tweet_code-factory-repo-control-plane-for-coding-agents.raw.md)
+- Full extracted article (text + image embeds): [topics/agentic_coding/raw/2026-02-18_x_article_code-factory_full.md](raw/2026-02-18_x_article_code-factory_full.md)
+- Extractor: fxtwitter (article → Draft.js → Markdown)
 
 ## My notes
 -
