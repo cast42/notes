@@ -44,8 +44,9 @@ topics: [app_design]
 
 ## Raw
 
-- Raw text: topics/app_design/raw/2026-02-18_tweet_make-your-vibecoded-app-look-good-typography-basics.raw.md
-- Extractor: fxtwitter+manual-book-links
+- Raw tweet + links: topics/designing_things_people_love/raw/2026-02-18_tweet_make-your-vibecoded-app-look-good-typography-basics.raw.md
+- Raw book OCR (PDF): topics/designing_things_people_love/raw/2026-02-18_pdf_the-elements-of-typographic-style_ocr.md
+- Extractor: fxtwitter+manual-book-links (+ OCR via kreuzberg)
 
 ## My notes
 -
