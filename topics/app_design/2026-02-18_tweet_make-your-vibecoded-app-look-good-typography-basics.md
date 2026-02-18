@@ -31,6 +31,8 @@ topics: [app_design]
 
 ![](https://pbs.twimg.com/media/HBTTlaOXAAAS8hI.jpg?name=orig)
 
+![](https://www.theprintarkive.co.uk/cdn/shop/files/2841-Elements-Typographic-Style_1200x1200.jpg?v=1705665989)
+
 ## Links
 
 - Permalink: https://x.com/mynameisceline/status/2023474777877540939

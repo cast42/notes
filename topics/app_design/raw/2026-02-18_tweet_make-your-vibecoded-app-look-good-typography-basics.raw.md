@@ -37,4 +37,9 @@ Recommended book (PDF link provided by user):
 Cover/photo link (redirect):
 - https://www.theprintarkive.co.uk/products/2841-elements-typographic-style?variant=43268519887025
 
+Cover image:
+- https://www.theprintarkive.co.uk/cdn/shop/files/2841-Elements-Typographic-Style_1200x1200.jpg?v=1705665989
+
+![](https://www.theprintarkive.co.uk/cdn/shop/files/2841-Elements-Typographic-Style_1200x1200.jpg?v=1705665989)
+
 Note: PDF text extraction failed (appears image-based / not text-extractable with available tools). No verbatim book text included here; use the PDF link for reference.
