@@ -28,5 +28,4 @@ Johnnie Manzari (@johnnie) on X, 2026-02-25:
 
 ## Links
 - X post: https://x.com/johnnie/status/2026434080439726167
-- Shared article in post: https://letters.stevejobsarchive.com/p/jony-ive
-- X redirect from original post: https://t.co/eJCe3irxQ4
+- Shared article in post: https://ltyc-digital.vercel.app/jony-ive
