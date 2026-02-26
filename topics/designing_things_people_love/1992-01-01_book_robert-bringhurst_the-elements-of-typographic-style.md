@@ -13,13 +13,20 @@ tags:
 # The Elements of Typographic Style (Robert Bringhurst)
 
 ## TL;DR
-A foundational typography book on how to use type with clarity, rhythm, proportion, and restraint. It treats typography as both craft and system: choices around scale, spacing, hierarchy, and punctuation shape readability and tone.
+Bringhurst frames typography as a reader-first craft: interpret the logic of the text, then express it through proportion, spacing, hierarchy, and page structure. The principles are medium-independent, but good outcomes require historical awareness and practical judgment.
+
+## Key takeaways from summarized raw text
+- Typography should **serve meaning** and remain readable over time.
+- Core mechanics matter: measure, leading, word spacing, rhythm, contrast, and hierarchy.
+- The book combines **historical foundations** with practical rules (line length, spacing, figures, small caps, ligatures, etc.).
+- Good design is not template-following: rules are guidance, and exceptions require editorial intent.
+- Strong emphasis on craft ethics: choose type to honor text, not to draw attention to style alone.
 
 ## Why it matters
-- Helps turn “make it look better” into concrete decisions.
+- Turns “make it look better” into concrete decisions.
 - Gives durable principles for hierarchy, whitespace, measure, and typographic voice.
-- Useful as a reference when designing text-heavy interfaces and documents.
+- Useful as a reference for text-heavy interfaces and documents.
 
 ## Source context in this repo
-- OCR source used previously:
-  - `topics/designing_things_people_love/raw/2026-02-18_pdf_the-elements-of-typographic-style_ocr.md`
+- OCR source used and summarized with `@steipete/summarize`:
+  - [Raw OCR text](./raw/2026-02-18_pdf_the-elements-of-typographic-style_ocr.md)
