@@ -13,7 +13,7 @@ tags: []
 ## TL;DR
 Justin Poehnelt argues that CLIs should be designed agent-first (or dual-path), not just retrofitted for humans.
 Core design themes: raw JSON payloads, runtime schema introspection, strict input validation, context-window-aware output, and safety rails like dry-run/sanitization.
-The post is paired with Gabor Cselle’s launch post for `@googleworkspace/cli` and commentary from Peter Steinberger comparing it with `gog`.
+The post is paired with Gabor Cselle’s launch post for `@googleworkspace/cli` and commentary from Peter Steinberger and Guillermo Rauch comparing/endorsing implementation trade-offs.
 
 ## Key takeaways / what stuck
 - Agent DX and human DX are orthogonal: keep human-friendly UX, but make machine paths first-class.
@@ -48,9 +48,14 @@ The Google Workspace CLI (`gws`) is presented as a reference implementation with
 ### X comment (Peter Steinberger)
 Peter notes this is impressive and compares it to his motivation for building `gog`; he questions whether heavier JSON command structure is always better and mentions running evaluations to compare what works best for agents.
 
+### X comment (Guillermo Rauch)
+Rauch calls the CLI “very well implemented” and “thorough,” highlighting dynamic command registration, agent-oriented setup automation, and MCP daemon support, while also linking Justin’s article.
+
 ## Links / sources
 - Article: https://justin.poehnelt.com/posts/rewrite-your-cli-for-ai-agents/
 - X announcement: https://x.com/i/status/2029428483974459843
-- X comment: https://x.com/i/status/2029363714642837806
+- X comment (Peter Steinberger): https://x.com/i/status/2029363714642837806
+- X comment (Guillermo Rauch): https://x.com/i/status/2029371455012773978
 - oEmbed (announcement capture): https://publish.twitter.com/oembed?url=https://x.com/i/status/2029428483974459843
-- oEmbed (comment capture): https://publish.twitter.com/oembed?url=https://x.com/i/status/2029363714642837806
+- oEmbed (comment capture, Peter): https://publish.twitter.com/oembed?url=https://x.com/i/status/2029363714642837806
+- oEmbed (comment capture, Rauch): https://publish.twitter.com/oembed?url=https://x.com/i/status/2029371455012773978
