@@ -33,6 +33,27 @@ If this trend holds, teams optimize less for “who can type code fastest” and
 - He expects role boundaries (engineer/PM/designer) to blur further, with everyone increasingly “building.”
 - Recommended usage patterns: most-capable model, plan mode first, parallel agents, and minimal over-scaffolding.
 
+## Fresh summary (requested)
+Boris’ core thesis: coding itself is rapidly commoditizing; leverage shifts to framing problems, steering agents, and validating outcomes. He describes Claude Code as moving from code generation to semi-autonomous collaboration (finding issues, proposing fixes, synthesizing feedback), with significant productivity gains per engineer.
+
+On product strategy, he emphasizes “latent demand”: watch how users (and even the model) misuse tools, then build the next product around that behavior. He argues early teams should be intentionally under-resourced, over-experiment with tokens, and optimize costs only after breakthrough workflows appear.
+
+On workflow, his practical advice is: use the most capable model, start in plan mode ("do not write code yet"), let agents run in parallel, and avoid over-constraining with rigid step-by-step orchestration. Give models tools + goals rather than brittle scripts.
+
+On careers, he predicts continued role blending (engineering/product/design) and says people who are AI-native + broad, curious generalists will benefit most.
+
+## Requested quotes
+- "To understand the engineering you work on, you need to understand the layer underneath it"
+- "you want to under resource things at the start"
+- "fast feedback: I you make people feel heard, that will encourage them to give more feedback"
+- "50 years after the invention of the printing press, more book were produced then everything that was written before"
+- "not only ai-natives but people who are curious, generalists, who are thinking about the broader problem , will thrive"
+- "the principle of latent demand: if you allow the users to hack the tool, users will show where to take the product next"
+- "market interview versus comments, comments win every time"
+- "I did not think the mobile app as the way to code but now a third of my coding happens there"
+- "give the model the tools and let it figure it out instead of step 1, step2, ..."
+- plan mode: "do not write code yet"
+
 ## Added X post (URL + extracted text)
 - URL: https://x.com/i/status/2030015356383691121
 - Extraction note: direct fetch from X was blocked in this environment; text below was extracted from a local image capture (`boris-cherny-post.jpg`) via OCR.
