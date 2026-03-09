@@ -3,6 +3,7 @@ type: tweet
 source_url: "https://x.com/i/status/2029643407606563140"
 canonical_url: "https://x.com/jaredpalmer/status/2029643407606563140"
 title: Jared Palmer — mogcli (agent-friendly CLI for Microsoft 365)
+date: 2026-03-06
 author: Jared Palmer
 handle: jaredpalmer
 created_at: 2026-03-06
