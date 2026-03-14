@@ -10,13 +10,13 @@ tags:
   - economics
   - diffusion
 people:
-  - Tim O'Reilly
+  - Tim O'Reilly (@timoreilly)
 source:
   kind: article
   url: https://www.oreilly.com/radar/ai-and-the-next-economy/
 ---
 
-# AI and the Next Economy (Tom O'Reilly)
+# AI and the Next Economy (Tim O'Reilly)
 
 ## TL;DR
 Tim O’Reilly argues that “build AGI → GDP explodes” stories ignore the core constraint of any economy: **circulation** (production matched to demand via purchasing power).
