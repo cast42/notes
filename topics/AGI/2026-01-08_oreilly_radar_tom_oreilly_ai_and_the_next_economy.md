@@ -1,5 +1,5 @@
 ---
-title: "AI and the Next Economy (Tom O'Reilly)"
+title: "AI and the Next Economy (Tim O'Reilly)"
 date: 2026-01-08
 type: note
 topics:
@@ -10,7 +10,7 @@ tags:
   - economics
   - diffusion
 people:
-  - Tom O'Reilly
+  - Tim O'Reilly
 source:
   kind: article
   url: https://www.oreilly.com/radar/ai-and-the-next-economy/
@@ -19,7 +19,7 @@ source:
 # AI and the Next Economy (Tom O'Reilly)
 
 ## TL;DR
-Tom O’Reilly argues that “build AGI → GDP explodes” stories ignore the core constraint of any economy: **circulation** (production matched to demand via purchasing power).
+Tim O’Reilly argues that “build AGI → GDP explodes” stories ignore the core constraint of any economy: **circulation** (production matched to demand via purchasing power).
 For an “AGI company” to matter economically, it won’t be enough to build models—it must invent a **platform/flywheel** that enables others to create value and get paid.
 
 ## Takeaways
