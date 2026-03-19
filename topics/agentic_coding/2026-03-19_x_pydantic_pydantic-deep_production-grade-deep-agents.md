@@ -28,6 +28,19 @@ The post positions it as an extension layer around Pydantic AI, with an accompan
 ## Post text
 “Meet pydantic-deep, an open-source framework for building production-grade \"deep agents\" on Pydantic AI.”
 
+## Article summary (pydantic.dev)
+The linked article presents **pydantic-deep** (guest post by Vstorm) as a production-focused extension to Pydantic AI that implements “deep agent” patterns: multi-step planning, progress tracking, file operations, task delegation, sandboxed code execution, context management, and human approval workflows.
+
+It emphasizes:
+- type safety end-to-end (Pydantic models),
+- async-first architecture,
+- Docker-isolated execution for risky actions,
+- HITL approval flow for dangerous tools,
+- and a full demo app with multi-user session isolation, WebSocket streaming, uploads, custom tools, and sub-agent delegation.
+
+The positioning is explicitly “same class of capabilities as LangChain deepagents, but in the Pydantic ecosystem with simpler mental models.”
+
 ## Links
 - Post: https://x.com/pydantic/status/2034277533236015441
-- Short link shown in post: https://pydantic.dev/articles/pydan
+- Correct article link: https://pydantic.dev/articles/pydantic-deep-agents
+- Demo video (from post): https://www.youtube.com/watch?v=AhV5DqiHn7E
