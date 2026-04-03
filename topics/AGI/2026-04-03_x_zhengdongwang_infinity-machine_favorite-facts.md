@@ -11,6 +11,8 @@ tags:
   - mustafa_suleyman
   - book_notes
 source: "https://x.com/i/status/2039828918405087238"
+author: "Zhengdong"
+handle: "scmallaby"
 ---
 
 ## TL;DR
@@ -60,6 +62,15 @@ Themes: founder psychology, research culture, AI governance/power dynamics, and 
 
 16/ The name for Gopher came from wanting to obscure the parameter count from Jeff Dean in the monorepo. Many more animals followed.
 
+## Economist review summary
+The Economist frames *The Infinity Machine* as both a biography of Demis Hassabis and a lens on whether individuals can truly steer a technology as vast as AI. Sebastian Mallaby presents Hassabis as the visionary, public-spirited AGI believer among AI lab leaders—contrasted implicitly with Sam Altman the dealmaker, Dario Amodei the ethically conflicted innovator, and Elon Musk as sui generis.
+
+The review highlights DeepMind’s original thesis: build increasingly general intelligence by creating systems that teach themselves to solve games via reinforcement learning, then transfer that capability to science. This path led from Pong to Go to AlphaFold and eventually a Nobel-linked scientific breakthrough. But the review also stresses that DeepMind nearly lost strategic relevance when it underestimated transformers and the commercial power of large language models, leaving Google vulnerable when ChatGPT launched.
+
+The reviewer praises the book as a rich, clearly written account of differing philosophies, personalities, and business models in AI, especially around the DeepMind/OpenAI split. At the same time, The Economist argues Mallaby is too gentle on Hassabis: his pivot from science-first AGI idealism to commercial model building is not really challenged, and the book sometimes slips into admiration that feels too reverential. The closing note is that even giants like Hassabis may be smaller than the technological forces they are trying to guide.
+
 ## Links
 - Thread: https://x.com/i/status/2039828918405087238
+- Author X handle: https://x.com/scmallaby
 - Book: *The Infinity Machine* by Sebastian Mallaby
+- Economist review: https://www.economist.com/culture/2026/04/01/who-is-demis-hassabis-the-man-behind-google-deepmind
