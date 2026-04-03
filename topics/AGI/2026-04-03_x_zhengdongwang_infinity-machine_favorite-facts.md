@@ -69,8 +69,16 @@ The review highlights DeepMind’s original thesis: build increasingly general i
 
 The reviewer praises the book as a rich, clearly written account of differing philosophies, personalities, and business models in AI, especially around the DeepMind/OpenAI split. At the same time, The Economist argues Mallaby is too gentle on Hassabis: his pivot from science-first AGI idealism to commercial model building is not really challenged, and the book sometimes slips into admiration that feels too reverential. The closing note is that even giants like Hassabis may be smaller than the technological forces they are trying to guide.
 
+## One Percent Rule / Substack critique summary
+The Substack essay reads *The Infinity Machine* less as a biography of intelligence and more as a study in **exemption**: exemption from democratic pacing, public consent, and institutional restraint by a new elite class of AI builders who do not describe themselves as rulers.
+
+Its argument is that Mallaby’s book, intentionally or not, documents the emergence of a governing class that prefers the language of science, curiosity, mission, and public spirit, while still exercising civilization-shaping power. The critique is especially skeptical of the idea that purity of motive makes such power safer. In that framing, Demis Hassabis’s sincerity, ambition, and scientific seriousness are not comforting—they are part of what makes the project politically consequential.
+
+The essay also emphasizes psychologically revealing details from the book: Hassabis’s ethic of total exertion, his identification with Ender Wiggin, and the way mission-driven intensity can scale from private temperament to organizational culture and then to public destiny. One of the sharpest points is the quoted governance failure: when formal safeguards broke down, Hassabis and Mustafa supposedly shifted toward securing **personal influence** rather than stronger impersonal constraints. The essay treats that as a profound warning about the actual political logic of frontier AI governance.
+
 ## Links
 - Thread: https://x.com/i/status/2039828918405087238
 - Author X handle: https://x.com/scmallaby
 - Book: *The Infinity Machine* by Sebastian Mallaby
 - Economist review: https://www.economist.com/culture/2026/04/01/who-is-demis-hassabis-the-man-behind-google-deepmind
+- One Percent Rule critique: https://onepercentrule.substack.com/p/demis-hassabis-and-the-infinity-machine
