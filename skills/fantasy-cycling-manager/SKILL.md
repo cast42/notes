@@ -60,6 +60,7 @@ Use these labels as the stable mental map of the UI:
 - Favor: Philipsen, Merlier, Groenewegen, Girmay, other proven sprinters or fast finishers.
 - Devalue: Pogačar, van der Poel, heavy cobble specialists, pure rouleurs, unless they are confirmed starters and likely to score incidentally.
 - Captain should usually be a top sprinter, not a general classics star.
+- Use preview articles to refine confidence, not to overreact. Example: if a race preview frames Merlier as harder to read than Philipsen, that is usually a captain-confidence adjustment, not an automatic lineup removal.
 
 ### Cobbled monuments (e.g. Ronde van Vlaanderen, Roubaix)
 - Favor: Van der Poel, Pogačar, Küng, Politt, Vermeersch, Laporte, Mohorič, Roubaix-style engines.
