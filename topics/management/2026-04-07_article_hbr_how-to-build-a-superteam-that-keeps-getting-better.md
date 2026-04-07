@@ -14,25 +14,30 @@ source: "https://hbr.org/2026/05/how-to-build-a-superteam-that-keeps-getting-bet
 ---
 
 ## TL;DR
-Harvard Business Review frames high-performing teams not as static collections of talent, but as systems that continuously improve through repeatable leadership and team-design practices.
+Ron Friedman argues that in periods of rapid change, the teams that outperform are not the ones with the best plans or the most talent, but the ones that **learn the fastest**.
 
-The article is positioned around **seven research-backed practices**, using the Oklahoma City Thunder’s turnaround after a 58-loss season as the opening example of how a struggling team can become dramatically better over time.
+Using research on more than 6,000 knowledge workers and the Oklahoma City Thunder as a lead example, the article frames “superteams” as teams that do three things well: get more done by managing time/energy/attention better, actively make one another better, and continuously improve their skills and ways of working.
 
-## What we can safely infer from the accessible text
-- The article is about building a team that **keeps improving**, not just one that peaks briefly.
-- It is explicitly grounded in **research-backed practices** rather than pure anecdote.
-- The lead case study is the **Oklahoma City Thunder**, used as an example of a fast, sustained team improvement arc.
-- HBR categorizes it under:
-  - leading teams
-  - leadership
-  - collaboration and teams
-  - teams
+## Key takeaways
+- The central differentiator is **rate of learning**, not just current talent.
+- Friedman’s research identifies three strengths of superteams:
+  1. they get more done by managing time, energy, and attention efficiently,
+  2. teammates actively make one another better,
+  3. they keep building skills and improving over time.
+- The Oklahoma City Thunder is used as the emblematic example of repeated, compounding improvement through rebuild cycles.
+- Continuous improvement requires leadership that treats growth as a **daily operating priority**.
+- The article introduces **seven practices** top leaders use to create that learning culture.
 
-## Likely management angle
-Based on the framing, the article’s “superteam” concept likely emphasizes compounding team quality through deliberate operating practices rather than star aggregation alone. In HBR language, this usually means some mix of role clarity, trust, learning loops, psychological safety, performance feedback, and leadership discipline.
+## Summary
+The article opens with the Oklahoma City Thunder’s dramatic turnaround from a 58-loss season in 2022 to an NBA title just three seasons later. Friedman uses that trajectory to ask a broader management question: how do teams improve so quickly in environments where change is constant and forecasts are fragile?
 
-## Note
-The public fetch only exposed the article summary/metadata, not the full body text. So this note captures the accessible framing and the article’s central premise, not a full-section summary.
+To answer it, he and his colleagues surveyed more than 6,000 knowledge workers across industries including finance, law, healthcare, and technology. They identified “superteams” by combining workers’ rating of their own team’s effectiveness with their comparative assessment versus peers in the same industry. The workers who rated their teams 10/10 on both dimensions were treated as members of superteams, and their behaviors were compared with everyone else’s.
+
+The pattern that emerged was strikingly consistent. Superteams have three key strengths. First, they manage time, energy, and attention better, which lets them get more done. Second, teammates actively improve one another rather than merely coexisting in parallel. Third, and most importantly for the article, they build capabilities over time instead of plateauing.
+
+This third trait—continuous improvement—is what Friedman sees in the Thunder organization. He stresses that their current success is not a one-off anomaly but part of a longer pattern dating back to the team’s move from Seattle to Oklahoma City in 2008. The franchise already executed one rapid rebuild to reach the NBA Finals in 2012, then managed to repeat the feat in a transformed league environment years later. That ability to rebuild and improve again is presented as the deeper lesson.
+
+The management implication is that sustainable excellence comes from leaders who make improvement itself part of everyday work. The article sets up seven research-backed practices used by top leaders to create those conditions, arguing that the same mechanisms behind a championship team can help any organization improve faster in an AI-driven world.
 
 ## Links
 - Source: https://hbr.org/2026/05/how-to-build-a-superteam-that-keeps-getting-better
