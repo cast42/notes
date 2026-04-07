@@ -34,6 +34,26 @@ Use this skill to prepare race-specific fantasy cycling selections with a bias t
    - Use race logic: sprint speed, cobble diesel, climbing punch, likely lead-out role, etc.
    - Prefer “this is optional, not essential” when the edge is marginal.
 
+## Sporza Wielermanager navigation
+
+Use these labels as the stable mental map of the UI:
+
+- `Mijn ploeg` = the team area for the selected race/day
+- `Mijn opstelling` = active starters, captain, and bench for that race
+- `Mijn renners` = full owned roster
+- `Transfers` = pending and executed transfers
+- `Rit wijzigen` = switch the currently viewed race/day
+- `Wijzig mijn opstelling` = open the lineup editor
+- `Opstelling opslaan` = save lineup edits
+
+### Safe interaction pattern
+- Inspect the current race/day first.
+- Confirm the race type before changing anything.
+- Make one lineup swap at a time.
+- Re-read the page after each change and verify the result.
+- Never assume a transfer was finalized unless the updated page clearly shows the new rider state.
+- If modal refs or clickable elements shift, stop rather than guessing.
+
 ## Practical heuristics
 
 ### Sprint races (e.g. Scheldeprijs)
