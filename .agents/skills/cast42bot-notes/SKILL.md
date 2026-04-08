@@ -45,6 +45,15 @@ When writing new notes, follow this order:
 
 Don’t over-summarize; the goal is skimmable top sections with deeper detail below.
 
+## URL to markdown helpers
+
+When source pages are awkward to fetch directly, use lightweight no-key URL-to-markdown helpers:
+
+- `https://r.jina.ai/http://<original-url>`
+- `https://defuddle.md/?url=<original-url>`
+
+Use these to get a markdown/plaintext representation of an article or post when you need a quick readable version without API setup.
+
 ## Where to put new notes
 
 - Quick capture / unprocessed: `inbox/`
