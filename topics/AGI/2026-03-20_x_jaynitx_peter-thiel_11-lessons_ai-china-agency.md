@@ -72,9 +72,20 @@ His concluding lens is agency: both naive optimism and fatalistic pessimism can 
 - Core quote theme: both extremes can justify passivity (“nothing can be done” vs “future fixes itself”).
 - Preferred stance: practical agency and responsibility under uncertainty.
 
+## Video summary (attached talk clip)
+The attached video expands the thread into a longer macro-geopolitical argument rather than just a social-media summary. Main themes visible in the clip:
+
+- US-China decoupling is framed as inevitable, costly, and likely to be triggered hard by a Taiwan crisis.
+- TikTok/ByteDance is used as a concrete example: Thiel’s advice is to get the computers, people, and business footprint out of China before a forced rupture.
+- He appears to connect credible AI/China guardrails to whether the US would actually defend Taiwan, implying policy rhetoric without hard commitments is incoherent.
+- Manufacturing and supply-chain dependence show up via Foxconn and broader hardware arbitrage, reinforcing that geopolitics and compute infrastructure are entangled.
+- The AI debate is framed as shaped by a couple of dominant “canonical” narratives, while the more practical issue is who captures value and how technology changes institutional power.
+- A recurring Thiel theme also appears: there has been substantial innovation in bits (computers, internet, mobile, AI), while physical-world progress and institutional competence look weaker.
+
 ## Closing framing in thread
 - “The future is not fixed.”
 - Practical focus should be on agency, incentives, and where real control still exists.
 
 ## Links
 - Thread: https://x.com/i/status/2034970261238526154
+- Video summary source: attached X video in the same thread
