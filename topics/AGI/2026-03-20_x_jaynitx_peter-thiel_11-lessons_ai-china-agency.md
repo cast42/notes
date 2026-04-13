@@ -20,12 +20,25 @@ His concluding lens is agency: both naive optimism and fatalistic pessimism can 
 
 ## Key takeaways
 - AI may resemble 1999 internet-era excitement: directionally important, but winners are not obvious.
+- Nvidia is framed as capturing essentially all current AI profit, while the rest of the ecosystem mostly burns capital.
 - US–China interdependence (the “100 pipelines”) is framed as unstable and likely to rupture.
 - Atoms vs bits split remains central: software/digital progressed faster than physical-world systems.
 - Fiscal and student-debt dynamics are presented as delayed structural shocks.
 - “Agency” is the practical antidote to both doom and complacency.
 
 ## Lessons captured from the thread (from provided screengrab)
+
+### 1) Nvidia is making 100% of the profits
+- Claimed AI economics are currently concentrated in Nvidia, with the rest of the stack collectively losing money.
+- Core lens: if attention is all you need, pay attention to who is actually capturing profit rather than who is merely spending on compute.
+
+### 2) AI feels like 1999
+- Framed AI in 2023–2024 as analogous to the internet in 1999: clearly transformative, but with large mispricing around which businesses will actually make money.
+- Time horizon implied is long, not immediate: world-changing over decades rather than months.
+
+### 3) The 100 pipelines
+- Compared US–China interdependence to having not one Nord Stream-style dependency, but the equivalent of 100 pipelines.
+- Claimed these links are fragile and likely to rupture hard under geopolitical stress, with TikTok-style decoupling as an example scenario.
 
 ### 4) What he told the TikTok CEO
 - Claimed the US is too institutionally weak to act coherently in the near term.
