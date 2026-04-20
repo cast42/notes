@@ -110,6 +110,22 @@ def md_link(label: str, url: str) -> str:
     return f"[{label}]({url})"
 
 
+def github_blob_url(vault_root: Path, relative_path: Path) -> Optional[str]:
+    git_config = vault_root / ".git" / "config"
+    if not git_config.exists():
+        return None
+
+    text = git_config.read_text(encoding="utf-8", errors="ignore")
+    m = re.search(r"url\s*=\s*git@github\.com:([^/]+)/([^\s]+?)(?:\.git)?\s*$", text, re.MULTILINE)
+    if not m:
+        m = re.search(r"url\s*=\s*https://github\.com/([^/]+)/([^\s]+?)(?:\.git)?\s*$", text, re.MULTILINE)
+    if not m:
+        return None
+
+    owner, repo = m.group(1), m.group(2)
+    return f"https://github.com/{owner}/{repo}/blob/main/{relative_path.as_posix()}"
+
+
 def write_note_pair(
     *,
     vault_root: Path,
@@ -175,9 +191,14 @@ def write_note_pair(
     for link in primary_links:
         primary.append(f"- {md_link(link, link)}")
     primary.append("\n## Raw\n")
-    primary.append(
-        f"- Raw text: {md_link(str(raw_path.relative_to(vault_root)), raw_path.relative_to(topic_dir).as_posix())}"
-    )
+    raw_rel_vault = raw_path.relative_to(vault_root)
+    raw_blob = github_blob_url(vault_root, raw_rel_vault)
+    if raw_blob:
+        primary.append(f"- Raw text: {md_link(str(raw_rel_vault), raw_blob)}")
+    else:
+        primary.append(
+            f"- Raw text: {md_link(str(raw_rel_vault), raw_path.relative_to(topic_dir).as_posix())}"
+        )
     primary.append(f"- Extractor: {extractor}")
     primary.append("\n## My notes\n- ")
 
