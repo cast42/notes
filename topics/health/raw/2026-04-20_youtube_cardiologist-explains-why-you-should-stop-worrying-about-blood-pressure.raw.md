@@ -15,15 +15,17 @@ extractor: youtube-page-metadata
 
 Source: https://youtube.com/watch?v=EfKVra2fofo
 
+## Source metadata
 
-Video: Cardiologist explains why you should stop worrying about blood pressure | Dr Sanjay Gupta
-Channel: ZOE
-URL: https://www.youtube.com/watch?v=EfKVra2fofo
-Published: 2026-01-29
-Duration: 56m05s
-Views at capture: 314232
+- Video: Cardiologist explains why you should stop worrying about blood pressure | Dr Sanjay Gupta
+- Channel: ZOE
+- URL: https://www.youtube.com/watch?v=EfKVra2fofo
+- Published: 2026-01-29
+- Duration: 56m05s
+- Views at capture: 314232
 
-Description:
+## Description
+
 High blood pressure is the number one risk factor for deaths globally. But what if your blood pressure numbers were only part of that story?
 
 In this episode, we’re joined by leading cardiologist Dr Sanjay Gupta, who explains why blood pressure is not a disease, but often a scream for help. Together with ZOE’s Chief Scientist, Professor Sarah Berry, he explores when blood pressure is a harmless response to stress, food, or movement, and when it signals real, long-term damage. You’ll learn why blood pressure targets aren’t universal, why worrying can make things worse, and why quality of life matters as much as numbers.
@@ -32,39 +34,40 @@ This episode also breaks down what you can do to lower your blood pressure. Not 
 
 If your blood pressure is your body sending a message, what might it be asking you to change?
 
-Key timecodes from description:
-00:00 High blood pressure and dementia: is it linked?
-03:40 What blood pressure really is
-09:10 The damage builds slowly (and you won’t feel it)
-11:00 The two numbers explained in plain English
-13:05 Why the ‘right’ number depends on you
-15:04 Why doctors can’t agree on ‘high’
-16:35 The first rule: don’t panic
-17:45 The clinic reading problem
-20:20 The misdiagnosis issue
-22:02 What high blood pressure can damage
-23:40 Why problems show up years later
-24:30 How common is high blood pressure?
-27:00 The ‘silent killer’ warning signs
-28:10 The bigger cause most people miss
-29:10 Salt: why it helps some people more than others
-33:30 The age effect most people ignore
-35:11 How stress can push blood pressure up
-36:35 The gut microbiome link (and the new research)
-39:15 Why treatment can still fail
-40:10 The uncomfortable numbers on medication benefit
-41:15 The simple home-measurement routine
-44:05 Sugar vs salt: what surprised the cardiologist
-46:45 Where most salt really comes from
-49:25 The exercise effect (and why it matters)
-51:05 How fast lifestyle changes can show up
+## Key timecodes from description
 
-Notes:
-- Summarize.sh was unavailable due a local npm cache permission/collision error, so this raw note is based on reliable YouTube page metadata and description.
-- The core framing is that blood pressure should be understood as a signal of underlying context and long-term risk, not just a number to panic over.
+- 00:00 High blood pressure and dementia: is it linked?
+- 03:40 What blood pressure really is
+- 09:10 The damage builds slowly (and you won’t feel it)
+- 11:00 The two numbers explained in plain English
+- 13:05 Why the ‘right’ number depends on you
+- 15:04 Why doctors can’t agree on ‘high’
+- 16:35 The first rule: don’t panic
+- 17:45 The clinic reading problem
+- 20:20 The misdiagnosis issue
+- 22:02 What high blood pressure can damage
+- 23:40 Why problems show up years later
+- 24:30 How common is high blood pressure?
+- 27:00 The ‘silent killer’ warning signs
+- 28:10 The bigger cause most people miss
+- 29:10 Salt: why it helps some people more than others
+- 33:30 The age effect most people ignore
+- 35:11 How stress can push blood pressure up
+- 36:35 The gut microbiome link (and the new research)
+- 39:15 Why treatment can still fail
+- 40:10 The uncomfortable numbers on medication benefit
+- 41:15 The simple home-measurement routine
+- 44:05 Sugar vs salt: what surprised the cardiologist
+- 46:45 Where most salt really comes from
+- 49:25 The exercise effect (and why it matters)
+- 51:05 How fast lifestyle changes can show up
 
+## Notes on extraction
 
-## summarize output
+- Initial note creation used YouTube page metadata and description because summarize was temporarily broken by npm cache ownership issues.
+- After fixing `~/.npm` ownership, summarize worked again and transcript output was appended here.
+
+## Summarize transcript excerpt
 
 ```text
 Transcript:
@@ -159,72 +162,5 @@ make it a disease, then you end up
 treating the blood pressure, but not
 addressing the root cause of the scream.
 And in some ways, you do that patient a
-disservice. I've definitely heard of
-high blood pressure and I know that it's
-one of those things that lots of us are
-told by our doctors that we should worry
-about, but I can't be the only person
-who doesn't really understand what it
-means, why my blood pressure rises, and
-what it means for my health. So,
-luckily, we have one of the UK's leading
-cardiologists to help us finally
-understand what it's all about. And
-we're joined by Professor Sarah Bry, who
-I discovered actually spent many years
-running clinical trials in humans
-looking at the impact of food on blood
-pressure. So I think we're in for a
-treat. Can we just start at the
-beginning Sanjay? What is blood
-pressure?
->> Okay. To understand blood pressure, we
-have to understand pressure. And
-pressure is physiologically a formula
-which is force over area. You exert some
-force over an area and that equates to
-pressure. If you increase the force, you
-increase the pressure provided the area
-remains the same. Or if you reduce the
-area and the force is the same, the
-pressure goes up. So blood pressure is
-the pressure exerted by blood on the
-area of our blood vessels. So the force
-is dictated by the heart rate and how
-much blood is coming out of the heart
-because the heart is pumping the blood
-into these blood vessels and the area is
-dictated by the radius of our arterials,
-our blood vessels. So blood pressure
-will vary based on heart rate, how much
-blood is coming out of the heart and
-[snorts] also the surface area of our
-arterials.
-So it is a constantly changing dynamic
-variable. It is not something which is
-static all the time and this is a common
-misconception amongst the general public
-and blood pressure will go up
-physiologically
-depending on what you're doing. So if
-you're moving, your heart rate will go
-up. Your blood pressure will go up. If
-you are stressed, your blood pressure
-will go up. If you've had too much salt,
-your blood pressure will go up. If
-you're producing stress hormones, they
-cause our blood vessels to constrict. So
-your area has gotten less and the blood
-pressure will go up. That is not a
-disease. That is just a response to the
-body in response to the things that that
-person is doing. Why is blood pressure
-important? Well, I'd liken it to a
-little bit like when you're trying to
-water your plants.
-You have to have a certain amount of
-pressure in your host pipe to get the
-water to that plant. If you don't have
-enough of a pressure, the plant doesn't
-get the water and dies. If you have too
+disservice.
 ```
