@@ -26,12 +26,12 @@ topics: [health]
 
 ## Links
 
-- Permalink: https://youtube.com/watch?v=EfKVra2fofo
-- https://zoe.com/learn/category/podcasts
+- Permalink: [https://youtube.com/watch?v=EfKVra2fofo](https://youtube.com/watch?v=EfKVra2fofo)
+- [https://zoe.com/learn/category/podcasts](https://zoe.com/learn/category/podcasts)
 
 ## Raw
 
-- Raw text: topics/health/raw/2026-04-20_youtube_cardiologist-explains-why-you-should-stop-worrying-about-blood-pressure.raw.md
+- Raw text: [topics/health/raw/2026-04-20_youtube_cardiologist-explains-why-you-should-stop-worrying-about-blood-pressure.raw.md](raw/2026-04-20_youtube_cardiologist-explains-why-you-should-stop-worrying-about-blood-pressure.raw.md)
 - Extractor: youtube-page-metadata
 
 ## My notes
