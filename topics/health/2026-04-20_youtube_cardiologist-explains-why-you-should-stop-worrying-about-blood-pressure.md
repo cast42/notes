@@ -14,15 +14,15 @@ topics: [health]
 
 ## TL;DR
 
-- ZOE episode with cardiologist Dr Sanjay Gupta arguing that blood pressure is better understood as a physiological signal and long-term risk marker than as a disease in itself.
-- The discussion emphasizes context: stress, movement, food, age, microbiome, and measurement conditions all affect readings, so panic over one number is often counterproductive.
-- Main practical takeaway is lifestyle-first blood pressure reduction and better home measurement habits rather than obsessing over isolated clinic readings.
+- Dr Sanjay Gupta frames high blood pressure less as a standalone disease and more as a symptom or "scream" from the body, often driven by lifestyle, obesity, diet, stress, and vascular wear.
+- The key distinction is between temporary physiological rises in blood pressure, from exercise, stress, or salt, and sustained elevation caused by stiffening blood vessels and long-term damage.
+- The practical message is not to panic over isolated readings, but to improve measurement habits and focus on root-cause lifestyle changes, including diet, exercise, and potentially microbiome-supporting habits.
 
 ## Highlights
 
-- Blood pressure is framed as a message from the body, not just a target number.
-- The description emphasizes that quality of life and individual context matter when judging whether a reading is concerning.
-- Timecodes suggest strong coverage of stress, salt, sugar, exercise, the gut microbiome, and home-monitoring routines.
+- Gupta argues that treating the number alone can miss the real cause if high blood pressure is a downstream sign of poor lifestyle or metabolic strain.
+- Blood pressure is explained as pressure from blood flow against vessel walls, dynamically influenced by heart output and vessel diameter rather than being a static trait.
+- Sarah Berry highlights evidence that gut microbiome composition differs between people with normal and high blood pressure, suggesting diet can shift microbial patterns associated with hypertension.
 
 ## Links
 
