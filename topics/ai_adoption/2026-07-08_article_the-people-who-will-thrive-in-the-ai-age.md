@@ -30,6 +30,7 @@ topics: [ai_adoption]
 
 - Permalink: [https://theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689](https://theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689)
 - [https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/](https://www.theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689/)
+- Peter Steinberger on X: [https://x.com/steipete/status/2074572085163381195](https://x.com/steipete/status/2074572085163381195)
 
 ## Raw
 

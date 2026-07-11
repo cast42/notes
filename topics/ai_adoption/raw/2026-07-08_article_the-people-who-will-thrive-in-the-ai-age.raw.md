@@ -34,3 +34,4 @@ Additional article details captured via web fetch:
 - It divides likely AI-era behavior into groups such as Productive Passengers, Reluctant Optimizers, and Mental Marathoners.
 - It warns about cognitive atrophy, motivation decline, and "cognitive surrender" when users over-defer to AI.
 - Practical recommendations include using AI for hints over answers, starting from a blank page, rotating AI and non-AI work, and treating AI more like a librarian than an oracle.
+- Additional source added later: Peter Steinberger’s X post quoting the article and emphasizing the line "When intelligence is plentiful, volition is valuable." (https://x.com/steipete/status/2074572085163381195)
