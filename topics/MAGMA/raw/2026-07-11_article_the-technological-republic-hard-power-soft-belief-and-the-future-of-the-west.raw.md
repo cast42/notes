@@ -37,4 +37,4 @@ https://pbs.twimg.com/media/GfbC3ByXkAEqn6A.jpg?name=orig
 Review/context notes gathered during note creation:
 - Jacob Helberg frames the book as a useful guide to the debate and divide between Washington (the Hill) and Silicon Valley (the Valley).
 - He emphasizes the claim that national hard power is shaped by collective soft beliefs, extending company-culture logic to national strategy.
-- Direct review scraping was limited, so included review summaries focus on identifiable commentary from the source post and cover blurb context rather than fabricated consensus.
+- Additional review added later from Independent Review: the reviewer agrees the book is valuable on the importance of software, AI, and strategic competition, but argues it overstates government-led innovation, underestimates decentralized market discovery, and fails to answer classic objections about central planning, security-dilemma escalation, and the vagueness of "the West" as a category.

@@ -24,15 +24,18 @@ topics: [MAGMA]
 - Jacob Helberg’s review emphasizes the link between soft beliefs, company culture, and national hard power.
 - The book is positioned as a way to understand the Hill-versus-Valley divide through the lens of Alex Karp’s philosophical and strategic worldview.
 - Notable cover endorsement: Walter Isaacson calls it "Fascinating and important."
-- Because clean external review extraction was limited, this note summarizes identifiable interesting commentary rather than pretending to have a full review survey.
 - Jacob Helberg: sees the book as a serious treatment of how national power is shaped by the soft beliefs of a technological elite, and as a map of the cultural divide between Washington and Silicon Valley.
 - Walter Isaacson cover blurb: a high-level endorsement that frames the book as significant and worth attention, though without detailed argumentation in the available source.
+- Independent Review critique: the reviewer agrees the book is right to stress software, AI, and the strategic importance of Silicon Valley, but argues it overestimates the benefits of government-led innovation and underestimates the long-run strengths of decentralized markets and competition.
+- Independent Review critique: the proposed public-private, defense-oriented innovation model is criticized as likely to misallocate capital and talent, crowd out entrepreneurial experimentation, and confuse a few celebrated spillovers like the internet or GPS with a generally reliable model of top-down innovation.
+- Independent Review critique: the reviewer also finds the book weak on security-dilemma dynamics and too vague about what exactly "the West" is supposed to mean or preserve.
 
 ## Links
 
 - Permalink: [https://x.com/jacobhelberg/status/1870898195720499494](https://x.com/jacobhelberg/status/1870898195720499494)
 - [https://x.com/jacobhelberg/status/1870898195720499494](https://x.com/jacobhelberg/status/1870898195720499494)
 - [https://pbs.twimg.com/media/GfbC3ByXkAEqn6A.jpg?name=orig](https://pbs.twimg.com/media/GfbC3ByXkAEqn6A.jpg?name=orig)
+- Independent Review review: [https://www.independent.org/tir/2025-fall/the-technological-republic/](https://www.independent.org/tir/2025-fall/the-technological-republic/)
 
 ## Raw
 
