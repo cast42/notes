@@ -3,14 +3,14 @@ type: youtube
 source_url: "https://youtu.be/6ffhW9WAUv0?si=vtL4fvdWGdsF6_JY"
 canonical_url: "https://youtu.be/6ffhW9WAUv0"
 title: Ed Catmull on Pixar, Steve Jobs, candor, and creative culture
-author: YouTube
+author: David Senra
 created_at: 2026-06-15
 topics: [management]
 ---
 
 # Ed Catmull on Pixar, Steve Jobs, candor, and creative culture
 
-*YouTube*
+*David Senra*
 
 ## TL;DR
 
