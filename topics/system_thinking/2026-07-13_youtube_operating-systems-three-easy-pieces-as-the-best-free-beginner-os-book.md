@@ -30,6 +30,7 @@ topics: [system_thinking]
 
 - Permalink: [https://youtu.be/t4nzIwkB9mA](https://youtu.be/t4nzIwkB9mA)
 - [https://youtu.be/t4nzIwkB9mA](https://youtu.be/t4nzIwkB9mA)
+- Free book site: [https://ostep.org/](https://ostep.org/)
 
 ## Raw
 
