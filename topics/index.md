@@ -32,7 +32,7 @@ topic maps, and load individual concept files only when they are relevant.
 - [Coaching](coaching/index.md)
 - [Communication](communication/)
 - [Designing things people love](designing_things_people_love/)
-- [Management](management/)
+- [Management](management/index.md)
 - [Organisation](organisation/)
 - [Steve Jobs](steve_jobs/index.md)
 
