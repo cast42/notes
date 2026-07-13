@@ -1,3 +1,12 @@
+---
+type: source
+title: The Elements of Typographic Style OCR
+resource: ../1992-01-01_book_robert-bringhurst_the-elements-of-typographic-style.md
+tags:
+  - book
+  - typography
+---
+
 « A LL desktop typographers should study this book. It is not ‘A« one more publication on typography, like so many
 
 others on the market. It is, instead, a must for every- body in the graphic arts, and especially for our new friends en- tering the field. Written by an expert, Robert Bringhurst’s book is particularly welcome in an age where typographic design is sometimes misconstrued as a form of private self-expression for designers. As Bringhurst puts it: ‘Good typography is like bread: ready to be admired, appraised and dissected before it is con- sumed.’ I wish to see this book become the Typographers’ Bible.”

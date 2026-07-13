@@ -1,12 +1,3 @@
----
-title: "GenBI"
-date: 2026-02-06
-type: index
-topics:
-  - genbi
-tags: []
----
-
 # GenBI
 
 **GenBI = Generative AI toepassingen voor Business Intelligence.**
