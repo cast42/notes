@@ -1,36 +1,50 @@
 ---
-title: "TWIL 2026 week 28: weekly"
+title: "TWIL 2026 week 28: ai_adoption"
 date: 2026-07-12
-type: note
+type: twil
 topics:
   - twil
-  - weekly
+  - ai_adoption
 tags: []
 week: 2026-W28
 period:
   start: 2026-07-06
   end: 2026-07-12
-main_topic: weekly
-source_scope: topics/**/*.md
-generated_at: 2026-07-12T18:00:00+02:00
+status: complete
+main_topic: ai_adoption
+source_scope: curated topic concepts added in Git
+generated_at: 2026-07-13T15:31:42+02:00
 ---
-# TWIL 2026 week 28: weekly
+# TWIL 2026 week 28: ai_adoption
 
 - **Period:** 2026-07-06 → 2026-07-12
-- **Main topic:** `weekly`
-- **Signal:** 0 notes, top topics: none
+- **Status:** `complete`
+- **Signal:** 5 notes, top topics: ai_adoption ×2, ideas ×1, MAGMA ×1
 
 ## TL;DR
-No `topics/**/*.md` notes with frontmatter `date:` landed in this ISO week, so there was no dominant topic to compact. I still created the weekly note to keep the thread unbroken.
+This week added 5 curated notes. The strongest thread was **ai_adoption**, with the collection also touching ideas, MAGMA.
 
 ## Highlights
-- No eligible notes found in range (2026-07-06 → 2026-07-12).
-- `twil/` stays continuous even during a quiet week.
+- [The people who will thrive in the AI age](../topics/ai_adoption/2026-07-08_article_the-people-who-will-thrive-in-the-ai-age.md) — The article argues that in an AI-saturated world, the key differentiator will not be raw intelligence but whether people use AI to avoid thinking or to stretch their own capacities. _(added 2026-07-08)_
+- [Writing is thinking, and what LLMs risk eroding](../topics/ai_adoption/2026-07-11_tweet_writing-is-thinking-and-what-llms-risk-eroding.md) — The post argues that writing is not just a way to communicate thought but one of the main ways people develop it, so outsourcing writing to LLMs may train the mind toward passivity rather than clarity. _(added 2026-07-11)_
+- [CATL, battery swapping, and China’s EV refueling strategy](../topics/ideas/2026-07-11_youtube_catl-battery-swapping-and-china-s-ev-refueling-strategy.md) — The video describes CATL’s push to make battery swapping a major part of China’s EV refueling system, alongside home charging and public charging. _(added 2026-07-11)_
+- [The Technological Republic: Hard Power, Soft Belief, and the Future of the West](../topics/MAGMA/2026-07-11_article_the-technological-republic-hard-power-soft-belief-and-the-future-of-the-west.md) — The book appears to argue that technological culture, elite beliefs, and institutional will are inseparable from national power, especially in a period where software, defense, and geopolitical competition are converging. _(added 2026-07-11)_
+- [The 1-6-4 Method for planning joy, growth, and momentum across a year](../topics/organisation/2026-07-11_tweet_the-1-6-4-method-for-planning-joy-growth-and-momentum-across-a-year.md) — The 1-6-4 Method is a simple annual life-design framework for making sure the year contains both memorable experiences and steady personal growth. _(added 2026-07-11)_
 
 ## This happened → so that happened → which led to…
-- **This happened:** no topic notes were captured between 2026-07-06 and 2026-07-12 with a frontmatter `date:`.
-- **So that happened:** the topic tally stayed empty after excluding `twil`.
-- **Which led to…** a continuity-only TWIL entry with `main_topic: weekly`.
+- **This happened:** 5 durable notes were added across 4 topic areas.
+- **So that happened:** `ai_adoption` became the week's strongest primary signal (2 notes).
+- **Which led to…** a compact map of the week's additions that can be revisited without scanning the Git history.
+
+## Topic signal
+- `ai_adoption` ×2
+- `ideas` ×1
+- `MAGMA` ×1
+- `organisation` ×1
 
 ## Links
-- No in-range note links to include.
+- [The people who will thrive in the AI age](../topics/ai_adoption/2026-07-08_article_the-people-who-will-thrive-in-the-ai-age.md)
+- [Writing is thinking, and what LLMs risk eroding](../topics/ai_adoption/2026-07-11_tweet_writing-is-thinking-and-what-llms-risk-eroding.md)
+- [CATL, battery swapping, and China’s EV refueling strategy](../topics/ideas/2026-07-11_youtube_catl-battery-swapping-and-china-s-ev-refueling-strategy.md)
+- [The Technological Republic: Hard Power, Soft Belief, and the Future of the West](../topics/MAGMA/2026-07-11_article_the-technological-republic-hard-power-soft-belief-and-the-future-of-the-west.md)
+- [The 1-6-4 Method for planning joy, growth, and momentum across a year](../topics/organisation/2026-07-11_tweet_the-1-6-4-method-for-planning-joy-growth-and-momentum-across-a-year.md)
