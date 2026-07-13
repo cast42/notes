@@ -30,6 +30,7 @@ topics: [management]
 
 - Permalink: [https://youtu.be/6ffhW9WAUv0](https://youtu.be/6ffhW9WAUv0)
 - [https://youtu.be/6ffhW9WAUv0](https://youtu.be/6ffhW9WAUv0)
+- Ed Catmull book, *Creativity, Inc.*: [https://www.penguinrandomhouse.com/books/237028/creativity-inc-updated-edition-by-ed-catmull/](https://www.penguinrandomhouse.com/books/237028/creativity-inc-updated-edition-by-ed-catmull/)
 
 ## Raw
 
