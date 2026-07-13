@@ -30,6 +30,7 @@ topics: [agentic_coding]
 
 - Permalink: [https://antirez.com/news/169](https://antirez.com/news/169)
 - [https://antirez.com/news/169](https://antirez.com/news/169)
+- Applied here: [repository `DESIGN.md`](../../DESIGN.md)
 
 ## Raw
 

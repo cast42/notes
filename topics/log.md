@@ -6,3 +6,4 @@
 - Added a root topic map and initial nested indexes for progressive disclosure.
 - Added automated conformance validation.
 - Added a management topic map and cross-linked notes on Ed Catmull's *Creativity, Inc.* and his conversation with David Senra.
+- Added a repository-level `DESIGN.md` and linked it to Antirez's proposal for preserving design ideas beyond generated code.

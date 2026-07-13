@@ -121,6 +121,7 @@ Skills provide your tools. When you need one, check its `SKILL.md`. Keep local n
 
 `topics/` is an Open Knowledge Format 0.1 bundle shared by humans and agents.
 
+- Read `DESIGN.md` before changing repository structure, metadata contracts, or knowledge-flow automation.
 - Begin discovery at `topics/index.md`; follow topic indexes before loading many notes.
 - Treat each non-reserved Markdown file as one self-contained concept with YAML frontmatter and a non-empty `type`.
 - Keep nested `index.md` and `log.md` files free of frontmatter.
