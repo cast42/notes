@@ -16,13 +16,13 @@ topics: [communication]
 ## TL;DR
 
 - Joel Peterson’s negotiation framing is that the goal is not a flashy win but a durable, trust-preserving agreement that both sides can live with over time.
-- A practical core of the method is emotional steadiness: know your BATNA, avoid signaling desperation, stay patient, and use silence deliberately.
+- A practical core of the method is emotional steadiness: know your BATNA (Best Alternative To a Negotiated Agreement), avoid signaling desperation, stay patient, and use silence deliberately.
 - The deeper lesson is that negotiation is a relationship craft, so principled behavior, direct dealing with real decision-makers, and creative mutual-gain options matter more than pressure tactics.
 
 ## Highlights
 
 - Negotiation is framed as a conversation for durable win-win deals, not zero-sum manipulation.
-- Know your BATNA and never show desperation; patience and silence are part of leverage.
+- Know your BATNA (Best Alternative To a Negotiated Agreement) and never show desperation; patience and silence are part of leverage.
 - Separate people from the problem, and negotiate around interests rather than stated positions.
 - Work directly with high-character, competent people who actually have decision authority.
 - Treat deals as serial, because long-term reputation and trust compound across negotiations.
