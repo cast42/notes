@@ -1,19 +1,24 @@
 ---
-title: "What Is Intelligence? (Blaise Agüera y Arcas) — note via Tobi post"
-date: 2026-04-02
-type: note
+title: "What Is Intelligence?: Lessons from AI About Evolution, Computing, and Minds"
+date: 2025-09-23
+type: book
 topics:
   - agi
   - learning
 tags:
-  - x
-  - tobi-lutke
   - intelligence
-  - book
-  - antikythera
-source: "https://x.com/tobi/status/2039518836873974027?s=20"
-timestamp: 2026-04-02T00:00:00+02:00
+  - evolution
+  - cybernetics
+  - consciousness
+  - machine-intelligence
+author: "Blaise Agüera y Arcas"
+source_url: "https://x.com/tobi/status/2039518836873974027?s=20"
+timestamp: 2025-09-23
+resource: "https://mitpress.mit.edu/9780262049955/what-is-intelligence/"
+description: "Blaise Agüera y Arcas connects intelligence across evolution, living systems, cybernetics, brains, societies, and modern AI."
 ---
+
+# What Is Intelligence?
 
 ## TL;DR
 Tobi recommended **What Is Intelligence?** by Blaise Agüera y Arcas, describing it as a brilliant book and explicitly suggesting readers skip the last chapter.

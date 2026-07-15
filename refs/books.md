@@ -26,5 +26,6 @@ tags: []
 - **2025-05-13** — [Apple in China (Patrick McGee)](../topics/apple/2025-05-13_book_patrick-mcgee_apple-in-china.md)
 - **2025-05-24** — [The Secrets of Consulting (Gerald Weinberg)](../topics/learning/2025-05-24_book_gerald-weinberg_the-secrets-of-consulting.md)
 - **2025-08-26** — [Breakneck (Dan Wang)](../topics/system_thinking/2025-08-26_book_dan-wang_breakneck.md)
+- **2025-09-23** — [What Is Intelligence? (Blaise Agüera y Arcas)](../topics/agi/2025-09-23_book_blaise-aguera-y-arcas_what-is-intelligence.md)
 - **2025-12-16** — [The Octopus Organization (Phil Le-Brun, Jana Werner)](../topics/system_thinking/2025-12-16_book_phil-le-brun_jana-werner_the-octopus-organization.md)
 - **2026-02-06** — [The Art of Doing Science and Engineering (Richard Hamming)](../topics/learning/2026-02-06_book_hamming_the_art_of_doing_science_and_engineering_learning_to_learn.md)

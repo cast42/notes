@@ -3,7 +3,7 @@
 A lightweight curated map of important notes and evergreen synthesis work.
 
 ## AGI / intelligence
-- [What Is Intelligence? (Blaise Agüera y Arcas) — note via Tobi post](../topics/agi/2026-04-02_x_tobi_what-is-intelligence_book-note.md) — section-by-section summary of the open book.
+- [What Is Intelligence? (Blaise Agüera y Arcas)](../topics/agi/2025-09-23_book_blaise-aguera-y-arcas_what-is-intelligence.md) — section-by-section summary of the open book.
 - [Favorite facts from The Infinity Machine](../topics/agi/2026-04-03_x_zhengdongwang_infinity-machine_favorite-facts.md) — thread highlights + Economist + One Percent Rule critique.
 - [Ramp AI Index March 2026: Anthropic adoption surges](../topics/agi/2026-03-11_article_ramp_ai-index-march-2026_anthropic-adoption.md) — strong enterprise adoption datapoint.
 
