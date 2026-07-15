@@ -6,7 +6,12 @@ title: Microsoft Scout and the commoditization of the agent runtime
 author: The New Stack
 created_at: 2026-06-08
 topics: [openclaw]
-tags: []
+tags:
+  - microsoft-scout
+  - agent-runtimes
+  - runtime-commoditization
+  - tool-use
+  - agent-harnesses
 date: 2026-06-08
 timestamp: 2026-06-08
 resource: "https://thenewstack.io/microsoft-scout-openclaw-runtime"

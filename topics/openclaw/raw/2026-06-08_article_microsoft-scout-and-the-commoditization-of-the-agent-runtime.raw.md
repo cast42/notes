@@ -11,6 +11,12 @@ extracted_at: "2026-06-08T06:40:48"
 extractor: summarize+web-fetch
 date: 2026-06-08
 timestamp: 2026-06-08
+tags:
+  - microsoft-scout
+  - agent-runtimes
+  - runtime-commoditization
+  - tool-use
+  - agent-harnesses
 resource: "https://thenewstack.io/microsoft-scout-openclaw-runtime"
 ---
 

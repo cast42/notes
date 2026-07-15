@@ -4,7 +4,12 @@ date: 2026-02-02
 type: note
 topics:
   - learning
-tags: []
+tags:
+  - learning-in-public
+  - deliberate-practice
+  - feedback-loops
+  - expertise-development
+  - technical-writing
 timestamp: 2026-02-02
 ---
 

@@ -11,6 +11,12 @@ extracted_at: "2026-07-11T12:15:45"
 extractor: summarize
 date: 2026-07-11
 timestamp: 2026-07-11
+tags:
+  - catl
+  - battery-swapping
+  - electric-vehicles
+  - charging-infrastructure
+  - china-industrial-policy
 resource: "https://youtu.be/Rly6X1MkBTo"
 ---
 

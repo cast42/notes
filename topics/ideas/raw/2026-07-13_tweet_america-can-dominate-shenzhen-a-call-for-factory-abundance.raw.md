@@ -12,6 +12,12 @@ extracted_at: "2026-07-13T09:03:05"
 extractor: fxtwitter
 date: 2026-07-13
 timestamp: 2026-07-13
+tags:
+  - factory-abundance
+  - industrial-policy
+  - manufacturing-capacity
+  - shenzhen
+  - hardware-ecosystems
 resource: "https://x.com/zanehengsperger/status/2076324092286787941"
 ---
 

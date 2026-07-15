@@ -4,7 +4,12 @@ date: 2026-02-02
 type: note
 topics:
   - coaching
-tags: []
+tags:
+  - leverage
+  - outcome-based-work
+  - skill-mastery
+  - business-systems
+  - value-creation
 timestamp: 2026-02-02
 ---
 

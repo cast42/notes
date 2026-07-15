@@ -11,6 +11,12 @@ extracted_at: "2026-04-12T09:43:47"
 extractor: youtube-page-metadata
 date: 2026-04-12
 timestamp: 2026-04-12
+tags:
+  - agentic-engineering
+  - coding-agents
+  - developer-tools
+  - agent-evaluation
+  - aie-europe
 resource: "https://youtube.com/watch?v=_zdroS0Hc74"
 ---
 

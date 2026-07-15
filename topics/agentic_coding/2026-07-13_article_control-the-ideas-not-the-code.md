@@ -6,7 +6,12 @@ title: Control the ideas, not the code
 author: antirez
 created_at: 2026-07-13
 topics: [agentic_coding]
-tags: []
+tags:
+  - design-documents
+  - architecture-control
+  - ai-assisted-coding
+  - code-review
+  - product-judgment
 date: 2026-07-13
 timestamp: 2026-07-13
 resource: "https://antirez.com/news/169"

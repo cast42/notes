@@ -4,7 +4,12 @@ date: 2026-02-06
 type: note
 topics:
   - agentic_coding
-tags: []
+tags:
+  - pydantic-ai
+  - agentic-applications
+  - structured-outputs
+  - tool-calling
+  - python-agents
 people:
   - Marcelo Trylesinski
 source: https://pydantic.dev/articles/building-agentic-application

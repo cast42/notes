@@ -4,7 +4,12 @@ date: 2026-04-10
 type: note
 topics:
   - agentic_coding
-tags: []
+tags:
+  - document-parsing
+  - liteparse
+  - structured-extraction
+  - research-workflows
+  - agent-skills
 timestamp: 2026-04-10
 ---
 

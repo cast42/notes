@@ -11,6 +11,12 @@ extracted_at: "2026-07-13T15:06:55"
 extractor: summarize+web-fetch
 date: 2026-07-13
 timestamp: 2026-07-13
+tags:
+  - design-documents
+  - architecture-control
+  - ai-assisted-coding
+  - code-review
+  - product-judgment
 resource: "https://antirez.com/news/169"
 ---
 

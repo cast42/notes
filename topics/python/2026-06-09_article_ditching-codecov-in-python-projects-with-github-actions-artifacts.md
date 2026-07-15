@@ -6,7 +6,12 @@ title: Ditching Codecov in Python projects with GitHub Actions artifacts
 author: Hynek Schlawack
 created_at: 2026-06-09
 topics: [python]
-tags: []
+tags:
+  - test-coverage
+  - github-actions
+  - ci-artifacts
+  - python-tooling
+  - codecov
 date: 2026-06-09
 timestamp: 2026-06-09
 resource: "https://hynek.me/articles/ditch-codecov-python"

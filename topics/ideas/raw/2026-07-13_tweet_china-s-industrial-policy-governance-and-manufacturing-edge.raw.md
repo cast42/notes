@@ -12,6 +12,12 @@ extracted_at: "2026-07-13T12:55:14"
 extractor: fxtwitter+ocr
 date: 2026-07-13
 timestamp: 2026-07-13
+tags:
+  - china-industrial-policy
+  - manufacturing-strategy
+  - industrial-coordination
+  - market-competition
+  - byd
 resource: "https://x.com/PatrickMcGee_/status/2061495292718104796"
 ---
 

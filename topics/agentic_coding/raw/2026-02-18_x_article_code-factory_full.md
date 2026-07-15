@@ -10,6 +10,12 @@ topics: [agentic_coding]
 extractor: fxtwitter_draftjs_to_md
 date: 2026-02-18
 timestamp: 2026-02-18
+tags:
+  - code-factory
+  - repository-control-plane
+  - policy-as-code
+  - evidence-gates
+  - coding-agents
 resource: "https://x.com/ryancarson/status/2023452909883609111"
 ---
 

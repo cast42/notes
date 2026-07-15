@@ -12,6 +12,12 @@ extracted_at: "2026-02-18T11:17:09"
 extractor: fxtwitter+manual-book-links
 date: 2026-02-18
 timestamp: 2026-02-18
+tags:
+  - typography
+  - visual-hierarchy
+  - font-pairing
+  - interface-design
+  - design-systems
 resource: "https://x.com/mynameisceline/status/2023474777877540939"
 ---
 

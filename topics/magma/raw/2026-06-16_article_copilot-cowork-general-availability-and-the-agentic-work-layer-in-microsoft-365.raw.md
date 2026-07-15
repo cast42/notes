@@ -11,6 +11,12 @@ extracted_at: "2026-06-16T22:18:18"
 extractor: summarize
 date: 2026-06-16
 timestamp: 2026-06-16T00:00:00+02:00
+tags:
+  - microsoft-365-copilot
+  - copilot-cowork
+  - enterprise-agents
+  - agentic-workflows
+  - general-availability
 ---
 
 # Raw content

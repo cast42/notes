@@ -11,6 +11,12 @@ extracted_at: "2026-06-13T08:53:14"
 extractor: summarize+web-fetch
 date: 2026-06-13
 timestamp: 2026-06-13
+tags:
+  - search-agents
+  - state-externalization
+  - agent-harnesses
+  - long-running-agents
+  - search-workflows
 resource: "https://venturebeat.com/orchestration/researchers-trained-an-open-source-ai-search-agent-harness-1-that-outperforms-gpt-5-4-on-recalling-relevant-information"
 ---
 

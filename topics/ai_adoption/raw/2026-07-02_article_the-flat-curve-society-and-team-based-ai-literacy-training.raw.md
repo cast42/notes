@@ -11,6 +11,12 @@ extracted_at: "2026-07-02T08:41:37"
 extractor: summarize+web-fetch
 date: 2026-07-02
 timestamp: 2026-07-02
+tags:
+  - ai-literacy
+  - team-training
+  - capability-diffusion
+  - workforce-development
+  - learning-curves
 resource: "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b"
 ---
 

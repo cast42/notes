@@ -6,7 +6,12 @@ title: Write a coding agent from first principles
 author: mathspp
 created_at: 2026-06-22
 topics: [agentic_coding]
-tags: []
+tags:
+  - coding-agents
+  - tool-calling
+  - context-loops
+  - agent-architecture
+  - first-principles
 date: 2026-06-22
 timestamp: 2026-06-22
 resource: "https://mathspp.com/blog/write-a-coding-agent-from-first-principles"

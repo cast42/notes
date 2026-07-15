@@ -7,7 +7,12 @@ author: rari
 handle: 0xwhrrari
 created_at: 2026-07-14
 topics: [agentic_coding]
-tags: []
+tags:
+  - loop-engineering
+  - anthropic
+  - fable
+  - agentic-workflows
+  - human-in-the-loop
 date: 2026-07-14
 timestamp: 2026-07-14
 resource: "https://x.com/0xwhrrari/status/2076773673898271123"

@@ -12,6 +12,12 @@ extracted_at: "2026-02-15T19:22:58"
 extractor: fxtwitter+ocr
 date: 2026-02-15
 timestamp: 2026-02-15
+tags:
+  - steve-jobs
+  - product-design
+  - user-experience
+  - product-taste
+  - cross-functional-teams
 resource: "https://x.com/BigBrainBizness/status/2022732605997879704"
 ---
 

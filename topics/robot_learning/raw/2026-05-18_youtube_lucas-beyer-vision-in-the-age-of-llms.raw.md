@@ -12,6 +12,12 @@ extracted_at: "2026-05-18T09:07:05"
 extractor: youtube-oembed+course-page-web-fetch
 date: 2026-05-18
 timestamp: 2026-05-18
+tags:
+  - computer-vision
+  - vision-language-models
+  - representation-learning
+  - visual-foundation-models
+  - robot-perception
 resource: "https://youtube.com/watch?v=0XB7fNS_ONg"
 ---
 

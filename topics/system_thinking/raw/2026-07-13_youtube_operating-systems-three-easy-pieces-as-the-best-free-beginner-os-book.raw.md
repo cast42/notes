@@ -11,6 +11,11 @@ extracted_at: "2026-07-13T08:17:48"
 extractor: summarize
 date: 2026-07-13
 timestamp: 2026-07-13
+tags:
+  - operating-systems
+  - ostep
+  - systems-programming
+  - computer-science-education
 resource: "https://youtu.be/t4nzIwkB9mA"
 ---
 

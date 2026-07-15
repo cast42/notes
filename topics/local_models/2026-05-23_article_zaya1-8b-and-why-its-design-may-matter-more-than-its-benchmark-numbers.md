@@ -6,7 +6,12 @@ title: Zaya1-8B and why its design may matter more than its benchmark numbers
 author: Adam Conway
 created_at: 2026-05-23
 topics: [local_models]
-tags: []
+tags:
+  - zaya1-8b
+  - small-language-models
+  - model-architecture
+  - benchmark-evaluation
+  - local-inference
 date: 2026-05-23
 timestamp: 2026-05-23
 resource: "https://xda-developers.com/tried-new-8b-local-llm-deepseek-r1-design"

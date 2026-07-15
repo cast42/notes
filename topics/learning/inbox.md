@@ -4,7 +4,9 @@ date: 2026-02-02
 type: note
 topics:
   - learning
-tags: []
+tags:
+  - learning-captures
+  - knowledge-triage
 timestamp: 2026-02-02
 ---
 

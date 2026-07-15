@@ -7,7 +7,12 @@ author: Patrick McGee
 handle: PatrickMcGee_
 created_at: 2026-07-13
 topics: [ideas]
-tags: []
+tags:
+  - china-industrial-policy
+  - manufacturing-strategy
+  - industrial-coordination
+  - market-competition
+  - byd
 date: 2026-07-13
 timestamp: 2026-07-13
 resource: "https://x.com/PatrickMcGee_/status/2061495292718104796"

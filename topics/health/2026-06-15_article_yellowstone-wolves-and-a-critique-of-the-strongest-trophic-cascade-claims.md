@@ -6,7 +6,12 @@ title: Yellowstone wolves and a critique of the strongest trophic-cascade claims
 author: ScienceDaily
 created_at: 2026-06-15
 topics: [health]
-tags: []
+tags:
+  - trophic-cascades
+  - ecological-causality
+  - yellowstone-wolves
+  - evidence-quality
+  - systems-ecology
 date: 2026-06-15
 timestamp: 2026-06-15
 resource: "https://sciencedaily.com/releases/2026/06/260613215510.htm"

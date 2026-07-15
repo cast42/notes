@@ -11,6 +11,12 @@ extracted_at: "2026-04-25T08:30:05"
 extractor: "web_fetch:readability"
 date: 2026-04-25
 timestamp: 2026-04-25
+tags:
+  - automation-skepticism
+  - worker-agency
+  - job-quality
+  - technology-adoption
+  - human-centered-work
 resource: "https://theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation"
 ---
 

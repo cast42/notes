@@ -11,6 +11,12 @@ extracted_at: "2026-06-15T19:55:46"
 extractor: summarize+web-fetch
 date: 2026-06-15
 timestamp: 2026-06-15
+tags:
+  - trophic-cascades
+  - ecological-causality
+  - yellowstone-wolves
+  - evidence-quality
+  - systems-ecology
 resource: "https://sciencedaily.com/releases/2026/06/260613215510.htm"
 ---
 

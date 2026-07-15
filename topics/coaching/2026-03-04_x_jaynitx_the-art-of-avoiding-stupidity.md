@@ -4,7 +4,12 @@ date: 2026-03-04
 type: note
 topics:
   - coaching
-tags: []
+tags:
+  - inversion
+  - cognitive-biases
+  - risk-management
+  - unforced-errors
+  - charlie-munger
 source: "https://x.com/jaynitx/status/2029105594104463613"
 timestamp: 2026-03-04
 resource: "https://x.com/jaynitx/status/2029105594104463613"

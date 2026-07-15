@@ -6,7 +6,12 @@ title: A love letter to Pi
 author: Lucas Meijer
 created_at: 2026-04-11
 topics: [agentic_coding]
-tags: []
+tags:
+  - pi-coding-agent
+  - coding-agents
+  - terminal-workflows
+  - agent-interface
+  - developer-experience
 date: 2026-04-11
 timestamp: 2026-04-11
 resource: "https://youtube.com/watch?v=fdbXNWkpPMY"

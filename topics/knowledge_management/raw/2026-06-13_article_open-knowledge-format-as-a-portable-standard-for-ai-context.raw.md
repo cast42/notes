@@ -11,6 +11,12 @@ extracted_at: "2026-06-13T07:57:44"
 extractor: summarize+web-fetch
 date: 2026-06-13
 timestamp: 2026-06-13
+tags:
+  - open-knowledge-format
+  - portable-context
+  - markdown-knowledge-base
+  - agent-interoperability
+  - progressive-disclosure
 resource: "https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing"
 ---
 

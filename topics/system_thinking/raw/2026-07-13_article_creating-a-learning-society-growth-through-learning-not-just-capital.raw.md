@@ -11,6 +11,13 @@ extracted_at: "2026-07-13T13:05:09"
 extractor: user-summary+publisher-page
 date: 2026-07-13
 timestamp: 2026-07-13
+tags:
+  - learning-by-doing
+  - dynamic-efficiency
+  - knowledge-spillovers
+  - industrial-policy
+  - knowledge-as-public-good
+  - joseph-stiglitz
 resource: "https://cup.columbia.edu/book/creating-a-learning-society/9780231152143"
 ---
 

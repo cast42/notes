@@ -6,7 +6,12 @@ title: The people do not yearn for automation
 author: Nilay Patel
 created_at: 2026-04-25
 topics: [ai_adoption]
-tags: []
+tags:
+  - automation-skepticism
+  - worker-agency
+  - job-quality
+  - technology-adoption
+  - human-centered-work
 date: 2026-04-25
 timestamp: 2026-04-25
 resource: "https://theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation"

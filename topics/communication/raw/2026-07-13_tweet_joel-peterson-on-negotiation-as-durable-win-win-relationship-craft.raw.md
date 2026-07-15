@@ -12,6 +12,12 @@ extracted_at: "2026-07-13T12:09:00"
 extractor: user-summary+fxtwitter
 date: 2026-07-13
 timestamp: 2026-07-13
+tags:
+  - negotiation
+  - win-win-negotiation
+  - relationship-building
+  - trust
+  - long-term-value
 resource: "https://x.com/TechWithLilyAi/status/2076286147572195808"
 ---
 

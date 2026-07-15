@@ -12,6 +12,12 @@ extracted_at: "2026-06-15T13:51:07"
 extractor: fxtwitter
 date: 2026-06-15
 timestamp: 2026-06-15
+tags:
+  - search-agents
+  - dual-process-search
+  - exploration-exploitation
+  - query-planning
+  - information-retrieval
 resource: "https://x.com/barrowjoseph/status/2065423284343050314"
 ---
 

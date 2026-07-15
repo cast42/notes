@@ -7,7 +7,12 @@ author: Guido in 🇨🇳🇹🇼
 handle: Full_Metal_QR
 created_at: 2026-06-18
 topics: [ideas]
-tags: []
+tags:
+  - state-capacity
+  - infrastructure-delivery
+  - construction-productivity
+  - institutional-capacity
+  - abundance-agenda
 date: 2026-06-18
 timestamp: 2026-06-18
 resource: "https://x.com/Full_Metal_QR/status/2066830879771783507"

@@ -11,6 +11,13 @@ extracted_at: "2026-07-11T21:38:55"
 extractor: fxtwitter+vision+light-review-scan
 date: 2026-07-11
 timestamp: 2026-07-11T00:00:00+02:00
+tags:
+  - technological-republic
+  - palantir
+  - state-capacity
+  - defense-technology
+  - western-institutions
+  - alex-karp
 ---
 
 # Raw content

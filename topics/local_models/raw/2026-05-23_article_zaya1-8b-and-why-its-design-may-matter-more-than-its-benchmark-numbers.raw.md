@@ -11,6 +11,12 @@ extracted_at: "2026-05-23T06:58:12"
 extractor: summarize+web-fetch
 date: 2026-05-23
 timestamp: 2026-05-23
+tags:
+  - zaya1-8b
+  - small-language-models
+  - model-architecture
+  - benchmark-evaluation
+  - local-inference
 resource: "https://xda-developers.com/tried-new-8b-local-llm-deepseek-r1-design"
 ---
 

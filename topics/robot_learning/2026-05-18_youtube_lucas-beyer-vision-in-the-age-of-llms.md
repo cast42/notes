@@ -7,7 +7,12 @@ author: Oier Mees
 handle: oier.m
 created_at: 2026-05-18
 topics: [robot_learning]
-tags: []
+tags:
+  - computer-vision
+  - vision-language-models
+  - representation-learning
+  - visual-foundation-models
+  - robot-perception
 date: 2026-05-18
 timestamp: 2026-05-18
 resource: "https://youtube.com/watch?v=0XB7fNS_ONg"

@@ -7,7 +7,11 @@ author: Iñigo San Millán
 handle: doctorinigo
 created_at: 2026-05-18
 topics: [health]
-tags: []
+tags:
+  - metabolic-health
+  - insulin-resistance
+  - metabolic-zones
+  - cardiometabolic-risk
 date: 2026-05-18
 timestamp: 2026-05-18
 resource: "https://x.com/doctorinigo/status/2056051446055842139"

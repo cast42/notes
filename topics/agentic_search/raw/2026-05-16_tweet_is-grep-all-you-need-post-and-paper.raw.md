@@ -12,6 +12,12 @@ extracted_at: "2026-05-16T16:14:15"
 extractor: fxtwitter+arxiv-web-fetch
 date: 2026-05-16
 timestamp: 2026-05-16
+tags:
+  - repository-search
+  - grep
+  - agentic-search
+  - code-retrieval
+  - rag-alternatives
 resource: "https://x.com/omarsar0/status/2055317577031975269"
 ---
 

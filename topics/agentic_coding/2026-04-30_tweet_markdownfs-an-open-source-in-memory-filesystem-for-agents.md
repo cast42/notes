@@ -7,7 +7,12 @@ author: Subramanya N
 handle: subramanya
 created_at: 2026-04-30
 topics: [agentic_coding]
-tags: []
+tags:
+  - markdownfs
+  - in-memory-filesystems
+  - agent-tools
+  - markdown
+  - filesystem-abstractions
 date: 2026-04-30
 timestamp: 2026-04-30
 resource: "https://x.com/subramanya/status/2049169905186910307"

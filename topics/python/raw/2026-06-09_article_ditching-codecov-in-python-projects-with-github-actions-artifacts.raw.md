@@ -11,6 +11,12 @@ extracted_at: "2026-06-09T14:31:02"
 extractor: summarize+web-fetch
 date: 2026-06-09
 timestamp: 2026-06-09
+tags:
+  - test-coverage
+  - github-actions
+  - ci-artifacts
+  - python-tooling
+  - codecov
 resource: "https://hynek.me/articles/ditch-codecov-python"
 ---
 

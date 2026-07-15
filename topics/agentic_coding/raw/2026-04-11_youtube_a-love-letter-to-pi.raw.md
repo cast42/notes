@@ -11,6 +11,12 @@ extracted_at: "2026-04-11T08:03:44"
 extractor: youtube-page-metadata
 date: 2026-04-11
 timestamp: 2026-04-11
+tags:
+  - pi-coding-agent
+  - coding-agents
+  - terminal-workflows
+  - agent-interface
+  - developer-experience
 resource: "https://youtube.com/watch?v=fdbXNWkpPMY"
 ---
 

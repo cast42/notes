@@ -6,7 +6,12 @@ title: 15 lessons from MIT's legendary communication lecture
 author: Gdv2025
 created_at: 2026-04-29
 topics: [communication]
-tags: []
+tags:
+  - communication-skills
+  - public-speaking
+  - audience-engagement
+  - storytelling
+  - presentation-design
 date: 2026-04-29
 timestamp: 2026-04-29
 resource: "https://youtube.com/watch?v=iRWJ5s0EkP4"

@@ -6,7 +6,12 @@ title: PixelRAG and visual retrieval as a parser-free RAG path
 author: VentureBeat
 created_at: 2026-06-13
 topics: [rag]
-tags: []
+tags:
+  - pixelrag
+  - visual-retrieval
+  - multimodal-rag
+  - document-understanding
+  - parser-free-retrieval
 date: 2026-06-13
 timestamp: 2026-06-13
 resource: "https://venturebeat.com/data/pixelrag-beats-text-parsers-on-accuracy-and-cuts-ai-agent-token-costs-10x"

@@ -11,6 +11,12 @@ extracted_at: "2026-04-20T12:10:45"
 extractor: youtube-page-metadata
 date: 2026-04-20
 timestamp: 2026-04-20
+tags:
+  - blood-pressure
+  - hypertension
+  - cardiovascular-risk
+  - home-monitoring
+  - medical-evidence
 resource: "https://youtube.com/watch?v=EfKVra2fofo"
 ---
 

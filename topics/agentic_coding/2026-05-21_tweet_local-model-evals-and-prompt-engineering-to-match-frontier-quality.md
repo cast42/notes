@@ -7,7 +7,12 @@ author: R 'Nearest' Nabors
 handle: rachelnabors
 created_at: 2026-05-21
 topics: [agentic_coding]
-tags: []
+tags:
+  - local-models
+  - model-evaluation
+  - prompt-engineering
+  - frontier-models
+  - coding-agents
 date: 2026-05-21
 timestamp: 2026-05-21
 resource: "https://x.com/rachelnabors/status/2057123652626256360"

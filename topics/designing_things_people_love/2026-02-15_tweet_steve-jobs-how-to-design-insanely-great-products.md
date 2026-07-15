@@ -7,7 +7,12 @@ author: Big Brain Business
 handle: BigBrainBizness
 created_at: 2026-02-15
 topics: [designing-things-people-love]
-tags: []
+tags:
+  - steve-jobs
+  - product-design
+  - user-experience
+  - product-taste
+  - cross-functional-teams
 date: 2026-02-15
 timestamp: 2026-02-15
 resource: "https://x.com/BigBrainBizness/status/2022732605997879704"

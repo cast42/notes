@@ -4,7 +4,12 @@ date: 2026-03-08
 type: note
 topics:
   - AGI
-tags: []
+tags:
+  - joseph-stiglitz
+  - income-inequality
+  - market-concentration
+  - technological-unemployment
+  - redistribution
 timestamp: 2026-03-08T00:00:00+02:00
 ---
 

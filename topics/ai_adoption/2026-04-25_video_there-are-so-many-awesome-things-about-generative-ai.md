@@ -6,7 +6,11 @@ title: There are so many awesome things about generative AI
 author: cassie willson
 created_at: 2026-04-25
 topics: [ai_adoption]
-tags: []
+tags:
+  - generative-ai-adoption
+  - augmentation
+  - creative-tools
+  - human-ai-collaboration
 date: 2026-04-25
 timestamp: 2026-04-25
 resource: "https://tiktok.com/@cassiewillson/video/7526639850028616974"

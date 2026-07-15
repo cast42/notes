@@ -11,6 +11,11 @@ extracted_at: "2026-04-25T08:29:19"
 extractor: "web_fetch:readability"
 date: 2026-04-25
 timestamp: 2026-04-25
+tags:
+  - tim-cook
+  - apple-leadership
+  - organizational-maturity
+  - operational-excellence
 resource: "https://sharptext.net/2026/tim-cook-personified-big-techs-maturity"
 ---
 

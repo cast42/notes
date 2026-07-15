@@ -6,7 +6,12 @@ title: Microsoft claims over 20 million paid Copilot users
 author: TechCrunch
 created_at: 2026-04-30
 topics: [ai_adoption]
-tags: []
+tags:
+  - microsoft-copilot
+  - paid-subscribers
+  - enterprise-adoption
+  - subscription-metrics
+  - saas-growth
 date: 2026-04-30
 timestamp: 2026-04-30
 resource: "https://techcrunch.com/2026/04/29/microsoft-says-it-has-over-20m-paid-copilot-users-and-they-really-are-using-it"

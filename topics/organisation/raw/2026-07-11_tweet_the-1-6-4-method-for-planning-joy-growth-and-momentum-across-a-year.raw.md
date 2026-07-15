@@ -12,6 +12,12 @@ extracted_at: "2026-07-11T20:57:05"
 extractor: fxtwitter
 date: 2026-07-11
 timestamp: 2026-07-11
+tags:
+  - annual-planning
+  - experience-design
+  - habit-formation
+  - anticipatory-joy
+  - life-planning
 resource: "https://x.com/SystemSunday/status/2020856361748246979"
 ---
 

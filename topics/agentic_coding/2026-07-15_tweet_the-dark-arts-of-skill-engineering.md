@@ -7,7 +7,13 @@ author: Paul Bakaus
 handle: pbakaus
 created_at: 2026-07-15
 topics: [agentic_coding]
-tags: []
+tags:
+  - agent-skills
+  - skill-engineering
+  - agent-harnesses
+  - hooks
+  - routing
+  - adversarial-review
 date: 2026-07-15
 timestamp: 2026-07-15
 resource: "https://x.com/pbakaus/status/2077114326985687525"

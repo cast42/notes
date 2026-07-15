@@ -7,7 +7,12 @@ author: celine nguyen
 handle: mynameisceline
 created_at: 2026-02-18
 topics: [app_design]
-tags: []
+tags:
+  - typography
+  - visual-hierarchy
+  - font-pairing
+  - interface-design
+  - design-systems
 date: 2026-02-18
 timestamp: 2026-02-18
 resource: "https://x.com/mynameisceline/status/2023474777877540939"

@@ -7,7 +7,12 @@ author: Joe Barrow
 handle: barrowjoseph
 created_at: 2026-06-15
 topics: [agentic_search]
-tags: []
+tags:
+  - search-agents
+  - dual-process-search
+  - exploration-exploitation
+  - query-planning
+  - information-retrieval
 date: 2026-06-15
 timestamp: 2026-06-15
 resource: "https://x.com/barrowjoseph/status/2065423284343050314"

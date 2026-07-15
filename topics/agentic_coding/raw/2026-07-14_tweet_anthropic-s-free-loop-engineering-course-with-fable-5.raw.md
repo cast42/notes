@@ -12,6 +12,12 @@ extracted_at: "2026-07-14T16:47:29"
 extractor: fxtwitter
 date: 2026-07-14
 timestamp: 2026-07-14
+tags:
+  - loop-engineering
+  - anthropic
+  - fable
+  - agentic-workflows
+  - human-in-the-loop
 resource: "https://x.com/0xwhrrari/status/2076773673898271123"
 ---
 

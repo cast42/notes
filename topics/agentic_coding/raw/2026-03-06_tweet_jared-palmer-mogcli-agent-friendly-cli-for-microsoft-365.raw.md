@@ -12,6 +12,12 @@ extracted_at: "2026-03-06T08:31:38"
 extractor: browser-relay+x-readme
 date: 2026-03-06
 timestamp: 2026-03-06
+tags:
+  - mogcli
+  - microsoft-365
+  - agent-friendly-cli
+  - command-line-tools
+  - enterprise-automation
 resource: "https://x.com/jaredpalmer/status/2029643407606563140"
 ---
 

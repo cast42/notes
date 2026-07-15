@@ -12,6 +12,12 @@ extracted_at: "2026-05-21T22:03:39"
 extractor: fxtwitter-article
 date: 2026-05-21
 timestamp: 2026-05-21
+tags:
+  - local-models
+  - model-evaluation
+  - prompt-engineering
+  - frontier-models
+  - coding-agents
 resource: "https://x.com/rachelnabors/status/2057123652626256360"
 ---
 

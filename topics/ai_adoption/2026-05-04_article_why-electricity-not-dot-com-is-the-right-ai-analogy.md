@@ -6,7 +6,12 @@ title: Why electricity, not dot-com, is the right AI analogy
 author: Joe Reis
 created_at: 2026-05-04
 topics: [ai_adoption]
-tags: []
+tags:
+  - general-purpose-technology
+  - electricity-analogy
+  - technology-diffusion
+  - productivity-growth
+  - organizational-change
 date: 2026-05-04
 timestamp: 2026-05-04
 resource: "https://joereis.substack.com/p/were-in-1905-why-electricity-not"

@@ -11,6 +11,11 @@ extracted_at: "2026-04-25T10:17:14"
 extractor: tiktok-page-metadata-only
 date: 2026-04-25
 timestamp: 2026-04-25
+tags:
+  - generative-ai-adoption
+  - augmentation
+  - creative-tools
+  - human-ai-collaboration
 resource: "https://tiktok.com/@cassiewillson/video/7526639850028616974"
 ---
 

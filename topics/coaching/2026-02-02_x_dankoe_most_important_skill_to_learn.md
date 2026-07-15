@@ -12,6 +12,12 @@ topics:
 created: 2026-02-02
 date: 2026-02-02
 timestamp: 2026-02-02
+tags:
+  - personal-agency
+  - adaptive-learning
+  - generalism
+  - self-directed-action
+  - iteration
 resource: "https://x.com/thedankoe/status/2009320195848872014"
 ---
 

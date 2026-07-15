@@ -6,7 +6,12 @@ title: Cardiologist explains why you should stop worrying about blood pressure
 author: ZOE
 created_at: 2026-04-20
 topics: [health]
-tags: []
+tags:
+  - blood-pressure
+  - hypertension
+  - cardiovascular-risk
+  - home-monitoring
+  - medical-evidence
 date: 2026-04-20
 timestamp: 2026-04-20
 resource: "https://youtube.com/watch?v=EfKVra2fofo"

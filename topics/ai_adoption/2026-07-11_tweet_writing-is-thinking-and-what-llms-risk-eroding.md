@@ -7,7 +7,12 @@ author: Dr. Dominic Ng
 handle: DrDominicNg
 created_at: 2026-07-11
 topics: [ai_adoption]
-tags: []
+tags:
+  - writing-as-thinking
+  - cognitive-offloading
+  - critical-thinking
+  - llm-dependence
+  - authorship
 date: 2026-07-11
 timestamp: 2026-07-11
 resource: "https://x.com/DrDominicNg/status/2024031389461737710"

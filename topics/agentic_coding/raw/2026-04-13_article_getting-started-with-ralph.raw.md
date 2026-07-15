@@ -11,6 +11,12 @@ extracted_at: "2026-04-13T11:41:29"
 extractor: web_fetch
 date: 2026-04-13
 timestamp: 2026-04-13
+tags:
+  - ralph-loop
+  - autonomous-coding
+  - iteration-loops
+  - acceptance-criteria
+  - coding-agents
 resource: "https://aihero.dev/getting-started-with-ralph"
 ---
 

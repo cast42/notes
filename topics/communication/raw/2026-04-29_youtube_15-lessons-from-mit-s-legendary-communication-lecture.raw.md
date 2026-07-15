@@ -11,6 +11,12 @@ extracted_at: "2026-04-29T12:29:49"
 extractor: "summarize:youtube"
 date: 2026-04-29
 timestamp: 2026-04-29
+tags:
+  - communication-skills
+  - public-speaking
+  - audience-engagement
+  - storytelling
+  - presentation-design
 resource: "https://youtube.com/watch?v=iRWJ5s0EkP4"
 ---
 

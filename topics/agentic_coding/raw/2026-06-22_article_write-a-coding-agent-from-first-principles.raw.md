@@ -11,6 +11,12 @@ extracted_at: "2026-07-15T14:50:32"
 extractor: web-fetch+manual-focus
 date: 2026-06-22
 timestamp: 2026-06-22
+tags:
+  - coding-agents
+  - tool-calling
+  - context-loops
+  - agent-architecture
+  - first-principles
 resource: "https://mathspp.com/blog/write-a-coding-agent-from-first-principles"
 ---
 

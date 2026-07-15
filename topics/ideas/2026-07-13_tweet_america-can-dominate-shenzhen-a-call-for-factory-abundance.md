@@ -7,7 +7,12 @@ author: Zane Hengsperger
 handle: zanehengsperger
 created_at: 2026-07-13
 topics: [ideas]
-tags: []
+tags:
+  - factory-abundance
+  - industrial-policy
+  - manufacturing-capacity
+  - shenzhen
+  - hardware-ecosystems
 date: 2026-07-13
 timestamp: 2026-07-13
 resource: "https://x.com/zanehengsperger/status/2076324092286787941"

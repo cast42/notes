@@ -11,6 +11,13 @@ extracted_at: "2026-06-15T08:46:50"
 extractor: summarize
 date: 2026-06-15
 timestamp: 2026-06-15
+tags:
+  - ed-catmull
+  - pixar
+  - creative-culture
+  - organizational-candor
+  - braintrust
+  - steve-jobs
 resource: "https://youtu.be/6ffhW9WAUv0"
 ---
 

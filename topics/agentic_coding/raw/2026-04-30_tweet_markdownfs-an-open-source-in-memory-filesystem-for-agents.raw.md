@@ -12,6 +12,12 @@ extracted_at: "2026-04-30T07:35:34"
 extractor: fxtwitter+github-readme
 date: 2026-04-30
 timestamp: 2026-04-30
+tags:
+  - markdownfs
+  - in-memory-filesystems
+  - agent-tools
+  - markdown
+  - filesystem-abstractions
 resource: "https://x.com/subramanya/status/2049169905186910307"
 ---
 

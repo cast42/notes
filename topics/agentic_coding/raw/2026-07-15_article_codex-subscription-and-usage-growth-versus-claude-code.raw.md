@@ -11,6 +11,12 @@ extracted_at: "2026-07-15T12:18:27"
 extractor: web-fetch+manual-focus
 date: 2026-07-15
 timestamp: 2026-07-15
+tags:
+  - openai-codex
+  - claude-code
+  - subscription-growth
+  - usage-metrics
+  - developer-tools-adoption
 resource: "https://latent.space/p/ainews-codex-usage-up-10x-in-6-months"
 ---
 

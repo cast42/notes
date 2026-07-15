@@ -7,7 +7,12 @@ author: Lily
 handle: TechWithLilyAi
 created_at: 2026-07-13
 topics: [communication]
-tags: []
+tags:
+  - negotiation
+  - win-win-negotiation
+  - relationship-building
+  - trust
+  - long-term-value
 date: 2026-07-13
 timestamp: 2026-07-13
 resource: "https://x.com/TechWithLilyAi/status/2076286147572195808"

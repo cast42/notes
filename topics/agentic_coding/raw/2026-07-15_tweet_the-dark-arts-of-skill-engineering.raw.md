@@ -12,6 +12,13 @@ extracted_at: "2026-07-15T08:28:53"
 extractor: fxtwitter-article
 date: 2026-07-15
 timestamp: 2026-07-15
+tags:
+  - agent-skills
+  - skill-engineering
+  - agent-harnesses
+  - hooks
+  - routing
+  - adversarial-review
 resource: "https://x.com/pbakaus/status/2077114326985687525"
 ---
 

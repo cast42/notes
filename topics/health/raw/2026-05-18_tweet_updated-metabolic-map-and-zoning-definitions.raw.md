@@ -12,6 +12,11 @@ extracted_at: "2026-05-18T08:48:19"
 extractor: fxtwitter+image-save
 date: 2026-05-18
 timestamp: 2026-05-18
+tags:
+  - metabolic-health
+  - insulin-resistance
+  - metabolic-zones
+  - cardiometabolic-risk
 resource: "https://x.com/doctorinigo/status/2056051446055842139"
 ---
 

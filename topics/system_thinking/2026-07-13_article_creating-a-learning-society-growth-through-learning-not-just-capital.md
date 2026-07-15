@@ -6,7 +6,13 @@ title: "Creating a Learning Society: growth through learning, not just capital"
 author: Joseph E. Stiglitz and Bruce C. Greenwald
 created_at: 2026-07-13
 topics: [system_thinking]
-tags: []
+tags:
+  - learning-by-doing
+  - dynamic-efficiency
+  - knowledge-spillovers
+  - industrial-policy
+  - knowledge-as-public-good
+  - joseph-stiglitz
 date: 2026-07-13
 timestamp: 2026-07-13
 resource: "https://cup.columbia.edu/book/creating-a-learning-society/9780231152143"

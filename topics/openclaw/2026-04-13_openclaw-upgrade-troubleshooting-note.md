@@ -4,7 +4,12 @@ date: 2026-04-13
 type: note
 topics:
   - openclaw
-tags: []
+tags:
+  - openclaw
+  - upgrade-troubleshooting
+  - package-management
+  - nodejs
+  - shell-path
 timestamp: 2026-04-13
 ---
 

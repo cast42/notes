@@ -4,7 +4,12 @@ date: 2026-02-02
 type: note
 topics:
   - organisations
-tags: []
+tags:
+  - adaptive-organizations
+  - organizational-design
+  - distributed-autonomy
+  - psychological-safety
+  - leadership-curiosity
 timestamp: 2026-02-02
 ---
 

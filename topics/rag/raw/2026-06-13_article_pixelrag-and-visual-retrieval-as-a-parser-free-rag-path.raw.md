@@ -11,6 +11,12 @@ extracted_at: "2026-06-13T07:01:12"
 extractor: summarize+web-fetch
 date: 2026-06-13
 timestamp: 2026-06-13
+tags:
+  - pixelrag
+  - visual-retrieval
+  - multimodal-rag
+  - document-understanding
+  - parser-free-retrieval
 resource: "https://venturebeat.com/data/pixelrag-beats-text-parsers-on-accuracy-and-cuts-ai-agent-token-costs-10x"
 ---
 

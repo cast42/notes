@@ -7,7 +7,12 @@ author: Ben Meer
 handle: SystemSunday
 created_at: 2026-07-11
 topics: [organisation]
-tags: []
+tags:
+  - annual-planning
+  - experience-design
+  - habit-formation
+  - anticipatory-joy
+  - life-planning
 date: 2026-07-11
 timestamp: 2026-07-11
 resource: "https://x.com/SystemSunday/status/2020856361748246979"

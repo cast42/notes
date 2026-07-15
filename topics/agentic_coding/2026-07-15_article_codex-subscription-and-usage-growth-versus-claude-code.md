@@ -6,7 +6,12 @@ title: AINews, Codex usage up >10x in 6 months, and AI coding subscription growt
 author: Latent Space / AINews
 created_at: 2026-07-15
 topics: [agentic_coding]
-tags: []
+tags:
+  - openai-codex
+  - claude-code
+  - subscription-growth
+  - usage-metrics
+  - developer-tools-adoption
 date: 2026-07-15
 timestamp: 2026-07-15
 resource: "https://latent.space/p/ainews-codex-usage-up-10x-in-6-months"

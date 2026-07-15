@@ -4,7 +4,12 @@ date: 2026-02-02
 type: note
 topics:
   - designing_things_people_love
-tags: []
+tags:
+  - jony-ive
+  - design-philosophy
+  - care-and-craft
+  - product-design
+  - human-centered-design
 timestamp: 2026-02-02
 ---
 

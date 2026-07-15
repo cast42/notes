@@ -4,7 +4,11 @@ date: 2026-02-03
 type: note
 topics:
   - AGI
-tags: []
+tags:
+  - aggregate-demand
+  - purchasing-power
+  - technological-unemployment
+  - income-distribution
 timestamp: 2026-02-03T00:00:00+02:00
 ---
 

@@ -11,6 +11,12 @@ extracted_at: "2026-04-30T18:04:16"
 extractor: "web_fetch:readability"
 date: 2026-04-30
 timestamp: 2026-04-30
+tags:
+  - microsoft-copilot
+  - paid-subscribers
+  - enterprise-adoption
+  - subscription-metrics
+  - saas-growth
 resource: "https://techcrunch.com/2026/04/29/microsoft-says-it-has-over-20m-paid-copilot-users-and-they-really-are-using-it"
 ---
 

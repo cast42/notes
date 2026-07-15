@@ -11,6 +11,12 @@ extracted_at: "2026-07-08T08:54:28"
 extractor: summarize+web-fetch
 date: 2026-07-08
 timestamp: 2026-07-08
+tags:
+  - adaptability
+  - agency
+  - ai-literacy
+  - career-resilience
+  - human-ai-collaboration
 resource: "https://theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689"
 ---
 

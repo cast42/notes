@@ -12,6 +12,12 @@ extracted_at: "2026-07-11T20:54:19"
 extractor: fxtwitter+vision
 date: 2026-07-11
 timestamp: 2026-07-11
+tags:
+  - writing-as-thinking
+  - cognitive-offloading
+  - critical-thinking
+  - llm-dependence
+  - authorship
 resource: "https://x.com/DrDominicNg/status/2024031389461737710"
 ---
 

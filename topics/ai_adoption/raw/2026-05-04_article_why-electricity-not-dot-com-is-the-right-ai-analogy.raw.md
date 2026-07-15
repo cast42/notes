@@ -11,6 +11,12 @@ extracted_at: "2026-05-04T17:54:06"
 extractor: "web_fetch:readability"
 date: 2026-05-04
 timestamp: 2026-05-04
+tags:
+  - general-purpose-technology
+  - electricity-analogy
+  - technology-diffusion
+  - productivity-growth
+  - organizational-change
 resource: "https://joereis.substack.com/p/were-in-1905-why-electricity-not"
 ---
 

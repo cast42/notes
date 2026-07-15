@@ -6,7 +6,12 @@ title: AIE Europe Day 2
 author: AI Engineer
 created_at: 2026-04-12
 topics: [agentic_coding]
-tags: []
+tags:
+  - agentic-engineering
+  - coding-agents
+  - developer-tools
+  - agent-evaluation
+  - aie-europe
 date: 2026-04-12
 timestamp: 2026-04-12
 resource: "https://youtube.com/watch?v=_zdroS0Hc74"

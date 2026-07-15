@@ -12,6 +12,12 @@ extracted_at: "2026-06-18T13:23:00"
 extractor: fxtwitter
 date: 2026-06-18
 timestamp: 2026-06-18
+tags:
+  - state-capacity
+  - infrastructure-delivery
+  - construction-productivity
+  - institutional-capacity
+  - abundance-agenda
 resource: "https://x.com/Full_Metal_QR/status/2066830879771783507"
 ---
 
