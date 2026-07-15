@@ -1,13 +1,22 @@
 ---
 title: "Write a coding agent from first principles: better tools"
 date: 2026-07-06
+timestamp: 2026-07-06
 type: article
 source_url: "https://mathspp.com/blog/write-a-coding-agent-from-first-principles-better-tools"
 canonical_url: "https://mathspp.com/blog/write-a-coding-agent-from-first-principles-better-tools"
+resource: "https://mathspp.com/blog/write-a-coding-agent-from-first-principles-better-tools"
+description: "A compact coding agent becomes dependable by combining model-native tool schemas with precise edits, persistent shell state, and host-enforced safety boundaries."
 author: Rodrigo Girão Serrão
 topics:
   - agentic_coding
-tags: []
+tags:
+  - coding-agents
+  - agent-harnesses
+  - tool-use
+  - persistent-shells
+  - filesystem-safety
+  - command-approval
 ---
 
 # Write a coding agent from first principles: better tools
@@ -54,4 +63,3 @@ It also sharpens the idea that skills and tools are harness extensions rather th
 ## Raw
 
 - [Detailed source capture](raw/2026-07-06_article_mathspp_write-a-coding-agent-from-first-principles-better-tools.raw.md)
-

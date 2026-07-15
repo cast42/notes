@@ -1,6 +1,6 @@
 ---
-name: cast42bot-notes
-description: Create and maintain notes in the cast42/notes repository with minimal YAML frontmatter, meaningful concept types, progressive disclosure, relative links, and Open Knowledge Format (OKF) 0.1 conformance. Use when capturing or summarizing articles, books, videos, posts, meetings, or references; creating or updating topic notes and indexes; moving notes; or normalizing and validating the knowledge repository.
+name: "cast42bot-notes"
+description: "Maintain cast42/notes with meaningful OKF metadata, links, validation, and safe Git hygiene."
 ---
 
 # Notes workflow (cast42/notes)
@@ -11,8 +11,12 @@ Treat `topics/` as the OKF 0.1 bundle. Treat `inbox/`, `meetings/`, `refs/`,
 `twil/`, `_meta/`, scripts, skills, and agent memory as supporting
 infrastructure.
 
-Start topic discovery at `topics/index.md`. Read the relevant nested `index.md`
-before loading many concept files.
+Before changing durable knowledge:
+1. Read `DESIGN.md`.
+2. Read `_meta/OPEN_KNOWLEDGE_FORMAT.md`.
+3. Start discovery at `topics/index.md`.
+4. Read the relevant nested `index.md`.
+5. Search for an existing concept or canonical source URL before creating a file.
 
 ## Classify the file before writing
 
@@ -30,69 +34,86 @@ Apply these rules in order:
    Never create `README.md` as a topic index; use `index.md`.
 3. Give every other Markdown file under `topics/`, including `raw/` captures,
    parseable YAML frontmatter with a non-empty `type`.
-4. Give notes under `inbox/`, `meetings/`, and `refs/` the repository's minimum
-   frontmatter.
+4. Give notes under `inbox/`, `meetings/`, and `refs/` the repository's
+   minimum frontmatter.
 
-## Write concept metadata
+## Write meaningful concept metadata
 
-Use this minimum shape for ordinary notes and concepts:
+Use this shape for new durable concepts:
 
 ```yaml
 ---
 title: "..."
 date: YYYY-MM-DD
+timestamp: YYYY-MM-DD
 type: article
 topics:
   - knowledge_management
-tags: []
+tags:
+  - progressive-disclosure
+  - knowledge-graphs
+resource: "https://canonical.example/source"
+description: "One sentence explaining the durable idea and why it matters."
 ---
 ```
 
+Metadata rules:
+
 - Derive `title` from the first H1, otherwise from the filename.
-- Derive `date` from a leading `YYYY-MM-DD`, otherwise from the source date or
-  last Git commit date.
-- Infer `topics` from `topics/<topic>/`; use the filename stem for a file
-  directly under `topics/`.
-- Keep `tags: []` unless specific tags add retrieval value.
-- Preserve existing metadata when editing. Do not rewrite notes only to rename
-  fields.
+- Derive `date` from a leading `YYYY-MM-DD`, otherwise from the source date.
+- Set `timestamp` to the same value for new notes unless a more precise source
+  timestamp is useful.
+- Infer `topics` from `topics/<topic>/`; topics are broad repository
+  placement categories.
+- Add 2–6 concise `tags` that improve retrieval. Tags should name the concepts,
+  mechanisms, practices, or entities a future reader would search for.
+- Do not merely duplicate the topic name as the only tag.
+- Avoid generic tags such as `article`, `notes`, `interesting`, `ai`, or
+  `technology` unless they carry genuine discriminating value.
+- Use lowercase kebab-case for tags.
+- Empty `tags: []` is acceptable only when no honest retrieval tag can be
+  inferred; this should be uncommon for curated durable concepts.
+- Set `resource` to the canonical source URL for source-based notes.
+- Add a one-sentence `description` that states the durable idea, not merely the
+  media format.
+- Preserve useful provenance extensions such as `author`, `source_url`,
+  `canonical_url`, `created_at`, `content_hash`, and `extractor`.
+- Preserve existing metadata when editing unless the task explicitly includes
+  normalization or the edited concept is missing metadata required by the
+  current contract.
 
 Choose the narrowest honest `type`. Prefer source types such as `article`,
-`book`, `paper`, `tweet`, and `video`; use `concept` for synthesized evergreen
-knowledge, `investigation` for an active research trajectory, `procedure` for a
-reusable method, `source` for a raw capture of uncertain kind, and `note` only
-when no more meaningful type fits. Outside the bundle, use `inbox`, `meeting`,
-or `reference` based on the containing area.
-
-When useful, add OKF-oriented aliases without removing repository-native
-fields:
-
-- `resource` for `source`, `source_url`, or `canonical_url`
-- `timestamp` for `date` or `created_at`
-- `tags` alongside the repository's `topics`
+`book`, `paper`, `tweet`, and `video`; use `concept` for synthesized
+evergreen knowledge, `investigation` for active research, `procedure` for a
+reusable method, and `source` for a raw capture.
 
 ## Structure for progressive disclosure
 
-Write new notes in this order:
+Write curated notes in this order:
 
-1. **TL;DR** in 2–5 lines.
-2. **Key takeaways / what stuck** as bullets.
-3. **Details** in focused sections, with quotes or timestamps when useful.
-4. **Links / sources**.
+1. `# Title`
+2. `## TL;DR` in 2–5 lines or bullets.
+3. `## Key takeaways` / `## What stuck`.
+4. Focused detail sections.
+5. `## Related concepts` when local relationships materially help.
+6. `## Sources` or `## Links`.
+7. A relative link to the raw capture when one exists.
 
 Keep each concept self-contained enough for an agent to load independently.
-Do not over-summarize deeper source material.
+Do not over-summarize deeper source material. Keep source capture and synthesis
+distinguishable.
 
 ## Maintain the knowledge graph
 
-- Use ordinary filesystem-relative Markdown links, not tool-specific wiki
-  links.
-- Resolve links relative to the file containing them; do not paste a
-  repository-root path into a nested note.
-- Link a new concept from its nearest topic `index.md` when that index exists.
-- When creating a durable new topic directory, add a frontmatter-free
-  `index.md` and link it from `topics/index.md`.
-- Add cross-topic links only when they express a useful relationship.
+- Use ordinary filesystem-relative Markdown links, not tool-specific wiki links.
+- Resolve links relative to the file containing them.
+- Link a new concept from its nearest topic `index.md` when it improves
+  navigation; indexes are curated maps, not exhaustive listings.
+- Add reciprocal links when two concepts materially inform each other.
+- When creating a durable topic directory, add a frontmatter-free `index.md`
+  and link it from `topics/index.md`.
+- Put local conceptual relationships in prose or a related section; keep
+  external provenance in the sources section.
 
 ## Route and name notes
 
@@ -103,9 +124,7 @@ Do not over-summarize deeper source material.
 - Otherwise use a stable, descriptive slug.
 - Keep raw source material under `topics/<topic>/raw/` with frontmatter and a
   non-empty type.
-
-For awkward source pages, try `https://r.jina.ai/http://<original-url>` or
-`https://defuddle.md/?url=<original-url>` to obtain readable Markdown.
+- For awkward pages, try Jina Reader or Defuddle to obtain readable Markdown.
 
 ## Validate every topic change
 
@@ -115,20 +134,25 @@ After changing `topics/`, run:
 uv run --with PyYAML python scripts/validate_okf.py
 ```
 
-Fix all conformance errors. Also fix link warnings introduced by the current
-change. CI runs the same validator.
+Fix all conformance errors and all link warnings introduced by the change.
+Run `git diff --check`. Inspect the exact staged paths before committing.
 
-To find legacy notes missing frontmatter, run the bundled normalizer in dry-run
-mode; add `--apply` only when the requested task includes normalization:
+For legacy frontmatter discovery, run:
 
 ```sh
 python .agents/skills/cast42bot-notes/scripts/normalize_frontmatter.py
 ```
 
+Use `--apply` only when normalization is explicitly in scope.
+
 ## Git hygiene
 
-- Use `git mv` when moving notes.
-- Keep content rewrites separate from mechanical metadata normalization when
-  practical.
-- Use short imperative commit messages, such as `Add note on ...` or
-  `Normalize frontmatter`.
+- Pull or fetch the relevant branch before writing when remote changes are
+  expected.
+- Preserve unrelated worktree changes.
+- Use `git mv` for moves.
+- Stage explicit paths only; never use broad `git add .` in a dirty worktree.
+- Keep content rewrites separate from mechanical normalization when practical.
+- Use short imperative commit messages.
+- For Lode's notes workflow, commit and push completed new notes without asking
+  for extra confirmation.

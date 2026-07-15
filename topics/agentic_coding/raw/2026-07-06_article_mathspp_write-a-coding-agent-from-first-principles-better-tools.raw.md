@@ -1,13 +1,22 @@
 ---
 title: "Raw capture: Write a coding agent from first principles: better tools"
 date: 2026-07-06
+timestamp: 2026-07-06
 type: source
 source_url: "https://mathspp.com/blog/write-a-coding-agent-from-first-principles-better-tools"
 canonical_url: "https://mathspp.com/blog/write-a-coding-agent-from-first-principles-better-tools"
+resource: "https://mathspp.com/blog/write-a-coding-agent-from-first-principles-better-tools"
+description: "Detailed source capture of the mathspp tutorial implementing Anthropic-compatible text editing and persistent Bash tools with safety controls."
 author: Rodrigo Girão Serrão
 topics:
   - agentic_coding
-tags: []
+tags:
+  - coding-agents
+  - agent-harnesses
+  - tool-use
+  - persistent-shells
+  - filesystem-safety
+  - command-approval
 extractor: web
 extracted_at: 2026-07-15
 ---
@@ -76,4 +85,3 @@ The finished agent is described as roughly 300 lines: about one third for the co
 - https://platform.claude.com/docs/en/agents-and-tools/tool-use/tool-reference
 - https://platform.claude.com/docs/en/agents-and-tools/tool-use/text-editor-tool
 - https://platform.claude.com/docs/en/agents-and-tools/tool-use/bash-tool
-
