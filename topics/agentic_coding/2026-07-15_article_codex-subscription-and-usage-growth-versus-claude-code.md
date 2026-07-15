@@ -2,15 +2,18 @@
 type: article
 source_url: "https://www.latent.space/p/ainews-codex-usage-up-10x-in-6-months"
 canonical_url: "https://latent.space/p/ainews-codex-usage-up-10x-in-6-months"
-title: Codex subscription and usage growth versus Claude Code
+title: AINews, Codex usage up >10x in 6 months, and AI coding subscription growth
 author: Latent Space / AINews
 created_at: 2026-07-15
 topics: [agentic_coding]
 ---
 
-# Codex subscription and usage growth versus Claude Code
+# AINews, Codex usage up >10x in 6 months, and AI coding subscription growth
 
 *Latent Space / AINews*
+
+> Based on: [AINews] Codex usage up >10x in 6 months to 7M users, +1M in the past ~day; did Codex overtake Claude Code??
+
 
 ## TL;DR
 
@@ -41,4 +44,6 @@ topics: [agentic_coding]
 - Extractor: web-fetch+manual-focus
 
 ## My notes
--
+- This note is already a focused extraction from the Latent Space / AINews piece, but narrowed to the adoption graph and disclosed subscription or active-user numbers for AI coding services.
+- The article itself is broader than the note: it also covers harness design, pricing, evals, privacy incidents, and other ecosystem updates.
+- What makes the article especially useful is that it aggregates rare public datapoints into a comparative growth narrative across Codex and Claude Code.
