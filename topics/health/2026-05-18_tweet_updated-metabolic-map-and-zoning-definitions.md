@@ -7,6 +7,7 @@ author: Iñigo San Millán
 handle: doctorinigo
 created_at: 2026-05-18
 topics: [health]
+tags: []
 ---
 
 # Updated metabolic map and zoning definitions

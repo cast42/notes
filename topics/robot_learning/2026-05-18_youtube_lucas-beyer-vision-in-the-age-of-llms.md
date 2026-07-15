@@ -7,6 +7,7 @@ author: Oier Mees
 handle: oier.m
 created_at: 2026-05-18
 topics: [robot_learning]
+tags: []
 ---
 
 # Lucas Beyer: Vision in the Age of LLMs

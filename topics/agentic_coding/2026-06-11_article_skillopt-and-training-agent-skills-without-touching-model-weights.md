@@ -6,6 +6,7 @@ title: SkillOpt and training agent skills without touching model weights
 author: VentureBeat
 created_at: 2026-06-11
 topics: [agentic_coding]
+tags: []
 ---
 
 # SkillOpt and training agent skills without touching model weights

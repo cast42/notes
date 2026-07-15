@@ -7,6 +7,7 @@ author: R 'Nearest' Nabors
 handle: rachelnabors
 created_at: 2026-05-21
 topics: [agentic_coding]
+tags: []
 ---
 
 # Local model evals and prompt engineering to match frontier quality

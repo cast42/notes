@@ -7,6 +7,7 @@ author: celine nguyen
 handle: mynameisceline
 created_at: 2026-02-18
 topics: [app_design]
+tags: []
 ---
 
 # Make your vibecoded app look good — typography basics

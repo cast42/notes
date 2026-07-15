@@ -6,6 +6,7 @@ title: Local agentic programming with Claude Code, Ollama, and Gemma 4
 author: KDnuggets
 created_at: 2026-06-11
 topics: [local_models]
+tags: []
 ---
 
 # Local agentic programming with Claude Code, Ollama, and Gemma 4

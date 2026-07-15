@@ -6,6 +6,7 @@ title: The Flat Curve Society and team-based AI literacy training
 author: Steve Yegge
 created_at: 2026-07-02
 topics: [ai_adoption]
+tags: []
 ---
 
 # The Flat Curve Society and team-based AI literacy training

@@ -6,6 +6,7 @@ title: Why electricity, not dot-com, is the right AI analogy
 author: Joe Reis
 created_at: 2026-05-04
 topics: [ai_adoption]
+tags: []
 ---
 
 # Why electricity, not dot-com, is the right AI analogy

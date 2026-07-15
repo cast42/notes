@@ -7,6 +7,7 @@ author: Zane Hengsperger
 handle: zanehengsperger
 created_at: 2026-07-13
 topics: [ideas]
+tags: []
 ---
 
 # America can dominate Shenzhen. A call for factory abundance. 

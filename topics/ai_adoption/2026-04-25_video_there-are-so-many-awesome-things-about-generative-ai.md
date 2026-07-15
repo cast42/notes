@@ -6,6 +6,7 @@ title: There are so many awesome things about generative AI
 author: cassie willson
 created_at: 2026-04-25
 topics: [ai_adoption]
+tags: []
 ---
 
 # There are so many awesome things about generative AI

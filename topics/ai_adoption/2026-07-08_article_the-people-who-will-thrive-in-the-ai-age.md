@@ -6,6 +6,7 @@ title: The people who will thrive in the AI age
 author: The Atlantic
 created_at: 2026-07-08
 topics: [ai_adoption]
+tags: []
 ---
 
 # The people who will thrive in the AI age

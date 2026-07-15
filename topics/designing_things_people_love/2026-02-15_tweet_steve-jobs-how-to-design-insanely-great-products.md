@@ -7,6 +7,7 @@ author: Big Brain Business
 handle: BigBrainBizness
 created_at: 2026-02-15
 topics: [designing-things-people-love]
+tags: []
 ---
 
 # Steve Jobs — how to design insanely great products

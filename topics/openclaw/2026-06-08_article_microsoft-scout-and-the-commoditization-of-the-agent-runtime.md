@@ -6,6 +6,7 @@ title: Microsoft Scout and the commoditization of the agent runtime
 author: The New Stack
 created_at: 2026-06-08
 topics: [openclaw]
+tags: []
 ---
 
 # Microsoft Scout and the commoditization of the agent runtime

@@ -6,6 +6,7 @@ title: Ed Catmull on Pixar, Steve Jobs, candor, and creative culture
 author: David Senra
 created_at: 2026-06-15
 topics: [management]
+tags: []
 ---
 
 # Ed Catmull on Pixar, Steve Jobs, candor, and creative culture

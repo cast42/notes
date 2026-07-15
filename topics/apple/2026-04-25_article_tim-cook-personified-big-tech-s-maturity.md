@@ -6,6 +6,7 @@ title: Tim Cook personified big tech's maturity
 author: Andrew Sharp
 created_at: 2026-04-25
 topics: [apple]
+tags: []
 ---
 
 # Tim Cook personified big tech's maturity

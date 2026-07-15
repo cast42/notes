@@ -6,6 +6,7 @@ title: The people do not yearn for automation
 author: Nilay Patel
 created_at: 2026-04-25
 topics: [ai_adoption]
+tags: []
 ---
 
 # The people do not yearn for automation

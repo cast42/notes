@@ -7,6 +7,7 @@ author: Lily
 handle: TechWithLilyAi
 created_at: 2026-07-13
 topics: [communication]
+tags: []
 ---
 
 # Joel Peterson on negotiation as durable win-win relationship craft

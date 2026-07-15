@@ -6,6 +6,7 @@ title: Microsoft claims over 20 million paid Copilot users
 author: TechCrunch
 created_at: 2026-04-30
 topics: [ai_adoption]
+tags: []
 ---
 
 # Microsoft claims over 20 million paid Copilot users

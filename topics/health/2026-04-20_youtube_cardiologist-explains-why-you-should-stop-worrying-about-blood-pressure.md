@@ -6,6 +6,7 @@ title: Cardiologist explains why you should stop worrying about blood pressure
 author: ZOE
 created_at: 2026-04-20
 topics: [health]
+tags: []
 ---
 
 # Cardiologist explains why you should stop worrying about blood pressure

@@ -7,6 +7,7 @@ author: Guido in 🇨🇳🇹🇼
 handle: Full_Metal_QR
 created_at: 2026-06-18
 topics: [ideas]
+tags: []
 ---
 
 # We forgot how to build 

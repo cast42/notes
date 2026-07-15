@@ -6,6 +6,7 @@ title: Yellowstone wolves and a critique of the strongest trophic-cascade claims
 author: ScienceDaily
 created_at: 2026-06-15
 topics: [health]
+tags: []
 ---
 
 # Yellowstone wolves and a critique of the strongest trophic-cascade claims

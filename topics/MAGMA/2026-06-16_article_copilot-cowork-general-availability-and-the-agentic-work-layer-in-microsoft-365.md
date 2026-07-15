@@ -6,6 +6,7 @@ title: Copilot Cowork general availability and the agentic work layer in Microso
 author: Microsoft 365 Blog
 created_at: 2026-06-16
 topics: [Magma]
+tags: []
 ---
 
 # Copilot Cowork general availability and the agentic work layer in Microsoft 365

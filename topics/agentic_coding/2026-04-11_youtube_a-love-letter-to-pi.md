@@ -6,6 +6,7 @@ title: A love letter to Pi
 author: Lucas Meijer
 created_at: 2026-04-11
 topics: [agentic_coding]
+tags: []
 ---
 
 # A love letter to Pi

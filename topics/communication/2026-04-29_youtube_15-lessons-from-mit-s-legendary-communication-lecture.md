@@ -6,6 +6,7 @@ title: 15 lessons from MIT's legendary communication lecture
 author: Gdv2025
 created_at: 2026-04-29
 topics: [communication]
+tags: []
 ---
 
 # 15 lessons from MIT's legendary communication lecture

@@ -7,6 +7,7 @@ author: Ryan Carson
 handle: ryancarson
 created_at: 2026-02-18
 topics: [agentic_coding]
+tags: []
 ---
 
 # Code Factory — repo control-plane for coding agents

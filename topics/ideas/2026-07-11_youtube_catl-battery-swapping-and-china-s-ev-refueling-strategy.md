@@ -6,6 +6,7 @@ title: CATL, battery swapping, and China’s EV refueling strategy
 author: YouTube
 created_at: 2026-07-11
 topics: [ideas]
+tags: []
 ---
 
 # CATL, battery swapping, and China’s EV refueling strategy

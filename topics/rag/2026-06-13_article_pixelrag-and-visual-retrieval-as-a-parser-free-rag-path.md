@@ -6,6 +6,7 @@ title: PixelRAG and visual retrieval as a parser-free RAG path
 author: VentureBeat
 created_at: 2026-06-13
 topics: [rag]
+tags: []
 ---
 
 # PixelRAG and visual retrieval as a parser-free RAG path

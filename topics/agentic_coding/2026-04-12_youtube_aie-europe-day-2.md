@@ -6,6 +6,7 @@ title: AIE Europe Day 2
 author: AI Engineer
 created_at: 2026-04-12
 topics: [agentic_coding]
+tags: []
 ---
 
 # AIE Europe Day 2

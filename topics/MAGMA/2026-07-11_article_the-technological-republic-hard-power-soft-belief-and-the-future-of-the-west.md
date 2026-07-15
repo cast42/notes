@@ -6,6 +6,7 @@ title: "The Technological Republic: Hard Power, Soft Belief, and the Future of t
 author: Alexander C. Karp and Nicholas W. Zamiska
 created_at: 2026-07-11
 topics: [MAGMA]
+tags: []
 ---
 
 # The Technological Republic: Hard Power, Soft Belief, and the Future of the West

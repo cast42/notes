@@ -7,6 +7,7 @@ author: Dr. Dominic Ng
 handle: DrDominicNg
 created_at: 2026-07-11
 topics: [ai_adoption]
+tags: []
 ---
 
 # Writing is thinking, and what LLMs risk eroding

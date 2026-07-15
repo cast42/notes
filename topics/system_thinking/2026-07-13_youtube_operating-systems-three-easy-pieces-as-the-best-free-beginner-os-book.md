@@ -6,6 +6,7 @@ title: "Operating Systems: Three Easy Pieces as the best free beginner OS book"
 author: YouTube
 created_at: 2026-07-13
 topics: [system_thinking]
+tags: []
 ---
 
 # Operating Systems: Three Easy Pieces as the best free beginner OS book

@@ -6,6 +6,7 @@ title: Zaya1-8B and why its design may matter more than its benchmark numbers
 author: Adam Conway
 created_at: 2026-05-23
 topics: [local_models]
+tags: []
 ---
 
 # Zaya1-8B and why its design may matter more than its benchmark numbers

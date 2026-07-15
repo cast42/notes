@@ -7,6 +7,7 @@ author: Joe Barrow
 handle: barrowjoseph
 created_at: 2026-06-15
 topics: [agentic_search]
+tags: []
 ---
 
 # Searching, Fast and Slow

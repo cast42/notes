@@ -6,6 +6,7 @@ title: Getting Started With Ralph
 author: AI Hero
 created_at: 2026-04-13
 topics: [agentic_coding]
+tags: []
 ---
 
 # Getting Started With Ralph

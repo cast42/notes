@@ -6,6 +6,7 @@ title: Harness-1 and the case for state-externalizing search agents
 author: VentureBeat
 created_at: 2026-06-13
 topics: [agentic_search]
+tags: []
 ---
 
 # Harness-1 and the case for state-externalizing search agents

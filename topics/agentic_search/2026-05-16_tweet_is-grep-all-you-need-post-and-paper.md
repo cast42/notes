@@ -7,6 +7,7 @@ author: elvis
 handle: omarsar0
 created_at: 2026-05-16
 topics: [agentic_search]
+tags: []
 ---
 
 # Is Grep All You Need? post and paper

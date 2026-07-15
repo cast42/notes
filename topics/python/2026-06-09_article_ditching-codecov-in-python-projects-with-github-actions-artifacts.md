@@ -6,6 +6,7 @@ title: Ditching Codecov in Python projects with GitHub Actions artifacts
 author: Hynek Schlawack
 created_at: 2026-06-09
 topics: [python]
+tags: []
 ---
 
 # Ditching Codecov in Python projects with GitHub Actions artifacts
