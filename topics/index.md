@@ -42,7 +42,7 @@ topic maps, and load individual concept files only when they are relevant.
 - [Apple](apple/)
 - [Books](books/)
 - [Health](health/)
-- [History](history/)
+- [History](history/index.md)
 - [Ideas](ideas/)
 - [Python](python/)
 

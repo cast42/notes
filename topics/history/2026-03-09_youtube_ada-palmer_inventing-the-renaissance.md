@@ -1,7 +1,7 @@
 ---
 title: "Ada Palmer on Inventing the Renaissance — libraries, propaganda, print, and the long arc to science"
 date: 2026-03-09
-type: note
+type: video
 topics:
   - history
   - renaissance
@@ -14,6 +14,8 @@ source: "https://youtu.be/PAIhVfGbREA?is=5zB9_j5YTdTcR2QB"
 timestamp: 2026-03-09
 resource: "https://youtu.be/PAIhVfGbREA?is=5zB9_j5YTdTcR2QB"
 ---
+
+# Ada Palmer on Inventing the Renaissance
 
 ## TL;DR
 Ada Palmer frames the Renaissance as a **multi-century systems change**, not a sudden rebirth: first a project to revive Roman civic virtue through classical education, then a backlash when that fails politically, then a methodological shift (Machiavelli/Bacon/Galileo) toward evidence, comparison, and eventually science.
@@ -61,3 +63,7 @@ Her core point: durable change comes from building **infrastructure for ideas** 
 
 ## Links
 - Video: https://youtu.be/PAIhVfGbREA?is=5zB9_j5YTdTcR2QB
+
+## Related concepts
+
+- [Inventing the Renaissance](2025-03-28_book_ada-palmer_inventing-the-renaissance.md)
