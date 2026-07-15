@@ -3,7 +3,7 @@ title: "AI and the Next Economy (Tim O'Reilly)"
 date: 2026-01-08
 type: note
 topics:
-  - AGI
+  - agi
 tags:
   - platform
   - advertising

@@ -3,7 +3,7 @@ title: "The agent-shaped world"
 date: 2026-02-25
 type: note
 topics:
-  - AGI
+  - agi
 tags:
   - agents
   - automation

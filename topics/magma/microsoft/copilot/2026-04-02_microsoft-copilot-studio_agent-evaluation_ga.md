@@ -3,7 +3,7 @@ title: "Agent Evaluation in Microsoft Copilot Studio is now generally available"
 date: 2026-04-02
 type: note
 topics:
-  - MAGMA
+  - magma
   - microsoft
   - copilot
 tags:

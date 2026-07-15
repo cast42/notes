@@ -3,7 +3,7 @@ title: "Optimal Policies for AI? (Nick Bostrom)"
 date: 2026-02-25
 type: note
 topics:
-  - AGI
+  - agi
 tags:
   - pdf
   - nick-bostrom

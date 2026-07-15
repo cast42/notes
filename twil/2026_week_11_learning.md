@@ -18,7 +18,7 @@ Main thread: **learning**. 6 notes captured this week (2026-03-09 → 2026-03-15
 - 2026-03-09: [2026-03-09_x_karpathy_autoresearch_and_tobi_qmd_results](../topics/agentic_coding/2026-03-09_x_karpathy_autoresearch_and_tobi_qmd_results.md) · topics: agentic_coding
 - 2026-03-09: [2026-03-09_youtube_ada-palmer_inventing-the-renaissance](../topics/history/2026-03-09_youtube_ada-palmer_inventing-the-renaissance.md) · topics: history, renaissance
 - 2026-03-09: [2026-03-09_microsoft-365-blog_copilot-cowork-a-new-way-of-getting-work-done](../topics/magma/microsoft/copilot/2026-03-09_microsoft-365-blog_copilot-cowork-a-new-way-of-getting-work-done.md) · topics: magma, microsoft, copilot
-- 2026-03-11: [2026-03-11_article_ramp_ai-index-march-2026_anthropic-adoption](../topics/agi/2026-03-11_article_ramp_ai-index-march-2026_anthropic-adoption.md) · topics: AGI, enterprise_ai
+- 2026-03-11: [2026-03-11_article_ramp_ai-index-march-2026_anthropic-adoption](../topics/agi/2026-03-11_article_ramp_ai-index-march-2026_anthropic-adoption.md) · topics: agi, enterprise_ai
 - 2026-03-11: [2026-03-11_x_jaynitx_charlie-munger_continuous-learning-game](../topics/learning/2026-03-11_x_jaynitx_charlie-munger_continuous-learning-game.md) · topics: learning
 - 2026-03-13: [2026-03-13_x_dynamicwebpaige_claude-shannon_omni-interview-quotes](../topics/learning/2026-03-13_x_dynamicwebpaige_claude-shannon_omni-interview-quotes.md) · topics: learning
 
@@ -27,10 +27,10 @@ Main thread: **learning**. 6 notes captured this week (2026-03-09 → 2026-03-15
 - `agentic_coding` ×1
 - `history` ×1
 - `renaissance` ×1
-- `MAGMA` ×1
+- `magma` ×1
 - `microsoft` ×1
 - `copilot` ×1
-- `AGI` ×1
+- `agi` ×1
 - `enterprise_ai` ×1
 
 ## Links

@@ -3,7 +3,7 @@ title: "Peter Thiel (via Jaynit thread): 11 lessons on AI, China, deficits, and 
 date: 2026-03-20
 type: note
 topics:
-  - AGI
+  - agi
 tags:
   - x
   - peter-thiel

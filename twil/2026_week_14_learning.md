@@ -16,7 +16,7 @@ period:
 
 - **Period:** 2026-03-30 → 2026-04-05
 - **Main topic:** `learning`
-- **Signal:** 10 notes, top topics: learning (4), AGI (3), management (3), agentic_coding (2), apple (2)
+- **Signal:** 10 notes, top topics: learning (4), agi (3), management (3), agentic_coding (2), apple (2)
 
 ## TL;DR
 The week kept snapping back to **learning**. Even when the surface topic changed, the underlying pattern was the same: how people, tools, and organizations actually learn fast enough to stay adaptive.

@@ -3,7 +3,7 @@ title: "Ramp AI Index March 2026: Anthropic adoption surges"
 date: 2026-03-11
 type: note
 topics:
-  - AGI
+  - agi
   - enterprise_ai
 tags:
   - ramp

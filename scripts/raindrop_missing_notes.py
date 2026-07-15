@@ -29,9 +29,9 @@ def topic_guess(item: dict) -> str:
         ' '.join(item.get('tags', []) if isinstance(item.get('tags'), list) else [])
     ]).lower()
     if 'copilot' in text or 'microsoft' in text:
-        return 'MAGMA/microsoft/copilot'
+        return 'magma/microsoft/copilot'
     if 'anthropic' in text or 'openai' in text or 'deepmind' in text or 'ai' in text or 'agent' in text:
-        return 'AGI'
+        return 'agi'
     return 'inbox'
 
 

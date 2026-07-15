@@ -3,7 +3,7 @@ title: "WSJ: Microsoft’s pivotal AI product (Copilot) is running into big prob
 date: 2026-02-09
 type: note
 topics:
-  - MAGMA
+  - magma
 tags:
   - microsoft
   - copilot

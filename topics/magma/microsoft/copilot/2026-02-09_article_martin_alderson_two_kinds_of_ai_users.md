@@ -3,7 +3,7 @@ title: "Two kinds of AI users are emerging (and why M365 Copilot is a problem)"
 date: 2026-02-09
 type: note
 topics:
-  - MAGMA
+  - magma
 tags:
   - microsoft
   - copilot

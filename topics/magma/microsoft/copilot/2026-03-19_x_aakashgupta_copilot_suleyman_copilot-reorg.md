@@ -3,7 +3,7 @@ title: "Microsoft Copilot reorg critique (Aakash Gupta): distribution advantage 
 date: 2026-03-19
 type: note
 topics:
-  - MAGMA
+  - magma
   - microsoft
   - copilot
 tags:

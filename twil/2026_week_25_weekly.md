@@ -22,7 +22,7 @@ generated_at: 2026-07-13T15:31:42+02:00
 - **Signal:** 6 notes, top topics: agentic_coding ×1, agentic_search ×1, health ×1
 
 ## TL;DR
-This week added 6 curated notes with no single dominant topic. The collection ranged across agentic_coding, agentic_search, health, management, MAGMA, and ideas.
+This week added 6 curated notes with no single dominant topic. The collection ranged across agentic_coding, agentic_search, health, management, magma, and ideas.
 
 ## Highlights
 - [Write a coding agent from first principles](../topics/agentic_coding/2026-06-22_article_write-a-coding-agent-from-first-principles.md) — mathspp builds a coding agent step by step to make the underlying mechanics legible: context replay, user commands, tool-call syntax, tool execution, and reinserting tool results into the conversation. _(added 2026-06-22)_
@@ -42,7 +42,7 @@ This week added 6 curated notes with no single dominant topic. The collection ra
 - `agentic_search` ×1
 - `health` ×1
 - `management` ×1
-- `Magma` ×1
+- `magma` ×1
 - `ideas` ×1
 
 ## Links

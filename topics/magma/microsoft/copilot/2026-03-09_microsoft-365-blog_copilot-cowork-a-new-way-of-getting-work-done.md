@@ -3,7 +3,7 @@ title: "Copilot Cowork: a new way of getting work done (Microsoft 365 Blog)"
 date: 2026-03-09
 type: note
 topics:
-  - MAGMA
+  - magma
   - microsoft
   - copilot
 tags:

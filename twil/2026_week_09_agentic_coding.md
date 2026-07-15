@@ -11,9 +11,9 @@ topics: [twil, agentic_coding]
 
 ## TL;DR
 Main thread: **agentic_coding** (2 notes) — thinking about where the AI curve is going, and what policy/workflow shapes make it *go well*.
-Secondary thread: **AGI** (2 notes) — pragmatic ops for making agents reliable over longer horizons (plan → checkpoints → memory).
+Secondary thread: **agi** (2 notes) — pragmatic ops for making agents reliable over longer horizons (plan → checkpoints → memory).
 
-Top topics this week: agentic_coding (2), AGI (2), app_design (1), coaching (1), organizational_design (1).
+Top topics this week: agentic_coding (2), agi (2), app_design (1), coaching (1), organizational_design (1).
 
 ## Highlights
 - [Boris Cherny — Workflow orchestration notes (image transcript)](../topics/agentic_coding/2026-02-23_x_boris-cherny_workflow-orchestration.md) (2026-02-23)
@@ -37,8 +37,8 @@ Side-threads (still related):
 ### 2026-02-24 (Tue)
 - [Become an Octopus Organization (HBR)](../topics/2026-02-24_hbr_become-an-octopus-organization.md) _(topics: organizational_design)_
 ### 2026-02-25 (Wed)
-- [The agent-shaped world](../topics/agi/2026-02-25_article_sunday-letters-from-sam_the-agent-shaped-world.md) _(topics: AGI)_
-- [Optimal Policies for AI? (Nick Bostrom)](../topics/agi/2026-02-25_pdf_nick-bostrom_optimal-policies-for-ai.md) _(topics: AGI)_
+- [The agent-shaped world](../topics/agi/2026-02-25_article_sunday-letters-from-sam_the-agent-shaped-world.md) _(topics: agi)_
+- [Optimal Policies for AI? (Nick Bostrom)](../topics/agi/2026-02-25_pdf_nick-bostrom_optimal-policies-for-ai.md) _(topics: agi)_
 - [Robert Greene on life’s task, power, seduction, and recovery](../topics/coaching/2026-02-25_youtube_robert-greene_lifes-task-purpose-power-recovery.md) _(topics: coaching)_
 - [Ideas over aesthetics in design reviews (Johnnie Manzari on Jony Ive)](../topics/designing_things_people_love/2026-02-25_x_johnnie-manzari_jony-ive-ideas-over-aesthetics.md) _(topics: app_design)_
 ### 2026-03-01 (Sun)

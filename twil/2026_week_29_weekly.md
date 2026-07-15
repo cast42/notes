@@ -19,10 +19,10 @@ generated_at: 2026-07-13T15:37:23+02:00
 
 - **Period:** 2026-07-13 → 2026-07-19
 - **Status:** `in_progress`
-- **Signal:** 5 notes, top topics: agentic_coding ×1, ideas ×1, MAGMA ×1
+- **Signal:** 5 notes, top topics: agentic_coding ×1, ideas ×1, magma ×1
 
 ## TL;DR
-This week added 5 curated notes with no single dominant topic. The collection ranged across agentic_coding, ideas, MAGMA.
+This week added 5 curated notes with no single dominant topic. The collection ranged across agentic_coding, ideas, magma.
 
 ## Highlights
 - [Control the ideas, not the code](../topics/agentic_coding/2026-07-13_article_control-the-ideas-not-the-code.md) — Antirez argues that AI has shifted the programmer’s bottleneck away from line-by-line code reading and toward design, testing, and control of the software’s underlying ideas. _(added 2026-07-13)_
@@ -39,7 +39,7 @@ This week added 5 curated notes with no single dominant topic. The collection ra
 ## Topic signal
 - `agentic_coding` ×1
 - `ideas` ×1
-- `MAGMA` ×1
+- `magma` ×1
 - `microsoft` ×1
 - `management` ×1
 - `system_thinking` ×1

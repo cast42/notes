@@ -3,7 +3,7 @@ title: "Joseph Stiglitz on AI, inequality, and the role of government"
 date: 2026-03-08
 type: note
 topics:
-  - AGI
+  - agi
 tags:
   - joseph-stiglitz
   - income-inequality

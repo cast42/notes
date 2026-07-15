@@ -3,7 +3,7 @@ title: "Spyglass: Microsoft adds more Copilots to help Copilot"
 date: 2026-03-20
 type: note
 topics:
-  - MAGMA
+  - magma
   - microsoft
   - copilot
 tags:

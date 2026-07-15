@@ -4,7 +4,7 @@ date: 2026-04-02
 type: note
 topics:
  - learning
- - AGI
+ - agi
 tags:
   - x
   - marc-andreessen

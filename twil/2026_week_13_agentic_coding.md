@@ -16,11 +16,11 @@ Main thread: **agentic_coding**. Only 2 notes landed in this week window, so thi
 
 ## Highlights
 - 2026-03-20: [2026-03-20_x_anishmoonka_12-lessons-from-karpathy-no-priors](../topics/agentic_coding/2026-03-20_x_anishmoonka_12-lessons-from-karpathy-no-priors.md) · topics: agentic_coding
-- 2026-03-20: [2026-03-20_x_jaynitx_peter-thiel_11-lessons_ai-china-agency](../topics/agi/2026-03-20_x_jaynitx_peter-thiel_11-lessons_ai-china-agency.md) · topics: AGI
+- 2026-03-20: [2026-03-20_x_jaynitx_peter-thiel_11-lessons_ai-china-agency](../topics/agi/2026-03-20_x_jaynitx_peter-thiel_11-lessons_ai-china-agency.md) · topics: agi
 
 ## Topic signal
 - `agentic_coding` ×1
-- `AGI` ×1
+- `agi` ×1
 
 ## Why this week is sparse
 - The notes were committed during week 13, but both captured source material dated 2026-03-20.

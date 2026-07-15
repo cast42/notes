@@ -19,10 +19,10 @@ generated_at: 2026-07-13T15:31:41+02:00
 
 - **Period:** 2026-03-30 → 2026-04-05
 - **Status:** `complete`
-- **Signal:** 13 notes, top topics: AGI ×4, learning ×4, agentic_coding ×3
+- **Signal:** 13 notes, top topics: agi ×4, learning ×4, agentic_coding ×3
 
 ## TL;DR
-This week added 13 curated notes with no single dominant topic. The collection ranged across AGI, learning, agentic_coding.
+This week added 13 curated notes with no single dominant topic. The collection ranged across agi, learning, agentic_coding.
 
 ## Highlights
 - [Coding agents for data analysis (Simon Willison / NICAR 2026)](../topics/agentic_coding/2026-03-16_article_simon-willison_coding-agents-for-data-analysis.md) — Simon Willison published the handout for his NICAR 2026 workshop on using coding agents for data analysis. _(added 2026-04-03; source date 2026-03-16)_
@@ -45,12 +45,12 @@ This week added 13 curated notes with no single dominant topic. The collection r
 - **Which led to…** a compact map of the week's additions that can be revisited without scanning the Git history.
 
 ## Topic signal
-- `AGI` ×4
+- `agi` ×4
 - `learning` ×4
 - `agentic_coding` ×3
 - `management` ×3
 - `apple` ×2
-- `MAGMA` ×2
+- `magma` ×2
 - `microsoft` ×2
 - `copilot` ×2
 - `data_analysis` ×1

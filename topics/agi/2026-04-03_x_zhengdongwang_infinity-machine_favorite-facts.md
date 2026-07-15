@@ -3,7 +3,7 @@ title: "Favorite facts from The Infinity Machine (Zhengdong thread on Demis Hass
 date: 2026-04-03
 type: note
 topics:
-  - AGI
+  - agi
 tags:
   - x
   - deepmind

@@ -3,7 +3,7 @@ title: "CNBC: China’s OpenClaw adoption push (Baidu/Tencent events + governmen
 date: 2026-03-18
 type: note
 topics:
-  - AGI
+  - agi
 tags:
   - china
   - openclaw

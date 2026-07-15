@@ -3,7 +3,7 @@ title: "Microsoft 365 Copilot Declarative Agents are getting smarter with GPT-5.
 date: 2026-03-25
 type: note
 topics:
-  - MAGMA
+  - magma
   - microsoft
   - copilot
 tags:

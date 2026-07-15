@@ -3,7 +3,7 @@ title: "The Reverse Information Paradox"
 date: 2026-07-12
 type: article
 topics:
-  - MAGMA
+  - magma
   - microsoft
 tags:
   - enterprise-ai

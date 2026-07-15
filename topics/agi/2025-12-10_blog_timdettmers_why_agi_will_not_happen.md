@@ -3,7 +3,7 @@ title: "Why AGI Will Not Happen (Tim Dettmers)"
 date: 2025-12-10
 type: note
 topics:
-  - AGI
+  - agi
 tags:
   - skepticism
   - compute

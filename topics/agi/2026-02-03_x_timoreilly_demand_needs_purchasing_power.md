@@ -3,7 +3,7 @@ title: "Demand needs purchasing power (AGI economics)"
 date: 2026-02-03
 type: note
 topics:
-  - AGI
+  - agi
 tags:
   - aggregate-demand
   - purchasing-power

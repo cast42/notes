@@ -3,7 +3,7 @@ title: "What Is Intelligence? (Blaise Agüera y Arcas) — note via Tobi post"
 date: 2026-04-02
 type: note
 topics:
-  - AGI
+  - agi
   - learning
 tags:
   - x

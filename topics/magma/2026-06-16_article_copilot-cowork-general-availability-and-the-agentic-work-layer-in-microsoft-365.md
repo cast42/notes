@@ -5,7 +5,7 @@ canonical_url: "https://microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilo
 title: Copilot Cowork general availability and the agentic work layer in Microsoft 365
 author: Microsoft 365 Blog
 created_at: 2026-06-16
-topics: [Magma]
+topics: [magma]
 tags:
   - microsoft-365-copilot
   - copilot-cowork

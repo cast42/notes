@@ -5,7 +5,7 @@ canonical_url: "https://x.com/jacobhelberg/status/1870898195720499494"
 title: "The Technological Republic: Hard Power, Soft Belief, and the Future of the West"
 author: Alexander C. Karp and Nicholas W. Zamiska
 created_at: 2026-07-11
-topics: [MAGMA]
+topics: [magma]
 tags:
   - technological-republic
   - palantir
