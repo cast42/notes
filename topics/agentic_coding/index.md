@@ -13,6 +13,7 @@ coding agents in collaboration with humans.
 ## Repository and tool design
 
 - [A minimal agent within OpenClaw](2026-01-31_blog_mitsuhiko_pi_minimal_agent_within_openclaw.md)
+- [Build a coding agent with better tools](2026-07-06_article_mathspp_write-a-coding-agent-from-first-principles-better-tools.md) — Native tool schemas, precise edits, persistent shell state, and host-side guardrails.
 - [Code Factory as a repository control plane](2026-02-18_tweet_code-factory-repo-control-plane-for-coding-agents.md)
 - [CLI is all you need](2026-02-11_x_mfranz_on_cli_is_all_you_need_mcp_hype_over.md)
 - [Control the ideas, not the code](2026-07-13_article_control-the-ideas-not-the-code.md) — Antirez on design documents as durable mental models for humans and coding agents.

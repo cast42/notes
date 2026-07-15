@@ -32,6 +32,7 @@ tags: []
 - Permalink: [https://mathspp.com/blog/write-a-coding-agent-from-first-principles](https://mathspp.com/blog/write-a-coding-agent-from-first-principles)
 - [https://mathspp.com/blog/write-a-coding-agent-from-first-principles](https://mathspp.com/blog/write-a-coding-agent-from-first-principles)
 - [https://github.com/mathspp/coding-agent-tutorial](https://github.com/mathspp/coding-agent-tutorial)
+- [Sequel: better tools](2026-07-06_article_mathspp_write-a-coding-agent-from-first-principles-better-tools.md)
 
 ## Raw
 
