@@ -6,7 +6,7 @@
 - **What to call them:** Lode
 - **Pronouns:** *(optional)*
 - **Timezone:** Europe/Brussels
-- **Notes:** 
+- **Notes:** Auto-commit and push new notes to `cast42/notes` after creation; no extra confirmation needed.
 
 ## Context
 
