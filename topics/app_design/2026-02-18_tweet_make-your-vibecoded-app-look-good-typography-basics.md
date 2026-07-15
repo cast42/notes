@@ -51,6 +51,10 @@ resource: "https://x.com/mynameisceline/status/2023474777877540939"
 - https://readings.design/PDF/the_elements_of_typographic_style.pdf
 - https://www.theprintarkive.co.uk/products/2841-elements-typographic-style?variant=43268519887025
 
+## Related concepts
+
+- [The Elements of Typographic Style](../designing_things_people_love/1992-01-01_book_robert-bringhurst_the-elements-of-typographic-style.md)
+
 ## Raw
 
 - Raw tweet + links: [topics/app_design/raw/2026-02-18_tweet_make-your-vibecoded-app-look-good-typography-basics.raw.md](raw/2026-02-18_tweet_make-your-vibecoded-app-look-good-typography-basics.raw.md)

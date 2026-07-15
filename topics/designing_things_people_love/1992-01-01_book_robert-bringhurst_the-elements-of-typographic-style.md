@@ -31,3 +31,7 @@ Bringhurst frames typography as a reader-first craft: interpret the logic of the
 ## Source context in this repo
 - OCR source used and summarized with `@steipete/summarize`:
   - [Raw OCR text](./raw/2026-02-18_pdf_the-elements-of-typographic-style_ocr.md)
+
+## Related concepts
+
+- [Celine Nguyen's typography basics for app design](../app_design/2026-02-18_tweet_make-your-vibecoded-app-look-good-typography-basics.md)
