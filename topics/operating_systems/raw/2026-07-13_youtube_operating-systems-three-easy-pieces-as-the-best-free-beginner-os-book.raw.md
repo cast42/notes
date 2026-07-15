@@ -5,7 +5,7 @@ canonical_url: "https://youtu.be/t4nzIwkB9mA"
 title: "Operating Systems: Three Easy Pieces as the best free beginner OS book"
 author: YouTube
 created_at: 2026-07-13
-topics: [system_thinking]
+topics: [operating_systems]
 content_hash: e748239764c0c874031e35cf08de486a1d068cf94d20f3b87b8d8056cc10893e
 extracted_at: "2026-07-13T08:17:48"
 extractor: summarize

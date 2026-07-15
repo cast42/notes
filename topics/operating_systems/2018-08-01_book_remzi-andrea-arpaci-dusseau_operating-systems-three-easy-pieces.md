@@ -4,7 +4,7 @@ date: 2018-08-01
 timestamp: 2018-08-01
 type: book
 topics:
-  - system_thinking
+  - operating_systems
 tags:
   - operating-systems
   - virtualization

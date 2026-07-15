@@ -24,6 +24,7 @@ topic maps, and load individual concept files only when they are relevant.
 - [Local models](local_models/)
 - [magma](magma/index.md)
 - [OpenClaw](openclaw/)
+- [Operating systems](operating_systems/index.md)
 - [RAG](rag/)
 - [Robot learning](robot_learning/)
 

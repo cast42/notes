@@ -5,7 +5,7 @@ canonical_url: "https://youtu.be/t4nzIwkB9mA"
 title: "Operating Systems: Three Easy Pieces as the best free beginner OS book"
 author: YouTube
 created_at: 2026-07-13
-topics: [system_thinking]
+topics: [operating_systems]
 tags:
   - operating-systems
   - ostep
@@ -46,7 +46,7 @@ resource: "https://youtu.be/t4nzIwkB9mA"
 
 ## Raw
 
-- Raw text: [topics/system_thinking/raw/2026-07-13_youtube_operating-systems-three-easy-pieces-as-the-best-free-beginner-os-book.raw.md](https://github.com/cast42/notes/blob/main/topics/system_thinking/raw/2026-07-13_youtube_operating-systems-three-easy-pieces-as-the-best-free-beginner-os-book.raw.md)
+- Raw text: [raw/2026-07-13_youtube_operating-systems-three-easy-pieces-as-the-best-free-beginner-os-book.raw.md](raw/2026-07-13_youtube_operating-systems-three-easy-pieces-as-the-best-free-beginner-os-book.raw.md)
 - Extractor: summarize
 
 ## My notes
