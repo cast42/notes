@@ -16,13 +16,13 @@ Main thread: **agentic_coding**. 8 notes captured this week (2026-03-16 → 2026
 
 ## Highlights
 - 2026-03-16: [2026-03-16_article_simon-willison_coding-agents-for-data-analysis](../topics/agentic_coding/2026-03-16_article_simon-willison_coding-agents-for-data-analysis.md) · topics: agentic_coding, data_analysis
-- 2026-03-18: [2026-03-18_cnbc_china_openclaw_baidu_tencent_ai](../topics/AGI/2026-03-18_cnbc_china_openclaw_baidu_tencent_ai.md) · topics: AGI
+- 2026-03-18: [2026-03-18_cnbc_china_openclaw_baidu_tencent_ai](../topics/agi/2026-03-18_cnbc_china_openclaw_baidu_tencent_ai.md) · topics: AGI
 - 2026-03-19: [2026-03-19_article_gepa_optimize-anything_lets-take-it-for-a-spin](../topics/agentic_coding/2026-03-19_article_gepa_optimize-anything_lets-take-it-for-a-spin.md) · topics: agentic_coding
 - 2026-03-19: [2026-03-19_x_pydantic_pydantic-deep_production-grade-deep-agents](../topics/agentic_coding/2026-03-19_x_pydantic_pydantic-deep_production-grade-deep-agents.md) · topics: agentic_coding
-- 2026-03-19: [2026-03-19_x_aakashgupta_copilot_suleyman_copilot-reorg](../topics/MAGMA/microsoft/copilot/2026-03-19_x_aakashgupta_copilot_suleyman_copilot-reorg.md) · topics: MAGMA, microsoft, copilot
+- 2026-03-19: [2026-03-19_x_aakashgupta_copilot_suleyman_copilot-reorg](../topics/magma/microsoft/copilot/2026-03-19_x_aakashgupta_copilot_suleyman_copilot-reorg.md) · topics: magma, microsoft, copilot
 - 2026-03-20: [2026-03-20_x_anishmoonka_12-lessons-from-karpathy-no-priors](../topics/agentic_coding/2026-03-20_x_anishmoonka_12-lessons-from-karpathy-no-priors.md) · topics: agentic_coding
-- 2026-03-20: [2026-03-20_x_jaynitx_peter-thiel_11-lessons_ai-china-agency](../topics/AGI/2026-03-20_x_jaynitx_peter-thiel_11-lessons_ai-china-agency.md) · topics: AGI
-- 2026-03-20: [2026-03-20_spyglass_microsoft-adds-more-copilots-to-help-copilot](../topics/MAGMA/microsoft/copilot/2026-03-20_spyglass_microsoft-adds-more-copilots-to-help-copilot.md) · topics: MAGMA, microsoft, copilot
+- 2026-03-20: [2026-03-20_x_jaynitx_peter-thiel_11-lessons_ai-china-agency](../topics/agi/2026-03-20_x_jaynitx_peter-thiel_11-lessons_ai-china-agency.md) · topics: AGI
+- 2026-03-20: [2026-03-20_spyglass_microsoft-adds-more-copilots-to-help-copilot](../topics/magma/microsoft/copilot/2026-03-20_spyglass_microsoft-adds-more-copilots-to-help-copilot.md) · topics: magma, microsoft, copilot
 
 ## Topic signal
 - `agentic_coding` ×4
@@ -34,10 +34,10 @@ Main thread: **agentic_coding**. 8 notes captured this week (2026-03-16 → 2026
 
 ## Links
 - 2026-03-16: [2026-03-16_article_simon-willison_coding-agents-for-data-analysis](../topics/agentic_coding/2026-03-16_article_simon-willison_coding-agents-for-data-analysis.md)
-- 2026-03-18: [2026-03-18_cnbc_china_openclaw_baidu_tencent_ai](../topics/AGI/2026-03-18_cnbc_china_openclaw_baidu_tencent_ai.md)
+- 2026-03-18: [2026-03-18_cnbc_china_openclaw_baidu_tencent_ai](../topics/agi/2026-03-18_cnbc_china_openclaw_baidu_tencent_ai.md)
 - 2026-03-19: [2026-03-19_article_gepa_optimize-anything_lets-take-it-for-a-spin](../topics/agentic_coding/2026-03-19_article_gepa_optimize-anything_lets-take-it-for-a-spin.md)
 - 2026-03-19: [2026-03-19_x_pydantic_pydantic-deep_production-grade-deep-agents](../topics/agentic_coding/2026-03-19_x_pydantic_pydantic-deep_production-grade-deep-agents.md)
-- 2026-03-19: [2026-03-19_x_aakashgupta_copilot_suleyman_copilot-reorg](../topics/MAGMA/microsoft/copilot/2026-03-19_x_aakashgupta_copilot_suleyman_copilot-reorg.md)
+- 2026-03-19: [2026-03-19_x_aakashgupta_copilot_suleyman_copilot-reorg](../topics/magma/microsoft/copilot/2026-03-19_x_aakashgupta_copilot_suleyman_copilot-reorg.md)
 - 2026-03-20: [2026-03-20_x_anishmoonka_12-lessons-from-karpathy-no-priors](../topics/agentic_coding/2026-03-20_x_anishmoonka_12-lessons-from-karpathy-no-priors.md)
-- 2026-03-20: [2026-03-20_x_jaynitx_peter-thiel_11-lessons_ai-china-agency](../topics/AGI/2026-03-20_x_jaynitx_peter-thiel_11-lessons_ai-china-agency.md)
-- 2026-03-20: [2026-03-20_spyglass_microsoft-adds-more-copilots-to-help-copilot](../topics/MAGMA/microsoft/copilot/2026-03-20_spyglass_microsoft-adds-more-copilots-to-help-copilot.md)
+- 2026-03-20: [2026-03-20_x_jaynitx_peter-thiel_11-lessons_ai-china-agency](../topics/agi/2026-03-20_x_jaynitx_peter-thiel_11-lessons_ai-china-agency.md)
+- 2026-03-20: [2026-03-20_spyglass_microsoft-adds-more-copilots-to-help-copilot](../topics/magma/microsoft/copilot/2026-03-20_spyglass_microsoft-adds-more-copilots-to-help-copilot.md)

@@ -16,13 +16,13 @@ topic maps, and load individual concept files only when they are relevant.
 
 ## AI and technology
 
-- [AGI](AGI/)
+- [agi](AGI/)
 - [Agents](agents/)
 - [Agentic search](agentic_search/)
 - [AI adoption](ai_adoption/)
 - [GenBI](genbi/index.md)
 - [Local models](local_models/)
-- [MAGMA](MAGMA/index.md)
+- [magma](MAGMA/index.md)
 - [OpenClaw](openclaw/)
 - [RAG](rag/)
 - [Robot learning](robot_learning/)

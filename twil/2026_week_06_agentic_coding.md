@@ -35,7 +35,7 @@ This happened → so that happened → which led to…
 - **Then (Mon 02):** [Learning inbox](topics/learning/inbox.md)
 - **Then (Mon 02):** [Organisations](topics/organisations.md)
 - **Then (Mon 02):** [RAG (Retrieval-Augmented Generation)](topics/rag.md)
-- **Then (Tue 03):** [Demand needs purchasing power (AGI economics)](topics/AGI/2026-02-03_x_timoreilly_demand_needs_purchasing_power.md)
+- **Then (Tue 03):** [Demand needs purchasing power (AGI economics)](topics/agi/2026-02-03_x_timoreilly_demand_needs_purchasing_power.md)
 - **Then (Tue 03):** [2026-02-03_karpathy_guidelines_llm_coding_mistakes](topics/agentic_coding/2026-02-03_karpathy_guidelines_llm_coding_mistakes.md) ↳
 - **Then (Tue 03):** [How to use Claude Code by Boris Cherny (Anthropic)](topics/agentic_coding/2026-02-03_x_bcherny_how_to_use_claude_code.md) ↳
 - **Then (Tue 03):** [2026-02-03_youtube_pragmaticengineer_peter_steinberger_closing_the_loop](topics/agentic_coding/2026-02-03_youtube_pragmaticengineer_peter_steinberger_closing_the_loop.md) ↳
@@ -83,7 +83,7 @@ Most-mentioned topics in this week’s notes:
 - [Organisations](topics/organisations.md)
 - [RAG (Retrieval-Augmented Generation)](topics/rag.md)
 ### Tuesday 2026-02-03
-- [Demand needs purchasing power (AGI economics)](topics/AGI/2026-02-03_x_timoreilly_demand_needs_purchasing_power.md)
+- [Demand needs purchasing power (AGI economics)](topics/agi/2026-02-03_x_timoreilly_demand_needs_purchasing_power.md)
 - [2026-02-03_karpathy_guidelines_llm_coding_mistakes](topics/agentic_coding/2026-02-03_karpathy_guidelines_llm_coding_mistakes.md)
 - [How to use Claude Code by Boris Cherny (Anthropic)](topics/agentic_coding/2026-02-03_x_bcherny_how_to_use_claude_code.md)
 - [2026-02-03_youtube_pragmaticengineer_peter_steinberger_closing_the_loop](topics/agentic_coding/2026-02-03_youtube_pragmaticengineer_peter_steinberger_closing_the_loop.md)

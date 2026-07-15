@@ -16,7 +16,7 @@ Main thread: **agentic_coding**. Only 2 notes landed in this week window, so thi
 
 ## Highlights
 - 2026-03-20: [2026-03-20_x_anishmoonka_12-lessons-from-karpathy-no-priors](../topics/agentic_coding/2026-03-20_x_anishmoonka_12-lessons-from-karpathy-no-priors.md) · topics: agentic_coding
-- 2026-03-20: [2026-03-20_x_jaynitx_peter-thiel_11-lessons_ai-china-agency](../topics/AGI/2026-03-20_x_jaynitx_peter-thiel_11-lessons_ai-china-agency.md) · topics: AGI
+- 2026-03-20: [2026-03-20_x_jaynitx_peter-thiel_11-lessons_ai-china-agency](../topics/agi/2026-03-20_x_jaynitx_peter-thiel_11-lessons_ai-china-agency.md) · topics: AGI
 
 ## Topic signal
 - `agentic_coding` ×1
@@ -29,4 +29,4 @@ Main thread: **agentic_coding**. Only 2 notes landed in this week window, so thi
 
 ## Links
 - 2026-03-20: [2026-03-20_x_anishmoonka_12-lessons-from-karpathy-no-priors](../topics/agentic_coding/2026-03-20_x_anishmoonka_12-lessons-from-karpathy-no-priors.md)
-- 2026-03-20: [2026-03-20_x_jaynitx_peter-thiel_11-lessons_ai-china-agency](../topics/AGI/2026-03-20_x_jaynitx_peter-thiel_11-lessons_ai-china-agency.md)
+- 2026-03-20: [2026-03-20_x_jaynitx_peter-thiel_11-lessons_ai-china-agency](../topics/agi/2026-03-20_x_jaynitx_peter-thiel_11-lessons_ai-china-agency.md)
