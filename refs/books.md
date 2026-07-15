@@ -20,6 +20,7 @@ tags: []
 - **2014-04-08** — [Creativity, Inc. (Ed Catmull and Amy Wallace)](../topics/management/2014-04-08_book_ed-catmull_amy-wallace_creativity-inc.md)
 - **2018-08-01** — [Operating Systems: Three Easy Pieces (Remzi and Andrea Arpaci-Dusseau)](../topics/operating_systems/2018-08-01_book_remzi-andrea-arpaci-dusseau_operating-systems-three-easy-pieces.md)
 - **2020-12-08** — [Growth: From Microorganisms to Megacities (Vaclav Smil)](../topics/system_thinking/2020-12-08_book_vaclav-smil_growth-from-microorganisms-to-megacities.md)
+- **2022-05-03** — [Build (Tony Fadell)](../topics/designing_things_people_love/2022-05-03_book_tony-fadell_build.md)
 - **2025-02-18** — [The Technological Republic (Alexander Karp and Nicholas Zamiska)](../topics/system_thinking/2025-02-18_book_alexander-karp_nicholas-zamiska_the-technological-republic.md)
 - **2025-03-28** — [Inventing the Renaissance (Ada Palmer)](../topics/history/2025-03-28_book_ada-palmer_inventing-the-renaissance.md)
 - **2025-04-22** — [Click (Jake Knapp and John Zeratsky)](../topics/designing_things_people_love/2025-04-22_book_jake-knapp_john-zeratsky_click.md)
