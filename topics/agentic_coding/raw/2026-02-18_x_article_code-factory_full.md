@@ -10,9 +10,13 @@ topics: [agentic_coding]
 extractor: fxtwitter_draftjs_to_md
 ---
 
-# Code Factory: How to setup your repo so your agent can auto write and review 100% of your code
+# Raw content
 
 Source: https://x.com/ryancarson/status/2023452909883609111
+
+## Original title
+
+Code Factory: How to setup your repo so your agent can auto write and review 100% of your code
 
 ## Images
 
