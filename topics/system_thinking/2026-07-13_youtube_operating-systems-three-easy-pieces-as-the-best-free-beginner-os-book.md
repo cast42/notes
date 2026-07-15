@@ -40,6 +40,10 @@ resource: "https://youtu.be/t4nzIwkB9mA"
 - [https://youtu.be/t4nzIwkB9mA](https://youtu.be/t4nzIwkB9mA)
 - Free book site: [https://ostep.org/](https://ostep.org/)
 
+## Related concepts
+
+- [Operating Systems: Three Easy Pieces](2018-08-01_book_remzi-andrea-arpaci-dusseau_operating-systems-three-easy-pieces.md)
+
 ## Raw
 
 - Raw text: [topics/system_thinking/raw/2026-07-13_youtube_operating-systems-three-easy-pieces-as-the-best-free-beginner-os-book.raw.md](https://github.com/cast42/notes/blob/main/topics/system_thinking/raw/2026-07-13_youtube_operating-systems-three-easy-pieces-as-the-best-free-beginner-os-book.raw.md)

@@ -1,7 +1,7 @@
 ---
 title: "Shift: Inside Nissan’s Historic Revival (Carlos Ghosn)"
 date: 2005-01-01
-type: note
+type: book
 topics:
   - books
 tags:

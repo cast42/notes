@@ -1,7 +1,7 @@
 ---
 title: "Dieter Rams: As Little Design as Possible (Sophie Lovell)"
 date: 2011-06-22
-type: note
+type: book
 topics:
   - app_design
 tags:

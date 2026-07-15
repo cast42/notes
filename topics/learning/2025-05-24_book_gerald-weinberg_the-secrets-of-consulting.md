@@ -1,7 +1,7 @@
 ---
 title: "The Secrets of Consulting (Gerald M. Weinberg)"
 date: 2025-05-24
-type: note
+type: book
 topics:
   - learning
 tags:

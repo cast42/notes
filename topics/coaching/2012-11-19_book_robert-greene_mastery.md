@@ -1,7 +1,7 @@
 ---
 title: "Mastery (Robert Greene)"
 date: 2012-11-19
-type: note
+type: book
 topics:
   - coaching
 tags:

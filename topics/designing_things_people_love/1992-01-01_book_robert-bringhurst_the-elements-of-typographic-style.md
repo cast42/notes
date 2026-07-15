@@ -1,7 +1,7 @@
 ---
 title: "The Elements of Typographic Style (Robert Bringhurst)"
 date: 1992-01-01
-type: note
+type: book
 topics:
   - app_design
 tags:

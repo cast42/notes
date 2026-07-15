@@ -1,7 +1,7 @@
 ---
 title: "The 48 Laws of Power (Robert Greene)"
 date: 2000-09-01
-type: note
+type: book
 topics:
   - coaching
 tags:

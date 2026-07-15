@@ -1,7 +1,7 @@
 ---
 title: "The Art of Doing Science and Engineering: Learning to Learn (Hamming)"
 date: 2026-02-06
-type: note
+type: book
 topics:
   - learning
 tags:

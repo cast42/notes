@@ -1,7 +1,7 @@
 ---
 title: "It’s About Time (Rajan Suri) — Quick Response Manufacturing"
 date: 2010-03-31
-type: note
+type: book
 topics:
   - organisation
 tags:

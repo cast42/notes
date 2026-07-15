@@ -1,7 +1,7 @@
 ---
 title: "Patrick McGee on Homer Sarasohn, occupied Japan, and the origins of Apple’s supply-chain thinking"
 date: 2026-04-03
-type: note
+type: tweet
 topics:
   - apple
   - management
@@ -40,3 +40,7 @@ One linked article is an archived *Financial Times* piece on Homer Sarasohn’s 
 ## Links
 - Post: https://x.com/PatrickMcGee_/status/2039577362602537308?s=20
 - Archived FT article: https://archive.is/20260401143604/https://www.ft.com/content/080062ff-e555-4e88-860c-a693b2148259
+
+## Related concepts
+
+- [Apple in China](2025-05-13_book_patrick-mcgee_apple-in-china.md)

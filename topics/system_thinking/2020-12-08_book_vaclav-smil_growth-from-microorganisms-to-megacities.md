@@ -1,7 +1,7 @@
 ---
 title: "Growth: From Microorganisms to Megacities (Vaclav Smil)"
 date: 2020-12-08
-type: note
+type: book
 topics:
   - system_thinking
 tags:

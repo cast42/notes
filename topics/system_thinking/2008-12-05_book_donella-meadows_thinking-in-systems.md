@@ -1,7 +1,7 @@
 ---
 title: "Thinking in Systems (Donella Meadows)"
 date: 2008-12-05
-type: note
+type: book
 topics:
   - system_thinking
 tags:
