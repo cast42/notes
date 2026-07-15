@@ -1,7 +1,7 @@
 ---
 title: "TWIL 2026 week 26: weekly"
 date: 2026-06-28
-type: note
+type: twil
 topics:
   - twil
   - weekly
@@ -10,26 +10,30 @@ week: 2026-W26
 period:
   start: 2026-06-22
   end: 2026-06-28
+status: complete
 main_topic: weekly
-source_scope: topics/**/*.md
-generated_at: 2026-06-28T18:01:25+02:00
+source_scope: curated topic concepts added in Git
+generated_at: 2026-07-13T15:31:42+02:00
 ---
 # TWIL 2026 week 26: weekly
 
 - **Period:** 2026-06-22 → 2026-06-28
-- **Main topic:** `weekly`
+- **Status:** `complete`
 - **Signal:** 0 notes, top topics: none
 
 ## TL;DR
-No `topics/**/*.md` notes with frontmatter `date:` landed in this ISO week, so there was no dominant content topic to compact. I still created the weekly note to preserve continuity.
+No curated topic notes were added in this ISO week; this entry preserves weekly continuity.
 
 ## Highlights
-- No eligible notes found in range (2026-06-22 → 2026-06-28).
+- No eligible notes found in this week.
 
 ## This happened → so that happened → which led to…
-- **This happened:** no topic notes were captured between 2026-06-22 and 2026-06-28 with a frontmatter `date:`.
-- **So that happened:** the topic tally stayed empty after excluding `twil`.
-- **Which led to…** a continuity-only TWIL entry with `main_topic: weekly`.
+- **This happened:** no curated topic concepts were added.
+- **So that happened:** there was no content topic to compact.
+- **Which led to…** a continuity-only weekly entry.
+
+## Topic signal
+- none
 
 ## Links
-- No in-range note links to include.
+- none

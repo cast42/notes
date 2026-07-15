@@ -2,7 +2,7 @@
 type: x_article
 source_url: https://x.com/i/status/2023452909883609111
 canonical_url: https://x.com/ryancarson/status/2023452909883609111
-title: Code Factory: How to setup your repo so your agent can auto write and review 100% of your code
+title: "Code Factory: How to setup your repo so your agent can auto write and review 100% of your code"
 author: Ryan Carson
 handle: ryancarson
 created_at: 2026-02-18

@@ -38,8 +38,8 @@ topics: [health]
 - Permalink: [https://x.com/doctorinigo/status/2056051446055842139](https://x.com/doctorinigo/status/2056051446055842139)
 - [https://x.com/doctorinigo/status/2056051446055842139/photo/1](https://x.com/doctorinigo/status/2056051446055842139/photo/1)
 - [https://x.com/doctorinigo/status/2056051446055842139/photo/2](https://x.com/doctorinigo/status/2056051446055842139/photo/2)
-- [topics/health/images/2026-05-18_doctorinigo-metabolic-map-1.jpg](topics/health/images/2026-05-18_doctorinigo-metabolic-map-1.jpg)
-- [topics/health/images/2026-05-18_doctorinigo-metabolic-map-2.jpg](topics/health/images/2026-05-18_doctorinigo-metabolic-map-2.jpg)
+- [topics/health/images/2026-05-18_doctorinigo-metabolic-map-1.jpg](images/2026-05-18_doctorinigo-metabolic-map-1.jpg)
+- [topics/health/images/2026-05-18_doctorinigo-metabolic-map-2.jpg](images/2026-05-18_doctorinigo-metabolic-map-2.jpg)
 
 ## Raw
 

@@ -117,6 +117,20 @@ Reactions are lightweight social signals. Humans use them constantly — they sa
 
 Skills provide your tools. When you need one, check its `SKILL.md`. Keep local notes (camera names, SSH details, voice preferences) in `TOOLS.md`.
 
+## Knowledge Bundle
+
+`topics/` is an Open Knowledge Format 0.1 bundle shared by humans and agents.
+
+- Read `DESIGN.md` before changing repository structure, metadata contracts, or knowledge-flow automation.
+- Begin discovery at `topics/index.md`; follow topic indexes before loading many notes.
+- Treat each non-reserved Markdown file as one self-contained concept with YAML frontmatter and a non-empty `type`.
+- Keep nested `index.md` and `log.md` files free of frontmatter.
+- Use ordinary relative Markdown links to connect related concepts.
+- Preserve existing note metadata; add OKF-oriented `resource`, `tags`, or `timestamp` aliases only when useful.
+- Run `uv run --with PyYAML python scripts/validate_okf.py` after changing `topics/`.
+
+See `_meta/OPEN_KNOWLEDGE_FORMAT.md` for the repository-specific contract.
+
 **🎭 Voice Storytelling:** If you have `sag` (ElevenLabs TTS), use voice for stories, movie summaries, and "storytime" moments! Way more engaging than walls of text. Surprise people with funny voices.
 
 **📝 Platform Formatting:**

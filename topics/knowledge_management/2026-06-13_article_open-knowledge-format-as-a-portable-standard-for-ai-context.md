@@ -3,9 +3,13 @@ type: article
 source_url: "https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/"
 canonical_url: "https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing"
 title: Open Knowledge Format as a portable standard for AI context
+description: Google's proposal for portable, agent-readable knowledge bundles.
+resource: "https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing/"
 author: Google Cloud
 created_at: 2026-06-13
 topics: [knowledge_management]
+tags: [knowledge_management]
+timestamp: 2026-06-13
 ---
 
 # Open Knowledge Format as a portable standard for AI context

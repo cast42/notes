@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Normalize notes in this repo to include minimal YAML frontmatter.
+"""Add repository-compatible frontmatter to note files that lack it.
 
-Rules live in .agents/skills/cast42bot-notes/SKILL.md.
+Rules live in .agents/skills/cast42bot-notes/SKILL.md. OKF-reserved index.md
+and log.md files under topics/ are deliberately skipped.
 
 Usage:
   python .agents/skills/cast42bot-notes/scripts/normalize_frontmatter.py [--apply]
@@ -12,22 +13,18 @@ Default is dry-run.
 from __future__ import annotations
 
 import argparse
+import json
 import os
 import re
 import subprocess
 from dataclasses import dataclass
+from datetime import date
 from pathlib import Path
 
 RE_FRONTMATTER = re.compile(r"\A---\n.*?\n---\n\n?", re.DOTALL)
 RE_DATE_PREFIX = re.compile(r"^(\d{4}-\d{2}-\d{2})(?:[_-].*|\..*|$)")
-
-EXCLUDE = {
-    Path("README.md"),
-    Path("_meta/glossary.md"),
-    Path("_meta/tags.md"),
-    Path("topics/coaching/README.md"),
-    Path("topics/learning/README.md"),
-}
+NOTE_AREAS = {"inbox", "meetings", "refs", "topics"}
+OKF_RESERVED = {"index.md", "log.md"}
 
 
 @dataclass
@@ -44,34 +41,37 @@ def sh(cmd: list[str], cwd: Path) -> str:
 
 
 def git_last_date(repo: Path, file: Path) -> str:
-    # ISO short date, fall back to today if file not committed yet.
+    """Return the last commit date, falling back to today for new files."""
     try:
         out = sh(["git", "log", "-1", "--format=%cs", "--", str(file)], cwd=repo)
-        return out.split()[0] if out else "1970-01-01"
+        return out.split()[0] if out else date.today().isoformat()
     except Exception:
-        return "1970-01-01"
+        return date.today().isoformat()
 
 
-def _strip_wrapping_md(s: str) -> str:
-    s = s.strip()
-    # Common cases where the whole title line is wrapped in emphasis.
+def strip_wrapping_markdown(value: str) -> str:
+    value = value.strip()
     for wrapper in ("**", "*", "`"):
-        if s.startswith(wrapper) and s.endswith(wrapper) and len(s) >= 2 * len(wrapper) + 1:
-            s = s[len(wrapper) : -len(wrapper)].strip()
-    return s
+        if (
+            value.startswith(wrapper)
+            and value.endswith(wrapper)
+            and len(value) >= 2 * len(wrapper) + 1
+        ):
+            value = value[len(wrapper) : -len(wrapper)].strip()
+    return value
 
 
 def derive_title(text: str, path: Path) -> str:
     for line in text.splitlines():
         if line.startswith("# "):
-            return _strip_wrapping_md(line[2:].strip())
+            return strip_wrapping_markdown(line[2:].strip())
     return path.stem.replace("_", " ").replace("-", " ").strip().title()
 
 
 def derive_date(repo: Path, path: Path) -> str:
-    m = RE_DATE_PREFIX.match(path.name)
-    if m:
-        return m.group(1)
+    match = RE_DATE_PREFIX.match(path.name)
+    if match:
+        return match.group(1)
     return git_last_date(repo, path)
 
 
@@ -82,26 +82,38 @@ def derive_type(path: Path) -> str:
         return "meeting"
     if path.parts[0] == "refs":
         return "reference"
+    if "raw" in path.parts:
+        return "source"
+
+    tokens = set(re.split(r"[_-]", path.stem.lower()))
+    if "book" in tokens:
+        return "book"
+    if tokens & {"tweet", "x"}:
+        return "tweet"
+    if tokens & {"youtube", "video"}:
+        return "video"
+    if "paper" in tokens:
+        return "paper"
+    if tokens & {"article", "blog", "newsletter"}:
+        return "article"
     return "note"
 
 
 def derive_topics(path: Path) -> list[str]:
     if path.parts[0] != "topics":
         return [path.parts[0]]
-    # topics/<topic>/file.md
     if len(path.parts) >= 3:
         return [path.parts[1]]
-    # topics/file.md
     return [path.stem]
 
 
-def build_frontmatter(p: Plan) -> str:
-    topics_yaml = "\n".join([f"  - {t}" for t in p.topics])
+def build_frontmatter(plan: Plan) -> str:
+    topics_yaml = "\n".join(f"  - {topic}" for topic in plan.topics)
     return (
         "---\n"
-        f"title: \"{p.title.replace('\\"', '\\"')}\"\n"
-        f"date: {p.date}\n"
-        f"type: {p.type_}\n"
+        f"title: {json.dumps(plan.title, ensure_ascii=False)}\n"
+        f"date: {plan.date}\n"
+        f"type: {plan.type_}\n"
         "topics:\n"
         f"{topics_yaml}\n"
         "tags: []\n"
@@ -109,10 +121,14 @@ def build_frontmatter(p: Plan) -> str:
     )
 
 
+def is_reserved_okf_file(path: Path) -> bool:
+    return path.parts[0] == "topics" and path.name in OKF_RESERVED
+
+
 def main() -> int:
-    ap = argparse.ArgumentParser()
-    ap.add_argument("--apply", action="store_true", help="Write changes")
-    args = ap.parse_args()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--apply", action="store_true", help="Write changes")
+    args = parser.parse_args()
 
     repo = Path.cwd()
     files = sorted(Path(".").glob("**/*.md"))
@@ -120,14 +136,11 @@ def main() -> int:
 
     for path in files:
         path = Path(os.path.normpath(path))
-        if path in EXCLUDE:
-            continue
         if any(part.startswith(".git") for part in path.parts):
             continue
         if path.parts and path.parts[0].startswith(".") and path.parts[0] != ".agents":
             continue
-        # Only normalize the actual notes areas.
-        if path.parts[0] not in {"inbox", "meetings", "refs", "topics"}:
+        if path.parts[0] not in NOTE_AREAS or is_reserved_okf_file(path):
             continue
 
         text = path.read_text(encoding="utf-8")
@@ -141,16 +154,18 @@ def main() -> int:
             type_=derive_type(path),
             topics=derive_topics(path),
         )
-        fm = build_frontmatter(plan)
-        new_text = fm + text
-
+        frontmatter = build_frontmatter(plan)
         changed += 1
-        print(f"MISSING FRONTMATTER: {path} -> add title={plan.title!r} date={plan.date} type={plan.type_} topics={plan.topics}")
+        print(
+            f"MISSING FRONTMATTER: {path} -> add title={plan.title!r} "
+            f"date={plan.date} type={plan.type_} topics={plan.topics}"
+        )
 
         if args.apply:
-            path.write_text(new_text, encoding="utf-8")
+            path.write_text(frontmatter + text, encoding="utf-8")
 
-    print(f"\nFiles updated: {changed}" + (" (applied)" if args.apply else " (dry-run)"))
+    mode = "applied" if args.apply else "dry-run"
+    print(f"\nFiles updated: {changed} ({mode})")
     return 0
 
 

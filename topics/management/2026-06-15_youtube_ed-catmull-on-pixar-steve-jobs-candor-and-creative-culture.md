@@ -3,14 +3,14 @@ type: youtube
 source_url: "https://youtu.be/6ffhW9WAUv0?si=vtL4fvdWGdsF6_JY"
 canonical_url: "https://youtu.be/6ffhW9WAUv0"
 title: Ed Catmull on Pixar, Steve Jobs, candor, and creative culture
-author: YouTube
+author: David Senra
 created_at: 2026-06-15
 topics: [management]
 ---
 
 # Ed Catmull on Pixar, Steve Jobs, candor, and creative culture
 
-*YouTube*
+*David Senra*
 
 ## TL;DR
 
@@ -30,7 +30,8 @@ topics: [management]
 
 - Permalink: [https://youtu.be/6ffhW9WAUv0](https://youtu.be/6ffhW9WAUv0)
 - [https://youtu.be/6ffhW9WAUv0](https://youtu.be/6ffhW9WAUv0)
-- Ed Catmull book, *Creativity, Inc.*: [https://www.penguinrandomhouse.com/books/237028/creativity-inc-updated-edition-by-ed-catmull/](https://www.penguinrandomhouse.com/books/237028/creativity-inc-updated-edition-by-ed-catmull/)
+- Related book note: [*Creativity, Inc.*](2014-04-08_book_ed-catmull_amy-wallace_creativity-inc.md)
+- Publisher: [*Creativity, Inc.* expanded edition](https://www.penguinrandomhouse.com/books/216369/creativity-inc-the-expanded-edition-by-ed-catmull-with-amy-wallace/)
 
 ## Raw
 

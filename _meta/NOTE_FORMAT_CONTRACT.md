@@ -5,7 +5,8 @@ Purpose: keep notes machine-findable across agent/tool changes without forcing o
 ## Scope
 Applies to content notes under:
 - `inbox/**`
-- `topics/**` (except `README.md`, `_meta/**`, `raw/**` where raw has looser metadata)
+- `topics/**` (except OKF-reserved `index.md` and `log.md`; raw files may use
+  looser metadata but still require a non-empty `type`)
 - `meetings/**`
 - `refs/**`
 
@@ -41,6 +42,27 @@ When reading notes, agents should normalize with this precedence:
 4. `type`:
    - frontmatter `type`
    - else infer by path (`inbox/`, `meetings/`, `refs/`, default `note`)
+
+For interchange through the OKF bundle, readers should also recognize:
+
+- `resource` as an alias for `source`, `source_url`, or `canonical_url`
+- `tags` as the OKF-oriented equivalent of `topics`
+- `timestamp` as an alias for `date` or `created_at`
+
+Writers may include both repository-native and OKF-oriented fields. Do not
+rewrite historical notes solely to add aliases.
+
+## OKF bundle rules
+
+`topics/` is an OKF 0.1 bundle:
+
+- the root `topics/index.md` declares only `okf_version: "0.1"`
+- nested `index.md` and `log.md` files have no frontmatter
+- all other Markdown files have parseable frontmatter and a non-empty `type`
+- links between concepts use ordinary relative Markdown links
+
+Run `uv run --with PyYAML python scripts/validate_okf.py` after editing the
+bundle.
 
 ## TWIL selection rule
 To avoid misses, weekly inclusion should be based on normalized `date` (mapping above), not on a single raw key.

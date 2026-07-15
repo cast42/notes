@@ -1,36 +1,39 @@
 ---
-title: "TWIL 2026 week 27: weekly"
+title: "TWIL 2026 week 27: ai_adoption"
 date: 2026-07-05
-type: note
+type: twil
 topics:
   - twil
-  - weekly
+  - ai_adoption
 tags: []
 week: 2026-W27
 period:
   start: 2026-06-29
   end: 2026-07-05
-main_topic: weekly
-source_scope: topics/**/*.md
-generated_at: 2026-07-05T18:01:39+02:00
+status: complete
+main_topic: ai_adoption
+source_scope: curated topic concepts added in Git
+generated_at: 2026-07-13T15:31:42+02:00
 ---
-# TWIL 2026 week 27: weekly
+# TWIL 2026 week 27: ai_adoption
 
 - **Period:** 2026-06-29 → 2026-07-05
-- **Main topic:** `weekly`
-- **Signal:** 0 notes, top topics: none
+- **Status:** `complete`
+- **Signal:** 1 notes, top topics: ai_adoption ×1
 
 ## TL;DR
-No `topics/**/*.md` notes with frontmatter `date:` landed in this ISO week, so there was no dominant topic to compact. I still created the weekly note to keep the thread unbroken.
+This week added 1 curated notes. The strongest thread was **ai_adoption**, with the collection also touching adjacent ideas in the same area.
 
 ## Highlights
-- No eligible notes found in range (2026-06-29 → 2026-07-05).
-- `twil/` remains continuous even during a quiet week.
+- [The Flat Curve Society and team-based AI literacy training](../topics/ai_adoption/2026-07-02_article_the-flat-curve-society-and-team-based-ai-literacy-training.md) — Yegge argues that even if frontier AI keeps improving rapidly, broadly accessible and usable model capability may soon feel flat because the smartest systems will be gated and many users will hit demand and discernment limits. _(added 2026-07-02)_
 
 ## This happened → so that happened → which led to…
-- **This happened:** no topic notes were captured between 2026-06-29 and 2026-07-05 with a frontmatter `date:`.
-- **So that happened:** the topic tally stayed empty after excluding `twil`.
-- **Which led to…** a continuity-only TWIL entry with `main_topic: weekly`.
+- **This happened:** 1 durable notes were added across 1 topic areas.
+- **So that happened:** `ai_adoption` became the week's strongest primary signal (1 note).
+- **Which led to…** a compact map of the week's additions that can be revisited without scanning the Git history.
+
+## Topic signal
+- `ai_adoption` ×1
 
 ## Links
-- No in-range note links to include.
+- [The Flat Curve Society and team-based AI literacy training](../topics/ai_adoption/2026-07-02_article_the-flat-curve-society-and-team-based-ai-literacy-training.md)
