@@ -64,6 +64,7 @@ Building a company and building a product are one system. Hiring, incentives, me
 
 ## Related concepts
 
+- [Tony Fadell on problem-first AI model selection](../ai_adoption/2026-07-15_tweet_tony-fadell_problem-first-ai-model-selection.md) applies the book's problem-first product principle to choosing AI models and architectures.
 - [Click](2025-04-22_book_jake-knapp_john-zeratsky_click.md) offers a compact process for selecting and testing a product strategy before a full build.
 - [Steve Jobs on designing great products](2026-02-15_tweet_steve-jobs-how-to-design-insanely-great-products.md) reinforces focus, product judgment, and the complete customer experience.
 - [Jony Ive on designing things people love](2026-02-02_x_jony_ive_designing_things_people_love.md) connects care, craft, and human attachment in product design.
