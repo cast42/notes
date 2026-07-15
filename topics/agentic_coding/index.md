@@ -6,8 +6,10 @@ coding agents in collaboration with humans.
 ## Agent workflows
 
 - [Agentic search versus RAG](2026-02-01_x_bcherny_claude_code_agentic_search_vs_rag.md)
+- [Codex app tips from Dominik Kundel](2026-02-02_x_dkundel_codex_app_tips.md)
 - [Claude Code workflow orchestration](2026-02-23_x_boris-cherny_workflow-orchestration.md)
 - [Long-horizon tasks with Codex](2026-03-01_article_openai-cookbook_long-horizon-tasks-codex.md)
+- [Pydantic Deep for production-grade deep agents](2026-03-18_x_pydantic_pydantic-deep_production-grade-deep-agents.md)
 - [Coding agents for data analysis](2026-03-16_article_simon-willison_coding-agents-for-data-analysis.md)
 
 ## Repository and tool design

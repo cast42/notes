@@ -1,7 +1,7 @@
 ---
 title: "How to code with the Codex app (tips from Dominik Kundel)"
 date: 2026-02-02
-type: note
+type: tweet
 topics:
   - agentic_coding
 tags:
@@ -17,6 +17,8 @@ source:
   url: https://x.com/dkundel/status/2018455598267027894
 timestamp: 2026-02-02
 ---
+
+# How to code with the Codex app
 
 ## TL;DR
 
@@ -46,7 +48,7 @@ Dominik recommends adding a recurring daily task that reads your past sessions (
 
 Thread post: https://x.com/dkundel/status/2018455599391121851
 
-![figure](https://pbs.twimg.com/media/HAL9uZ9aMAA7sIo?format=jpg&name=900x900)
+![Example AGENTS.md setup](assets/dkundel_codex_app_tips/fig1-agents-md.jpg)
 
 ### 2) Use pinned threads
 
@@ -54,7 +56,7 @@ Pinned threads are a lightweight way to track what’s in progress across multip
 
 Thread post: https://x.com/dkundel/status/2018455601370857724
 
-![figure](https://pbs.twimg.com/media/HAL9zvyagAAf-JH?format=png&name=900x900)
+![Pinned threads in Codex](assets/dkundel_codex_app_tips/fig2-pinned-threads.png)
 
 ### 3) Prevent sleeping
 
@@ -62,7 +64,7 @@ If your Mac locks/sleeps, long-running Codex tasks can stall. Adjust system sett
 
 Thread post: https://x.com/dkundel/status/2018455603056877874
 
-![figure](https://pbs.twimg.com/media/HAL98JSbgAA-LrX?format=jpg&name=medium)
+![Settings that prevent sleep](assets/dkundel_codex_app_tips/fig3-prevent-sleep.jpg)
 
 ### 4) Notifications
 
@@ -74,7 +76,7 @@ Enable Codex app notifications so you can respond quickly to:
 
 Thread post: https://x.com/dkundel/status/2018455604650725448
 
-![figure](https://pbs.twimg.com/media/HAL-AA4bAAAoBx3?format=png&name=900x900)
+![Codex notification settings](assets/dkundel_codex_app_tips/fig4-notifications.png)
 
 ### 5) Actions in local environments
 
@@ -86,7 +88,7 @@ They run in the integrated terminal, and can be launched with a button.
 
 Thread post: https://x.com/dkundel/status/2018455606454370532
 
-![figure](https://pbs.twimg.com/media/HAL-GEMbgAEEp0y?format=png&name=900x900)
+![Environment actions in Codex](assets/dkundel_codex_app_tips/fig5-actions.png)
 
 ### 6) Skills + MCP
 
@@ -97,7 +99,7 @@ Skills (especially when checked into the project repo) are framed as the biggest
 
 Thread post: https://x.com/dkundel/status/2018455608769544316
 
-![figure](https://pbs.twimg.com/media/HAL-RDbbsAA9agp?format=jpg&name=medium)
+![Skills and MCP setup](assets/dkundel_codex_app_tips/fig6-skills-mcp.jpg)
 
 ### 7) Automations for boring work
 
@@ -109,7 +111,7 @@ Have Codex run periodically (e.g. hourly) to:
 
 Thread post: https://x.com/dkundel/status/2018455610610893302
 
-![figure](https://pbs.twimg.com/media/HAL-XY0aUAAF9qA?format=jpg&name=900x900)
+![Codex automation example](assets/dkundel_codex_app_tips/fig7-automations.jpg)
 
 ### 8) Use inline comments for specific feedback
 
@@ -117,11 +119,4 @@ Dominik calls out the review panel as a major reason he rarely uses an IDE: inli
 
 Thread post: https://x.com/dkundel/status/2018455612431196340
 
-![figure](https://pbs.twimg.com/media/HAL-bhpagAAU-qQ?format=jpg&name=medium)
-
----
-
-## Figures
-
-Images are embedded inline above (Twitter CDN links). Local copies are also stored under:
-`topics/agentic_coding/assets/dkundel_codex_app_tips/`
+![Inline review comments](assets/dkundel_codex_app_tips/fig8-inline-comments.jpg)

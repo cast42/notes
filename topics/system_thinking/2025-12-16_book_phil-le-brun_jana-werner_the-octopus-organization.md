@@ -1,7 +1,7 @@
 ---
 title: "The Octopus Organization (Phil Le-Brun, Jana Werner)"
 date: 2025-12-16
-type: note
+type: book
 topics:
   - system_thinking
 tags:

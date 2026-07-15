@@ -1,7 +1,7 @@
 ---
-title: "Curate People (Naval) — recruiting and teams"
-date: 2024-11-15
-type: note
+title: "Curate People (Naval), recruiting and teams"
+date: 2025-11-18
+type: video
 topics:
   - coaching
 tags:
@@ -14,10 +14,11 @@ people:
 source:
   kind: x
   url: https://x.com/naval/status/1990623985927921701
-timestamp: 2024-11-15
+timestamp: 2025-11-18
+resource: "https://x.com/naval/status/1990623985927921701"
 ---
 
-# Curate People (Naval) — recruiting and teams
+# Curate People (Naval), recruiting and teams
 
 ## TL;DR
 Naval frames recruiting as *the* founder-critical function: early teams should be small, extremely high-talent, taste-driven, and directly curated by the founder.

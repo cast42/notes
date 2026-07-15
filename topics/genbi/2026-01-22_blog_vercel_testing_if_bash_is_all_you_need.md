@@ -1,7 +1,7 @@
 ---
 title: "Testing if 'bash is all you need' (Vercel / Braintrust)"
 date: 2026-01-22
-type: note
+type: article
 topics:
   - genbi
 tags:
@@ -12,6 +12,7 @@ tags:
   - structured-data
 people:
   - Ankur Goyal
+  - Andrew Qu
 source:
   kind: blog
   url: https://vercel.com/blog/testing-if-bash-is-all-you-need

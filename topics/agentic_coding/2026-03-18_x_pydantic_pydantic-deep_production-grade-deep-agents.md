@@ -1,7 +1,7 @@
 ---
 title: "Pydantic announces pydantic-deep for production-grade deep agents"
-date: 2026-03-19
-type: note
+date: 2026-03-18
+type: tweet
 topics:
   - agentic_coding
 tags:
@@ -10,9 +10,11 @@ tags:
   - agents
   - framework
 source: "https://x.com/pydantic/status/2034277533236015441"
-timestamp: 2026-03-19
+timestamp: 2026-03-18
 resource: "https://x.com/pydantic/status/2034277533236015441"
 ---
+
+# Pydantic announces pydantic-deep for production-grade deep agents
 
 ## TL;DR
 Pydantic announced **pydantic-deep**, described as an open-source framework for building production-grade “deep agents” on top of Pydantic AI.
