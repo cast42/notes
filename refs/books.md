@@ -22,6 +22,7 @@ tags: []
 - **2020-12-08** — [Growth: From Microorganisms to Megacities (Vaclav Smil)](../topics/system_thinking/2020-12-08_book_vaclav-smil_growth-from-microorganisms-to-megacities.md)
 - **2025-02-18** — [The Technological Republic (Alexander Karp and Nicholas Zamiska)](../topics/system_thinking/2025-02-18_book_alexander-karp_nicholas-zamiska_the-technological-republic.md)
 - **2025-03-28** — [Inventing the Renaissance (Ada Palmer)](../topics/history/2025-03-28_book_ada-palmer_inventing-the-renaissance.md)
+- **2025-04-22** — [Click (Jake Knapp and John Zeratsky)](../topics/designing_things_people_love/2025-04-22_book_jake-knapp_john-zeratsky_click.md)
 - **2025-05-13** — [Apple in China (Patrick McGee)](../topics/apple/2025-05-13_book_patrick-mcgee_apple-in-china.md)
 - **2025-05-24** — [The Secrets of Consulting (Gerald Weinberg)](../topics/learning/2025-05-24_book_gerald-weinberg_the-secrets-of-consulting.md)
 - **2025-08-26** — [Breakneck (Dan Wang)](../topics/system_thinking/2025-08-26_book_dan-wang_breakneck.md)

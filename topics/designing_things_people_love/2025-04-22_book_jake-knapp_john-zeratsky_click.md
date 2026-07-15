@@ -1,22 +1,39 @@
 ---
-title: "Book: *Click* (theclickbook.com)"
-date: 2026-02-02
-type: inbox
+title: "Click: How to Make What People Want"
+date: 2025-04-22
+timestamp: 2025-04-22
+type: book
 topics:
-  - inbox
-tags: []
+  - designing_things_people_love
+tags:
+  - foundation-sprint
+  - product-strategy
+  - customer-validation
+  - decision-making
+authors:
+  - Jake Knapp
+  - John Zeratsky
+resource: "https://www.simonandschuster.com/books/Click/Jake-Knapp/9781668072110"
+description: "Jake Knapp and John Zeratsky present a two-day Foundation Sprint for choosing a project strategy and testing whether customers want it."
 ---
 
-# Book: *Click* (theclickbook.com)
+# Click: How to Make What People Want
 
-Source: https://www.theclickbook.com
+## TL;DR
 
-Authors: Jake Knapp, John Zeratsky
+*Click* presents the Foundation Sprint, a two-day process for defining a project, comparing possible strategies, and choosing an approach before investing in a full build.
 
-## What it is (context)
+The main output is a Founding Hypothesis. The hypothesis states who the project serves, what problem it solves, why the approach should stand out, and how the team will test its assumptions.
 
-*Click* is a new book/sprint method from the author of *Sprint*.
-It introduces the **Foundation Sprint**: a 2-day sprint designed to set up a big project.
+## Key takeaways
+
+- Start with the customer, problem, and current alternatives.
+- Compare several approaches before choosing one.
+- State why the chosen approach should win.
+- Define evidence that would support or disprove the strategy.
+- Test the riskiest assumptions before building the full product.
+
+## The Foundation Sprint
 
 From the site:
 - Day 1 (morning): define the basics of the project
@@ -26,7 +43,7 @@ From the site:
 
 ## Founding Hypothesis (visual)
 
-![Founding Hypothesis template](assets/founding-hypothesis.jpg)
+![Founding Hypothesis template](assets/click/founding-hypothesis.jpg)
 
 ## The hypothesis to set up in the Foundation Sprint
 
@@ -71,3 +88,8 @@ A good Founding Hypothesis typically includes:
 - What project do I want to run a Foundation Sprint for?
 - Who should be in the room (decision maker, domain expert, design/eng, GTM)?
 - What’s the first Design Sprint we’d run to test the riskiest assumption?
+
+## Sources
+
+- [Official publisher page](https://www.simonandschuster.com/books/Click/Jake-Knapp/9781668072110)
+- [Book website](https://www.theclickbook.com)
