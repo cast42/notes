@@ -10,9 +10,7 @@ tags:
   - corrective-rag
   - adaptive-rag
   - tabular-rag
-  - multi-agent
-  - orchestration
-  - huggingface
+  - multi-agent-orchestration
 source:
   kind: newsletter
   url: https://www.latent.space/p/ainews-sci-fi-with-a-touch-of-madness?utm_source=substack&publication_id=1084089&post_id=187471866&utm_medium=email&utm_content=share&utm_campaign=email-share&triggerShare=true&isFreemail=true&r=2w92hk&triedRedirect=true

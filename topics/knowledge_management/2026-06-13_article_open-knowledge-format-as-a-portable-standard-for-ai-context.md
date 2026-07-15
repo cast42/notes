@@ -10,6 +10,9 @@ created_at: 2026-06-13
 topics: [knowledge_management]
 tags:
   - knowledge-management
+  - open-knowledge-format
+  - portable-knowledge
+  - agent-context
 timestamp: 2026-06-13
 date: 2026-06-13
 ---

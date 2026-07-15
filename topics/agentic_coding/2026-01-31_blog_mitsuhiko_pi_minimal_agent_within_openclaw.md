@@ -5,13 +5,12 @@ type: note
 topics:
   - agentic_coding
 tags:
-  - openclaw
   - pi
-  - minimalism
-  - extensions
-  - tools
-  - sessions
+  - minimal-agent-design
+  - agent-extensions
+  - session-trees
   - tui
+  - agent-self-extension
 source:
   kind: blog
   url: https://lucumr.pocoo.org/2026/1/31/pi/

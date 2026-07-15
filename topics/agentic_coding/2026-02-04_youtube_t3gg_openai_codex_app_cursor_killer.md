@@ -5,13 +5,12 @@ type: note
 topics:
   - agentic_coding
 tags:
-  - codex
-  - threads
-  - worktrees
-  - automations
-  - mcp
-  - skills
-  - git
+  - openai-codex
+  - parallel-agents
+  - git-worktrees
+  - task-threads
+  - workflow-automation
+  - agent-orchestration
 people:
   - Theo (t3.gg)
 source:
