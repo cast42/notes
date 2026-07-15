@@ -1,12 +1,22 @@
 ---
 type: article
+date: 2026-06-11
+timestamp: 2026-06-11
 source_url: "https://venturebeat.com/orchestration/microsofts-open-source-skillopt-automatically-upgrades-ai-agent-skills-without-touching-model-weights"
 canonical_url: "https://venturebeat.com/orchestration/microsofts-open-source-skillopt-automatically-upgrades-ai-agent-skills-without-touching-model-weights"
+resource: "https://venturebeat.com/orchestration/microsofts-open-source-skillopt-automatically-upgrades-ai-agent-skills-without-touching-model-weights"
 title: SkillOpt and training agent skills without touching model weights
 author: VentureBeat
 created_at: 2026-06-11
 topics: [agentic_coding]
-tags: []
+tags:
+  - agent-skills
+  - skill-optimization
+  - held-out-validation
+  - bounded-edits
+  - negative-memory
+  - procedural-learning
+description: "SkillOpt treats agent skills as trainable procedural artifacts, improving them through bounded edits, held-out evaluation, and memory of rejected revisions without changing model weights."
 ---
 
 # SkillOpt and training agent skills without touching model weights
