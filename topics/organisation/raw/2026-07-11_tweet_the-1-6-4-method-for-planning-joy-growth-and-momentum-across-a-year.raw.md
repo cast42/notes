@@ -77,3 +77,12 @@ Cheers to more joy this year and beyond. 🥂
 
 Image source:
 https://pbs.twimg.com/media/HAuGF4nWsAA3rCL.png?name=orig
+
+OCR text from image:
+Underrated life advice:
+
+Schedule your fun first. The vacation. The dinner. The concert. The weekend trip. Put joy on the calendar before work fills it. Most people work first, play with what's left. There's never anything left. Book fun like meetings. Treat joy like obligation.
+
+Happiness needs planning too.
+
+—Scott Clary

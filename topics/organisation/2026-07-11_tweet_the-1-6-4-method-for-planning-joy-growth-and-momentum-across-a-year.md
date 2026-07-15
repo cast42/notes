@@ -26,6 +26,7 @@ topics: [organisation]
 - The six mini-adventures are meant to create recurring anticipation and lived texture throughout the year.
 - The four quarterly habits are the compounding layer, adding slow structural improvement rather than just memorable peaks.
 - The key operational advice is to put all of it on the calendar so it becomes reality rather than aspiration.
+- The attached image sharpens the same idea into a simpler rule: schedule joy first, because if fun waits for leftover time, it usually never happens.
 
 ## Links
 
@@ -39,4 +40,7 @@ topics: [organisation]
 - Extractor: fxtwitter
 
 ## My notes
--
+- The image quote and the 1-6-4 method are basically the same philosophy at two different resolutions.
+- The image gives the behavioral rule: book fun like meetings and treat joy like an obligation.
+- The 1-6-4 method turns that rule into an annual operating system: one big year-defining event, six mini-adventures, and four compounding habits.
+- Put differently, the quote explains **why** scheduled joy matters, while the 1-6-4 method explains **how** to structure it across a year.
