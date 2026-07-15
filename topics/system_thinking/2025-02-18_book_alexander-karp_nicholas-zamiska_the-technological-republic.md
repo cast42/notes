@@ -1,11 +1,11 @@
 ---
-type: article
+type: book
 source_url: "https://x.com/i/status/1870898195720499494"
 canonical_url: "https://x.com/jacobhelberg/status/1870898195720499494"
 title: "The Technological Republic: Hard Power, Soft Belief, and the Future of the West"
 author: Alexander C. Karp and Nicholas W. Zamiska
 created_at: 2026-07-11
-topics: [magma]
+topics: [system_thinking]
 tags:
   - technological-republic
   - palantir
@@ -13,8 +13,10 @@ tags:
   - defense-technology
   - western-institutions
   - alex-karp
-date: 2026-07-11
-timestamp: 2026-07-11T00:00:00+02:00
+date: 2025-02-18
+timestamp: 2025-02-18
+resource: "https://www.penguinrandomhouse.com/books/760945/the-technological-republic-by-alexander-c-karp-and-nicholas-w-zamiska/9780593798690/"
+description: "Alexander Karp and Nicholas Zamiska argue that technology companies should apply their talent to national security, public institutions, and shared civic goals."
 ---
 
 # The Technological Republic: Hard Power, Soft Belief, and the Future of the West
@@ -48,7 +50,7 @@ timestamp: 2026-07-11T00:00:00+02:00
 
 ## Raw
 
-- Raw text: [topics/MAGMA/raw/2026-07-11_article_the-technological-republic-hard-power-soft-belief-and-the-future-of-the-west.raw.md](https://github.com/cast42/notes/blob/main/topics/MAGMA/raw/2026-07-11_article_the-technological-republic-hard-power-soft-belief-and-the-future-of-the-west.raw.md)
+- Raw text: [Jacob Helberg's X post](raw/2026-07-11_tweet_jacob-helberg_the-technological-republic-review.raw.md)
 - Extractor: fxtwitter+vision+light-review-scan
 
 ## My notes

@@ -20,6 +20,7 @@ tags: []
 - **2014-04-08** — [Creativity, Inc. (Ed Catmull and Amy Wallace)](../topics/management/2014-04-08_book_ed-catmull_amy-wallace_creativity-inc.md)
 - **2018-08-01** — [Operating Systems: Three Easy Pieces (Remzi and Andrea Arpaci-Dusseau)](../topics/operating_systems/2018-08-01_book_remzi-andrea-arpaci-dusseau_operating-systems-three-easy-pieces.md)
 - **2020-12-08** — [Growth: From Microorganisms to Megacities (Vaclav Smil)](../topics/system_thinking/2020-12-08_book_vaclav-smil_growth-from-microorganisms-to-megacities.md)
+- **2025-02-18** — [The Technological Republic (Alexander Karp and Nicholas Zamiska)](../topics/system_thinking/2025-02-18_book_alexander-karp_nicholas-zamiska_the-technological-republic.md)
 - **2025-05-13** — [Apple in China (Patrick McGee)](../topics/apple/2025-05-13_book_patrick-mcgee_apple-in-china.md)
 - **2025-05-24** — [The Secrets of Consulting (Gerald Weinberg)](../topics/learning/2025-05-24_book_gerald-weinberg_the-secrets-of-consulting.md)
 - **2025-08-26** — [Breakneck (Dan Wang)](../topics/system_thinking/2025-08-26_book_dan-wang_breakneck.md)

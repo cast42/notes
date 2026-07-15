@@ -10,6 +10,7 @@ and change in complex systems.
 
 ## Organizations and change
 
+- [The Technological Republic](2025-02-18_book_alexander-karp_nicholas-zamiska_the-technological-republic.md)
 - [Breakneck](2025-08-26_book_dan-wang_breakneck.md)
 - [Wennink's report and systems change](2025-12-15_article_tom-de-bruyne_wenninks-rapport-masterclass-systeemverandering.md)
 - [The Octopus Organization](2025-12-16_book_phil-le-brun_jana-werner_the-octopus-organization.md)
