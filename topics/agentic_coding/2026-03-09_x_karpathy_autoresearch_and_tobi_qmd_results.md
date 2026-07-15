@@ -54,6 +54,10 @@ Tobi then reported applying this pattern to qmd model work overnight and seeing 
   - strict experiment tracking (commits/metrics)
   - branch isolation for safe iterative changes
 
+## Relevant Cognitive Patterns
+
+- [Generate Counterexamples](../cognitive_patterns/generate_counterexamples.md)
+
 ## Links
 - Karpathy post: https://x.com/i/status/2030371219518931079
 - Repo: https://github.com/karpathy/autoresearch

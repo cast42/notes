@@ -47,3 +47,7 @@ resource: "https://youtu.be/Rly6X1MkBTo"
 
 ## My notes
 -
+
+## Relevant Cognitive Patterns
+
+- [Reason From First Principles](../cognitive_patterns/reason_from_first_principles.md)

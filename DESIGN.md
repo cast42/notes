@@ -63,6 +63,8 @@ knowledge surface.
 - Nested `index.md` files provide topic-level progressive disclosure.
 - Concept files contain one reasonably self-contained idea, source, procedure,
   investigation, person, or other meaningful unit.
+- `topics/cognitive_patterns/` contains reusable reasoning procedures that can
+  be applied across domains.
 - `raw/` directories preserve source captures separately from curated notes.
 - `log.md` records significant changes to the bundle structure.
 
@@ -102,6 +104,30 @@ Not every capture must complete the flow. The system compounds knowledge when
 curated concepts are revisited, corrected, linked, and synthesized—not merely
 when more files are accumulated.
 
+## Knowledge objects
+
+The bundle contains four complementary object types:
+
+```text
+Source
+  ↓
+Concept
+  ↓
+Investigation
+  ↓
+Cognitive Pattern
+```
+
+The sequence shows increasing reuse, not a required lifecycle. Sources capture
+information. Concepts consolidate knowledge. Investigations document reasoning
+about a specific question. Cognitive patterns capture reusable ways of thinking.
+
+A cognitive pattern is a reusable reasoning procedure that can be applied
+across domains. It contains questions, reasoning steps, failure modes,
+evaluation criteria, and examples of transfer. A pattern guides reasoning but
+does not count as evidence. It should not duplicate facts already recorded in
+concepts or sources.
+
 ## Concept contract
 
 Every Markdown file under `topics/`, except reserved `index.md` and `log.md`
@@ -125,9 +151,9 @@ Source-specific provenance such as `author`, `source_url`, `canonical_url`,
 `created_at`, `content_hash`, and `extractor` may remain as extensions.
 
 Choose types for meaning, not storage location. Examples include `article`,
-`book`, `concept`, `investigation`, `paper`, `procedure`, `source`, `tweet`,
-and `video`. Organize durable notes primarily by subject; express media format
-through `type`.
+`book`, `cognitive_pattern`, `concept`, `investigation`, `paper`, `procedure`,
+`source`, `tweet`, and `video`. Organize durable notes primarily by subject;
+express media format through `type`.
 
 ## Navigation and graph design
 
@@ -145,7 +171,10 @@ This design allows an agent to:
 1. Read `topics/index.md`.
 2. Select one topic index.
 3. Load a few relevant concepts.
-4. Follow explicit relationships only when more context is needed.
+4. Load relevant source material.
+5. Load one or more cognitive patterns.
+6. Apply the patterns as reasoning guidance and name them in the result.
+7. Follow explicit relationships only when more context is needed.
 
 ## Agent write protocol
 

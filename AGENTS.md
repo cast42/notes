@@ -131,6 +131,18 @@ Skills provide your tools. When you need one, check its `SKILL.md`. Keep local n
 
 See `_meta/OPEN_KNOWLEDGE_FORMAT.md` for the repository-specific contract.
 
+### Retrieval strategy
+
+When solving a problem:
+
+1. Retrieve relevant concepts.
+2. Retrieve relevant source material.
+3. Retrieve one or more [cognitive patterns](topics/cognitive_patterns/index.md).
+4. Apply the cognitive patterns during reasoning.
+5. Explicitly mention which cognitive patterns were used.
+
+Treat cognitive patterns as reasoning guidance rather than evidence. Support claims with sources, concepts, or direct evidence.
+
 **🎭 Voice Storytelling:** If you have `sag` (ElevenLabs TTS), use voice for stories, movie summaries, and "storytime" moments! Way more engaging than walls of text. Surprise people with funny voices.
 
 **📝 Platform Formatting:**

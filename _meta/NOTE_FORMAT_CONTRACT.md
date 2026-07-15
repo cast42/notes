@@ -11,12 +11,19 @@ Applies to content notes under:
 - `refs/**`
 
 ## Canonical required keys (normalized view)
-Every note must resolve to these fields:
+
+Every source, concept, and investigation note must resolve to these fields:
+
 - `title` (string)
 - `date` (YYYY-MM-DD)
-- `type` (`note` | `inbox` | `meeting` | `reference` | `tweet` | `article`)
+- `type` (`note` | `inbox` | `meeting` | `reference` | `tweet` | `article` | `cognitive_pattern`)
 - `topics` (list of slugs)
 - `tags` (list; allow empty `[]`)
+
+Cognitive patterns follow a smaller contract because they are reusable
+procedures rather than dated records. They require `title`,
+`type: cognitive_pattern`, `description`, and `tags`. They may include `status`
+when the procedure is still being tested.
 
 ## Accepted source/provenance keys (optional)
 - `source` or `source_url`
@@ -82,3 +89,17 @@ tags: []
 ```
 
 Additional keys are allowed, but this minimum must stay intact.
+
+When creating a cognitive pattern, use:
+
+```yaml
+---
+title: "..."
+type: cognitive_pattern
+description: "..."
+tags:
+  - ...
+---
+```
+
+Do not add a date or source field unless it describes the pattern itself.

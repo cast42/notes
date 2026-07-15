@@ -48,6 +48,11 @@ A foundational primer that makes systems thinking practical: stocks, flows, feed
 ## Why this belongs in system thinking
 This book is one of the clearest bridges between theory and practice in systems work. It gives a compact vocabulary that remains directly usable in policy, product, operations, and strategy.
 
+## Relevant Cognitive Patterns
+
+- [Identify Feedback Loops](../cognitive_patterns/identify_feedback_loops.md)
+- [Find Leverage Points](../cognitive_patterns/find_leverage_points.md)
+
 ## Source
 - Main reference: https://www.bol.com/nl/nl/f/thinking-in-systems/38065370/
 - Supplementary review/context sources listed above.

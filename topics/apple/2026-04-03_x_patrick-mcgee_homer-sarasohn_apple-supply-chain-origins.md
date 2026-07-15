@@ -44,3 +44,8 @@ One linked article is an archived *Financial Times* piece on Homer Sarasohn’s 
 ## Related concepts
 
 - [Apple in China](2025-05-13_book_patrick-mcgee_apple-in-china.md)
+
+## Relevant Cognitive Patterns
+
+- [Analyze Capability Accumulation](../cognitive_patterns/analyze_capability_accumulation.md)
+- [Compare Ecosystems](../cognitive_patterns/compare_ecosystems.md)

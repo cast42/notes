@@ -29,6 +29,11 @@ De analyse benadrukt dat de wil tot verbeteren vaak aanwezig is, maar dat actore
 
 Wat sterk is in systeemtermen: de interventies grijpen op meerdere niveaus tegelijk in (doel, structuur, regels, cultuur), waardoor ze elkaar versterken. Het stuk benoemt daarnaast expliciet de noodzaak van institutionele bescherming tegen terugval, een klassiek patroon in transitieprocessen.
 
+## Relevant Cognitive Patterns
+
+- [Find Leverage Points](../cognitive_patterns/find_leverage_points.md)
+- [Compare Ecosystems](../cognitive_patterns/compare_ecosystems.md)
+
 ## Bron
 - https://tomdebruyne.substack.com/p/wenninks-rapport-is-een-masterclass
 - Samenvatting gemaakt met `@steipete/summarize`.

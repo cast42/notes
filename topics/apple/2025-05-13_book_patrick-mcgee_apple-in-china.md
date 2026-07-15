@@ -34,6 +34,11 @@ The book connects corporate decisions about cost and scale to industrial policy,
 
 - [Patrick McGee on the origins of Apple's supply chain thinking](2026-04-03_x_patrick-mcgee_homer-sarasohn_apple-supply-chain-origins.md)
 
+## Relevant Cognitive Patterns
+
+- [Analyze Capability Accumulation](../cognitive_patterns/analyze_capability_accumulation.md)
+- [Compare Ecosystems](../cognitive_patterns/compare_ecosystems.md)
+
 ## Sources
 
 - [Simon & Schuster book page](https://www.simonandschuster.com/books/Apple-in-China/Patrick-McGee/9781668053386)

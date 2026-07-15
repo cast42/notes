@@ -8,12 +8,23 @@ knowledge flow, and invariants.
 
 ## Structure
 
-- `inbox/` — agent + human scratchpad (daily capture)
-- [`topics/`](topics/index.md) — the OKF 0.1 knowledge bundle and its entry point
-- `meetings/` — dated meeting notes
-- `refs/` — reference material (papers, links)
-- `_meta/` — tags, glossary, conventions
-- `scripts/` — ingestion, maintenance, and validation tools
+- `inbox/` contains the agent and human scratchpad for daily capture.
+- [`topics/`](topics/index.md) contains the OKF 0.1 knowledge bundle and its entry point.
+- `meetings/` contains dated meeting notes.
+- `refs/` contains reference material such as papers and links.
+- `_meta/` contains tags, the glossary, and conventions.
+- `scripts/` contains ingestion, maintenance, and validation tools.
+
+## Knowledge Objects
+
+The bundle contains four complementary knowledge objects:
+
+- Sources capture information from a specific origin.
+- Concepts consolidate knowledge about an idea.
+- Investigations document reasoning about a specific question.
+- [Cognitive Patterns](topics/cognitive_patterns/index.md) capture reusable ways of thinking.
+
+Each object serves a different purpose. Cognitive patterns guide how humans and agents reason with concepts and sources. They do not replace evidence or duplicate factual content.
 
 ## Conventions
 

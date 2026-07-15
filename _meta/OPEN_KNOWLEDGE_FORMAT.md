@@ -35,10 +35,13 @@ interoperability and may be added when useful:
 Existing fields do not need to be rewritten in bulk. New writers should keep
 the repository's required note fields and may add the OKF aliases.
 
-Common concept types include `article`, `book`, `concept`, `investigation`,
-`note`, `paper`, `procedure`, `source`, `tweet`, and `video`. OKF intentionally
-allows producer-defined types; add one because it carries meaning, not to grow
-a rigid ontology.
+Common concept types include `article`, `book`, `cognitive_pattern`, `concept`,
+`investigation`, `note`, `paper`, `procedure`, `source`, `tweet`, and `video`.
+OKF intentionally allows producer-defined types. Add one because it carries
+meaning, not to grow a rigid ontology.
+
+The `cognitive_pattern` type identifies a reusable reasoning procedure. Treat
+these notes as guidance for reasoning, not as factual evidence.
 
 ## Validation
 

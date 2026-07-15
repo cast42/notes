@@ -10,6 +10,7 @@ topic maps, and load individual concept files only when they are relevant.
 
 - [Agent memory](agent_memory/index.md)
 - [Agentic coding](agentic_coding/index.md)
+- [Cognitive patterns](cognitive_patterns/index.md)
 - [Knowledge management](knowledge_management/index.md)
 - [Learning](learning/index.md)
 - [Systems thinking](system_thinking/index.md)
