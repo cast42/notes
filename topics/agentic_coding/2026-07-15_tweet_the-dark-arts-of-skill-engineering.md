@@ -7,6 +7,7 @@ author: Paul Bakaus
 handle: pbakaus
 created_at: 2026-07-15
 topics: [agentic_coding]
+tags: []
 ---
 
 # The Dark Arts of Skill Engineering

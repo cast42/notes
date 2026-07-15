@@ -6,6 +6,7 @@ title: "Creating a Learning Society: growth through learning, not just capital"
 author: Joseph E. Stiglitz and Bruce C. Greenwald
 created_at: 2026-07-13
 topics: [system_thinking]
+tags: []
 ---
 
 # Creating a Learning Society: growth through learning, not just capital

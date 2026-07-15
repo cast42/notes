@@ -7,6 +7,7 @@ author: Ben Meer
 handle: SystemSunday
 created_at: 2026-07-11
 topics: [organisation]
+tags: []
 ---
 
 # The 1-6-4 Method for planning joy, growth, and momentum across a year

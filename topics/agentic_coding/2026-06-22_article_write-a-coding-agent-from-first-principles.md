@@ -6,6 +6,7 @@ title: Write a coding agent from first principles
 author: mathspp
 created_at: 2026-06-22
 topics: [agentic_coding]
+tags: []
 ---
 
 # Write a coding agent from first principles

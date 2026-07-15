@@ -7,6 +7,7 @@ author: Patrick McGee
 handle: PatrickMcGee_
 created_at: 2026-07-13
 topics: [ideas]
+tags: []
 ---
 
 # China’s industrial policy, governance, and manufacturing edge

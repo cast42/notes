@@ -7,6 +7,7 @@ author: rari
 handle: 0xwhrrari
 created_at: 2026-07-14
 topics: [agentic_coding]
+tags: []
 ---
 
 # Anthropic’s free loop-engineering course with Fable 5

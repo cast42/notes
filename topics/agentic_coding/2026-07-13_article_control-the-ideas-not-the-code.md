@@ -6,6 +6,7 @@ title: Control the ideas, not the code
 author: antirez
 created_at: 2026-07-13
 topics: [agentic_coding]
+tags: []
 ---
 
 # Control the ideas, not the code
