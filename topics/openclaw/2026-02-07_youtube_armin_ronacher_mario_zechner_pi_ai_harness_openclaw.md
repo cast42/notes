@@ -14,6 +14,7 @@ people:
 source:
   kind: youtube
   url: https://www.youtube.com/watch?v=AEmHcFH1UgQ
+timestamp: 2026-02-07
 ---
 
 # Pi — the AI harness that powers OpenClaw (Armin Ronacher & Mario Zechner)

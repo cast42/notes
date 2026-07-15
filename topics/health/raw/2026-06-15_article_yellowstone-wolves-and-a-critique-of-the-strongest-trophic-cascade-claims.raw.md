@@ -9,6 +9,9 @@ topics: [health]
 content_hash: 475e51081b90808fb1cdf63bd7d12f6c40f3f008bb749abca5ab0971f34727e1
 extracted_at: "2026-06-15T19:55:46"
 extractor: summarize+web-fetch
+date: 2026-06-15
+timestamp: 2026-06-15
+resource: "https://sciencedaily.com/releases/2026/06/260613215510.htm"
 ---
 
 # Raw content

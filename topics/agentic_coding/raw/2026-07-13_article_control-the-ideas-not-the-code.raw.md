@@ -9,6 +9,9 @@ topics: [agentic_coding]
 content_hash: 8c2fa4b62e10b91f2d0e713af8f6f339ad18013ea67819e03467f2ebccf73801
 extracted_at: "2026-07-13T15:06:55"
 extractor: summarize+web-fetch
+date: 2026-07-13
+timestamp: 2026-07-13
+resource: "https://antirez.com/news/169"
 ---
 
 # Raw content

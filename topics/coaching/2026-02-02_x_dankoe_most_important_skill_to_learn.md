@@ -10,6 +10,9 @@ topics:
   - generalism
   - systems-thinking
 created: 2026-02-02
+date: 2026-02-02
+timestamp: 2026-02-02
+resource: "https://x.com/thedankoe/status/2009320195848872014"
 ---
 
 # DAN KOE op X: 'The most important skill to learn in the next 10 years' / X

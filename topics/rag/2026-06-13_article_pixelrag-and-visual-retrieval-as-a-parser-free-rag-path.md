@@ -7,6 +7,9 @@ author: VentureBeat
 created_at: 2026-06-13
 topics: [rag]
 tags: []
+date: 2026-06-13
+timestamp: 2026-06-13
+resource: "https://venturebeat.com/data/pixelrag-beats-text-parsers-on-accuracy-and-cuts-ai-agent-token-costs-10x"
 ---
 
 # PixelRAG and visual retrieval as a parser-free RAG path

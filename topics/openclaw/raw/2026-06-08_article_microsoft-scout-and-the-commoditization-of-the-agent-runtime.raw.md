@@ -9,6 +9,9 @@ topics: [openclaw]
 content_hash: 17361ed76e30e72001d2953f184e72c8e99932ef4fa9ecc226f4f4d0f638464d
 extracted_at: "2026-06-08T06:40:48"
 extractor: summarize+web-fetch
+date: 2026-06-08
+timestamp: 2026-06-08
+resource: "https://thenewstack.io/microsoft-scout-openclaw-runtime"
 ---
 
 # Raw content

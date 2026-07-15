@@ -6,9 +6,11 @@ topics:
   - learning
 tags:
   - x
-  - charlie_munger
-  - continuous_learning
+  - charlie-munger
+  - continuous-learning
 source: "https://x.com/jaynitx/status/2031643673155473840?s=20"
+timestamp: 2026-03-11
+resource: "https://x.com/jaynitx/status/2031643673155473840?s=20"
 ---
 
 ## TL;DR

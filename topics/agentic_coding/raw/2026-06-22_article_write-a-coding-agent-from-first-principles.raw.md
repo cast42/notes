@@ -9,6 +9,9 @@ topics: [agentic_coding]
 content_hash: 2d39cca3decf28ad4224fd8463fcbdbd853e58635be64a02c2e782d0e7c299a0
 extracted_at: "2026-07-15T14:50:32"
 extractor: web-fetch+manual-focus
+date: 2026-06-22
+timestamp: 2026-06-22
+resource: "https://mathspp.com/blog/write-a-coding-agent-from-first-principles"
 ---
 
 # Raw content

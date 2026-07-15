@@ -12,6 +12,7 @@ tags:
 source:
   kind: github
   url: https://github.com/levineam/qmd-skill
+timestamp: 2026-02-06
 ---
 
 ## TL;DR

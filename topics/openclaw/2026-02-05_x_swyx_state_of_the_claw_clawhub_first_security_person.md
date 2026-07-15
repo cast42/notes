@@ -15,6 +15,7 @@ people:
 source:
   kind: x
   url: https://x.com/swyx/status/2019255618192994463
+timestamp: 2026-02-05
 ---
 
 # swyx: State of the Claw — hired first security person + ClawHub

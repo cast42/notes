@@ -9,6 +9,7 @@ tags:
   - management
   - strategy
   - execution
+timestamp: 2005-01-01
 ---
 
 # Shift: Inside Nissan’s Historic Revival (Carlos Ghosn)

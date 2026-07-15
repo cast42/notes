@@ -10,6 +10,9 @@ topics: [agentic_coding]
 content_hash: bc97169c7b4d2cbcabf65d6794964b5320b93f3a3044864a83ec2fc6c8148f09
 extracted_at: "2026-07-15T08:28:53"
 extractor: fxtwitter-article
+date: 2026-07-15
+timestamp: 2026-07-15
+resource: "https://x.com/pbakaus/status/2077114326985687525"
 ---
 
 # Raw content

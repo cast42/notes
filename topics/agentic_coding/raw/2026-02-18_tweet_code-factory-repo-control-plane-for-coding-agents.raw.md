@@ -10,6 +10,9 @@ topics: [agentic_coding]
 content_hash: c50bb2bd6f1726f28963ced54baa033cc6342b5d9d53f74c0b7e431310af18f7
 extracted_at: "2026-02-18T18:48:58"
 extractor: fxtwitter
+date: 2026-02-18
+timestamp: 2026-02-18
+resource: "https://x.com/ryancarson/status/2023452909883609111"
 ---
 
 # Raw content

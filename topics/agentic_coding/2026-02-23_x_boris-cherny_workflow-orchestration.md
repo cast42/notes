@@ -6,9 +6,10 @@ topics:
   - agentic_coding
 tags:
   - x
-  - claude_code
+  - claude-code
   - workflow
-  - boris_cherny
+  - boris-cherny
+timestamp: 2026-02-23
 ---
 
 # Boris Cherny — Workflow orchestration notes (image transcript)

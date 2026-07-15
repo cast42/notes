@@ -6,8 +6,9 @@ topics:
   - coaching
 tags:
   - book
-  - robert_greene
+  - robert-greene
   - power
+timestamp: 2000-09-01
 ---
 
 # The 48 Laws of Power (Robert Greene)

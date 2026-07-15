@@ -7,8 +7,9 @@ topics:
 tags:
   - book
   - consulting
-  - gerald_weinberg
+  - gerald-weinberg
 source: "Amazon Kindle purchase"
+timestamp: 2025-05-24
 ---
 
 ## TL;DR

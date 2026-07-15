@@ -8,6 +8,9 @@ handle: barrowjoseph
 created_at: 2026-06-15
 topics: [agentic_search]
 tags: []
+date: 2026-06-15
+timestamp: 2026-06-15
+resource: "https://x.com/barrowjoseph/status/2065423284343050314"
 ---
 
 # Searching, Fast and Slow

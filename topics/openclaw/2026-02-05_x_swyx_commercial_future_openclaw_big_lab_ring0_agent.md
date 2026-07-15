@@ -16,6 +16,7 @@ people:
 source:
   kind: x
   url: https://x.com/i/status/2019255618192994463
+timestamp: 2026-02-05
 ---
 
 # swyx: commercial future of OpenClaw — big lab, self-modifying software, ring 0 agent

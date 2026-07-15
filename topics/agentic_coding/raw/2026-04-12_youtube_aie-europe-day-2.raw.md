@@ -9,6 +9,9 @@ topics: [agentic_coding]
 content_hash: 8e3fb390336078d2fdc78ed6ad06c5ad499b7e62f6ec49772a0662a7370258fe
 extracted_at: "2026-04-12T09:43:47"
 extractor: youtube-page-metadata
+date: 2026-04-12
+timestamp: 2026-04-12
+resource: "https://youtube.com/watch?v=_zdroS0Hc74"
 ---
 
 # Raw content

@@ -8,7 +8,8 @@ tags:
   - openai
   - codex
   - agents
-  - long_horizon
+  - long-horizon
+timestamp: 2026-03-01
 ---
 
 # Long horizon tasks with Codex (OpenAI Cookbook)

@@ -19,6 +19,7 @@ source:
   url: https://www.youtube.com/watch?v=qKf9sgKFQLU
   channel: "Theo - t3․gg"
   length: "22:49"
+timestamp: 2026-02-04
 ---
 
 ## TL;DR

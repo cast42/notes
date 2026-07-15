@@ -16,6 +16,7 @@ people:
 source:
   kind: article
   url: https://stratechery.com/2026/microsoft-and-software-survival/
+timestamp: 2026-02-06
 ---
 
 # Microsoft and Software Survival (Stratechery)

@@ -11,6 +11,8 @@ tags:
   - api
   - svg
 source: "https://gepa-ai.github.io/gepa/blog/2026/02/18/introducing-optimize-anything/#lets-take-it-for-a-spin"
+timestamp: 2026-03-19
+resource: "https://gepa-ai.github.io/gepa/blog/2026/02/18/introducing-optimize-anything/#lets-take-it-for-a-spin"
 ---
 
 ## TL;DR

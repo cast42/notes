@@ -7,6 +7,9 @@ author: Nilay Patel
 created_at: 2026-04-25
 topics: [ai_adoption]
 tags: []
+date: 2026-04-25
+timestamp: 2026-04-25
+resource: "https://theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation"
 ---
 
 # The people do not yearn for automation

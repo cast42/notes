@@ -7,12 +7,13 @@ topics:
 tags:
   - projects
   - teaching
-  - self_comparison
+  - self-comparison
 people:
   - Andrej Karpathy
 source:
   kind: x
   url: https://x.com/karpathy/status/1325154823856033793
+timestamp: 2020-11-07
 ---
 
 # How to become expert at a thing (Karpathy)

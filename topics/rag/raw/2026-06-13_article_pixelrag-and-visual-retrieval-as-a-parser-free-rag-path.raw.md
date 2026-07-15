@@ -9,6 +9,9 @@ topics: [rag]
 content_hash: 53ac0a25dd3b65b021a0a24f73605458c17a1d6c6d475a9df6dfb37c75c2e49f
 extracted_at: "2026-06-13T07:01:12"
 extractor: summarize+web-fetch
+date: 2026-06-13
+timestamp: 2026-06-13
+resource: "https://venturebeat.com/data/pixelrag-beats-text-parsers-on-accuracy-and-cuts-ai-agent-token-costs-10x"
 ---
 
 # Raw content

@@ -8,6 +8,9 @@ handle: oier.m
 created_at: 2026-05-18
 topics: [robot_learning]
 tags: []
+date: 2026-05-18
+timestamp: 2026-05-18
+resource: "https://youtube.com/watch?v=0XB7fNS_ONg"
 ---
 
 # Lucas Beyer: Vision in the Age of LLMs

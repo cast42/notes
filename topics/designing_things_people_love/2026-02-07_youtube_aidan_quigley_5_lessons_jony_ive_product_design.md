@@ -5,7 +5,7 @@ type: note
 topics:
   - designing_things_people_love
 tags:
-  - product_design
+  - product-design
   - prototyping
   - craft
   - focus
@@ -16,6 +16,7 @@ people:
 source:
   kind: youtube
   url: https://www.youtube.com/watch?v=FMSiBT4UgqQ
+timestamp: 2026-02-07
 ---
 
 # 5 product design lessons from Jony Ive (via Aidan Quigley)

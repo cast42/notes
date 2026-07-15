@@ -9,6 +9,9 @@ topics: [python]
 content_hash: 5ba12529a6040afa8a0869254b628f048966fe119357475bfcb6a1a7d053456b
 extracted_at: "2026-06-09T14:31:02"
 extractor: summarize+web-fetch
+date: 2026-06-09
+timestamp: 2026-06-09
+resource: "https://hynek.me/articles/ditch-codecov-python"
 ---
 
 # Raw content

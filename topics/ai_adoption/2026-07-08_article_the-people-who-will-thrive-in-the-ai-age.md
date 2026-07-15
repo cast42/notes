@@ -7,6 +7,9 @@ author: The Atlantic
 created_at: 2026-07-08
 topics: [ai_adoption]
 tags: []
+date: 2026-07-08
+timestamp: 2026-07-08
+resource: "https://theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689"
 ---
 
 # The people who will thrive in the AI age

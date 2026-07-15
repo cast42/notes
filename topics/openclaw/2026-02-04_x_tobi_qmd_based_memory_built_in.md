@@ -12,6 +12,7 @@ people:
 source:
   kind: x
   url: https://x.com/tobi/status/2018881321313997151
+timestamp: 2026-02-04
 ---
 
 # QMD-based memory built into OpenClaw (tobi)

@@ -14,6 +14,7 @@ people:
 source:
   kind: x
   url: https://x.com/BigBrainBizness/status/2021207605759385877
+timestamp: 2026-02-10
 ---
 
 # Steve Jobs: the real breakthrough people are thinker-doers (Leonardo as exemplar)

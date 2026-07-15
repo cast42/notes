@@ -9,8 +9,10 @@ tags:
   - karpathy
   - codex
   - autoresearch
-  - ai_agents
+  - ai-agents
 source: "https://x.com/i/status/2035119720912081314"
+timestamp: 2026-03-20
+resource: "https://x.com/i/status/2035119720912081314"
 ---
 
 ## TL;DR

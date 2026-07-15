@@ -5,6 +5,8 @@ resource: ../1992-01-01_book_robert-bringhurst_the-elements-of-typographic-style
 tags:
   - book
   - typography
+date: 2026-02-18
+timestamp: 2026-02-18
 ---
 
 « A LL desktop typographers should study this book. It is not ‘A« one more publication on typography, like so many

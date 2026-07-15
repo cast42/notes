@@ -6,8 +6,9 @@ topics:
   - system_thinking
 tags:
   - book
-  - organizational_design
+  - organizational-design
   - transformation
+timestamp: 2025-12-16
 ---
 
 # The Octopus Organization (Phil Le-Brun, Jana Werner)

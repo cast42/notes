@@ -10,6 +10,9 @@ topics: [ai_adoption]
 content_hash: 98292cdfd545f05322d7738edf64412ba1f4bb2e6b737dda35350fb9c2e71721
 extracted_at: "2026-07-11T20:54:19"
 extractor: fxtwitter+vision
+date: 2026-07-11
+timestamp: 2026-07-11
+resource: "https://x.com/DrDominicNg/status/2024031389461737710"
 ---
 
 # Raw content

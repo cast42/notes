@@ -7,11 +7,13 @@ topics:
   - learning
 tags:
   - x
-  - tony_fadell
+  - tony-fadell
   - apple
   - product
   - leadership
 source: "https://x.com/tfadell/status/2039448545607168379?s=20"
+timestamp: 2026-04-01
+resource: "https://x.com/tfadell/status/2039448545607168379?s=20"
 ---
 
 ## TL;DR

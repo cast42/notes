@@ -8,7 +8,8 @@ tags:
   - book
   - qrm
   - operations
-  - systems_thinking
+  - systems-thinking
+timestamp: 2010-03-31
 ---
 
 # It’s About Time (Rajan Suri) — Quick Response Manufacturing

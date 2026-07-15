@@ -5,6 +5,7 @@ type: note
 topics:
   - learning
 tags: []
+timestamp: 2026-02-02
 ---
 
 # How to learn (Hamel Husain)

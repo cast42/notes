@@ -7,6 +7,9 @@ author: Steve Yegge
 created_at: 2026-07-02
 topics: [ai_adoption]
 tags: []
+date: 2026-07-02
+timestamp: 2026-07-02
+resource: "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b"
 ---
 
 # The Flat Curve Society and team-based AI literacy training

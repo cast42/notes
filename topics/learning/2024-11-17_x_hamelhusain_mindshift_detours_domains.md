@@ -14,6 +14,7 @@ people:
 source:
   kind: x
   url: https://x.com/HamelHusain/status/1858256990591754496
+timestamp: 2024-11-17
 ---
 
 # Detours across domains (Hamel Husain) + Mindshift (Barbara Oakley)

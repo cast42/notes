@@ -13,6 +13,7 @@ tags:
 source:
   kind: github
   url: https://github.com/IAAR-Shanghai/Awesome-AI-Memory
+timestamp: 2026-02-07
 ---
 
 # Awesome AI Memory (curated repo)

@@ -6,6 +6,8 @@ topics:
   - coaching
 tags: []
 source: "https://x.com/jaynitx/status/2029105594104463613"
+timestamp: 2026-03-04
+resource: "https://x.com/jaynitx/status/2029105594104463613"
 ---
 
 ## TL;DR

@@ -8,6 +8,9 @@ handle: mynameisceline
 created_at: 2026-02-18
 topics: [app_design]
 tags: []
+date: 2026-02-18
+timestamp: 2026-02-18
+resource: "https://x.com/mynameisceline/status/2023474777877540939"
 ---
 
 # Make your vibecoded app look good — typography basics
@@ -46,7 +49,7 @@ tags: []
 ## Raw
 
 - Raw tweet + links: [topics/app_design/raw/2026-02-18_tweet_make-your-vibecoded-app-look-good-typography-basics.raw.md](raw/2026-02-18_tweet_make-your-vibecoded-app-look-good-typography-basics.raw.md)
-- Raw book OCR (PDF): [topics/designing_things_people_love/raw/2026-02-18_pdf_the-elements-of-typographic-style_ocr.md](raw/2026-02-18_pdf_the-elements-of-typographic-style_ocr.md)
+- Raw book OCR (PDF): [topics/designing_things_people_love/raw/2026-02-18_pdf_the-elements-of-typographic-style_ocr.md](../designing_things_people_love/raw/2026-02-18_pdf_the-elements-of-typographic-style_ocr.md)
 - Extractor: fxtwitter+manual-book-links (+ OCR via kreuzberg)
 
 ## My notes

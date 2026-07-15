@@ -10,6 +10,9 @@ topics: [agentic_coding]
 content_hash: 950259e4970f956b2e92a790a7f2abf96898916416dfc6ffe8e1dbf2cd840dd2
 extracted_at: "2026-04-30T07:35:34"
 extractor: fxtwitter+github-readme
+date: 2026-04-30
+timestamp: 2026-04-30
+resource: "https://x.com/subramanya/status/2049169905186910307"
 ---
 
 # Raw content

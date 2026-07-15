@@ -7,7 +7,7 @@ topics:
 tags:
   - creativity
   - leadership
-  - organizational_culture
+  - organizational-culture
 description: Ed Catmull and Amy Wallace on building an organization that can repeatedly turn candid feedback, uncertainty, and failure into excellent creative work.
 resource: https://www.penguinrandomhouse.com/books/216369/creativity-inc-the-expanded-edition-by-ed-catmull-with-amy-wallace/
 timestamp: 2014-04-08

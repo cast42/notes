@@ -5,6 +5,7 @@ type: note
 topics:
   - designing_things_people_love
 tags: []
+timestamp: 2026-02-02
 ---
 
 # Designing Things People Love

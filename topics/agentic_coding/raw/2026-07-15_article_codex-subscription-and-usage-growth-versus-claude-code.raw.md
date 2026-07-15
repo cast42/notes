@@ -9,6 +9,9 @@ topics: [agentic_coding]
 content_hash: 66f7de7e12d8682b72c5c2aa3ac8850d5818e5371a51df9c5aeef075484f5598
 extracted_at: "2026-07-15T12:18:27"
 extractor: web-fetch+manual-focus
+date: 2026-07-15
+timestamp: 2026-07-15
+resource: "https://latent.space/p/ainews-codex-usage-up-10x-in-6-months"
 ---
 
 # Raw content

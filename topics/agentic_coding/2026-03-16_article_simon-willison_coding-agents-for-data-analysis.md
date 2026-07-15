@@ -6,12 +6,14 @@ topics:
   - agentic_coding
   - data_analysis
 tags:
-  - simon_willison
+  - simon-willison
   - codex
-  - claude_code
+  - claude-code
   - sqlite
   - datasette
 source: "https://simonwillison.net/2026/Mar/16/coding-agents-for-data-analysis/"
+timestamp: 2026-03-16
+resource: "https://simonwillison.net/2026/Mar/16/coding-agents-for-data-analysis/"
 ---
 
 ## TL;DR

@@ -10,6 +10,9 @@ topics: [health]
 content_hash: 3492930a8469eef81cac21598e90d32b9a7d799b4f77138a255b3a006a69f148
 extracted_at: "2026-05-18T08:48:19"
 extractor: fxtwitter+image-save
+date: 2026-05-18
+timestamp: 2026-05-18
+resource: "https://x.com/doctorinigo/status/2056051446055842139"
 ---
 
 # Raw content

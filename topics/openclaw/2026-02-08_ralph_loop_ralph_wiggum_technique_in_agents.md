@@ -15,6 +15,7 @@ people:
 source:
   kind: blog
   url: https://ghuntley.com/ralph/
+timestamp: 2026-02-08
 ---
 
 # The Ralph Loop ("Ralph Wiggum Technique") in agents

@@ -10,6 +10,9 @@ topics:
 tags:
   - mcp
   - cli
+date: 2026-02-19
+timestamp: 2026-02-19
+resource: "https://x.com/RLanceMartin/status/2023824176029761931"
 ---
 
 # MCP vs CLI/tools (Lance Martin + Armin Ronacher)

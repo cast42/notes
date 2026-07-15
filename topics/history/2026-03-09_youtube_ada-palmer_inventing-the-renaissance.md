@@ -7,10 +7,12 @@ topics:
   - renaissance
 tags:
   - youtube
-  - ada_palmer
+  - ada-palmer
   - machiavelli
-  - printing_press
+  - printing-press
 source: "https://youtu.be/PAIhVfGbREA?is=5zB9_j5YTdTcR2QB"
+timestamp: 2026-03-09
+resource: "https://youtu.be/PAIhVfGbREA?is=5zB9_j5YTdTcR2QB"
 ---
 
 ## TL;DR

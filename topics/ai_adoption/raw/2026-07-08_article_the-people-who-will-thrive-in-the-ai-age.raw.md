@@ -9,6 +9,9 @@ topics: [ai_adoption]
 content_hash: 05848ead2dc41406906ff03361ae51ef20dbf3434d82ceeb3721c3cbd7530d7a
 extracted_at: "2026-07-08T08:54:28"
 extractor: summarize+web-fetch
+date: 2026-07-08
+timestamp: 2026-07-08
+resource: "https://theatlantic.com/ideas/2026/06/ai-open-ai-anthropic/687689"
 ---
 
 # Raw content

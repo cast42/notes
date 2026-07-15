@@ -9,6 +9,9 @@ topics: [system_thinking]
 content_hash: e748239764c0c874031e35cf08de486a1d068cf94d20f3b87b8d8056cc10893e
 extracted_at: "2026-07-13T08:17:48"
 extractor: summarize
+date: 2026-07-13
+timestamp: 2026-07-13
+resource: "https://youtu.be/t4nzIwkB9mA"
 ---
 
 # Raw content

@@ -10,6 +10,9 @@ topics: [ideas]
 content_hash: ad3bcd4ad6b52a07ed0b84cae1dbe3db43373a3d3a1b7ac8cb4fc7c7131f14f3
 extracted_at: "2026-07-13T09:03:05"
 extractor: fxtwitter
+date: 2026-07-13
+timestamp: 2026-07-13
+resource: "https://x.com/zanehengsperger/status/2076324092286787941"
 ---
 
 # Raw content

@@ -9,6 +9,9 @@ topics: [local_models]
 content_hash: a110ad7c19525e9e89518885ab73b2da8289de6952c4d218c1fc4aa644c0e5cc
 extracted_at: "2026-06-11T07:56:45"
 extractor: summarize+web-fetch
+date: 2026-06-11
+timestamp: 2026-06-11
+resource: "https://kdnuggets.com/local-agentic-programming-on-the-cheap-claude-code-ollama-gemma4"
 ---
 
 # Raw content

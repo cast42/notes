@@ -9,6 +9,9 @@ topics: [knowledge_management]
 content_hash: 43b72ef3044b84eda28af5d7eb9bb89ea0b4eaca986c063d8d1505a42cebfb83
 extracted_at: "2026-06-13T07:57:44"
 extractor: summarize+web-fetch
+date: 2026-06-13
+timestamp: 2026-06-13
+resource: "https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing"
 ---
 
 # Raw content

@@ -7,6 +7,9 @@ author: AI Hero
 created_at: 2026-04-13
 topics: [agentic_coding]
 tags: []
+date: 2026-04-13
+timestamp: 2026-04-13
+resource: "https://aihero.dev/getting-started-with-ralph"
 ---
 
 # Getting Started With Ralph

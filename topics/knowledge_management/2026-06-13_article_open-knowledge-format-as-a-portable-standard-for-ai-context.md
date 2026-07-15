@@ -8,8 +8,10 @@ resource: "https://cloud.google.com/blog/products/data-analytics/how-the-open-kn
 author: Google Cloud
 created_at: 2026-06-13
 topics: [knowledge_management]
-tags: [knowledge_management]
+tags:
+  - knowledge-management
 timestamp: 2026-06-13
+date: 2026-06-13
 ---
 
 # Open Knowledge Format as a portable standard for AI context

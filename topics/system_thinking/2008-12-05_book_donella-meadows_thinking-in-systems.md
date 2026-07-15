@@ -6,8 +6,9 @@ topics:
   - system_thinking
 tags:
   - book
-  - systems_thinking
-  - donella_meadows
+  - systems-thinking
+  - donella-meadows
+timestamp: 2008-12-05
 ---
 
 # Thinking in Systems (Donella Meadows)

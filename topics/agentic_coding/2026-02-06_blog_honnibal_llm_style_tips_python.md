@@ -13,6 +13,7 @@ tags:
 source:
   kind: blog
   url: https://honnibal.dev/blog/llm-style-tips
+timestamp: 2026-02-06
 ---
 
 ## TL;DR

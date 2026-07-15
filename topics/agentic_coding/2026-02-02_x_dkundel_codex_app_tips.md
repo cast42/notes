@@ -15,6 +15,7 @@ people:
 source:
   kind: x
   url: https://x.com/dkundel/status/2018455598267027894
+timestamp: 2026-02-02
 ---
 
 ## TL;DR

@@ -6,11 +6,13 @@ topics:
   - agentic_coding
 tags:
   - youtube
-  - coding_agents
+  - coding-agents
   - pi
-  - open_source
-  - context_engineering
+  - open-source
+  - context-engineering
 source: "https://youtu.be/Dli5slNaJu0?is=wAWHbyCHnyEpDDAd"
+timestamp: 2026-04-03
+resource: "https://youtu.be/Dli5slNaJu0?is=wAWHbyCHnyEpDDAd"
 ---
 
 ## TL;DR

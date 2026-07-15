@@ -15,6 +15,7 @@ people:
 source:
   kind: x
   url: https://x.com/bcherny/status/2017824286489383315
+timestamp: 2026-02-01
 ---
 
 # Claude Code: agentic search > RAG + local vector DB (Boris Cherny)

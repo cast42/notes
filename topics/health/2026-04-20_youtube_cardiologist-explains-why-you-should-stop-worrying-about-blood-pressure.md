@@ -7,6 +7,9 @@ author: ZOE
 created_at: 2026-04-20
 topics: [health]
 tags: []
+date: 2026-04-20
+timestamp: 2026-04-20
+resource: "https://youtube.com/watch?v=EfKVra2fofo"
 ---
 
 # Cardiologist explains why you should stop worrying about blood pressure

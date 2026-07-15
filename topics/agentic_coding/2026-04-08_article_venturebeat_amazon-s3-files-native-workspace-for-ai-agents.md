@@ -10,8 +10,10 @@ tags:
   - aws
   - s3
   - agents
-  - file_systems
+  - file-systems
 source: "https://venturebeat.com/data/amazon-s3-files-gives-ai-agents-a-native-file-system-workspace-ending-the"
+timestamp: 2026-04-08
+resource: "https://venturebeat.com/data/amazon-s3-files-gives-ai-agents-a-native-file-system-workspace-ending-the"
 ---
 
 ## TL;DR

@@ -7,6 +7,9 @@ author: Hynek Schlawack
 created_at: 2026-06-09
 topics: [python]
 tags: []
+date: 2026-06-09
+timestamp: 2026-06-09
+resource: "https://hynek.me/articles/ditch-codecov-python"
 ---
 
 # Ditching Codecov in Python projects with GitHub Actions artifacts

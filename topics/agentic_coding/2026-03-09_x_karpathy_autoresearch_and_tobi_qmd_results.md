@@ -8,9 +8,11 @@ tags:
   - x
   - autoresearch
   - qmd
-  - llm_training
+  - llm-training
   - agents
 source: "https://x.com/i/status/2030371219518931079"
+timestamp: 2026-03-09
+resource: "https://x.com/i/status/2030371219518931079"
 ---
 
 ## TL;DR

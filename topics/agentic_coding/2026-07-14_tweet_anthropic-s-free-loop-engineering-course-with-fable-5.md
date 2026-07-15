@@ -8,6 +8,9 @@ handle: 0xwhrrari
 created_at: 2026-07-14
 topics: [agentic_coding]
 tags: []
+date: 2026-07-14
+timestamp: 2026-07-14
+resource: "https://x.com/0xwhrrari/status/2076773673898271123"
 ---
 
 # Anthropic’s free loop-engineering course with Fable 5

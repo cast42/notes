@@ -8,13 +8,14 @@ tags:
   - tabular
   - forecasting
   - enterprise
-  - foundation_models
+  - foundation-models
 people:
   - Jeremy Fraenkel
   - Laurens De Poorter
 source:
   kind: linkedin
   url: https://www.linkedin.com/company/fundamentalhq/
+timestamp: 2026-02-06
 ---
 
 # Fundamental (NEXUS Large Tabular Model)

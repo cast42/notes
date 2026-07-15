@@ -7,6 +7,9 @@ author: AI Engineer
 created_at: 2026-04-12
 topics: [agentic_coding]
 tags: []
+date: 2026-04-12
+timestamp: 2026-04-12
+resource: "https://youtube.com/watch?v=_zdroS0Hc74"
 ---
 
 # AIE Europe Day 2

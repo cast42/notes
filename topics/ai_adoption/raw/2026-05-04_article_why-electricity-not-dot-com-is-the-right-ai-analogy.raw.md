@@ -9,6 +9,9 @@ topics: [ai_adoption]
 content_hash: 9ef672da3bb51e8f0513ebc3902d4661e67198893918792439be8eab386e00a3
 extracted_at: "2026-05-04T17:54:06"
 extractor: "web_fetch:readability"
+date: 2026-05-04
+timestamp: 2026-05-04
+resource: "https://joereis.substack.com/p/were-in-1905-why-electricity-not"
 ---
 
 # Raw content

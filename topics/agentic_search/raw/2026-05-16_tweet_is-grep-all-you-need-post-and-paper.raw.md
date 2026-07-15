@@ -10,6 +10,9 @@ topics: [agentic_search]
 content_hash: e3fc0fde415982a4f1c4479de53283266e25ccdb1b531fb7d705417ed7b62f34
 extracted_at: "2026-05-16T16:14:15"
 extractor: fxtwitter+arxiv-web-fetch
+date: 2026-05-16
+timestamp: 2026-05-16
+resource: "https://x.com/omarsar0/status/2055317577031975269"
 ---
 
 # Raw content

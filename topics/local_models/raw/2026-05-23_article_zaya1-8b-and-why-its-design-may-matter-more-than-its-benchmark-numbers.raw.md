@@ -9,6 +9,9 @@ topics: [local_models]
 content_hash: 9c6cabdf833792c6160ed2c1307ef996c1b876a00de0915fff8c01cf2d624fa3
 extracted_at: "2026-05-23T06:58:12"
 extractor: summarize+web-fetch
+date: 2026-05-23
+timestamp: 2026-05-23
+resource: "https://xda-developers.com/tried-new-8b-local-llm-deepseek-r1-design"
 ---
 
 # Raw content

@@ -5,13 +5,14 @@ type: note
 topics:
   - learning
 tags:
-  - learning_how_to_learn
+  - learning-how-to-learn
   - resources
 people:
   - Barbara Oakley
 source:
   kind: x
   url: https://x.com/superSaiyanSkai/status/1870375148232065030
+timestamp: 2024-12-21
 ---
 
 # Barbara Oakley: Learning How to Learn (links)

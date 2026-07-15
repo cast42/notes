@@ -9,9 +9,11 @@ tags:
   - x
   - hemeon
   - jack
-  - org_design
-  - middle_management
+  - org-design
+  - middle-management
 source: "https://x.com/hemeon/status/2039032368779141507?s=20"
+timestamp: 2026-03-31
+resource: "https://x.com/hemeon/status/2039032368779141507?s=20"
 ---
 
 ## TL;DR

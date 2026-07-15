@@ -7,6 +7,9 @@ author: David Senra
 created_at: 2026-06-15
 topics: [management]
 tags: []
+date: 2026-06-15
+timestamp: 2026-06-15
+resource: "https://youtu.be/6ffhW9WAUv0"
 ---
 
 # Ed Catmull on Pixar, Steve Jobs, candor, and creative culture

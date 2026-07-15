@@ -12,6 +12,7 @@ tags:
 source:
   kind: x
   url: https://x.com/jaynitx/status/2017933083454902665
+timestamp: 2026-02-01
 ---
 
 ## TL;DR

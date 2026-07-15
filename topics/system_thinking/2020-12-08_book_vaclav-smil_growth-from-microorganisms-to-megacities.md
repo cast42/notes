@@ -6,9 +6,10 @@ topics:
   - system_thinking
 tags:
   - book
-  - vaclav_smil
+  - vaclav-smil
   - growth
   - limits
+timestamp: 2020-12-08
 ---
 
 # Growth: From Microorganisms to Megacities (Vaclav Smil)

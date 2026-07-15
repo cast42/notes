@@ -9,6 +9,9 @@ topics: [ideas]
 content_hash: 45e0f1a18418bbdd09c50108445be5cd2980cfa7a3f934a0d42e4ff8de3d6151
 extracted_at: "2026-07-11T12:15:45"
 extractor: summarize
+date: 2026-07-11
+timestamp: 2026-07-11
+resource: "https://youtu.be/Rly6X1MkBTo"
 ---
 
 # Raw content

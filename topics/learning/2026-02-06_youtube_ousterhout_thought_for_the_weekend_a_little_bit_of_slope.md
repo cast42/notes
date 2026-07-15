@@ -14,6 +14,7 @@ source:
   kind: youtube
   url: https://www.youtube.com/watch?v=mE98Is1quwY
   post: https://x.com/JohnOusterhout/status/2014084792745165275
+timestamp: 2026-01-21
 ---
 
 # Thought for the weekend: A little bit of slope makes up for a lot of y-intercept (John Ousterhout)

@@ -10,6 +10,8 @@ tags:
   - agents
   - framework
 source: "https://x.com/pydantic/status/2034277533236015441"
+timestamp: 2026-03-19
+resource: "https://x.com/pydantic/status/2034277533236015441"
 ---
 
 ## TL;DR

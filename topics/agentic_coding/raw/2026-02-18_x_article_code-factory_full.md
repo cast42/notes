@@ -8,6 +8,9 @@ handle: ryancarson
 created_at: 2026-02-18
 topics: [agentic_coding]
 extractor: fxtwitter_draftjs_to_md
+date: 2026-02-18
+timestamp: 2026-02-18
+resource: "https://x.com/ryancarson/status/2023452909883609111"
 ---
 
 # Raw content

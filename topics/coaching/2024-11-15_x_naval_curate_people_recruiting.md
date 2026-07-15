@@ -14,6 +14,7 @@ people:
 source:
   kind: x
   url: https://x.com/naval/status/1990623985927921701
+timestamp: 2024-11-15
 ---
 
 # Curate People (Naval) — recruiting and teams

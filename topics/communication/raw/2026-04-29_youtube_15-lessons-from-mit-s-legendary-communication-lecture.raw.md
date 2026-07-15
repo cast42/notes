@@ -9,6 +9,9 @@ topics: [communication]
 content_hash: 01a6de2bbf489f0ef4eed1b21094c6ac5a7c2ef9fa96034bb1c527e7db0123f4
 extracted_at: "2026-04-29T12:29:49"
 extractor: "summarize:youtube"
+date: 2026-04-29
+timestamp: 2026-04-29
+resource: "https://youtube.com/watch?v=iRWJ5s0EkP4"
 ---
 
 # Raw content

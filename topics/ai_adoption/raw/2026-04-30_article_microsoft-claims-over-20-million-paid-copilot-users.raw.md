@@ -9,6 +9,9 @@ topics: [ai_adoption]
 content_hash: cc0c1797d2561c85977fe52c12b98aee43347ba6ce40c837feb1aef4f9dab9c2
 extracted_at: "2026-04-30T18:04:16"
 extractor: "web_fetch:readability"
+date: 2026-04-30
+timestamp: 2026-04-30
+resource: "https://techcrunch.com/2026/04/29/microsoft-says-it-has-over-20m-paid-copilot-users-and-they-really-are-using-it"
 ---
 
 # Raw content

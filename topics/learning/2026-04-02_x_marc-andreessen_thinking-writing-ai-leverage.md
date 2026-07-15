@@ -6,12 +6,14 @@ topics:
  - learning
  - AGI
 tags:
- - x
- - marc_andreessen
- - writing
- - research
- - ai
+  - x
+  - marc-andreessen
+  - writing
+  - research
+  - ai
 source: "https://x.com/i/status/1709546938079515122"
+timestamp: 2026-04-02
+resource: "https://x.com/i/status/1709546938079515122"
 ---
 
 ## TL;DR

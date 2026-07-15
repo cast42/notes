@@ -10,6 +10,9 @@ topics: [designing-things-people-love]
 content_hash: fddb584d807c78f6828b0e7960e0f6ad18220c4493479ec50ebafc06178b2d73
 extracted_at: "2026-02-15T19:22:58"
 extractor: fxtwitter+ocr
+date: 2026-02-15
+timestamp: 2026-02-15
+resource: "https://x.com/BigBrainBizness/status/2022732605997879704"
 ---
 
 # Raw content

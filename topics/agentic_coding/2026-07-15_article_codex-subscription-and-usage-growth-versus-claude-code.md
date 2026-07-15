@@ -7,6 +7,9 @@ author: Latent Space / AINews
 created_at: 2026-07-15
 topics: [agentic_coding]
 tags: []
+date: 2026-07-15
+timestamp: 2026-07-15
+resource: "https://latent.space/p/ainews-codex-usage-up-10x-in-6-months"
 ---
 
 # AINews, Codex usage up >10x in 6 months, and AI coding subscription growth

@@ -7,11 +7,13 @@ topics:
   - management
 tags:
   - x
-  - patrick_mcgee
+  - patrick-mcgee
   - apple
-  - supply_chain
+  - supply-chain
   - japan
 source: "https://x.com/PatrickMcGee_/status/2039577362602537308?s=20"
+timestamp: 2026-04-03
+resource: "https://x.com/PatrickMcGee_/status/2039577362602537308?s=20"
 ---
 
 ## TL;DR

@@ -8,6 +8,9 @@ handle: SystemSunday
 created_at: 2026-07-11
 topics: [organisation]
 tags: []
+date: 2026-07-11
+timestamp: 2026-07-11
+resource: "https://x.com/SystemSunday/status/2020856361748246979"
 ---
 
 # The 1-6-4 Method for planning joy, growth, and momentum across a year

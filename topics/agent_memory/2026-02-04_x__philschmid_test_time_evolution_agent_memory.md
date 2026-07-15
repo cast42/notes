@@ -8,13 +8,14 @@ tags:
   - memory
   - rag
   - agents
-  - test_time
+  - test-time
   - evaluation
 people:
   - Philipp Schmid
 source:
   kind: x
   url: https://x.com/_philschmid/status/2019081772189823239
+timestamp: 2026-02-04
 ---
 
 ## TL;DR

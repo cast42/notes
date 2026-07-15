@@ -9,6 +9,8 @@ handle: jaredpalmer
 created_at: 2026-03-06
 topics: [agentic_coding]
 tags: [tool, cli, microsoft, agentic]
+timestamp: 2026-03-06
+resource: "https://x.com/jaredpalmer/status/2029643407606563140"
 ---
 
 # Jared Palmer — mogcli (agent-friendly CLI for Microsoft 365)

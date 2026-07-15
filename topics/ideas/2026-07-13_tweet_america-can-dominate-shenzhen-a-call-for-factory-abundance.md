@@ -8,6 +8,9 @@ handle: zanehengsperger
 created_at: 2026-07-13
 topics: [ideas]
 tags: []
+date: 2026-07-13
+timestamp: 2026-07-13
+resource: "https://x.com/zanehengsperger/status/2076324092286787941"
 ---
 
 # America can dominate Shenzhen. A call for factory abundance. 

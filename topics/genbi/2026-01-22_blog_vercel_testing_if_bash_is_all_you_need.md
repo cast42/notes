@@ -9,12 +9,13 @@ tags:
   - evals
   - sql
   - bash
-  - structured_data
+  - structured-data
 people:
   - Ankur Goyal
 source:
   kind: blog
   url: https://vercel.com/blog/testing-if-bash-is-all-you-need
+timestamp: 2026-01-22
 ---
 
 # Testing if “bash is all you need” (Vercel / Braintrust)

@@ -10,6 +10,9 @@ topics: [communication]
 content_hash: cb79efcd187bef88fbd08f7af32a1c859826e63c99ce8c419f4e898711a5830f
 extracted_at: "2026-07-13T12:09:00"
 extractor: user-summary+fxtwitter
+date: 2026-07-13
+timestamp: 2026-07-13
+resource: "https://x.com/TechWithLilyAi/status/2076286147572195808"
 ---
 
 # Raw content

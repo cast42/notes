@@ -6,11 +6,13 @@ topics:
   - agentic_coding
 tags:
   - x
-  - andrej_karpathy
-  - knowledge_management
+  - andrej-karpathy
+  - knowledge-management
   - obsidian
-  - llm_workflow
+  - llm-workflow
 source: "https://x.com/i/status/2039805659525644595"
+timestamp: 2026-04-02
+resource: "https://x.com/i/status/2039805659525644595"
 ---
 
 ## TL;DR

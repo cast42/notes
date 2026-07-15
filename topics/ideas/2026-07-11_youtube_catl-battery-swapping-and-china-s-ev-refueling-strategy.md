@@ -7,6 +7,9 @@ author: YouTube
 created_at: 2026-07-11
 topics: [ideas]
 tags: []
+date: 2026-07-11
+timestamp: 2026-07-11
+resource: "https://youtu.be/Rly6X1MkBTo"
 ---
 
 # CATL, battery swapping, and China’s EV refueling strategy

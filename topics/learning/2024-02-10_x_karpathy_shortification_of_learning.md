@@ -5,14 +5,15 @@ type: note
 topics:
   - learning
 tags:
-  - deliberate_practice
-  - media_diet
+  - deliberate-practice
+  - media-diet
   - longform
 people:
   - Andrej Karpathy
 source:
   kind: x
   url: https://x.com/karpathy/status/1756380066580455557
+timestamp: 2024-02-10
 ---
 
 # On the shortification of learning

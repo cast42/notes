@@ -8,6 +8,9 @@ handle: PatrickMcGee_
 created_at: 2026-07-13
 topics: [ideas]
 tags: []
+date: 2026-07-13
+timestamp: 2026-07-13
+resource: "https://x.com/PatrickMcGee_/status/2061495292718104796"
 ---
 
 # China’s industrial policy, governance, and manufacturing edge

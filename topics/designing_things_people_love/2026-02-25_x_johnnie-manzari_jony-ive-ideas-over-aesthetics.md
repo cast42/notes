@@ -7,7 +7,8 @@ topics:
 tags:
   - x
   - design
-  - jony_ive
+  - jony-ive
+timestamp: 2026-02-25
 ---
 
 # Ideas over aesthetics in design reviews (Johnnie Manzari on Jony Ive)

@@ -7,6 +7,9 @@ author: VentureBeat
 created_at: 2026-06-13
 topics: [agentic_search]
 tags: []
+date: 2026-06-13
+timestamp: 2026-06-13
+resource: "https://venturebeat.com/orchestration/researchers-trained-an-open-source-ai-search-agent-harness-1-that-outperforms-gpt-5-4-on-recalling-relevant-information"
 ---
 
 # Harness-1 and the case for state-externalizing search agents

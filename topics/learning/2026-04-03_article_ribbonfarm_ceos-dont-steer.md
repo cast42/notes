@@ -12,6 +12,8 @@ tags:
   - ceo
   - strategy
 source: "https://www.ribbonfarm.com/2017/11/09/ceos-dont-steer/"
+timestamp: 2026-04-03
+resource: "https://www.ribbonfarm.com/2017/11/09/ceos-dont-steer/"
 ---
 
 ## TL;DR

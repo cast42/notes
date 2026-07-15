@@ -6,7 +6,7 @@ topics:
   - openclaw
 tags:
   - agents
-  - personal_agents
+  - personal-agents
   - product
 people:
   - Peter Steinberger
@@ -14,6 +14,7 @@ people:
 source:
   kind: x
   url: https://x.com/kyriakosel/status/2019980867683422318
+timestamp: 2026-02-07
 ---
 
 # ‘Year of the personal agent’ — @steipete at YC (via Kyriakos Eleftheriou)

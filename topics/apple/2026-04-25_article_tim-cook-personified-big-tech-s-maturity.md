@@ -7,6 +7,9 @@ author: Andrew Sharp
 created_at: 2026-04-25
 topics: [apple]
 tags: []
+date: 2026-04-25
+timestamp: 2026-04-25
+resource: "https://sharptext.net/2026/tim-cook-personified-big-techs-maturity"
 ---
 
 # Tim Cook personified big tech's maturity

@@ -5,6 +5,7 @@ type: note
 topics:
   - openclaw
 tags: []
+timestamp: 2026-04-13
 ---
 
 # OpenClaw upgrade troubleshooting note

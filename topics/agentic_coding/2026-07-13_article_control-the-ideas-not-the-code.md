@@ -7,6 +7,9 @@ author: antirez
 created_at: 2026-07-13
 topics: [agentic_coding]
 tags: []
+date: 2026-07-13
+timestamp: 2026-07-13
+resource: "https://antirez.com/news/169"
 ---
 
 # Control the ideas, not the code

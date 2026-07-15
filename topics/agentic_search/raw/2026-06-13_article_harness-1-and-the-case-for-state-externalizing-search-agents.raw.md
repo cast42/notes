@@ -9,6 +9,9 @@ topics: [agentic_search]
 content_hash: 346475e43a060e0469a77af01200001498bc68d5dda37a8b6e9cfe7745a2d27b
 extracted_at: "2026-06-13T08:53:14"
 extractor: summarize+web-fetch
+date: 2026-06-13
+timestamp: 2026-06-13
+resource: "https://venturebeat.com/orchestration/researchers-trained-an-open-source-ai-search-agent-harness-1-that-outperforms-gpt-5-4-on-recalling-relevant-information"
 ---
 
 # Raw content

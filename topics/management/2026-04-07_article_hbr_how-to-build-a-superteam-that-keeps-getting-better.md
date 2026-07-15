@@ -9,8 +9,10 @@ tags:
   - article
   - hbr
   - leadership
-  - team_building
+  - team-building
 source: "https://hbr.org/2026/05/how-to-build-a-superteam-that-keeps-getting-better"
+timestamp: 2026-04-07
+resource: "https://hbr.org/2026/05/how-to-build-a-superteam-that-keeps-getting-better"
 ---
 
 ## TL;DR

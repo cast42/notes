@@ -10,6 +10,9 @@ topics: [ideas]
 content_hash: 45b4fbb62f965a83157fa6b98568a62ca03aa867c0a9f724254a55f012cd2b68
 extracted_at: "2026-06-18T13:23:00"
 extractor: fxtwitter
+date: 2026-06-18
+timestamp: 2026-06-18
+resource: "https://x.com/Full_Metal_QR/status/2066830879771783507"
 ---
 
 # Raw content

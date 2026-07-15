@@ -9,12 +9,13 @@ tags:
   - cli
   - bash
   - tooling
-  - agentic_coding
+  - agentic-coding
 people:
   - Marco Franzon
 source:
   kind: x
   url: https://x.com/mfranz_on/article/2021364017147818434
+timestamp: 2026-02-11
 ---
 
 # Marco Franzon: CLI Is All You Need (the MCP hype is over)

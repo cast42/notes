@@ -10,6 +10,9 @@ topics: [agentic_coding]
 content_hash: 6f50794e9636967becb28a1c1a238dae31fe12d0814897d3d73ef90e6e826679
 extracted_at: "2026-07-14T16:47:29"
 extractor: fxtwitter
+date: 2026-07-14
+timestamp: 2026-07-14
+resource: "https://x.com/0xwhrrari/status/2076773673898271123"
 ---
 
 # Raw content

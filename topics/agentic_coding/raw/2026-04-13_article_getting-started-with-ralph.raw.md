@@ -9,6 +9,9 @@ topics: [agentic_coding]
 content_hash: 32f4bd4d3d32659d676d2e524a606153c6006faddaaf635663c3681e88ae0440
 extracted_at: "2026-04-13T11:41:29"
 extractor: web_fetch
+date: 2026-04-13
+timestamp: 2026-04-13
+resource: "https://aihero.dev/getting-started-with-ralph"
 ---
 
 # Raw content

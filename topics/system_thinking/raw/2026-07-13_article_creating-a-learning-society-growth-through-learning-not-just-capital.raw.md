@@ -9,6 +9,9 @@ topics: [system_thinking]
 content_hash: bd684e956659993d4fbc578d26593d035d9df93ff860389a4f8fe8dacc83d970
 extracted_at: "2026-07-13T13:05:09"
 extractor: user-summary+publisher-page
+date: 2026-07-13
+timestamp: 2026-07-13
+resource: "https://cup.columbia.edu/book/creating-a-learning-society/9780231152143"
 ---
 
 # Raw content

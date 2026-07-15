@@ -8,6 +8,7 @@ tags:
   - book
   - typography
   - design
+timestamp: 1992-01-01
 ---
 
 # The Elements of Typographic Style (Robert Bringhurst)

@@ -8,6 +8,9 @@ handle: omarsar0
 created_at: 2026-05-16
 topics: [agentic_search]
 tags: []
+date: 2026-05-16
+timestamp: 2026-05-16
+resource: "https://x.com/omarsar0/status/2055317577031975269"
 ---
 
 # Is Grep All You Need? post and paper

@@ -7,6 +7,9 @@ author: Joe Reis
 created_at: 2026-05-04
 topics: [ai_adoption]
 tags: []
+date: 2026-05-04
+timestamp: 2026-05-04
+resource: "https://joereis.substack.com/p/were-in-1905-why-electricity-not"
 ---
 
 # Why electricity, not dot-com, is the right AI analogy

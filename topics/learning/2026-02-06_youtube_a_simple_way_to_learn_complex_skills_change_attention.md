@@ -6,11 +6,12 @@ topics:
   - learning
 tags:
   - attention
-  - skill_building
+  - skill-building
   - practice
 source:
   kind: youtube
   url: https://www.youtube.com/watch?v=OI_3bQ-EWSI
+timestamp: 2026-02-06
 ---
 
 # A Simple Way to Learn Complex Skills — change what you pay attention to

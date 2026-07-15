@@ -12,6 +12,9 @@ tags:
   - writing
   - judgment
   - craft
+date: 2026-02-19
+timestamp: 2026-02-19
+resource: "https://x.com/paulg/status/2024448383025606885"
 ---
 
 # Paul Graham on taste

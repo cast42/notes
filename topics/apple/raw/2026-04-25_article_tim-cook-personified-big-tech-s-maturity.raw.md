@@ -9,6 +9,9 @@ topics: [apple]
 content_hash: a66a940d04cb73dfe6501dbb754008aecf9ca8ed3b8d02a94d7857091ac01bf3
 extracted_at: "2026-04-25T08:29:19"
 extractor: "web_fetch:readability"
+date: 2026-04-25
+timestamp: 2026-04-25
+resource: "https://sharptext.net/2026/tim-cook-personified-big-techs-maturity"
 ---
 
 # Raw content

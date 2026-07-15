@@ -15,6 +15,7 @@ people:
 source:
   kind: x
   url: https://x.com/scottdclary/status/1728468692608880940
+timestamp: 2023-11-25
 ---
 
 ## TL;DR

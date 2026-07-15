@@ -5,15 +5,16 @@ type: note
 topics:
   - learning
 tags:
-  - mental_models
-  - information_diet
-  - self_assessment
+  - mental-models
+  - information-diet
+  - self-assessment
 people:
   - Marc Andreessen
   - Ben Lang
 source:
   kind: x
   url: https://x.com/benln/status/1866515336138273224
+timestamp: 2024-12-10
 ---
 
 # Marc Andreessen on how to learn and grow (via Ben Lang)

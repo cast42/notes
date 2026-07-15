@@ -6,9 +6,10 @@ topics:
   - coaching
 tags:
   - youtube
-  - robert_greene
+  - robert-greene
   - purpose
   - mastery
+timestamp: 2026-02-25
 ---
 
 # Robert Greene on life’s task, power, seduction, and recovery

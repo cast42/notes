@@ -7,9 +7,10 @@ topics:
 tags:
   - youtube
   - x
-  - boris_cherny
+  - boris-cherny
   - anthropic
-  - claude_code
+  - claude-code
+timestamp: 2026-03-07
 ---
 
 # Boris Cherny on ‘coding is largely solved’ — implications

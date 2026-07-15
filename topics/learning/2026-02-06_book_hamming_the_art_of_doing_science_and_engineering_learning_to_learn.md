@@ -5,7 +5,7 @@ type: note
 topics:
   - learning
 tags:
-  - scientific_thinking
+  - scientific-thinking
   - engineering
   - books
 people:
@@ -13,6 +13,7 @@ people:
 source:
   kind: book
   url: https://www.microsoft.com/en-us/research/people/hamming/
+timestamp: 2026-02-06
 ---
 
 # The Art of Doing Science and Engineering: Learning to Learn (Hamming)

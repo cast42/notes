@@ -17,6 +17,7 @@ source:
   url: https://www.youtube.com/watch?v=8lF7HmQ_RgY
   channel: The Pragmatic Engineer
   length: "1:54:04"
+timestamp: 2026-02-03
 ---
 
 ## TL;DR

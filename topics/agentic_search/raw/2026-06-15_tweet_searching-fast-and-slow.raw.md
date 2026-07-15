@@ -10,6 +10,9 @@ topics: [agentic_search]
 content_hash: d70221ba4197ec924499eda18698cda4d21742495c2980e4c3c5dff20c8cce7c
 extracted_at: "2026-06-15T13:51:07"
 extractor: fxtwitter
+date: 2026-06-15
+timestamp: 2026-06-15
+resource: "https://x.com/barrowjoseph/status/2065423284343050314"
 ---
 
 # Raw content

@@ -9,6 +9,9 @@ topics: [ai_adoption]
 content_hash: 79f7b65748782500b80d3f72ca3a910858981699a34a79da42a3b947754f8936
 extracted_at: "2026-07-02T08:41:37"
 extractor: summarize+web-fetch
+date: 2026-07-02
+timestamp: 2026-07-02
+resource: "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b"
 ---
 
 # Raw content

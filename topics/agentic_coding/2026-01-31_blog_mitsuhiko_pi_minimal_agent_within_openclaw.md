@@ -15,6 +15,7 @@ tags:
 source:
   kind: blog
   url: https://lucumr.pocoo.org/2026/1/31/pi/
+timestamp: 2026-01-31
 ---
 
 ## TL;DR

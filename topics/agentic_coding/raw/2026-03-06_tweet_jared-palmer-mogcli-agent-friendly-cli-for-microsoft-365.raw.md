@@ -10,6 +10,9 @@ topics: [agentic_coding]
 content_hash: 2c0aef002183b42782e9225a0cf6dc8df697250d72c9349411265c4954a08407
 extracted_at: "2026-03-06T08:31:38"
 extractor: browser-relay+x-readme
+date: 2026-03-06
+timestamp: 2026-03-06
+resource: "https://x.com/jaredpalmer/status/2029643407606563140"
 ---
 
 # Raw content

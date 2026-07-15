@@ -8,6 +8,8 @@ tags: []
 people:
   - Marcelo Trylesinski
 source: https://pydantic.dev/articles/building-agentic-application
+timestamp: 2026-02-06
+resource: "https://pydantic.dev/articles/building-agentic-application"
 ---
 
 # How to build a production agentic app, the Pydantic Way

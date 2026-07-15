@@ -8,6 +8,9 @@ handle: TechWithLilyAi
 created_at: 2026-07-13
 topics: [communication]
 tags: []
+date: 2026-07-13
+timestamp: 2026-07-13
+resource: "https://x.com/TechWithLilyAi/status/2076286147572195808"
 ---
 
 # Joel Peterson on negotiation as durable win-win relationship craft

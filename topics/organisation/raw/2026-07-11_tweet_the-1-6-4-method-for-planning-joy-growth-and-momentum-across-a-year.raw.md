@@ -10,6 +10,9 @@ topics: [organisation]
 content_hash: 245e1c6e3ae767907cbdbdd3f2d9bf97ea75c5bffb6fe89216357b379df754f2
 extracted_at: "2026-07-11T20:57:05"
 extractor: fxtwitter
+date: 2026-07-11
+timestamp: 2026-07-11
+resource: "https://x.com/SystemSunday/status/2020856361748246979"
 ---
 
 # Raw content

@@ -16,6 +16,7 @@ people:
 source:
   kind: youtube
   url: https://www.youtube.com/watch?v=50BZQRT1dAg
+timestamp: 2026-02-09
 ---
 
 # Huberman × Robert Greene: mastery, purpose, relationships, and ‘death ground’

@@ -9,6 +9,9 @@ topics: [management]
 content_hash: 46aa267584964b25422be1700291de6b839e21920441341f2ac1d6fcf4f80ed6
 extracted_at: "2026-06-15T08:46:50"
 extractor: summarize
+date: 2026-06-15
+timestamp: 2026-06-15
+resource: "https://youtu.be/6ffhW9WAUv0"
 ---
 
 # Raw content

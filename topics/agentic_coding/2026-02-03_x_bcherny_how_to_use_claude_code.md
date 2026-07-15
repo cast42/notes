@@ -6,7 +6,7 @@ topics:
   - agentic_coding
 tags:
   - claude
-  - claude_code
+  - claude-code
   - agents
   - coding
 people:
@@ -14,6 +14,7 @@ people:
 source:
   kind: x
   url: https://x.com/bcherny/status/2017742741636321619?s=20
+timestamp: 2026-02-03
 ---
 
 # How to use Claude Code by Boris Cherny (Anthropic)

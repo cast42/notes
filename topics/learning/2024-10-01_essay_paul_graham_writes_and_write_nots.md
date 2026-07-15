@@ -13,6 +13,7 @@ people:
 source:
   kind: essay
   url: https://paulgraham.com/writes.html
+timestamp: 2024-10-01
 ---
 
 # Writes and Write-Nots

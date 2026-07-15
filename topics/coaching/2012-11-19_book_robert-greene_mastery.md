@@ -6,8 +6,9 @@ topics:
   - coaching
 tags:
   - book
-  - robert_greene
+  - robert-greene
   - mastery
+timestamp: 2012-11-19
 ---
 
 # Mastery (Robert Greene)

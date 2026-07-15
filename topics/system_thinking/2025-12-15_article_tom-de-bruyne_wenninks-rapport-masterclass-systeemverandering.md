@@ -7,8 +7,9 @@ topics:
 tags:
   - netherlands
   - policy
-  - systems_change
+  - systems-change
   - execution
+timestamp: 2025-12-15
 ---
 
 # Wennink’s rapport als masterclass systeemverandering

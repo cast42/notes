@@ -10,6 +10,9 @@ topics: [app_design]
 content_hash: cc69b611bcd7173b032aedc87bd1b06c9d77fb636dda137e361ae4d44299c512
 extracted_at: "2026-02-18T11:17:09"
 extractor: fxtwitter+manual-book-links
+date: 2026-02-18
+timestamp: 2026-02-18
+resource: "https://x.com/mynameisceline/status/2023474777877540939"
 ---
 
 # Raw content

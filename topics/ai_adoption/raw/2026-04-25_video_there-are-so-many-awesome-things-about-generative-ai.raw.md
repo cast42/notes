@@ -9,6 +9,9 @@ topics: [ai_adoption]
 content_hash: 6a2a66370bcd42b6f84e08ab793bf047dc08a0ef6da7aa06d0449d2df76b72f2
 extracted_at: "2026-04-25T10:17:14"
 extractor: tiktok-page-metadata-only
+date: 2026-04-25
+timestamp: 2026-04-25
+resource: "https://tiktok.com/@cassiewillson/video/7526639850028616974"
 ---
 
 # Raw content

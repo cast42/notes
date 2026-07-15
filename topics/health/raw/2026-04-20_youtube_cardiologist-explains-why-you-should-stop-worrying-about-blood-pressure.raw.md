@@ -9,6 +9,9 @@ topics: [health]
 content_hash: 08568f8dec68b5f6fcaf2222be94a22527fa33d8eba6253ae3dab5fd65ae7b99
 extracted_at: "2026-04-20T12:10:45"
 extractor: youtube-page-metadata
+date: 2026-04-20
+timestamp: 2026-04-20
+resource: "https://youtube.com/watch?v=EfKVra2fofo"
 ---
 
 # Raw content

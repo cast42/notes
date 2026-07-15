@@ -10,6 +10,9 @@ topics: [robot_learning]
 content_hash: ba12561fc7bd7eb015c6cc05dbcc5bb38244a4bb628e589e12ee2b5dde502ed4
 extracted_at: "2026-05-18T09:07:05"
 extractor: youtube-oembed+course-page-web-fetch
+date: 2026-05-18
+timestamp: 2026-05-18
+resource: "https://youtube.com/watch?v=0XB7fNS_ONg"
 ---
 
 # Raw content

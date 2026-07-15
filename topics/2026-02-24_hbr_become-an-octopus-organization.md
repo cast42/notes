@@ -6,8 +6,9 @@ topics:
   - organizational_design
 tags:
   - hbr
-  - change_management
+  - change-management
   - learning
+timestamp: 2026-02-24
 ---
 
 # Become an Octopus Organization (HBR)

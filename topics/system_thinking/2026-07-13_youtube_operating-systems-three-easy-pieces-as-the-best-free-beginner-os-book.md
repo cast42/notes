@@ -7,6 +7,9 @@ author: YouTube
 created_at: 2026-07-13
 topics: [system_thinking]
 tags: []
+date: 2026-07-13
+timestamp: 2026-07-13
+resource: "https://youtu.be/t4nzIwkB9mA"
 ---
 
 # Operating Systems: Three Easy Pieces as the best free beginner OS book

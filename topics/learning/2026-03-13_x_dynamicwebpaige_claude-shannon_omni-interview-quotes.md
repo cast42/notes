@@ -6,10 +6,12 @@ topics:
   - learning
 tags:
   - x
-  - claude_shannon
-  - research_mindset
+  - claude-shannon
+  - research-mindset
   - creativity
 source: "https://x.com/DynamicWebPaige/status/2032177841358725603?s=20"
+timestamp: 2026-03-13
+resource: "https://x.com/DynamicWebPaige/status/2032177841358725603?s=20"
 ---
 
 ## TL;DR

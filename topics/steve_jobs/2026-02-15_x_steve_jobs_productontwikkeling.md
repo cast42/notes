@@ -3,6 +3,9 @@ type: x_post
 source: https://x.com/i/status/2022732605997879704
 date: 2026-02-15
 topics: [steve_jobs, product_design, jony_ive]
+title: "Steve Jobs — productontwikkeling"
+timestamp: 2026-02-15
+resource: "https://x.com/i/status/2022732605997879704"
 ---
 
 # Steve Jobs — productontwikkeling

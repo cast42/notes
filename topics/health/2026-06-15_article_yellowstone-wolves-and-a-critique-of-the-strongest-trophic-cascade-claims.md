@@ -7,6 +7,9 @@ author: ScienceDaily
 created_at: 2026-06-15
 topics: [health]
 tags: []
+date: 2026-06-15
+timestamp: 2026-06-15
+resource: "https://sciencedaily.com/releases/2026/06/260613215510.htm"
 ---
 
 # Yellowstone wolves and a critique of the strongest trophic-cascade claims

@@ -7,7 +7,8 @@ topics:
 tags:
   - book
   - design
-  - dieter_rams
+  - dieter-rams
+timestamp: 2011-06-22
 ---
 
 # Dieter Rams: As Little Design as Possible (Sophie Lovell)

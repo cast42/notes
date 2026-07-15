@@ -14,6 +14,7 @@ people:
 source:
   kind: github
   url: https://github.com/forrestchang/andrej-karpathy-skills
+timestamp: 2026-02-09
 ---
 
 # Karpathy-inspired Claude Code guidelines (forrestchang/andrej-karpathy-skills)

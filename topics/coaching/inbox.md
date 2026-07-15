@@ -5,6 +5,7 @@ type: note
 topics:
   - coaching
 tags: []
+timestamp: 2026-02-02
 ---
 
 # Coaching inbox

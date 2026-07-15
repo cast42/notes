@@ -9,6 +9,9 @@ topics: [ai_adoption]
 content_hash: d285e3a02b32d58cd34161b065b52430043a853faece39a4d42643431b5b3f68
 extracted_at: "2026-04-25T08:30:05"
 extractor: "web_fetch:readability"
+date: 2026-04-25
+timestamp: 2026-04-25
+resource: "https://theverge.com/podcast/917029/software-brain-ai-backlash-databases-automation"
 ---
 
 # Raw content

@@ -10,6 +10,9 @@ topics: [agentic_coding]
 content_hash: ee0022d529ebc8c62d2609334a0698e585edda3536a577f26da0b3f91db1b6b4
 extracted_at: "2026-05-21T22:03:39"
 extractor: fxtwitter-article
+date: 2026-05-21
+timestamp: 2026-05-21
+resource: "https://x.com/rachelnabors/status/2057123652626256360"
 ---
 
 # Raw content
