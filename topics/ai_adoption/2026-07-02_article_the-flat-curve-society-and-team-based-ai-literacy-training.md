@@ -39,6 +39,7 @@ resource: "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b"
 
 - Permalink: [https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b](https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b)
 - [https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b](https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b)
+- Supporting video: [Netflix CTO Elizabeth Stone on AI fluency, craft, and changing team roles](https://www.youtube.com/watch?v=t0GiTyz4syY) — *Lenny's Podcast*
 
 ## Raw
 
@@ -46,4 +47,21 @@ resource: "https://steve-yegge.medium.com/the-flat-curve-society-36c8b01eb33b"
 - Extractor: summarize+web-fetch
 
 ## My notes
--
+
+The Netflix interview reinforces that AI literacy is not a specialist skill or a one-off tool demonstration. It is an experimentation mindset that should spread across roles and seniority levels while people retain craft judgment, verify outputs, and remain accountable for the result.
+
+### A one-day team AI literacy intervention
+
+Take a team and its manager out of their normal day-to-day work for one protected day. Instead of teaching generic prompts, have them use AI to solve their own recurring problems and improve their actual workflows.
+
+A useful day should produce:
+
+- several real tasks attempted with AI;
+- a record of what worked, failed, or required human judgment;
+- one or two reusable workflows or prototypes;
+- agreed guardrails for data, verification, and accountability;
+- a short list of follow-up experiments with named owners.
+
+Including the manager matters because AI adoption changes more than individual productivity. The team may need permission to redesign roles, information flows, quality controls, and measures of success. Protected time also makes experimentation legitimate work rather than an after-hours hobby for enthusiasts.
+
+One day can create momentum and a shared vocabulary, but it cannot create lasting fluency by itself. Teams need repeated practice, access to suitable tools and data, lightweight coaching, and follow-up sessions that convert successful experiments into normal practice.
