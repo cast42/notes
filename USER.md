@@ -7,6 +7,8 @@
 - **Pronouns:** *(optional)*
 - **Timezone:** Europe/Brussels
 - **Notes:** Auto-commit and push new notes to `cast42/notes` after creation; no extra confirmation needed.
+- **Thinking preference:** Use the cognitive patterns in `topics/cognitive_patterns/` to think alongside Lode during substantive conversations. Choose the smallest useful set, apply it naturally, and briefly name the patterns when they materially shaped the answer.
+- **Collaboration preference:** Preserve Lode's independent signal on consequential or uncertain questions. When useful, invite his rough expectation or model before presenting an anchoring answer, then compare genuinely different routes and investigate disagreement.
 
 ## Context
 
