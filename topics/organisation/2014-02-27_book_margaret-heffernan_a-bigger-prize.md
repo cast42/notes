@@ -60,7 +60,6 @@ See the linked investigation for a concrete assessment of the cognitive-pattern 
 ## Related concepts
 
 - [Anthropic's Superchicken Problem](2026-07-18_article_anthropic-s-superchicken-problem.md)
-- [Human–AI collaboration as the unit of cognition](../cognitive_patterns/2026-07-20_investigation_human-ai-collaboration-as-unit-of-cognition.md)
 - [Evaluate incentives](../cognitive_patterns/evaluate_incentives.md)
 
 ## Sources and access

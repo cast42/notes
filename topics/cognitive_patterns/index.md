@@ -64,7 +64,7 @@ A pattern can improve the structure of an analysis without improving its conclus
 
 ## Investigations
 
-- [Human–AI collaboration as the unit of cognition](2026-07-20_investigation_human-ai-collaboration-as-unit-of-cognition.md) examines whether pattern workflows should optimize the human–AI pair rather than the agent in isolation.
+- [Applying *The Art of Insight* to human–AI cognitive patterns](2026-07-20_investigation_art-of-insight-for-human-ai-cognitive-patterns.md) identifies improvements for decomposition, independent verification, controlled simplification, and easy-case testing.
 
 ## Pattern lifecycle
 
@@ -76,6 +76,7 @@ A pattern can improve the structure of an analysis without improving its conclus
 
 ## Sources
 
+- [The Art of Insight in Science and Engineering](2014-01-01_book_sanjoy-mahajan_the-art-of-insight-in-science-and-engineering.md) provides a practical toolkit for organizing or carefully discarding complexity.
 - [Claude Code Thinking Skills and this notes repo](2026-07-20_github_tjboudreaux_cc-thinking-skills.md)
   explains which ideas were adopted, what changed, and why patterns are still
   treated as guidance rather than proof.
