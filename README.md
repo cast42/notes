@@ -37,3 +37,7 @@ Each object serves a different purpose. Cognitive patterns guide how humans and 
 See [the repository design](DESIGN.md),
 [the OKF repository guide](_meta/OPEN_KNOWLEDGE_FORMAT.md), and the
 [note format contract](_meta/NOTE_FORMAT_CONTRACT.md) for details.
+
+## Sources and influences
+
+The [Claude Code Thinking Skills](https://github.com/tjboudreaux/cc-thinking-skills) repository informed the selection, combination, belief updating, pre-mortem, and hypothesis testing procedures in the cognitive patterns. Its published evaluation results also support this repository's rule that patterns are reasoning guidance, not proof that an answer is correct.

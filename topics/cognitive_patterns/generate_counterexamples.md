@@ -84,5 +84,6 @@ A useful counterexample exercise should:
 ## Related Patterns
 
 - [Reason From First Principles](reason_from_first_principles.md)
+- [Test Competing Hypotheses](test_competing_hypotheses.md)
 - [Compare Ecosystems](compare_ecosystems.md)
 - [Evaluate Incentives](evaluate_incentives.md)

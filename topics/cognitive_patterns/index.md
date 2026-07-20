@@ -13,12 +13,13 @@ Patterns guide reasoning. They are not evidence, and they should not determine a
 ## How agents should use patterns
 
 1. Retrieve the relevant concepts and source material.
-2. Select one or more patterns that fit the problem.
-3. Apply the questions and procedure to the available evidence.
-4. Check the stated failure modes and evaluation criteria.
-5. Name the patterns used in the answer or investigation.
+2. Name the problem type and choose the smallest useful set of patterns.
+3. State what each pattern is expected to add.
+4. Apply the questions and procedure to the available evidence.
+5. Check the failure modes and evaluation criteria.
+6. Name the patterns used in the answer or investigation.
 
-Agents should treat a pattern as reasoning guidance. Claims still need support from concepts, sources, or direct evidence.
+Use one pattern when it can answer the question. Combine patterns only when each one covers a distinct gap. Agents should treat patterns as reasoning guidance. Claims still need support from concepts, sources, or direct evidence.
 
 ## How humans should use patterns
 
@@ -33,15 +34,33 @@ Use a pattern as a checklist when framing a question, reviewing an argument, or 
 
 A cognitive pattern should not repeat factual content from a concept. Its value comes from the questions, steps, checks, and failure modes that can be reused elsewhere.
 
-## Patterns
+## Choose and combine patterns
 
-- [Analyze Capability Accumulation](analyze_capability_accumulation.md)
-- [Compare Ecosystems](compare_ecosystems.md)
-- [Evaluate Incentives](evaluate_incentives.md)
-- [Find Leverage Points](find_leverage_points.md)
-- [Generate Counterexamples](generate_counterexamples.md)
-- [Identify Feedback Loops](identify_feedback_loops.md)
-- [Reason From First Principles](reason_from_first_principles.md)
+- [Select cognitive patterns](select_cognitive_patterns.md) when the right procedure is unclear.
+- [Combine cognitive patterns](combine_cognitive_patterns.md) when one procedure leaves an important gap.
+
+## Examine claims and uncertainty
+
+- [Generate counterexamples](generate_counterexamples.md) to find where a claim fails.
+- [Reason from first principles](reason_from_first_principles.md) to rebuild an argument from constraints and mechanisms.
+- [Test competing hypotheses](test_competing_hypotheses.md) to separate plausible explanations with useful observations.
+- [Update beliefs with evidence](update_beliefs_with_evidence.md) to revise confidence from a prior belief and new evidence.
+
+## Examine systems and interventions
+
+- [Analyze capability accumulation](analyze_capability_accumulation.md) to explain how practical capability grows or decays.
+- [Compare ecosystems](compare_ecosystems.md) to compare actors, flows, feedback, and learning.
+- [Evaluate incentives](evaluate_incentives.md) to predict how rules, rewards, and constraints change behaviour.
+- [Find leverage points](find_leverage_points.md) to choose interventions that change system behaviour.
+- [Identify feedback loops](identify_feedback_loops.md) to explain change, resistance, growth, and decline over time.
+
+## Examine plans and risks
+
+- [Run a pre-mortem](run_a_pre_mortem.md) to find specific failure paths before committing to a plan.
+
+## Evidence and evaluation
+
+A pattern can improve the structure of an analysis without improving its conclusion. Evaluate patterns against outcomes when possible. Compare the result with direct reasoning, use tasks with enough room for improvement, and repeat tests before claiming that a pattern improves accuracy.
 
 ## Pattern lifecycle
 
@@ -50,3 +69,7 @@ A cognitive pattern should not repeat factual content from a concept. Its value 
 3. Record whether it was useful.
 4. Add examples, failure modes, or scope conditions when repeated use supports the change.
 5. Revise or retire the pattern when it stops helping.
+
+## Sources
+
+- [Claude Code Thinking Skills](https://github.com/tjboudreaux/cc-thinking-skills) informed the selection, combination, risk, belief updating, and hypothesis testing patterns. Its published evaluations also informed the caution about treating patterns as proven accuracy improvements.
