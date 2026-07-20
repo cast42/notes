@@ -97,4 +97,5 @@ A good selection should:
 
 ## Sources
 
+- [Claude Code Thinking Skills and this notes repo](2026-07-20_github_tjboudreaux_cc-thinking-skills.md)
 - [Claude Code Thinking Skills](https://github.com/tjboudreaux/cc-thinking-skills), especially its model router and model selection skills.

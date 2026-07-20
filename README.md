@@ -40,4 +40,9 @@ See [the repository design](DESIGN.md),
 
 ## Sources and influences
 
-The [Claude Code Thinking Skills](https://github.com/tjboudreaux/cc-thinking-skills) repository informed the selection, combination, belief updating, pre-mortem, and hypothesis testing procedures in the cognitive patterns. Its published evaluation results also support this repository's rule that patterns are reasoning guidance, not proof that an answer is correct.
+The [Claude Code Thinking Skills](https://github.com/tjboudreaux/cc-thinking-skills)
+repository informed the selection, combination, belief updating, pre-mortem,
+and hypothesis testing procedures in the cognitive patterns. The
+[local source note](topics/cognitive_patterns/2026-07-20_github_tjboudreaux_cc-thinking-skills.md)
+explains what changed and why patterns remain reasoning guidance rather than
+proof that an answer is correct.

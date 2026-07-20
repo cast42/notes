@@ -97,4 +97,5 @@ Track dated forecasts when possible. If events assigned about 70 percent confide
 
 ## Sources
 
+- [Claude Code Thinking Skills and this notes repo](2026-07-20_github_tjboudreaux_cc-thinking-skills.md)
 - [Claude Code Thinking Skills](https://github.com/tjboudreaux/cc-thinking-skills), especially its Bayesian reasoning skill.

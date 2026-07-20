@@ -72,4 +72,6 @@ A pattern can improve the structure of an analysis without improving its conclus
 
 ## Sources
 
-- [Claude Code Thinking Skills](https://github.com/tjboudreaux/cc-thinking-skills) informed the selection, combination, risk, belief updating, and hypothesis testing patterns. Its published evaluations also informed the caution about treating patterns as proven accuracy improvements.
+- [Claude Code Thinking Skills and this notes repo](2026-07-20_github_tjboudreaux_cc-thinking-skills.md)
+  explains which ideas were adopted, what changed, and why patterns are still
+  treated as guidance rather than proof.
