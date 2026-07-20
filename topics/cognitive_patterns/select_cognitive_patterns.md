@@ -34,18 +34,22 @@ Skip this pattern when the fit is obvious or when direct reasoning is enough.
 
 1. State the question and the decision or output it must support.
 2. Classify the main need.
-3. List the evidence and observations that are available now.
-4. Note the stakes, time limit, and cost of a wrong answer.
-5. Choose the pattern that best addresses the main need.
-6. State what useful output the pattern should produce.
-7. Check whether the pattern has a blind spot that changes the decision.
-8. Add one complementary pattern only when it covers that blind spot.
-9. Stop using a pattern when its questions no longer change the analysis.
+3. Check whether the question must be decomposed before choosing a specialized pattern.
+4. List the evidence and observations that are available now.
+5. Note the stakes, time limit, and cost of a wrong answer.
+6. Choose the pattern that best addresses the main need.
+7. State what useful output the pattern should produce.
+8. Check whether the pattern has a blind spot that changes the decision.
+9. Add one complementary pattern only when it covers that blind spot.
+10. Stop using a pattern when its questions no longer change the analysis.
 
 ## Problem map
 
 | Need | Start with |
 | --- | --- |
+| Break a complex question into parts | [Decompose and abstract](decompose_and_abstract.md) |
+| Simplify while recording what is lost | [Approximate and check easy cases](approximate_and_check_easy_cases.md) |
+| Check a result through a different route | [Verify with independent estimates](verify_with_independent_estimates.md) |
 | Challenge an assumption | [Reason from first principles](reason_from_first_principles.md) |
 | Check a broad claim | [Generate counterexamples](generate_counterexamples.md) |
 | Separate plausible causes | [Test competing hypotheses](test_competing_hypotheses.md) |
@@ -93,9 +97,11 @@ A good selection should:
 ## Related patterns
 
 - [Combine cognitive patterns](combine_cognitive_patterns.md)
+- [Decompose and abstract](decompose_and_abstract.md)
 - [Generate counterexamples](generate_counterexamples.md)
 
 ## Sources
 
 - [Claude Code Thinking Skills and this notes repo](2026-07-20_github_tjboudreaux_cc-thinking-skills.md)
 - [Claude Code Thinking Skills](https://github.com/tjboudreaux/cc-thinking-skills), especially its model router and model selection skills.
+- [The Art of Insight in Science and Engineering](2014-01-01_book_sanjoy-mahajan_the-art-of-insight-in-science-and-engineering.md), especially its divide and conquer and abstraction methods.

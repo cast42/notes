@@ -94,6 +94,7 @@ Track dated forecasts when possible. If events assigned about 70 percent confide
 - [Test competing hypotheses](test_competing_hypotheses.md)
 - [Generate counterexamples](generate_counterexamples.md)
 - [Select cognitive patterns](select_cognitive_patterns.md)
+- [Verify with independent estimates](verify_with_independent_estimates.md)
 
 ## Sources
 

@@ -85,5 +85,6 @@ A useful counterexample exercise should:
 
 - [Reason From First Principles](reason_from_first_principles.md)
 - [Test Competing Hypotheses](test_competing_hypotheses.md)
+- [Approximate and Check Easy Cases](approximate_and_check_easy_cases.md)
 - [Compare Ecosystems](compare_ecosystems.md)
 - [Evaluate Incentives](evaluate_incentives.md)

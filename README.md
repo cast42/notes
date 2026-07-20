@@ -46,3 +46,8 @@ and hypothesis testing procedures in the cognitive patterns. The
 [local source note](topics/cognitive_patterns/2026-07-20_github_tjboudreaux_cc-thinking-skills.md)
 explains what changed and why patterns remain reasoning guidance rather than
 proof that an answer is correct.
+
+Sanjoy Mahajan's
+[*The Art of Insight in Science and Engineering*](topics/cognitive_patterns/2014-01-01_book_sanjoy-mahajan_the-art-of-insight-in-science-and-engineering.md)
+informed the decomposition, abstraction, approximation, easy case, and
+independent verification procedures in the cognitive patterns.

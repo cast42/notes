@@ -83,6 +83,8 @@ A good first-principles analysis should:
 
 ## Related Patterns
 
+- [Decompose and Abstract](decompose_and_abstract.md)
+- [Approximate and Check Easy Cases](approximate_and_check_easy_cases.md)
 - [Generate Counterexamples](generate_counterexamples.md)
 - [Compare Ecosystems](compare_ecosystems.md)
 - [Evaluate Incentives](evaluate_incentives.md)

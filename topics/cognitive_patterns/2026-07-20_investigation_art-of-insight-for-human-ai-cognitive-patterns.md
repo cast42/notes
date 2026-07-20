@@ -124,6 +124,16 @@ After a pattern succeeds repeatedly, ask what transferable operation made it wor
 
 Run the human-first/AI-independent/joint-reconciliation sequence on estimation, planning, and diagnosis tasks. Promote it only if it reduces consequential errors or verification effort.
 
+## Implementation
+
+The first implementation created three experimental patterns:
+
+- [Decompose and abstract](decompose_and_abstract.md) covers problem decomposition and the extraction of reusable operations.
+- [Approximate and check easy cases](approximate_and_check_easy_cases.md) combines controlled information loss with unit, boundary, and easy case checks.
+- [Verify with independent estimates](verify_with_independent_estimates.md) defines independent routes and a human and AI verification protocol.
+
+[Combine cognitive patterns](combine_cognitive_patterns.md) now requires parallel verification routes to differ in evidence, assumptions, or representation. The [pattern lifecycle](index.md#pattern-lifecycle) now requires a successful operation to transfer outside its original domain before it becomes general guidance.
+
 ## Evaluation plan
 
 Compare the current workflow with the proposed additions on real tasks. Measure:

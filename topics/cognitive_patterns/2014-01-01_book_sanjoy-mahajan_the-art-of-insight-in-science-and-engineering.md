@@ -68,15 +68,13 @@ Before trusting a general answer, test it against zero, one, symmetry, boundary,
 
 ## Relevance to cognitive patterns
 
-The book strongly supports the existing idea that reusable reasoning tools should be organized by problem type rather than domain. It also reveals gaps in the current toolkit:
+The book supports organizing reasoning tools by problem type rather than domain. Its review led to three new patterns:
 
-- no general decomposition pattern;
-- no explicit abstraction procedure for extracting a reusable pattern from an example;
-- no dedicated intelligent-redundancy procedure for independent estimates;
-- no standard loss budget for approximations;
-- no easy-cases pattern for boundary and limiting-regime checks.
+- [Decompose and abstract](decompose_and_abstract.md) organizes a hard problem and tests whether the successful operation transfers.
+- [Approximate and check easy cases](approximate_and_check_easy_cases.md) records discarded information, failure boundaries, and simple checks.
+- [Verify with independent estimates](verify_with_independent_estimates.md) compares routes that use different evidence, assumptions, or representations.
 
-See the linked investigation for a prioritized proposal and evaluation plan.
+The review also strengthened the independence rules in [Combine cognitive patterns](combine_cognitive_patterns.md) and added an abstraction test to the pattern lifecycle.
 
 ## Related concepts
 
@@ -85,6 +83,9 @@ See the linked investigation for a prioritized proposal and evaluation plan.
 - [Combine cognitive patterns](combine_cognitive_patterns.md)
 - [Update beliefs with evidence](update_beliefs_with_evidence.md)
 - [Reason from first principles](reason_from_first_principles.md)
+- [Decompose and abstract](decompose_and_abstract.md)
+- [Approximate and check easy cases](approximate_and_check_easy_cases.md)
+- [Verify with independent estimates](verify_with_independent_estimates.md)
 
 ## Source and download
 

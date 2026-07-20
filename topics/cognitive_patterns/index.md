@@ -37,14 +37,17 @@ A cognitive pattern should not repeat factual content from a concept. Its value 
 ## Choose and combine patterns
 
 - [Select cognitive patterns](select_cognitive_patterns.md) when the right procedure is unclear.
+- [Decompose and abstract](decompose_and_abstract.md) when a question must be divided into manageable parts or a successful method should transfer to another domain.
 - [Combine cognitive patterns](combine_cognitive_patterns.md) when one procedure leaves an important gap.
 
 ## Examine claims and uncertainty
 
 - [Generate counterexamples](generate_counterexamples.md) to find where a claim fails.
+- [Approximate and check easy cases](approximate_and_check_easy_cases.md) to simplify a model, record what was discarded, and test units and boundaries.
 - [Reason from first principles](reason_from_first_principles.md) to rebuild an argument from constraints and mechanisms.
 - [Test competing hypotheses](test_competing_hypotheses.md) to separate plausible explanations with useful observations.
 - [Update beliefs with evidence](update_beliefs_with_evidence.md) to revise confidence from a prior belief and new evidence.
+- [Verify with independent estimates](verify_with_independent_estimates.md) to check a result through routes that can fail for different reasons.
 
 ## Examine systems and interventions
 
@@ -71,8 +74,10 @@ A pattern can improve the structure of an analysis without improving its conclus
 1. Select a pattern.
 2. Apply it to an investigation.
 3. Record whether it was useful.
-4. Add examples, failure modes, or scope conditions when repeated use supports the change.
-5. Revise or retire the pattern when it stops helping.
+4. When it succeeds repeatedly, use [Decompose and abstract](decompose_and_abstract.md) to name the operation that made it work.
+5. Test that operation outside the original domain before generalizing it.
+6. Add examples, failure modes, or scope conditions when repeated use supports the change.
+7. Revise or retire the pattern when it stops helping.
 
 ## Sources
 
