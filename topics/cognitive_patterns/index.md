@@ -62,6 +62,10 @@ A cognitive pattern should not repeat factual content from a concept. Its value 
 
 A pattern can improve the structure of an analysis without improving its conclusion. Evaluate patterns against outcomes when possible. Compare the result with direct reasoning, use tasks with enough room for improvement, and repeat tests before claiming that a pattern improves accuracy.
 
+## Investigations
+
+- [Human–AI collaboration as the unit of cognition](2026-07-20_investigation_human-ai-collaboration-as-unit-of-cognition.md) examines whether pattern workflows should optimize the human–AI pair rather than the agent in isolation.
+
 ## Pattern lifecycle
 
 1. Select a pattern.

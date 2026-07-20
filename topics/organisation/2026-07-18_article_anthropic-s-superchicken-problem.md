@@ -46,4 +46,6 @@ The sentence about broadening success beyond intelligence and safeguards is the 
 
 ## Related concepts
 
+- [A Bigger Prize](2014-02-27_book_margaret-heffernan_a-bigger-prize.md) — the cited book develops the broader case against treating competition and individual ranking as universal performance mechanisms.
+- [Human–AI collaboration as the unit of cognition](../cognitive_patterns/2026-07-20_investigation_human-ai-collaboration-as-unit-of-cognition.md) — applies the coop-level argument to the design and evaluation of cognitive-pattern workflows.
 - [Evaluate Incentives](../cognitive_patterns/evaluate_incentives.md) — useful for asking what behavior an organization’s metrics and safeguards reward, and which system-level outcomes remain invisible.
