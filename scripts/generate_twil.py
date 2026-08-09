@@ -1,17 +1,11 @@
 #!/usr/bin/env python3
-"""Generate a weekly summary of curated topic notes added to Git.
-
-Selection is based on the commit date when a concept file was first added, not
-the publication date stored in the note. Raw captures and OKF-reserved files are
-excluded so each curated concept appears once.
-"""
+"""Generate a weekly summary of topic notes dated within an ISO week."""
 
 from __future__ import annotations
 
 import argparse
 import datetime as dt
 import re
-import subprocess
 from collections import Counter
 from dataclasses import dataclass
 from pathlib import Path
@@ -20,15 +14,13 @@ ROOT = Path(__file__).resolve().parents[1]
 TOPICS_DIR = ROOT / "topics"
 TWIL_DIR = ROOT / "twil"
 RESERVED = {"index.md", "log.md"}
-COMMIT_MARKER = "@@@"
 
 
 @dataclass(frozen=True)
-class AddedNote:
-    added_on: dt.date
+class WeekNote:
     path: Path
     title: str
-    content_date: str | None
+    note_date: dt.date
     topics: tuple[str, ...]
     summary: str
 
@@ -47,9 +39,8 @@ def week_bounds(day: dt.date) -> tuple[dt.date, dt.date]:
 
 
 def previous_week_bounds(today: dt.date) -> tuple[dt.date, dt.date]:
-    this_monday, _ = week_bounds(today)
-    start = this_monday - dt.timedelta(days=7)
-    return start, start + dt.timedelta(days=6)
+    # Use yesterday as the reference day to avoid cron edge cases.
+    return week_bounds(today - dt.timedelta(days=1))
 
 
 def frontmatter(text: str) -> str:
@@ -136,68 +127,40 @@ def extract_summary(text: str, title: str) -> str:
 
     summary = compact_markdown(" ".join(selected)) or title
     if len(summary) > 280:
-        summary = summary[:277].rsplit(" ", 1)[0] + "…"
+        summary = summary[:277].rsplit(" ", 1)[0] + "..."
     return summary
 
 
-def is_curated_concept(path: Path) -> bool:
+def is_topic_note(path: Path) -> bool:
     try:
-        relative = path.relative_to(TOPICS_DIR)
+        path.relative_to(TOPICS_DIR)
     except ValueError:
         return False
-    return (
-        path.suffix == ".md"
-        and path.name not in RESERVED
-        and "raw" not in relative.parts
-        and not path.name.endswith(".raw.md")
-    )
+    return path.suffix == ".md" and path.name not in RESERVED
 
 
-def git_added_paths(start: dt.date, end: dt.date) -> list[tuple[dt.date, Path]]:
-    command = [
-        "git",
-        "log",
-        f"--since={start.isoformat()} 00:00:00",
-        f"--until={end.isoformat()} 23:59:59",
-        "--diff-filter=A",
-        "--date=short",
-        f"--pretty=format:{COMMIT_MARKER}%ad",
-        "--name-only",
-        "--",
-        "topics",
-    ]
-    output = subprocess.check_output(command, cwd=ROOT, text=True)
-    current_date: dt.date | None = None
-    additions: dict[Path, dt.date] = {}
-
-    for raw_line in output.splitlines():
-        line = raw_line.strip()
-        if not line:
+def load_notes(start: dt.date, end: dt.date) -> list[WeekNote]:
+    notes: list[WeekNote] = []
+    for path in sorted(TOPICS_DIR.rglob("*.md")):
+        if not is_topic_note(path):
             continue
-        if line.startswith(COMMIT_MARKER):
-            current_date = dt.date.fromisoformat(line[len(COMMIT_MARKER) :])
-            continue
-        if current_date is None:
-            continue
-        path = ROOT / line
-        if path.exists() and is_curated_concept(path):
-            additions[path] = current_date
-
-    return sorted(((added, path) for path, added in additions.items()), key=lambda x: (x[0], str(x[1]).lower()))
-
-
-def load_notes(start: dt.date, end: dt.date) -> list[AddedNote]:
-    notes = []
-    for added_on, path in git_added_paths(start, end):
         text = path.read_text(encoding="utf-8", errors="replace")
         metadata = frontmatter(text)
+        note_date = scalar(metadata, "date")
+        if not note_date:
+            continue
+        try:
+            parsed_date = dt.date.fromisoformat(note_date)
+        except ValueError:
+            continue
+        if not (start <= parsed_date <= end):
+            continue
         title = extract_title(path, text, metadata)
         notes.append(
-            AddedNote(
-                added_on=added_on,
+            WeekNote(
                 path=path,
                 title=title,
-                content_date=scalar(metadata, "date") or scalar(metadata, "created_at"),
+                note_date=parsed_date,
                 topics=extract_topics(path, metadata),
                 summary=extract_summary(text, title),
             )
@@ -205,20 +168,44 @@ def load_notes(start: dt.date, end: dt.date) -> list[AddedNote]:
     return notes
 
 
-def render(start: dt.date, end: dt.date, notes: list[AddedNote]) -> str:
+def topic_signal(notes: list[WeekNote]) -> tuple[str, Counter[str], Counter[str]]:
+    total_counter: Counter[str] = Counter()
+    file_counter: Counter[str] = Counter()
+
+    for note in notes:
+        note_topics = [topic for topic in note.topics if topic != "twil"]
+        total_counter.update(note_topics)
+        file_counter.update(set(note_topics))
+
+    if not total_counter:
+        return "weekly", total_counter, file_counter
+
+    main_topic = min(
+        total_counter,
+        key=lambda topic: (-total_counter[topic], -file_counter[topic], topic),
+    )
+    return main_topic, total_counter, file_counter
+
+
+def sorted_topics(total_counter: Counter[str], file_counter: Counter[str]) -> list[tuple[str, int]]:
+    return sorted(
+        total_counter.items(),
+        key=lambda item: (-item[1], -file_counter[item[0]], item[0]),
+    )
+
+
+def slugify_topic(topic: str) -> str:
+    slug = re.sub(r"[^a-z0-9]+", "_", topic.lower()).strip("_")
+    return slug or "weekly"
+
+
+def render(start: dt.date, end: dt.date, notes: list[WeekNote], main_topic: str) -> str:
     iso_year, iso_week, _ = start.isocalendar()
-    topic_counter = Counter(topic for note in notes for topic in note.topics)
-    primary_counter = Counter(note.topics[0] for note in notes if note.topics)
-    leaders = primary_counter.most_common()
-    if not leaders:
-        main_topic = "weekly"
-    elif len(leaders) > 1 and leaders[0][1] == leaders[1][1]:
-        main_topic = "mixed"
-    else:
-        main_topic = leaders[0][0]
-    top_topics = ", ".join(f"{topic} ×{count}" for topic, count in topic_counter.most_common(3)) or "none"
+    total_counter, file_counter = topic_signal(notes)[1:]
+    ranked_topics = sorted_topics(total_counter, file_counter)
+    top_topics = ", ".join(f"{topic} x{count}" for topic, count in ranked_topics[:3]) or "none"
     today = dt.date.today()
-    status = "complete" if end < today else "in_progress"
+    status = "complete" if end <= today else "in_progress"
     note_date = min(end, today)
     generated_at = dt.datetime.now().astimezone().replace(microsecond=0).isoformat()
 
@@ -237,76 +224,57 @@ def render(start: dt.date, end: dt.date, notes: list[AddedNote]) -> str:
         f"  end: {end.isoformat()}",
         f"status: {status}",
         f"main_topic: {main_topic}",
-        "source_scope: curated topic concepts added in Git",
+        "source_scope: topics/**/*.md with frontmatter date in range",
         f"generated_at: {generated_at}",
         "---",
         f"# TWIL {iso_year} week {iso_week}: {main_topic}",
         "",
-        f"- **Period:** {start.isoformat()} → {end.isoformat()}",
-        f"- **Status:** `{status}`",
+        f"- **Period:** {start.isoformat()} -> {end.isoformat()}",
+        f"- **Main topic:** `{main_topic}`",
         f"- **Signal:** {len(notes)} notes, top topics: {top_topics}",
         "",
         "## TL;DR",
     ]
 
     if notes:
-        if main_topic == "mixed":
-            out.append(
-                f"This week added {len(notes)} curated notes with no single dominant "
-                f"topic. The collection ranged across "
-                f"{', '.join(topic for topic, _ in topic_counter.most_common(3))}."
-            )
-        else:
-            out.append(
-                f"This week added {len(notes)} curated notes. The strongest thread was "
-                f"**{main_topic}**, with the collection also touching "
-                f"{', '.join(topic for topic, _ in topic_counter.most_common(3) if topic != main_topic) or 'adjacent ideas in the same area'}."
-            )
+        adjacent_topics = ", ".join(topic for topic, _ in ranked_topics if topic != main_topic) or "adjacent ideas in the same area"
+        out.append(
+            f"This week touched {len(notes)} dated topic notes. The strongest thread was **{main_topic}**, "
+            f"with the rest clustering around {adjacent_topics}."
+        )
     else:
-        out.append("No curated topic notes were added in this ISO week; this entry preserves weekly continuity.")
+        out.append(
+            f"No `topics/**/*.md` notes with frontmatter `date:` fell inside ISO week {iso_week:02d}, "
+            "so there was no dominant topic to compact. I still created the weekly note to preserve the chain and make the quiet week explicit."
+        )
 
     out.extend(["", "## Highlights"])
     if notes:
         for note in notes:
             relative = note.path.relative_to(ROOT)
-            link = f"../{relative.as_posix()}"
-            source_date = f"; source date {note.content_date}" if note.content_date and note.content_date != note.added_on.isoformat() else ""
-            out.append(f"- [{note.title}]({link}) — {note.summary} _(added {note.added_on.isoformat()}{source_date})_")
-    else:
-        out.append("- No eligible notes found in this week.")
-
-    out.extend(["", "## This happened → so that happened → which led to…"])
-    if notes:
-        signal = (
-            "no single topic dominated the primary classification"
-            if main_topic == "mixed"
-            else (
-                f"`{main_topic}` became the week's strongest primary signal "
-                f"({primary_counter[main_topic]} "
-                f"{'note' if primary_counter[main_topic] == 1 else 'notes'})"
+            out.append(
+                f"- [{note.title}](../{relative.as_posix()}) — {note.summary} _(dated {note.note_date.isoformat()})_"
             )
-        )
-        out.extend(
-            [
-                f"- **This happened:** {len(notes)} durable notes were added across {len(topic_counter)} topic areas.",
-                f"- **So that happened:** {signal}.",
-                "- **Which led to…** a compact map of the week's additions that can be revisited without scanning the Git history.",
-            ]
-        )
     else:
-        out.extend(
-            [
-                "- **This happened:** no curated topic concepts were added.",
-                "- **So that happened:** there was no content topic to compact.",
-                "- **Which led to…** a continuity-only weekly entry.",
-            ]
-        )
+        out.append(f"- No eligible notes found in range `{start.isoformat()} -> {end.isoformat()}`.")
 
-    out.extend(["", "## Topic signal"])
-    if topic_counter:
-        out.extend(f"- `{topic}` ×{count}" for topic, count in topic_counter.most_common())
+    out.extend(["", "## This happened -> so that happened -> which led to..."])
+    if notes:
+        out.extend(
+            [
+                f"- **This happened:** {len(notes)} notes landed in `topics/` with dates between `{start.isoformat()}` and `{end.isoformat()}`.",
+                f"- **So that happened:** `{main_topic}` became the top-of-mind topic at `{total_counter[main_topic]}` mentions across `{file_counter[main_topic]}` files.",
+                "- **Which led to...** a compact weekly map you can revisit without re-scanning the whole knowledge base.",
+            ]
+        )
     else:
-        out.append("- none")
+        out.extend(
+            [
+                f"- **This happened:** no dated topic notes matched `{start.isoformat()} -> {end.isoformat()}`.",
+                "- **So that happened:** the topic tally stayed empty after excluding `twil`.",
+                "- **Which led to...** a continuity-only TWIL entry with `main_topic: weekly`.",
+            ]
+        )
 
     out.extend(["", "## Links"])
     if notes:
@@ -314,7 +282,7 @@ def render(start: dt.date, end: dt.date, notes: list[AddedNote]) -> str:
             relative = note.path.relative_to(ROOT)
             out.append(f"- [{note.title}](../{relative.as_posix()})")
     else:
-        out.append("- none")
+        out.append("- No in-range note links to include.")
 
     return "\n".join(out) + "\n"
 
@@ -332,11 +300,13 @@ def main() -> int:
     if end < start:
         raise SystemExit("--end must be on or after --start")
 
+    TWIL_DIR.mkdir(parents=True, exist_ok=True)
     notes = load_notes(start, end)
     iso_year, iso_week, _ = start.isocalendar()
-    target = TWIL_DIR / f"{iso_year}_week_{iso_week:02d}_weekly.md"
-    target.write_text(render(start, end, notes), encoding="utf-8")
-    print(f"{target.relative_to(ROOT)}: {len(notes)} curated notes")
+    main_topic, _, _ = topic_signal(notes)
+    target = TWIL_DIR / f"{iso_year}_week_{iso_week:02d}_{slugify_topic(main_topic)}.md"
+    target.write_text(render(start, end, notes, main_topic), encoding="utf-8")
+    print(f"{target.relative_to(ROOT)}: {len(notes)} dated notes")
     return 0
 
 
