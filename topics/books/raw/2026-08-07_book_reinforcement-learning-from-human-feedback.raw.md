@@ -1636,7 +1636,7 @@ answer to a given prompt and 0 applies to an incorrect answer, andpθ(st) =σ(w�
 the probability of correctness predicted at tokentfrom the model’s scalar logitwθ(st).
 A simpler form of an ORM, following \[75\], is a sequence-level cross-entropy loss, where the
 model is later used for per-token inference:
-LCE(θ) =−E (s,r)∼D [rlog ¯pθ(s) + (1−r) log(1−¯pθ(s))](20)
+LCE(θ) =−E (s,r)∼D [rlog ¯pθ(s) + (1−r) log(1−¯pθ(s))] \(20\)
 where r∈{ 0, 1} is a binary label where 1 applies to a correct answer to a given prompt and
 0 applies to an incorrect answer, and¯pθ(s) = σ
 (
@@ -4622,7 +4622,7 @@ of the model across the sequence of tokens in the data presented. Hence, DPO is 
 the gap in relative log-probabilities between the chosen and rejected responses.
 With the reward in eq. 82, we can write the gradient of the loss to further interpret what is
 going on:
-∇θLDPO(πθ;π ref) =−βE (x,yc,yr)∼D [w·(∇ θ logπθ(yc|x)−∇ θ logπθ(yr|x))](83)
+∇θLDPO(πθ;π ref) =−βE (x,yc,yr)∼D [w·(∇ θ logπθ(yc|x)−∇ θ logπθ(yr|x))] \(83\)
 wherew=σ(r θ(x,yr)−r θ(x,yc)).
 Here, the gradient solves the above objective by doing the following:
 • The first term within the sigmoid function,σ(·), creates a weight of the parameter
@@ -5208,7 +5208,7 @@ overview of the methods and leaves further experimentation to the reader.
 9.1.1 Generating Completions
 To generate a set of multiple candidate completions per prompt, let’s define a set ofM
 prompts as a vector:
-X= [x 1,x 2,...,x M](111)
+X= [x 1,x 2,...,x M] \(111\)
 These prompts can come from many sources, but most commonly they come from the
 instruction training set.
 For each promptxi, we generateNcompletions. We can represent this as a matrix:
@@ -5260,15 +5260,15 @@ rM,j
 This functionS returns a vector of indices, where each index corresponds to the column
 with the maximum reward for each row inR. We can then use these indices to select our
 chosen completions:
-Ychosen = [y1,S(R)1,y 2,S(R)2,...,y M,S(R)M ](116)
+Ychosen = [y1,S(R)1,y 2,S(R)2,...,y M,S(R)M ] \(116\)
 9.1.2.2 Top Overall PairsAlternatively, we can select the top K prompt-completion
 pairs from the entire set. First, let’s flatten our reward matrixRinto a single vector:
-Rflat = [r1,1,r 1,2,...,r 1,N,r 2,1,r 2,2,...,r 2,N,...,r M,1,rM,2,...,r M,N ](117)
+Rflat = [r1,1,r 1,2,...,r 1,N,r 2,1,r 2,2,...,r 2,N,...,r M,1,rM,2,...,r M,N ] \(117\)
 This Rflat vector has lengthM×N , where M is the number of prompts andN is the
 number of completions per prompt.
 Now, we can define a selection functionSK that selects the indices of the K highest values
 inR flat:
-SK(Rflat) =argsort(R flat)[−K:](118)
+SK(Rflat) =argsort(R flat)[−K:] \(118\)
 where argsort returns the indices that would sort the array in ascending order, and we take
 the lastKindices to get theKhighest values.
 To get our selected completions, we need to map these flattened indices back to our original
@@ -5310,7 +5310,7 @@ j
 ri,j fori∈[1,5]
 ]
 (121)
-S(R) = [1,2,1,3,4](122)
+S(R) = [1,2,1,3,4] \(122\)
 This means we would select:
 •For prompt 1: completion 1 (reward 0.7)
 •For prompt 2: completion 2 (reward 0.8)
@@ -5335,7 +5335,7 @@ Rflat = [0.7,0.3,0.5,0.2,0.4,0.8,0.6,0.5,0.9,0.3,0.4,0.7,0.2,0.5,0.8,0.6,0.5,0.4
 rlhfbook.com 121
 
 Now, we select the indices of the five highest values:
-S5(Rflat) = [8,5,14,0,11](125)
+S5(Rflat) = [8,5,14,0,11] \(125\)
 Mapping these back to our original matrix:
 •Index 8→prompt 3, completion 1 (reward 0.9)
 •Index 5→prompt 2, completion 2 (reward 0.8)
@@ -5396,7 +5396,7 @@ when running BoN sampling relative to any other policy.
 Here, we will show that when using simple BoN sampling over one prompt, both selection
 criteria shown above are equivalent.
 LetRbe a reward vector for our single prompt withNcompletions:
-R= [r 1,r 2,...,r N](126)
+R= [r 1,r 2,...,r N] \(126\)
 wherer j represents the reward for the j-th completion.
 Using the argmax method, we select the best completion for the prompt:
 S(R) = arg max
@@ -7422,12 +7422,12 @@ for RLHF. Taking eq. 139, we can transform this into an objective function to op
 sampling from the RL policy model, completionsy from promptsx in the RL dataset used
 for RLHF, which yields:
 J(θ) =E (x,y)∼DπRL,θ
-[rθ(y|x)−λr reg.](143)
+[rθ(y|x)−λr reg.] \(143\)
 Then, we can add an additional reward for higher probabilities on the standard autoregressive
 next-token prediction loss used during pretraining, over a set of documents sampled from
 the pretraining corpus (or another dataset) to maintain textual coherence:
 J(θ) =E (x,y)∼DπRL,θ
-[rθ(y|x)−λr reg.] +γEx∼Dpretrain [log(πRL,θ(x))](144)
+[rθ(y|x)−λr reg.] +γEx∼Dpretrain [log(πRL,θ(x))] \(144\)
 15.2.2 Next-token Accuracy in DPO
 Recent work proposed using a negative log-likelihood term to balance the optimization of
 Direct Preference Optimization (DPO) \[357\]. Given the pairwise nature of the DPO loss,
