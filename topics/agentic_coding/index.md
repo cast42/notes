@@ -23,6 +23,7 @@ coding agents in collaboration with humans.
 - [Control the ideas, not the code](2026-07-13_article_control-the-ideas-not-the-code.md) — Antirez on design documents as durable mental models for humans and coding agents.
 - [MarkdownFS for agents](2026-04-30_tweet_markdownfs-an-open-source-in-memory-filesystem-for-agents.md)
 - [Skill optimization without changing model weights](2026-06-11_article_skillopt-and-training-agent-skills-without-touching-model-weights.md)
+- [The Elements of Style as a source for the plain-writing skill](2026-08-16_tweet_the-elements-of-style-as-a-source-for-the-plain-writing-skill.md) — Strunk's composition rules supply clarity and readability principles for DocWriter's agent skill.
 
 ## Related areas
 
