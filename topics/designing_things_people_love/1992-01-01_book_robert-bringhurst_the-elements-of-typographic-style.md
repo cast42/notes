@@ -35,3 +35,4 @@ Bringhurst frames typography as a reader-first craft: interpret the logic of the
 ## Related concepts
 
 - [Celine Nguyen's typography basics for app design](../app_design/2026-02-18_tweet_make-your-vibecoded-app-look-good-typography-basics.md)
+- [Better Typography: a web implementation layer for these principles](../app_design/2026-08-29_procedure_better-typography-a-web-implementation-layer-for-bringhurst.md)
