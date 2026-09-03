@@ -94,3 +94,4 @@ This is useful as a conceptual bridge book: it gives language for connecting AGI
 ## Related notes
 
 - [ResNet and the residual stream](2026-09-03_video_the-most-cited-paper-of-the-century-is-a-brilliant-hack.md) — a video-level history of the architectural idea that became central to Transformers.
+- [Sebastian Raschka on OpenAI Astra and looped Transformers](2026-09-02_tweet_sebastian-raschka-on-openai-astra-and-looped-transformers.md) — a concrete discussion of recursive depth, parameter sharing, and latent computation.
