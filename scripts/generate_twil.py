@@ -39,8 +39,8 @@ def week_bounds(day: dt.date) -> tuple[dt.date, dt.date]:
 
 
 def previous_week_bounds(today: dt.date) -> tuple[dt.date, dt.date]:
-    # Use yesterday as the reference day to avoid cron edge cases.
-    return week_bounds(today - dt.timedelta(days=1))
+    current_start, _ = week_bounds(today)
+    return current_start - dt.timedelta(days=7), current_start - dt.timedelta(days=1)
 
 
 def frontmatter(text: str) -> str:

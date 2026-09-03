@@ -29,15 +29,16 @@ log "twil weekly start"
 
 git pull --ff-only origin main >> "$LOG_FILE" 2>&1 || log "git pull failed (continuing)"
 
-TARGET_FILE="$(python3 "$WORKSPACE/scripts/generate_twil.py" --previous-week | tee -a "$LOG_FILE" | tail -n 1)"
+GENERATOR_OUTPUT="$(python3 "$WORKSPACE/scripts/generate_twil.py" --previous-week | tee -a "$LOG_FILE" | tail -n 1)"
+TARGET_FILE="${GENERATOR_OUTPUT%%:*}"
 
 # validate only the generated twil file
 python3 "$WORKSPACE/scripts/check_markdown_links.py" "$TARGET_FILE" >> "$LOG_FILE" 2>&1
 
 if [[ -f "$TARGET_FILE" ]] && ! grep -q '^main_topic: none$' "$TARGET_FILE"; then
-  if ! git diff --quiet -- "$TARGET_FILE"; then
-    git add "$TARGET_FILE"
-    git commit -m "Generate weekly TWIL (auto)" >> "$LOG_FILE" 2>&1 || true
+  if [[ -n "$(git status --porcelain -- "$TARGET_FILE")" ]]; then
+    git add -- "$TARGET_FILE"
+    git commit -m "Generate weekly TWIL (auto)" -- "$TARGET_FILE" >> "$LOG_FILE" 2>&1
     git push origin main >> "$LOG_FILE" 2>&1 || log "git push failed"
     log "twil changes committed"
   else
