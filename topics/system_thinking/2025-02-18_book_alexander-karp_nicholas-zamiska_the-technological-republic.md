@@ -41,6 +41,10 @@ description: "Alexander Karp and Nicholas Zamiska argue that technology companie
 - Independent Review critique: the proposed public-private, defense-oriented innovation model is criticized as likely to misallocate capital and talent, crowd out entrepreneurial experimentation, and confuse a few celebrated spillovers like the internet or GPS with a generally reliable model of top-down innovation.
 - Independent Review critique: the reviewer also finds the book weak on security-dilemma dynamics and too vague about what exactly "the West" is supposed to mean or preserve.
 
+## Related concepts
+
+- [The Techtonic Shift — what reviewers are saying](2026-09-05_investigation_the-techtonic-shift-what-reviewers-are-saying.md) — a newer European perspective on technology, state power, and democratic institutions.
+
 ## Links
 
 - Permalink: [https://x.com/jacobhelberg/status/1870898195720499494](https://x.com/jacobhelberg/status/1870898195720499494)
@@ -52,6 +56,3 @@ description: "Alexander Karp and Nicholas Zamiska argue that technology companie
 
 - Raw text: [Jacob Helberg's X post](raw/2026-07-11_tweet_jacob-helberg_the-technological-republic-review.raw.md)
 - Extractor: fxtwitter+vision+light-review-scan
-
-## My notes
--
