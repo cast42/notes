@@ -16,6 +16,7 @@ and change in complex systems.
 - [Breakneck](2025-08-26_book_dan-wang_breakneck.md)
 - [Wennink's report and systems change](2025-12-15_article_tom-de-bruyne_wenninks-rapport-masterclass-systeemverandering.md)
 - [The Octopus Organization](2025-12-16_book_phil-le-brun_jana-werner_the-octopus-organization.md)
+- [Mariana Mazzucato: culture as economic purpose](2026-09-05_tweet_mariana-mazzucato_culture-as-economic-purpose.md) — Culture as public-value infrastructure that helps an economy define its goals and measures of success.
 
 ## Technology and geopolitical power
 
