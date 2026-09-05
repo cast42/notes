@@ -15,7 +15,6 @@ import argparse
 import datetime as dt
 import hashlib
 import json
-import os
 import re
 from pathlib import Path
 from typing import Any, Dict, Optional, Tuple
@@ -83,10 +82,6 @@ def sha256_text(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
 
 
-def ensure_dir(p: Path) -> None:
-    p.mkdir(parents=True, exist_ok=True)
-
-
 def render_frontmatter(meta: Dict[str, Any]) -> str:
     # simple YAML renderer (strings/arrays only)
     lines = ["---"]
@@ -145,8 +140,7 @@ def write_note_pair(
 ) -> Tuple[Path, Path]:
     topic_dir = vault_root / "topics" / topic
     raw_dir = topic_dir / "raw"
-    ensure_dir(topic_dir)
-    ensure_dir(raw_dir)
+    raw_dir.mkdir(parents=True, exist_ok=True)
 
     slug = slugify(title)
     base = f"{date}_{source}_{slug}"

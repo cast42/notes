@@ -131,18 +131,10 @@ def extract_summary(text: str, title: str) -> str:
     return summary
 
 
-def is_topic_note(path: Path) -> bool:
-    try:
-        path.relative_to(TOPICS_DIR)
-    except ValueError:
-        return False
-    return path.suffix == ".md" and path.name not in RESERVED
-
-
 def load_notes(start: dt.date, end: dt.date) -> list[WeekNote]:
     notes: list[WeekNote] = []
     for path in sorted(TOPICS_DIR.rglob("*.md")):
-        if not is_topic_note(path):
+        if path.name in RESERVED:
             continue
         text = path.read_text(encoding="utf-8", errors="replace")
         metadata = frontmatter(text)

@@ -9,13 +9,10 @@ import subprocess
 import sys
 from pathlib import Path
 
+from generate_twil import week_bounds
+
 ROOT = Path(__file__).resolve().parents[1]
 GENERATOR = ROOT / "scripts" / "generate_twil.py"
-
-
-def week_bounds(day: dt.date) -> tuple[dt.date, dt.date]:
-    start = day - dt.timedelta(days=day.weekday())
-    return start, start + dt.timedelta(days=6)
 
 
 def main() -> int:
