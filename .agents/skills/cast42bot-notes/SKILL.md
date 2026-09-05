@@ -7,7 +7,7 @@ description: "Maintain cast42/notes with meaningful OKF metadata, links, validat
 
 ## Respect the bundle boundary
 
-Treat `topics/` as the OKF 0.1 bundle. Treat `inbox/`, `meetings/`, `refs/`,
+Treat `topics/` as the OKF 0.2 bundle. Treat `inbox/`, `meetings/`, `refs/`,
 `twil/`, `_meta/`, scripts, skills, and agent memory as supporting
 infrastructure.
 
@@ -26,7 +26,7 @@ Apply these rules in order:
 
    ```yaml
    ---
-   okf_version: "0.1"
+   okf_version: "0.2"
    ---
    ```
 
@@ -45,7 +45,6 @@ Use this shape for new durable concepts:
 ---
 title: "..."
 date: YYYY-MM-DD
-timestamp: YYYY-MM-DD
 type: article
 topics:
   - knowledge_management
@@ -61,8 +60,21 @@ Metadata rules:
 
 - Derive `title` from the first H1, otherwise from the filename.
 - Derive `date` from a leading `YYYY-MM-DD`, otherwise from the source date.
-- Set `timestamp` to the same value for new notes unless a more precise source
-  timestamp is useful.
+- Keep `date` for the source date. Preserve legacy `timestamp` fields without
+  copying them to `generated.at`, which describes the note's last meaningful
+  content change.
+- Add `generated: {by, at}` when the producer and generation time are known.
+  Use `human:<id>`, `process:<id>`, or `<producer>/<version>` for actors and an
+  ISO 8601 datetime with a UTC offset for `at`.
+- Add `sources` entries with a `resource` for material actually used. Include
+  stable source IDs for claim footnotes. Keep readable source links in the body.
+- Add `verified` only after checking the content against its sources. A YAML
+  validation pass is not content verification. Never invent past review events.
+- Use lifecycle `status` only for `draft`, `stable`, or `deprecated`. Missing
+  status means stable, not verified. Use `maturity: experimental` for patterns
+  still being tested.
+- Use `stale_after` only when a review deadline is useful. It is a datetime
+  with a UTC offset; content is stale on or after that instant.
 - Infer `topics` from `topics/<topic>/`; topics are broad repository
   placement categories.
 - Add 2–6 concise `tags` that improve retrieval. Tags should name the concepts,
@@ -113,7 +125,7 @@ distinguishable.
 - When creating a durable topic directory, add a frontmatter-free `index.md`
   and link it from `topics/index.md`.
 - Put local conceptual relationships in prose or a related section; keep
-  external provenance in the sources section.
+  external provenance in frontmatter `sources` and readable body links.
 
 ## Route and name notes
 

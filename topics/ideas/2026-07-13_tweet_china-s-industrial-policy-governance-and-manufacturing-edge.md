@@ -42,7 +42,6 @@ resource: "https://x.com/PatrickMcGee_/status/2061495292718104796"
 - [https://x.com/PatrickMcGee_/status/2061495292718104796](https://x.com/PatrickMcGee_/status/2061495292718104796)
 - [https://as.ft.com/r/c9e68f03-f63c-4cf2-8d06-aefb014d3678](https://as.ft.com/r/c9e68f03-f63c-4cf2-8d06-aefb014d3678)
 - [https://pbs.twimg.com/media/HJvnCySa4AAeetJ.jpg?name=orig](https://pbs.twimg.com/media/HJvnCySa4AAeetJ.jpg?name=orig)
-- [/tmp/patrick_mcgee_china_industrial_policy.jpg](/tmp/patrick_mcgee_china_industrial_policy.jpg)
 
 ## Raw
 

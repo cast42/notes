@@ -12,7 +12,7 @@ tags:
   - diagnosis
   - evidence
 resource: "https://github.com/tjboudreaux/cc-thinking-skills"
-status: experimental
+maturity: experimental
 ---
 
 # Test competing hypotheses

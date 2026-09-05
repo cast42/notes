@@ -375,7 +375,7 @@ I’ll let you decide what you’d like to do with that information.
 
 – Dan
 
-[6:44 p.m. · 8 jan. 2026](/thedankoe/status/2009320195848872014)
+[6:44 p.m. · 8 jan. 2026](https://x.com/thedankoe/status/2009320195848872014)
 
 ---
 

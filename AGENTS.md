@@ -119,14 +119,14 @@ Skills provide your tools. When you need one, check its `SKILL.md`. Keep local n
 
 ## Knowledge Bundle
 
-`topics/` is an Open Knowledge Format 0.1 bundle shared by humans and agents.
+`topics/` is an Open Knowledge Format 0.2 bundle shared by humans and agents.
 
 - Read `DESIGN.md` before changing repository structure, metadata contracts, or knowledge-flow automation.
 - Begin discovery at `topics/index.md`; follow topic indexes before loading many notes.
 - Treat each non-reserved Markdown file as one self-contained concept with YAML frontmatter and a non-empty `type`.
 - Keep nested `index.md` and `log.md` files free of frontmatter.
 - Use ordinary relative Markdown links to connect related concepts.
-- Preserve existing note metadata; add OKF-oriented `resource`, `tags`, or `timestamp` aliases only when useful.
+- Preserve existing note metadata. Add OKF `sources` and `generated` only from known provenance; keep source dates separate from generation times. Add `verified` only after content verification.
 - Run `uv run --with PyYAML python scripts/validate_okf.py` after changing `topics/`.
 
 See `_meta/OPEN_KNOWLEDGE_FORMAT.md` for the repository-specific contract.

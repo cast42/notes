@@ -1,5 +1,12 @@
 # Bundle log
 
+## 2026-09-05
+
+- Updated the bundle declaration and maintenance rules to OKF 0.2.
+- Preserved legacy source dates and recorded experimental pattern maturity separately from lifecycle status.
+- Added optional metadata checks and provenance fields for new ingested notes.
+- Resolved four captured web links against their source sites and removed an unavailable temporary image link whose public source is already listed.
+
 ## 2026-07-15
 
 - Added cognitive patterns as a first-class knowledge object for reusable reasoning procedures.

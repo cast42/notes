@@ -22,7 +22,7 @@ Every source, concept, and investigation note must resolve to these fields:
 
 Cognitive patterns follow a smaller contract because they are reusable
 procedures rather than dated records. They require `title`,
-`type: cognitive_pattern`, `description`, and `tags`. They may include `status`
+`type: cognitive_pattern`, `description`, and `tags`. They may include `maturity`
 when the procedure is still being tested.
 
 ## Accepted source/provenance keys (optional)
@@ -54,16 +54,32 @@ For interchange through the OKF bundle, readers should also recognize:
 
 - `resource` as an alias for `source`, `source_url`, or `canonical_url`
 - `tags` as the OKF-oriented equivalent of `topics`
-- `timestamp` as an alias for `date` or `created_at`
+- legacy `timestamp` as source metadata, often duplicating `date` or `created_at`
+
+OKF 0.2 `generated.at` records the note's last meaningful content change.
+It must not replace the source date or become a TWIL selection date. Do not
+convert legacy `timestamp` values into generation events without evidence.
+
+For new notes, record known provenance in `sources` and `generated`. Each
+source entry has a `resource`; each generation event has `by` and, when known,
+`at`. Use an actor in the form `human:<id>`, `process:<id>`, or
+`<producer>/<version>` and datetimes with an explicit UTC offset.
+
+Optional `verified` events record actual checks against sources. Accept a
+single mapping or a list. Preserve absent verification rather than inventing
+it. Lifecycle `status` uses `draft`, `stable`, or `deprecated`; absence means
+stable, not verified. Pattern maturity uses `maturity: experimental`.
+`stale_after` is an optional datetime with a UTC offset, inclusive at the
+deadline. See the [OKF guide](OPEN_KNOWLEDGE_FORMAT.md).
 
 Writers may include both repository-native and OKF-oriented fields. Do not
 rewrite historical notes solely to add aliases.
 
 ## OKF bundle rules
 
-`topics/` is an OKF 0.1 bundle:
+`topics/` is an OKF 0.2 bundle:
 
-- the root `topics/index.md` declares only `okf_version: "0.1"`
+- the root `topics/index.md` declares only `okf_version: "0.2"`
 - nested `index.md` and `log.md` files have no frontmatter
 - all other Markdown files have parseable frontmatter and a non-empty `type`
 - links between concepts use ordinary relative Markdown links

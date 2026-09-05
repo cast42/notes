@@ -249,6 +249,6 @@ with MCP.
 
 This entry was tagged
 
-[ai](/tags/ai/)
+[ai](https://lucumr.pocoo.org/tags/ai/)
 
-[copy as](/2025/7/3/tools.md) / [view](/2025/7/3/tools.md) markdown
+[copy as](https://lucumr.pocoo.org/2025/7/3/tools.md) / [view](https://lucumr.pocoo.org/2025/7/3/tools.md) markdown

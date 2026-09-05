@@ -83,22 +83,13 @@ def sha256_text(text: str) -> str:
 
 
 def render_frontmatter(meta: Dict[str, Any]) -> str:
-    # simple YAML renderer (strings/arrays only)
-    lines = ["---"]
-    for k, v in meta.items():
-        if v is None:
-            continue
-        if isinstance(v, list):
-            lines.append(f"{k}: [{', '.join(v)}]")
-        else:
-            # escape quotes minimally
-            if isinstance(v, str) and (":" in v or "#" in v):
-                v = v.replace('"', "'")
-                lines.append(f'{k}: "{v}"')
-            else:
-                lines.append(f"{k}: {v}")
-    lines.append("---")
-    return "\n".join(lines) + "\n"
+    # JSON flow values are valid YAML and preserve nested metadata and quotes.
+    lines = [
+        f"{key}: {json.dumps(value, ensure_ascii=False)}"
+        for key, value in meta.items()
+        if value is not None
+    ]
+    return "---\n" + "\n".join(lines) + "\n---\n"
 
 
 def md_link(label: str, url: str) -> str:
@@ -149,6 +140,7 @@ def write_note_pair(
     raw_path = raw_dir / f"{base}.raw.md"
 
     canon = normalize_url(canonical_url or source_url)
+    generated_at = dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
 
     meta_primary: Dict[str, Any] = {
         "type": source,
@@ -158,14 +150,19 @@ def write_note_pair(
         "author": author,
         "handle": handle,
         "created_at": date,
+        "date": date,
         "topics": [topic],
+        "tags": [],
+        "resource": canon,
+        "generated": {"by": "process:note-ingest", "at": generated_at},
+        "sources": [{"id": "original", "resource": canon}],
     }
 
     meta_raw = dict(meta_primary)
     meta_raw.update(
         {
             "content_hash": sha256_text(raw_text),
-            "extracted_at": dt.datetime.now().isoformat(timespec="seconds"),
+            "extracted_at": generated_at,
             "extractor": extractor,
         }
     )

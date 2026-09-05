@@ -7,7 +7,7 @@ tags:
   - first-principles
   - design
   - engineering
-status: experimental
+maturity: experimental
 ---
 
 # Reason From First Principles

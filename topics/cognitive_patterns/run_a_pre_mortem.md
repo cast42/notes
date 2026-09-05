@@ -12,7 +12,7 @@ tags:
   - planning
   - failure-modes
 resource: "https://github.com/tjboudreaux/cc-thinking-skills"
-status: experimental
+maturity: experimental
 ---
 
 # Run a pre-mortem

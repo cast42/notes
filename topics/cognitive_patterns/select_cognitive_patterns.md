@@ -12,7 +12,7 @@ tags:
   - reasoning
   - decision-making
 resource: "https://github.com/tjboudreaux/cc-thinking-skills"
-status: experimental
+maturity: experimental
 ---
 
 # Select cognitive patterns

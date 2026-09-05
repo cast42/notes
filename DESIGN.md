@@ -56,7 +56,7 @@ has durable meaning or repeated usefulness.
 
 ### 3. Durable knowledge bundle
 
-`topics/` is the Open Knowledge Format 0.1 bundle and the repository's portable
+`topics/` is the Open Knowledge Format 0.2 bundle and the repository's portable
 knowledge surface.
 
 - `topics/index.md` is the entry point.
@@ -144,11 +144,18 @@ Repository-native fields support local workflows:
 OKF-oriented fields improve interchange when useful:
 
 - `resource`
-- `timestamp`
+- `sources`
+- `generated`
 - `description`
 
 Source-specific provenance such as `author`, `source_url`, `canonical_url`,
 `created_at`, `content_hash`, and `extractor` may remain as extensions.
+
+Preserve legacy `timestamp` values as source metadata. New `generated.at`
+values describe the note's last meaningful content change and must not be
+inferred from publication dates. Optional `verified` events record content
+checks, not successful format validation. Lifecycle `status` and `stale_after`
+are separate from verification; pattern maturity uses `maturity`.
 
 Choose types for meaning, not storage location. Examples include `article`,
 `book`, `cognitive_pattern`, `concept`, `investigation`, `paper`, `procedure`,
@@ -198,10 +205,15 @@ The repository-specific implementation lives in
 
 The validator checks the ideas that tools must agree on:
 
-- the bundle root declares OKF 0.1 and nothing else;
+- the bundle root declares OKF 0.2 and nothing else;
 - reserved nested indexes and logs have no frontmatter;
 - concept frontmatter parses to a mapping and has a non-empty type;
 - relative Markdown targets exist.
+
+The repository targets 0.2 and requires its root index. The validator also
+accepts legacy 0.1 declarations. Missing optional metadata never fails
+conformance; malformed adopted metadata and broken links produce warnings.
+See [the format guide](_meta/OPEN_KNOWLEDGE_FORMAT.md) for the local policy.
 
 Run:
 

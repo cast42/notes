@@ -7,7 +7,7 @@ tags:
   - comparison
   - strategy
   - policy
-status: experimental
+maturity: experimental
 ---
 
 # Compare Ecosystems

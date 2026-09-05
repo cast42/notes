@@ -7,7 +7,7 @@ tags:
   - learning-by-doing
   - ecosystems
   - industrial-policy
-status: experimental
+maturity: experimental
 ---
 
 # Analyze Capability Accumulation

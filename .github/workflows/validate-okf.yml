@@ -5,12 +5,16 @@ on:
     paths:
       - "topics/**"
       - "scripts/validate_okf.py"
+      - "skills/note-ingest/scripts/note_ingest.py"
+      - "tests/**"
       - ".github/workflows/validate-okf.yml"
   push:
     branches: [main]
     paths:
       - "topics/**"
       - "scripts/validate_okf.py"
+      - "skills/note-ingest/scripts/note_ingest.py"
+      - "tests/**"
       - ".github/workflows/validate-okf.yml"
 
 permissions:
@@ -25,4 +29,5 @@ jobs:
         with:
           python-version: "3.12"
       - run: python -m pip install PyYAML==6.0.2
+      - run: python -B -m unittest discover -s tests -v
       - run: python scripts/validate_okf.py

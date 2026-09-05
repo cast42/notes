@@ -12,7 +12,7 @@ tags:
   - base-rates
   - evidence
 resource: "https://github.com/tjboudreaux/cc-thinking-skills"
-status: experimental
+maturity: experimental
 ---
 
 # Update beliefs with evidence

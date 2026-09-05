@@ -9,7 +9,7 @@ knowledge flow, and invariants.
 ## Structure
 
 - `inbox/` contains the agent and human scratchpad for daily capture.
-- [`topics/`](topics/index.md) contains the OKF 0.1 knowledge bundle and its entry point.
+- [`topics/`](topics/index.md) contains the OKF 0.2 knowledge bundle and its entry point.
 - `meetings/` contains dated meeting notes.
 - `refs/` contains reference material such as papers and links.
 - `_meta/` contains tags, the glossary, and conventions.
