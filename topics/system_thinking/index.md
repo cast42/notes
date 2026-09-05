@@ -8,6 +8,7 @@ and change in complex systems.
 - [Thinking in Systems](2008-12-05_book_donella-meadows_thinking-in-systems.md)
 - [Engineering a Safer World](2012-01-13_book_nancy-leveson_engineering-a-safer-world.md)
 - [Growth: From Microorganisms to Megacities](2020-12-08_book_vaclav-smil_growth-from-microorganisms-to-megacities.md)
+- [The Origin of Wealth](../books/2006-01-01_book_eric-d-beinhocker_the-origin-of-wealth.md) — Complexity economics explains wealth creation as evolutionary variation, selection, and amplification in a complex adaptive system.
 
 ## Organizations and change
 
