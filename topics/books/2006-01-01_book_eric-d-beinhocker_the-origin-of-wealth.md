@@ -33,12 +33,15 @@ sources:
   - id: green-oxfam
     resource: "https://frompoverty.oxfam.org.uk/complexity-economics-evolution-and-how-change-happens/"
     title: "Duncan Green on complexity economics and change"
+  - id: goodreads
+    resource: "https://www.goodreads.com/en/book/show/22456.The_Origin_of_Wealth"
+    title: "Goodreads community reviews"
 generated:
   by: "process:codex"
-  at: "2026-09-05T12:40:00+02:00"
+  at: "2026-09-05T12:51:00+02:00"
 verified:
   - by: "process:codex"
-    at: "2026-09-05T12:40:00+02:00"
+    at: "2026-09-05T12:51:00+02:00"
 ---
 
 # The Origin of Wealth: Evolution, Complexity, and the Radical Remaking of Economics
@@ -133,6 +136,18 @@ non-profit institutions must design those processes more deliberately.
   in companies and NGOs. He also identifies a boundary: non-market social and
   political systems lack the market's obvious selection and amplification
   mechanism.
+- Goodreads reader reviews are useful for recurring reader-level patterns, not
+  for expert validation. At access they showed 1,774 ratings, 147 reviews, and
+  a 4.27 average. Readers often praise the book as accessible, eye-opening,
+  and unusually broad, while recurring criticisms concern its length, business-
+  strategy detours, weakly supported claims about culture and causality, and a
+  tendency to extend complexity into an overly broad theory of everything.
+
+The Goodreads evidence is especially useful because it adds texture to the
+professional reviews: several readers distinguish a strong conceptual first
+half from a more speculative or managerial second half. The ratings themselves
+are less informative than these specific, repeated observations and should not
+be treated as a representative survey.
 
 The balanced reading is therefore: **strong conceptual synthesis and a useful
 systems lens; incomplete as a formal economic theory and uneven in its policy
@@ -151,5 +166,6 @@ extension.**
 - [Publishers Weekly review](https://www.publishersweekly.com/9781578517770) [publishers-weekly]
 - [Eric Nehrlich's review](https://www.nehrlich.com/blog/2007/09/14/the-origin-of-wealth-by-eric-d-beinhocker/) [nehrlich]
 - [Duncan Green, “Complexity Economics, Evolution and How Change Happens”](https://frompoverty.oxfam.org.uk/complexity-economics-evolution-and-how-change-happens/) [green-oxfam]
+- [Goodreads community reviews](https://www.goodreads.com/en/book/show/22456.The_Origin_of_Wealth) [goodreads]
 
 The research capture is preserved in [the raw source note](raw/2006-01-01_book_eric-d-beinhocker_the-origin-of-wealth.raw.md).

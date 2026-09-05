@@ -22,9 +22,11 @@ sources:
     resource: "https://www.nehrlich.com/blog/2007/09/14/the-origin-of-wealth-by-eric-d-beinhocker/"
   - id: green-oxfam
     resource: "https://frompoverty.oxfam.org.uk/complexity-economics-evolution-and-how-change-happens/"
+  - id: goodreads
+    resource: "https://www.goodreads.com/en/book/show/22456.The_Origin_of_Wealth"
 generated:
   by: "process:codex"
-  at: "2026-09-05T12:40:00+02:00"
+  at: "2026-09-05T12:51:00+02:00"
 ---
 
 # Research capture: *The Origin of Wealth*
@@ -78,6 +80,21 @@ selection, and learning, but points out that non-market systems lack the
 market's built-in selection and amplification signals.
 
 Source: [Duncan Green, “Complexity Economics, Evolution and How Change Happens”](https://frompoverty.oxfam.org.uk/complexity-economics-evolution-and-how-change-happens/)
+
+### Goodreads community reviews
+
+The linked Goodreads work page had about 1,774 ratings, 147 reviews, and a
+4.27 average at access. The most useful content is not the average rating but
+the repeated, specific reader reactions: praise for accessibility, breadth, and
+the ability to make complexity economics intuitive; criticism of the length,
+business-management detours, speculative claims about culture and causality,
+and the weaker political or “theory of everything” extensions.
+
+These reviews are reader-response evidence. They strengthen the note's
+description of a strong conceptual first half and a more uneven second half,
+but they do not establish whether the economics is correct.
+
+Source: [Goodreads community reviews](https://www.goodreads.com/en/book/show/22456.The_Origin_of_Wealth)
 
 ## Bibliographic notes
 
