@@ -16,6 +16,11 @@ and change in complex systems.
 - [Wennink's report and systems change](2025-12-15_article_tom-de-bruyne_wenninks-rapport-masterclass-systeemverandering.md)
 - [The Octopus Organization](2025-12-16_book_phil-le-brun_jana-werner_the-octopus-organization.md)
 
+## Technology and geopolitical power
+
+- [The Techtonic Shift, early reception](2026-09-05_investigation_the-techtonic-shift-what-reviewers-are-saying.md)
+- [Paul Verhagen on big tech, democracy and European autonomy](2026-09-04_de-standaard_paul-verhagen_big-tech-democratie.md)
+
 ## Related areas
 
 - [Learning](../learning/index.md)

@@ -36,6 +36,8 @@ description: "A time-bounded review scan of early reactions to Paul Verhagen’s
 
 ## Related concepts
 
+- [Paul Verhagen on big tech, democracy and European autonomy](2026-09-04_de-standaard_paul-verhagen_big-tech-democratie.md). The De Standaard interview develops his policy proposals and his assessment of China. It is an author interview, not an independent review.
+
 - [The Technological Republic](2025-02-18_book_alexander-karp_nicholas-zamiska_the-technological-republic.md) — another book treating technology companies, state capacity, and geopolitical power as one problem.
 - [Breakneck: China’s Quest to Engineer the Future](2025-08-26_book_dan-wang_breakneck.md) — a complementary perspective on China, industrial capacity, and the state’s ability to build.
 
