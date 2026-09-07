@@ -7,6 +7,11 @@ tags:
   - feedback
   - dynamics
 maturity: experimental
+sources:
+  - resource: "https://github.com/tjboudreaux/cc-thinking-skills/blob/32f612605ae79bb8fd5a343605d7b7b7806b6bed/skills/thinking-systems/SKILL.md"
+generated:
+  by: "process:codex"
+  at: "2026-09-07T10:50:21+00:00"
 ---
 
 # Identify Feedback Loops
@@ -22,6 +27,8 @@ Use this pattern to explain recurring system behaviour such as growth, decline, 
 - The system appears self-reinforcing or self-correcting.
 - Linear cause-and-effect explanations are inadequate.
 
+Skip a full loop analysis when one directly observed cause explains the problem and a local correction is sufficient.
+
 ## Core concepts
 
 - **Reinforcing loop:** change amplifies further change.
@@ -31,16 +38,16 @@ Use this pattern to explain recurring system behaviour such as growth, decline, 
 
 ## Procedure
 
-1. Define the outcome that changes over time.
-2. List the main variables influencing that outcome.
+1. Define the outcome that changes over time, the system boundary, and the period being examined.
+2. List the main variables influencing that outcome. Distinguish quantities that accumulate, such as a queue or inventory, from the rates that increase or decrease them.
 3. Draw causal links with direction: increase or decrease.
 4. Close the chains into loops.
-5. Label each loop reinforcing or balancing.
-6. Identify delays.
+5. Label each loop reinforcing or balancing. When the link directions stay stable, an even number of opposite-direction links indicates a reinforcing loop and an odd number indicates a balancing loop.
+6. Identify delays and check whether a strong corrective response arrives so late that it causes overshoot.
 7. Look for loops that dominate at different stages.
 8. Test the loop against historical behaviour.
 9. Identify where an intervention may trigger a counter-loop.
-10. State which loop must change for the outcome to change sustainably.
+10. State which loop must change for the outcome to change sustainably and which observation would challenge that explanation. Stop adding loops when more detail no longer changes the explanation or next observation.
 
 ## Template
 
@@ -64,6 +71,8 @@ For every link ask:
 - Using vague variables such as "success" or "culture."
 - Mixing correlation with causation.
 - Ignoring delays.
+- Confusing an accumulated quantity with the rate at which it changes.
+- Applying the link-count check across conditions where a causal link reverses direction.
 - Treating all loops as equally important.
 - Failing to test whether the loop explains actual behaviour.
 
@@ -98,6 +107,7 @@ A useful feedback-loop analysis should:
 - contain at least one closed loop;
 - distinguish reinforcing from balancing dynamics;
 - identify delays;
+- state the system boundary and distinguish accumulated quantities from rates;
 - explain observed behaviour over time;
 - reveal at least one intervention risk or leverage point.
 
@@ -106,3 +116,7 @@ A useful feedback-loop analysis should:
 - [Analyze Capability Accumulation](analyze_capability_accumulation.md)
 - [Find Leverage Points](find_leverage_points.md)
 - [Evaluate Incentives](evaluate_incentives.md)
+
+## Sources
+
+- [Systems mapping in version 1.0](https://github.com/tjboudreaux/cc-thinking-skills/blob/32f612605ae79bb8fd5a343605d7b7b7806b6bed/skills/thinking-systems/SKILL.md) informed the added boundary, stock and flow, and loop checks. The local pattern remains separate from [Find leverage points](find_leverage_points.md) because explaining behaviour and choosing an intervention are different tasks.

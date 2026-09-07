@@ -13,6 +13,11 @@ tags:
   - evidence
 resource: "https://github.com/tjboudreaux/cc-thinking-skills"
 maturity: experimental
+sources:
+  - resource: "https://github.com/tjboudreaux/cc-thinking-skills/blob/32f612605ae79bb8fd5a343605d7b7b7806b6bed/skills/thinking-probabilistic/SKILL.md"
+generated:
+  by: "process:codex"
+  at: "2026-09-07T10:50:21+00:00"
 ---
 
 # Update beliefs with evidence
@@ -33,16 +38,16 @@ Skip the update when direct observation can answer the question, when no defensi
 
 ## Procedure
 
-1. State the claim or hypothesis.
+1. State a checkable claim or hypothesis. For a forecast, specify the outcome, timeframe, and unit.
 2. List the main alternatives.
 3. Record the prior confidence before examining the new evidence.
-4. Explain the source of the prior, such as a base rate or comparable cases.
+4. Explain the source of the prior, such as a base rate or comparable cases. State the strongest evidence against the prior or range and revise it if the challenge holds. Label an estimate without a defensible reference class as a guess.
 5. Ask how likely the evidence would be if each explanation were true.
 6. Check whether the evidence is independent of evidence already counted.
 7. Update confidence in proportion to how well the evidence separates the explanations.
 8. Record the new confidence as a range when a point estimate would imply false precision.
 9. State what future evidence would cause another meaningful update.
-10. Check whether the revised confidence changes the decision.
+10. Check whether the revised confidence changes the decision. Stop estimating when the decision is stable across the plausible range or when further updating requires new evidence.
 
 When the inputs support calculation, use Bayesian odds:
 
@@ -52,13 +57,17 @@ posterior odds = prior odds × likelihood ratio
 
 Use a qualitative update when the inputs are weak. State the direction and size of the update, e.g., small decrease or large increase, and explain why.
 
+For an uncertain quantity, use [Decompose and abstract](decompose_and_abstract.md) and [Approximate and check easy cases](approximate_and_check_easy_cases.md) to estimate a range from components. Measure or look up inputs when possible. A rough bound on a quantity is not a calibrated probability interval unless there is evidence for its coverage.
+
 ## Output template
 
 ```text
 Hypothesis:
+Outcome, timeframe, and unit when forecasting:
 Alternatives:
 Prior confidence:
 Basis for the prior:
+Strongest evidence against the prior or range:
 New evidence:
 Expected under the hypothesis:
 Expected under alternatives:
@@ -74,6 +83,7 @@ Next useful evidence:
 - Starting with the new evidence and inventing a prior afterward.
 - Treating repeated reports from one source as independent evidence.
 - Using precise probabilities without defensible inputs.
+- Presenting a guessed range as a calibrated probability interval.
 - Updating only toward a preferred explanation.
 - Revising confidence without changing any action or prediction.
 
@@ -82,6 +92,7 @@ Next useful evidence:
 A good belief update should:
 
 - make the prior and its source explicit;
+- examine a serious challenge to the prior or range;
 - compare the evidence under at least two explanations;
 - avoid counting the same evidence twice;
 - match the size of the update to the strength of the evidence;
@@ -99,4 +110,4 @@ Track dated forecasts when possible. If events assigned about 70 percent confide
 ## Sources
 
 - [Claude Code Thinking Skills and this notes repo](2026-07-20_github_tjboudreaux_cc-thinking-skills.md)
-- [Claude Code Thinking Skills](https://github.com/tjboudreaux/cc-thinking-skills), especially its Bayesian reasoning skill.
+- [Probabilistic thinking in version 1.0](https://github.com/tjboudreaux/cc-thinking-skills/blob/32f612605ae79bb8fd5a343605d7b7b7806b6bed/skills/thinking-probabilistic/SKILL.md), which now includes Bayesian updating and Fermi estimation. The local pattern keeps qualitative updates when numerical inputs are weak.

@@ -19,7 +19,7 @@ Patterns guide reasoning. They are not evidence, and they should not determine a
 5. Check the failure modes and evaluation criteria.
 6. Name the patterns used in the answer or investigation.
 
-Use one pattern when it can answer the question. Combine patterns only when each one covers a distinct gap. Agents should treat patterns as reasoning guidance. Claims still need support from concepts, sources, or direct evidence.
+Use direct reasoning for routine questions and agreed execution steps. Otherwise, use one pattern when it can answer the question. Combine patterns only when each one covers a distinct gap, and decide how to resolve disagreements before applying them. Agents should treat patterns as reasoning guidance. Claims still need support from concepts, sources, or direct evidence.
 
 ## How humans should use patterns
 
@@ -65,8 +65,11 @@ A cognitive pattern should not repeat factual content from a concept. Its value 
 
 A pattern can improve the structure of an analysis without improving its conclusion. Evaluate patterns against outcomes when possible. Compare the result with direct reasoning, use tasks with enough room for improvement, and repeat tests before claiming that a pattern improves accuracy.
 
+Record the exact procedure and comparison used in a test. Distinguish tests that were never run from tests that found no useful gain. Check practical benefit, added effort, and evidence quality separately from statistical significance. Upstream version 1.0 has no skill approved for automatic invocation under its evaluation policy. Our patterns remain experimental, and deliberate use here follows Lode's instructions rather than an upstream accuracy claim.
+
 ## Investigations
 
+- [Review of cc-thinking-skills version 1.0](2026-09-07_investigation_cc-thinking-skills-v1-review.md) compares all 15 local patterns with the release, updates seven procedures, and explains which upstream changes were not adopted.
 - [Applying *The Art of Insight* to human–AI cognitive patterns](2026-07-20_investigation_art-of-insight-for-human-ai-cognitive-patterns.md) identifies improvements for decomposition, independent verification, controlled simplification, and easy-case testing.
 
 ## Pattern lifecycle

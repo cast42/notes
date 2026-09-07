@@ -8,6 +8,11 @@ tags:
   - design
   - engineering
 maturity: experimental
+sources:
+  - resource: "https://github.com/tjboudreaux/cc-thinking-skills/blob/32f612605ae79bb8fd5a343605d7b7b7806b6bed/skills/thinking-first-principles/SKILL.md"
+generated:
+  by: "process:codex"
+  at: "2026-09-07T10:50:21+00:00"
 ---
 
 # Reason From First Principles
@@ -23,18 +28,20 @@ Use this pattern when conventional assumptions may be outdated, copied, or poorl
 - Competing solutions are discussed mainly through analogy.
 - You need to separate physical, economic, and institutional constraints.
 
+Skip a full reconstruction when a standard solution already satisfies verified constraints or when an urgent incident requires immediate action.
+
 ## Procedure
 
 1. Define the objective precisely.
-2. List non-negotiable constraints.
-3. Separate physical laws from current conventions.
+2. List claimed constraints and their supporting evidence. Distinguish physical laws, binding rules or agreements, measured limits, and conventions.
+3. Separate supported constraints from conventions. For each convention you propose to drop, state how it can be checked and who can change it. Preserve obligations until the responsible person changes them.
 4. Identify the relevant units and quantities.
 5. Derive the minimum requirements for a viable solution.
 6. Generate multiple architectures that satisfy them.
 7. Add economic and operational constraints.
 8. Compare the architectures under realistic scenarios.
 9. Test sensitivity to uncertain assumptions.
-10. Reintroduce historical evidence and practical knowledge.
+10. Reintroduce historical evidence and practical knowledge. Define the cheapest check that could disprove the proposed solution. Stop when the solution and its test are clear, or when only verified constraints remain.
 
 ## Constraint categories
 
@@ -53,6 +60,7 @@ Use this pattern when conventional assumptions may be outdated, copied, or poorl
 - Re-deriving well-known facts badly.
 - Using "first principles" as rhetoric.
 - Omitting institutional and behavioural constraints.
+- Treating an unsupported constraint as permission to disregard a binding agreement.
 - Treating a mathematically elegant solution as deployable.
 
 ## Example
@@ -79,7 +87,8 @@ A good first-principles analysis should:
 - expose key assumptions;
 - quantify the main constraints;
 - generate more than one solution;
-- reconnect the result to empirical evidence.
+- reconnect the result to empirical evidence;
+- identify a practical check that could disprove the proposed solution.
 
 ## Related Patterns
 
@@ -88,3 +97,7 @@ A good first-principles analysis should:
 - [Generate Counterexamples](generate_counterexamples.md)
 - [Compare Ecosystems](compare_ecosystems.md)
 - [Evaluate Incentives](evaluate_incentives.md)
+
+## Sources
+
+- [First principles in version 1.0](https://github.com/tjboudreaux/cc-thinking-skills/blob/32f612605ae79bb8fd5a343605d7b7b7806b6bed/skills/thinking-first-principles/SKILL.md) informed the added constraint evidence, skip conditions, and disconfirming check. The local pattern predates this adaptation.

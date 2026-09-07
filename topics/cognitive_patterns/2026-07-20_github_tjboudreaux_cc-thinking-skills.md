@@ -13,6 +13,15 @@ tags:
 resource: "https://github.com/tjboudreaux/cc-thinking-skills"
 author: "TJ Boudreaux"
 source_revision: "0313ee0d476bf9db2c38ad8bd11d9933a61350d4"
+reviewed_version: "1.0.0"
+reviewed_revision: "32f612605ae79bb8fd5a343605d7b7b7806b6bed"
+sources:
+  - resource: "https://github.com/tjboudreaux/cc-thinking-skills/tree/0313ee0d476bf9db2c38ad8bd11d9933a61350d4"
+  - resource: "https://github.com/tjboudreaux/cc-thinking-skills/tree/32f612605ae79bb8fd5a343605d7b7b7806b6bed"
+  - resource: "https://github.com/tjboudreaux/cc-thinking-skills/blob/32f612605ae79bb8fd5a343605d7b7b7806b6bed/analysis/evidence.json"
+generated:
+  by: "process:codex"
+  at: "2026-09-07T10:50:21+00:00"
 description: "A collection of reasoning skills that informed new cognitive patterns, clearer pattern selection, and stronger evaluation rules in this notes repo."
 ---
 
@@ -20,9 +29,9 @@ description: "A collection of reasoning skills that informed new cognitive patte
 
 ## TL;DR
 
-[Claude Code Thinking Skills](https://github.com/tjboudreaux/cc-thinking-skills) is a collection of 39 reasoning frameworks packaged as skills for Claude Code. The review led to five new cognitive patterns in this notes repo and a clearer way to select, combine, and evaluate patterns.
+[Claude Code Thinking Skills](https://github.com/tjboudreaux/cc-thinking-skills) had 39 reasoning skills at the snapshot used for the original review. The original review led to five new cognitive patterns in this notes repo. Version 1.0, released on August 4, 2026, contains 28 shorter skills with explicit conditions for using and stopping them.
 
-The source also reports that none of its skills has shown a reliable and repeated accuracy gain. The notes repo therefore treats cognitive patterns as reasoning guidance rather than proof that an answer is correct.
+The source has no skill approved for automatic invocation under its evidence policy. The [September 7 review](2026-09-07_investigation_cc-thinking-skills-v1-review.md) updates seven local procedures and corrects the evaluation summary. Cognitive patterns remain experimental guidance.
 
 ## What the source contains
 
@@ -33,13 +42,12 @@ Most skills follow a common structure:
 - They state the pattern's purpose.
 - They explain when to use and skip the pattern.
 - They give a step by step procedure.
-- They provide examples and an output template.
-- They list common mistakes.
-- They end with a checklist and key questions.
+- They specify an output the reader can inspect.
+- They end with verification, stopping, and overuse checks.
 
-The repository also includes skills for choosing and combining patterns. A model router maps the type of problem to suitable procedures. A separate combination skill explains how to use procedures in sequence, in parallel, or in opposition.
+The repository also includes skills for choosing and combining patterns. A model router can select no skill when direct reasoning is enough. The combination skill requires a distinct question for each procedure and a rule for resolving disagreement before applying them.
 
-## What changed in this notes repo
+## What changed after the original review
 
 The review exposed gaps in the original cognitive pattern set. The original set was strongest on systems, incentives, and capability. It offered less guidance for choosing a pattern, handling uncertainty, reviewing plans before execution, and testing several explanations.
 
@@ -68,11 +76,13 @@ The review led to six design choices:
 
 ## What was not adopted
 
-The notes repo did not import all 39 skills. Many overlap with existing patterns, address narrow coding tasks, or need evidence from repeated use before they belong in the durable knowledge set.
+The original review did not import all 39 skills. Many overlap with existing patterns, address narrow coding tasks, or need evidence from repeated use before they belong in the durable knowledge set. The version 1.0 review follows the same approach.
 
 Claude Code installation steps and invocation rules were also left out. The notes repo stores portable reasoning procedures, not instructions tied to one agent product.
 
-The source's evaluation claims were treated with care. Its published summary says that no skill currently has a reliable and repeated accuracy improvement. One revised scientific method skill showed promising results, but its main test did not pass the stated significance threshold. The source therefore supports experimentation and evaluation, not a general claim that adding a named framework makes an agent more accurate.
+The earlier evaluation summary described a scientific-method test that did not pass its significance threshold. The version 1.0 evidence registry includes a later historical test with 426 scored cases and a gain of 4.0 percentage points. Its reported result is statistically significant but below the stated usefulness threshold of 5 percentage points. Scoring and evidence preservation defects keep the finding provisional, and it does not establish a gain for the rewritten skills or our local adaptations.
+
+The planned evaluation of the 28 rewritten skills made zero model calls. An unrun evaluation is not evidence of no effect. See the [version 1.0 review](2026-09-07_investigation_cc-thinking-skills-v1-review.md) for the distinction between historical measurements, unrun tests, and the upstream decision to require manual invocation.
 
 ## How to use the source in future updates
 
@@ -89,6 +99,7 @@ Before adding another pattern:
 
 ## Related concepts
 
+- [Review of cc-thinking-skills version 1.0](2026-09-07_investigation_cc-thinking-skills-v1-review.md)
 - [Generate counterexamples](generate_counterexamples.md)
 - [Reason from first principles](reason_from_first_principles.md)
 - [Repository design](../../DESIGN.md)
@@ -97,3 +108,5 @@ Before adding another pattern:
 
 - [tjboudreaux/cc-thinking-skills at the inspected revision](https://github.com/tjboudreaux/cc-thinking-skills/tree/0313ee0d476bf9db2c38ad8bd11d9933a61350d4).
 - [Elevate or Kill scorecard](https://github.com/tjboudreaux/cc-thinking-skills/blob/0313ee0d476bf9db2c38ad8bd11d9933a61350d4/analysis/ELEVATE-OR-KILL-SCORECARD.md), the repository's evaluation summary.
+- [Version 1.0 release](https://github.com/tjboudreaux/cc-thinking-skills/releases/tag/v1.0.0).
+- [Version 1.0 evidence registry](https://github.com/tjboudreaux/cc-thinking-skills/blob/32f612605ae79bb8fd5a343605d7b7b7806b6bed/analysis/evidence.json) and [catalog audit](https://github.com/tjboudreaux/cc-thinking-skills/blob/32f612605ae79bb8fd5a343605d7b7b7806b6bed/analysis/AUDIT.md) provide the current evaluation record for this review.
