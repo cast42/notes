@@ -20,6 +20,9 @@ sources:
   - id: gemini-files-guide
     resource: "https://ai.google.dev/gemini-api/docs/files"
     title: "Gemini Files guide"
+  - id: aistudio-agentic-video
+    resource: "https://aistudio.google.com/learn/agentic-video-understanding-with-gemini?e=0"
+    title: "Google AI Studio: Agentic video understanding with Gemini"
 generated:
   by: "process:codex"
   at: "2026-09-07T07:41:00+02:00"
@@ -129,3 +132,20 @@ actions.
 - [Gemini API video understanding](https://ai.google.dev/gemini-api/docs/video-understanding)
 - [Gemini API Files](https://ai.google.dev/gemini-api/docs/files)
 - [Gemini API key setup](https://ai.google.dev/gemini-api/docs/api-key)
+
+## Relevant companion guide
+
+[Google AI Studio: Agentic video understanding with Gemini](https://aistudio.google.com/learn/agentic-video-understanding-with-gemini?e=0)
+describes an active, server-side video-processing loop. Instead of decoding a
+long video at a fixed frame rate up front, Gemini can first search timestamped
+transcripts, then retrieve targeted frame sequences at adaptive frame rates
+and isolate relevant audio. The guide presents this as useful for long-form
+video and fine-grained temporal questions; static processing remains suitable
+for short clips where full frame coverage is desired.
+
+The guide shows `processing: "agentic"` on a video input and says the mode is
+available on its listed current Flash models. It also describes mixed-mode and
+multi-video requests, in which different media items in one prompt can use
+agentic or static processing independently. Its reported improvements—up to
+88% fewer tokens, 66% lower analysis cost, and 7% higher accuracy in cited
+benchmarks—are provider-reported figures, not guarantees for every workload.

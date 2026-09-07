@@ -27,6 +27,9 @@ sources:
   - id: gemini-files-guide
     resource: "https://ai.google.dev/gemini-api/docs/files"
     title: "Gemini API Files guide"
+  - id: aistudio-agentic-video
+    resource: "https://aistudio.google.com/learn/agentic-video-understanding-with-gemini?e=0"
+    title: "Google AI Studio: Agentic video understanding with Gemini"
 generated:
   by: "process:codex"
   at: "2026-09-07T07:41:00+02:00"
@@ -47,6 +50,7 @@ verified:
 
 - The workflow handles overview, spoken-content transcription, visual explanation, critique, and locating specific moments. If the user gives no narrow question, it produces an overview with timestamped observations.
 - It uses Google's official Python SDK and the Gemini Files API. The skill requires a Gemini API key supplied privately through `GEMINI_API_KEY` or `GOOGLE_API_KEY`; the key must never be pasted into chat, written into the skill, printed, or placed in command arguments.
+- The linked [Google AI Studio guide](https://aistudio.google.com/learn/agentic-video-understanding-with-gemini?e=0) explains an optional agentic processing mode: Gemini can search transcripts, retrieve targeted frame windows at adaptive frame rates, and extract audio on demand instead of loading the entire video uniformly.
 - The agent should analyze the video itself, not substitute a transcript or a handful of screenshots when the task requires visual or audio understanding.
 - The output contract is evidence-oriented: give the main finding, useful `HH:MM:SS` timestamps, what is actually visible or audible, and the distinction between observation and interpretation.
 
@@ -78,10 +82,18 @@ The skill is more than a prompt: it combines file selection, media inspection, A
 
 It is intentionally a provider-specific implementation around Gemini rather than a provider-neutral interface. That keeps the instructions concrete and executable, but makes the skill dependent on the current Gemini SDK, model availability, API limits, and private key setup.
 
+The Google guide extends the skill's design with a useful optimization: **active
+media retrieval**. For long videos or fine-grained temporal questions, agentic
+processing can spend media tokens on the moments relevant to the question,
+while short clips may still be better served by static processing. The guide
+reports lower token use and cost in its own benchmarks; those figures are
+provider-reported and should not be treated as universal guarantees.
+
 ## Sources
 
 - [Agent Native: Give agents video analysis skill](https://agentnative.inc/resources/give-agents-video-analysis-skill) [agentnative-skill]
 - [Gemini API: Video understanding](https://ai.google.dev/gemini-api/docs/video-understanding) [gemini-video-guide]
 - [Gemini API: Files](https://ai.google.dev/gemini-api/docs/files) [gemini-files-guide]
+- [Google AI Studio: Agentic video understanding with Gemini](https://aistudio.google.com/learn/agentic-video-understanding-with-gemini?e=0) [aistudio-agentic-video]
 
 The complete skill-page capture is preserved in [the raw source note](raw/2026-09-06_skill_agentnative_video-analysis.raw.md).
