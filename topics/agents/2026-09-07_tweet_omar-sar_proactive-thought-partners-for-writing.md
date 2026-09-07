@@ -28,9 +28,12 @@ sources:
   - id: arxiv-paper
     resource: "https://arxiv.org/abs/2609.01588"
     title: "arXiv: Designing Proactive Thought Partners for Writing"
+  - id: reviewed-version
+    resource: "https://arxiv.org/html/2609.01588v1"
+    title: "Version 1, September 1, 2026"
 generated:
   by: "process:codex"
-  at: "2026-09-07T13:50:00+02:00"
+  at: "2026-09-07T13:29:46+00:00"
 verified:
   - by: "process:codex"
     at: "2026-09-07T13:50:00+02:00"
@@ -80,6 +83,8 @@ The evidence comes from a one-week technology-probe deployment with 16 participa
 
 ## Related concepts
 
+- [Select cognitive patterns](../cognitive_patterns/select_cognitive_patterns.md#when-to-contribute-during-shared-work) adapts the distinction between an opportunity to intervene and a contextual need. The adaptation respects existing authorization and does not introduce monitoring.
+- [September cognitive pattern review](../cognitive_patterns/2026-09-07_investigation_public-source-pattern-update.md) records the transfer limits and editorial checks.
 - [Agent Native video-analysis skill](../agentic_coding/2026-09-06_skill_agentnative_video-analysis.md) — a concrete agent procedure whose value also depends on grounded output, explicit uncertainty, and a user-directed question.
 
 ## Sources
@@ -87,5 +92,6 @@ The evidence comes from a one-week technology-probe deployment with 16 participa
 - [Omar Sar's post](https://x.com/omarsar0/status/2096780509540139364) [x-post]
 - [DAIR Academy paper page](https://academy.dair.ai/papers/designing-proactive-thought-partners-for-writing-2609.01588) [paper-page]
 - [arXiv: *Designing Proactive Thought Partners for Writing*](https://arxiv.org/abs/2609.01588) [arxiv-paper]
+- [Version 1 full text](https://arxiv.org/html/2609.01588v1), particularly sections 4, 6, 7, and 9. A role, event triggers, and contextual heuristics are distinct configuration fields. A pause is an opportunity to check relevance, not sufficient evidence that help is needed. The study does not establish causal effects on writing quality, productivity, learning, or long-term agency. [reviewed-version]
 
 The post and linked-paper research capture are preserved in [the raw source note](raw/2026-09-07_tweet_omar-sar_proactive-thought-partners-for-writing.raw.md).

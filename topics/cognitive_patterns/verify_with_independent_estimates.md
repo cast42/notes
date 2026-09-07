@@ -13,6 +13,11 @@ tags:
   - verification
 resource: "https://ocw.mit.edu/courses/res-6-011-the-art-of-insight-in-science-and-engineering-mastering-complexity-fall-2014/3bca850386a3005c22134fa62fb3bad5_MITRES_6-011F14_art_insfin.pdf"
 maturity: experimental
+sources:
+  - resource: "https://ocw.mit.edu/courses/res-6-011-the-art-of-insight-in-science-and-engineering-mastering-complexity-fall-2014/3bca850386a3005c22134fa62fb3bad5_MITRES_6-011F14_art_insfin.pdf"
+generated:
+  by: "process:codex"
+  at: "2026-09-07T13:29:46+00:00"
 ---
 
 # Verify with independent estimates
@@ -67,6 +72,8 @@ Repeated prompts to the same model are not independent when they preserve the sa
 5. The final result preserves unresolved disagreement when the evidence cannot settle it.
 
 Use the protocol only when the human has relevant knowledge and the cost of a shared mistake justifies the extra step.
+
+If disagreement remains after matching definitions, use the [disagreement procedure in Combine cognitive patterns](combine_cognitive_patterns.md#resolve-a-consequential-disagreement). Keep that discussion after the separate estimates. Revising an estimate after seeing another answer does not produce another independent estimate.
 
 ## Output template
 

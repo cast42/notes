@@ -21,6 +21,8 @@ Patterns guide reasoning. They are not evidence, and they should not determine a
 
 Use direct reasoning for routine questions and agreed execution steps. Otherwise, use one pattern when it can answer the question. Combine patterns only when each one covers a distinct gap, and decide how to resolve disagreements before applying them. Agents should treat patterns as reasoning guidance. Claims still need support from concepts, sources, or direct evidence.
 
+An intervention during shared work should address a current gap and fit the user's goals and working preferences. Offer optional ideas briefly, allow them to be ignored, and carry out agreed actions without another approval loop. The [selection guidance](select_cognitive_patterns.md#when-to-contribute-during-shared-work) distinguishes an opportunity to contribute from a reason to interrupt.
+
 ## How humans should use patterns
 
 Use a pattern as a checklist when framing a question, reviewing an argument, or planning an investigation. Adapt the steps to the problem. Record where the pattern helped, where it failed, and which conditions limited its use.
@@ -42,6 +44,8 @@ A cognitive pattern should not repeat factual content from a concept. Its value 
 
 ## Examine claims and uncertainty
 
+- [Check evidence quality](check_evidence_quality.md) to trace a consequential claim to its observations and preserve the limits of what they support.
+- [Examine a causal claim](examine_a_causal_claim.md) to define an intervention comparison and inspect the assumptions needed for an effect estimate.
 - [Generate counterexamples](generate_counterexamples.md) to find where a claim fails.
 - [Approximate and check easy cases](approximate_and_check_easy_cases.md) to simplify a model, record what was discarded, and test units and boundaries.
 - [Reason from first principles](reason_from_first_principles.md) to rebuild an argument from constraints and mechanisms.
@@ -60,6 +64,7 @@ A cognitive pattern should not repeat factual content from a concept. Its value 
 ## Examine plans and risks
 
 - [Run a pre-mortem](run_a_pre_mortem.md) to find specific failure paths before committing to a plan.
+- [Test a plan across plausible futures](test_a_plan_across_plausible_futures.md) to compare options under the same uncertain external conditions and define adaptations.
 
 ## Evidence and evaluation
 
@@ -67,8 +72,11 @@ A pattern can improve the structure of an analysis without improving its conclus
 
 Record the exact procedure and comparison used in a test. Distinguish tests that were never run from tests that found no useful gain. Check practical benefit, added effort, and evidence quality separately from statistical significance. Upstream version 1.0 has no skill approved for automatic invocation under its evaluation policy. Our patterns remain experimental, and deliberate use here follows Lode's instructions rather than an upstream accuracy claim.
 
+Use [Evaluate changes to cognitive patterns](evaluate_pattern_changes.md) to distinguish editorial checks from controlled outcome comparisons. An author's worked examples can expose gaps without establishing improved accuracy or reduced human effort.
+
 ## Investigations
 
+- [September public source update](2026-09-07_investigation_public-source-pattern-update.md) records the source decisions, three additions, and bounded editorial checks for the 18-pattern collection.
 - [Review of cc-thinking-skills version 1.0](2026-09-07_investigation_cc-thinking-skills-v1-review.md) compares all 15 local patterns with the release, updates seven procedures, and explains which upstream changes were not adopted.
 - [Applying *The Art of Insight* to human–AI cognitive patterns](2026-07-20_investigation_art-of-insight-for-human-ai-cognitive-patterns.md) identifies improvements for decomposition, independent verification, controlled simplification, and easy-case testing.
 
@@ -84,6 +92,10 @@ Record the exact procedure and comparison used in a test. Distinguish tests that
 
 ## Sources
 
+- [CIA Tradecraft Primer](2009-03_source_cia_tradecraft-primer.md) informs evidence quality and assumption checks.
+- [GO-Science Futures Toolkit](2024-08-29_source_go-science_futures-toolkit.md) informs scenario comparison.
+- [Causal Inference: What If](2026-08-19_book_hernan-robins_causal-inference-what-if.md) informs intervention comparisons and causal assumptions.
+- [Proactive thought partners for writing](../agents/2026-09-07_tweet_omar-sar_proactive-thought-partners-for-writing.md) informs the timing and form of contributions during shared work.
 - [The Art of Insight in Science and Engineering](2014-01-01_book_sanjoy-mahajan_the-art-of-insight-in-science-and-engineering.md) provides a practical toolkit for organizing or carefully discarding complexity.
 - [Claude Code Thinking Skills and this notes repo](2026-07-20_github_tjboudreaux_cc-thinking-skills.md)
   explains which ideas were adopted, what changed, and why patterns are still

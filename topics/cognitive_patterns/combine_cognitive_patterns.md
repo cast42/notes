@@ -15,9 +15,10 @@ resource: "https://github.com/tjboudreaux/cc-thinking-skills"
 maturity: experimental
 sources:
   - resource: "https://github.com/tjboudreaux/cc-thinking-skills/blob/32f612605ae79bb8fd5a343605d7b7b7806b6bed/skills/thinking-model-combination/SKILL.md"
+  - resource: "https://www.lesswrong.com/posts/exa5kmvopeRyfJgCy/double-crux-a-strategy-for-mutual-understanding"
 generated:
   by: "process:codex"
-  at: "2026-09-07T10:50:21+00:00"
+  at: "2026-09-07T13:29:46+00:00"
 ---
 
 # Combine cognitive patterns
@@ -73,6 +74,16 @@ Example: use [Reason from first principles](reason_from_first_principles.md) to 
 
 Use at most three patterns unless the task has separate parts that clearly require more.
 
+## Resolve a consequential disagreement
+
+After recording separate results, first align definitions and time periods. Then identify a disputed factual assumption whose resolution would change the recommendation. When two people disagree, check whether that assumption is decisive for both; do not presume a shared decisive assumption exists.
+
+Agree on the observation that would settle the factual question and how the recommendation would change under either result. Keep disagreements about goals, acceptable risk, or distribution of costs separate. If evidence cannot settle the issue, preserve the disagreement and let the decision owner choose the action.
+
+For a human and an AI, treat the AI output as a revisable analysis, not a person with an independent belief. Record the evidence and assumptions behind it. Agreement after discussion is not additional independent evidence.
+
+For example, two reviewers can disagree about whether a service needs a second server because they assume different peak loads. Compare the load records before debating spare capacity. The desired reserve can still be a separate preference even when both reviewers agree on demand.
+
 ## Output template
 
 ```text
@@ -112,6 +123,7 @@ Reason for stopping:
 - Dropping a check that leaves the recommendation unchanged but reveals a new risk or weakens the evidence.
 - Reporting every output without producing a combined conclusion.
 - Continuing to add patterns after the decision is already clear.
+- Forcing a factual compromise when the disagreement concerns values or when no shared decisive assumption exists.
 
 ## Evaluation
 
@@ -138,3 +150,4 @@ A good combination should:
 - [Claude Code Thinking Skills and this notes repo](2026-07-20_github_tjboudreaux_cc-thinking-skills.md)
 - [Model combination in version 1.0](https://github.com/tjboudreaux/cc-thinking-skills/blob/32f612605ae79bb8fd5a343605d7b7b7806b6bed/skills/thinking-model-combination/SKILL.md).
 - [The Art of Insight in Science and Engineering](2014-01-01_book_sanjoy-mahajan_the-art-of-insight-in-science-and-engineering.md), especially its principle of intelligent redundancy.
+- [Duncan Sabien, Double Crux, January 2, 2017](https://www.lesswrong.com/posts/exa5kmvopeRyfJgCy/double-crux-a-strategy-for-mutual-understanding), especially "How to play". The decisive-assumption check is adapted from a practitioner method. The human and AI boundary above is a local constraint, not an effectiveness finding from that source.
