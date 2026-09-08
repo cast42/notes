@@ -76,6 +76,7 @@ Use [Evaluate changes to cognitive patterns](evaluate_pattern_changes.md) to dis
 
 ## Investigations
 
+- [Margaret Roller on critical thinking in qualitative research](2026-09-08_tweet_margaret-roller-on-critical-thinking-in-qualitative-research.md) assesses whether reflexivity, context, participant voice, and graded confidence should refine the evidence-review patterns.
 - [September public source update](2026-09-07_investigation_public-source-pattern-update.md) records the source decisions, three additions, and bounded editorial checks for the 18-pattern collection.
 - [Review of cc-thinking-skills version 1.0](2026-09-07_investigation_cc-thinking-skills-v1-review.md) compares all 15 local patterns with the release, updates seven procedures, and explains which upstream changes were not adopted.
 - [Applying *The Art of Insight* to human–AI cognitive patterns](2026-07-20_investigation_art-of-insight-for-human-ai-cognitive-patterns.md) identifies improvements for decomposition, independent verification, controlled simplification, and easy-case testing.
