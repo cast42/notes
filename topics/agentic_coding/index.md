@@ -12,6 +12,7 @@ coding agents in collaboration with humans.
 - [Agent Skills with Anthropic course](2026-07-15_tweet_agent-skills-with-anthropic-deeplearning-ai-course.md) — Reusable agent expertise, progressive disclosure, and the boundaries between skills, tools, MCP, and subagents.
 - [Agent Native video-analysis skill](2026-09-06_skill_agentnative_video-analysis.md) — Analyze local video with Gemini using timestamped evidence, explicit uncertainty, and upload cleanup.
 - [AI model frontier skill for adaptive agent routing](2026-09-14_tweet_ai-model-frontier-skill-for-adaptive-agent-routing.md) — Turn current model quality/cost data into Pareto frontiers and informed Pi/Oh My Pi fallback choices.
+- [Omar Sar’s minimal agent harness guide](2026-09-14_tweet_omar-sar-s-minimal-agent-harness-guide.md) — Build an understandable LLM–tools–loop core, observe it with logs and tasks, then add modular capabilities.
 - [Matt Pocock's skills repo workflow](2026-07-16_video_matt-pocock-s-skills-repo-end-to-end-workflow.md) — Interview, specify, split work into context-sized tickets, implement, and independently review.
 - [Pydantic Deep for production-grade deep agents](2026-03-18_x_pydantic_pydantic-deep_production-grade-deep-agents.md)
 - [Coding agents for data analysis](2026-03-16_article_simon-willison_coding-agents-for-data-analysis.md)
