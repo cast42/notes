@@ -22,6 +22,7 @@ and change in complex systems.
 
 ## Technology and geopolitical power
 
+- [The Next China Shock Is Here — Brad Setser](2026-08-21_youtube_the-ezra-klein-show_the-next-china-shock-is-here.md) — China’s shift from low-end export competition to advanced-manufacturing and software dominance, and the resulting systems challenge for industrial ecosystems and policy.
 - [The Techtonic Shift, early reception](2026-09-05_investigation_the-techtonic-shift-what-reviewers-are-saying.md)
 - [Paul Verhagen on big tech, democracy and European autonomy](2026-09-04_de-standaard_paul-verhagen_big-tech-democratie.md)
 
