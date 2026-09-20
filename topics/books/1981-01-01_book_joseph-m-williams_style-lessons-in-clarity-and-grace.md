@@ -10,6 +10,7 @@ tags:
   - revision
   - reader-centered-design
   - rhetoric
+  - llm-writing
 resource: "https://en.wikipedia.org/wiki/Style:_Lessons_in_Clarity_and_Grace"
 description: "Joseph M. Williams's writing guide treats style as a set of reader-centered choices about action, information, cohesion, emphasis, concision, and grace rather than as a list of mechanical rules."
 author: "Joseph M. Williams"
@@ -20,6 +21,14 @@ sources:
     resource: "https://en.wikipedia.org/wiki/Style:_Lessons_in_Clarity_and_Grace"
   - id: pearson-13th-edition
     resource: "https://www.pearson.com/en-us/subject-catalog/p/style-lessons-in-clarity-and-grace/P200000002140"
+  - id: discovery-article
+    resource: "https://registerspill.thorstenball.com/p/joy-and-curiosity-100"
+  - id: llm-writing-article
+    resource: "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/"
+  - id: pearson-ebook
+    resource: "https://www.pearson.com/store/pearsonplus/p/9780137536603.html"
+  - id: google-books-preview
+    resource: "https://books.google.com/books/about/Style.html?id=XD23AAAACAAJ"
 ---
 
 # Style: Lessons in Clarity and Grace
@@ -62,18 +71,43 @@ The original work grew out of Williams’s University of Chicago “Little Red S
 
 The title has appeared in several related editions and forms. The first version was published in 1981; the 13th edition, revised with Joseph Bizup, was published in 2021. Edition details matter because examples, chapter labels, and coauthor credits vary even though the central reader-centered method remains recognizable.
 
+## Online availability
+
+- The **13th edition** is available as a licensed [Pearson+ eTextbook](https://www.pearson.com/store/pearsonplus/p/9780137536603.html), with search, highlighting, notes, audio, and other study features. It is commercial access, not an open full-text copy.
+- [Google Books](https://books.google.com/books/about/Style.html?id=XD23AAAACAAJ) provides bibliographic information and a limited preview for an earlier edition; it does not expose the complete book for free.
+- I did not find an authorized free full-text edition. The [Pearson title page](https://www.pearson.com/en-us/subject-catalog/p/style-lessons-in-clarity-and-grace/P200000002140) provides the official description and table of contents.
+
 ## Why it remains useful
 
 The book sits between a grammar handbook and a rhetoric manual. It is useful when a draft is technically correct but still feels opaque, abstract, monotonous, or hard to navigate. Its strongest contribution is to connect local sentence choices to a larger model of reader cognition: clarity emerges when the prose’s visible structure matches the reader’s need to track actors, actions, topics, and new claims.
 
 It also complements *The Elements of Style*, but the emphasis differs. Strunk and White is memorable for compact composition rules; Williams provides a more explicit account of why sentence structure affects comprehension and how to diagnose a problem during revision.
 
+## Discovery path and LLM-assisted writing
+
+I discovered the book through Thorsten Ball’s [*Joy & Curiosity #100*](https://registerspill.thorstenball.com/p/joy-and-curiosity-100), which links to [“How To Write With an LLM”](https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/) by A Final Ward. That discussion makes *Style* newly relevant: it treats the book as a practical schematic for the copyediting problems that LLMs can help identify.
+
+The linked article draws a firm boundary between **writing** and **editing**:
+
+- Write the draft yourself; use the model as a copyeditor rather than a ghostwriter.
+- Do not let the model choose final phrases, because its fluent suggestions can flatten the writer’s voice into generic “output.”
+- Suppress encouragement and praise. A model that tells the writer the first draft is good can make them defend weak structure instead of rethinking it.
+- Ask the model to flag problems—passive voice, buried actions, nominalizations, repeated phrasing, filler words, weak paragraph order, and misplaced transitions—then decide which revisions to accept.
+- Compare original and revised passages with a model that does not know which version the writer prefers, reducing its tendency to validate the latest edit.
+
+This is a useful modern application of Williams’s method. *Style* supplies the human-readable categories for diagnosis; an LLM can perform tedious scans across those categories; the writer retains authorship, judgment, and the final choice of words. The risk is not only bland prose. If the model supplies the wording too early, it can pre-empt the writer’s own discovery of what they mean—the very analytical work Williams treats revision as enabling.
+
 ## Related concepts
 
 - [The Elements of Style as a source for the plain-writing skill](../agentic_coding/2026-08-16_tweet_the-elements-of-style-as-a-source-for-the-plain-writing-skill.md) — a related, more rule-oriented source for clarity and readability.
+- [How To Write With an LLM](https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/) — a complementary argument for using language models as structural copyeditors while preserving the writer’s voice.
 
 ## Sources
 
 - [Wikipedia overview and edition history](https://en.wikipedia.org/wiki/Style:_Lessons_in_Clarity_and_Grace).
 - [Pearson: 13th edition](https://www.pearson.com/en-us/subject-catalog/p/style-lessons-in-clarity-and-grace/P200000002140).
+- [Discovery source: Thorsten Ball’s *Joy & Curiosity #100*](https://registerspill.thorstenball.com/p/joy-and-curiosity-100).
+- [Linked discussion: *How To Write With an LLM*](https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/).
+- [Pearson+ licensed eTextbook](https://www.pearson.com/store/pearsonplus/p/9780137536603.html).
+- [Google Books limited preview](https://books.google.com/books/about/Style.html?id=XD23AAAACAAJ).
 - [Raw source capture](raw/1981-01-01_book_joseph-m-williams_style-lessons-in-clarity-and-grace.raw.md)

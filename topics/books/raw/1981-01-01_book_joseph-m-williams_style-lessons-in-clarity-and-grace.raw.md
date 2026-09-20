@@ -15,6 +15,14 @@ sources:
     resource: "https://en.wikipedia.org/wiki/Style:_Lessons_in_Clarity_and_Grace"
   - id: pearson-13th-edition
     resource: "https://www.pearson.com/en-us/subject-catalog/p/style-lessons-in-clarity-and-grace/P200000002140"
+  - id: discovery-article
+    resource: "https://registerspill.thorstenball.com/p/joy-and-curiosity-100"
+  - id: llm-writing-article
+    resource: "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/"
+  - id: pearson-ebook
+    resource: "https://www.pearson.com/store/pearsonplus/p/9780137536603.html"
+  - id: google-books-preview
+    resource: "https://books.google.com/books/about/Style.html?id=XD23AAAACAAJ"
 ---
 
 # Raw source capture
@@ -74,3 +82,45 @@ The Pearson page lists ISBN-13 `9780137536603` for the 2021 edition.
 ## Capture boundary
 
 This is a synthesis-oriented source capture, not a full reproduction of the copyrighted book. The durable note records the book’s documented purpose, edition history, representative structure, and reader-centered writing principles; it does not claim to reproduce every exercise or chapter example.
+
+## Discovery source — *Joy & Curiosity #100*
+
+Source: https://registerspill.thorstenball.com/p/joy-and-curiosity-100
+
+Thorsten Ball’s issue links to **“How To Write With an LLM”** and says he likes the approach. He writes that he still does not know how to use LLMs for writing because he does not want them to write something for him, and even seeing how they would write it can “poison” his brain. His proposed prompt boundary is: tell me only what to change and why, never show me how to write it.
+
+The same issue is the recorded discovery path for this book note.
+
+## Linked discussion — *How To Write With an LLM*
+
+Source: https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/
+
+The article’s practical thesis is to use an LLM as a copyeditor rather than a ghostwriter:
+
+- Write the piece yourself before handing it to a model.
+- Do not use a single model-suggested phrase in the final prose; the purpose is to protect the writer’s voice from fluent but generic phrasing.
+- Avoid model encouragement, because praise can reinforce weak first-draft structure instead of prompting rethinking.
+- Ask the model to flag passive voice, nominalized verbs, repeated wording, filler words, misplaced paragraphs, and unclear transitions.
+- Compare original and revised passages with a model that does not know the writer’s editing history, so it is less likely to approve the preferred version automatically.
+
+The article recommends *Style: Lessons in Clarity and Grace* as a schematic for these editing passes. The connection is specific: Williams provides categories for inspecting actions, characters, information flow, cohesion, emphasis, and concision; the model can automate tedious detection, but the writer should retain interpretation and final wording.
+
+The article is advice and personal practice, not an empirical finding about all LLMs or all readers. Its useful boundary is nevertheless clear: outsource diagnosis and comparison when helpful, but do not outsource the generative act that develops the writer’s meaning and voice.
+
+## Authorized online availability
+
+### Pearson+
+
+Source: https://www.pearson.com/store/pearsonplus/p/9780137536603.html
+
+Pearson offers the 13th edition as an eTextbook. The product page describes it as a digital version with search, highlighting, notes, audio, and study tools. Access is sold as a Pearson+ subscription or eTextbook purchase; it is not an open-access full text.
+
+### Google Books
+
+Source: https://books.google.com/books/about/Style.html?id=XD23AAAACAAJ
+
+Google Books exposes bibliographic information and a limited preview for an earlier edition of *Style*. The preview is not a complete freely readable copy.
+
+### Availability conclusion
+
+The book is available online legally through the Pearson eTextbook. I found no authorized free full-text edition. The Wikipedia page and Pearson title page are useful for metadata and the table of contents, but they are not the book’s full text.
