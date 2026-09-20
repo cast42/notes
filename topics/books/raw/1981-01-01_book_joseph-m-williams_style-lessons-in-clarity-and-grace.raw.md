@@ -113,7 +113,7 @@ The article is advice and personal practice, not an empirical finding about all 
 
 Lode supplied a private PDF of the 11th edition, *Style: Lessons in Clarity and Grace*, by Joseph M. Williams and Joseph Bizup, Pearson, ISBN `9780321898685`. The PDF was used as local working material to verify and distill the book's revision procedure.
 
-The extracted text is kept outside the repository in an ignored local cache. It is not included in this raw capture, the public book note, or any public source link. The repository contains only a short, transformed procedure based on the book's ideas. The procedure is intended as a possible extension to the external DocWriter plain-writing skill, not as a reproduction of the book.
+The extracted text is kept outside the repository in an ignored local cache. It is not included in this raw capture, the public book note, or any public source link. The repository contains only a short, transformed procedure based on the book's ideas, published separately as the `reader-centered-revision` skill. The skill can be layered on top of the external DocWriter plain-writing skill and is not a reproduction of the book.
 
 ## Authorized online availability
 

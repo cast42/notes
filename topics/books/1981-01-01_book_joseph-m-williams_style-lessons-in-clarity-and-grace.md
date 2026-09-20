@@ -115,12 +115,13 @@ The book's principles can be turned into a bounded review procedure without turn
 9. Review the revision as a reader and confirm that it preserves the claim, evidence, qualifications, and intended emphasis.
 10. Use an LLM to flag structural problems and explain them, not to choose the final wording. The writer accepts only changes they understand and endorse.
 
-The procedure is mainly for revision. It treats style principles as predictions about reader effort, not as bans on passive voice, technical terms, long sentences, or negative constructions. A pending Skill Workshop proposal records this procedure as a possible reader-centered extension to the external DocWriter plain-writing skill; the proposal contains no reproduced book text.
+The procedure is mainly for revision. It treats style principles as predictions about reader effort, not as bans on passive voice, technical terms, long sentences, or negative constructions. The repository now contains a separate [reader-centered-revision skill](../../skills/reader-centered-revision/SKILL.md) that can be layered on top of the external DocWriter plain-writing skill; it contains no reproduced book text.
 
 ## Related concepts
 
 - [The Elements of Style as a source for the plain-writing skill](../agentic_coding/2026-08-16_tweet_the-elements-of-style-as-a-source-for-the-plain-writing-skill.md) — a related, more rule-oriented source for clarity and readability.
-- [How To Write With an LLM](https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/) — a complementary argument for using language models as structural copyeditors while preserving the writer’s voice.
+- [Reader-centered revision skill](../../skills/reader-centered-revision/SKILL.md) — a reusable review procedure derived from the book's reader-centered principles.
+- [How To Write With an LLM](https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/) — a complementary argument for using language models as structural copyeditors while preserving the writer's voice.
 
 ## Sources
 
