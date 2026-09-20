@@ -23,6 +23,8 @@ sources:
     resource: "https://www.pearson.com/store/pearsonplus/p/9780137536603.html"
   - id: google-books-preview
     resource: "https://books.google.com/books/about/Style.html?id=XD23AAAACAAJ"
+  - id: internet-archive-scan
+    resource: "https://archive.org/details/stylelessonsincl0000will"
 ---
 
 # Raw source capture
@@ -124,3 +126,20 @@ Google Books exposes bibliographic information and a limited preview for an earl
 ### Availability conclusion
 
 The book is available online legally through the Pearson eTextbook. I found no authorized free full-text edition. The Wikipedia page and Pearson title page are useful for metadata and the table of contents, but they are not the book’s full text.
+
+## Internet Archive item
+
+Source supplied by Lode: https://archive.org/embed/stylelessonsincl0000will
+
+Canonical item page: https://archive.org/details/stylelessonsincl0000will
+
+The embed resolves to an Internet Archive Books item titled **Style: lessons in clarity and grace**, by Joseph M. Williams with Gregory G. Colomb. The metadata identifies it as:
+
+- Publisher: Boston: Longman
+- Edition/year represented: 2010
+- ISBN: `9780205747467`
+- Extent: xv, 265 pages
+- Collection: `internetarchivebooks`, `printdisabled`
+- Access status: `access-restricted-item: true`
+
+The item contains scan-derived formats, but the page reports no suitable public download files. It should therefore be described as a restricted library/controlled-borrowing and streaming route, not as an unrestricted free PDF or EPUB. It is a useful online access route to a particular edition, but it is not the same edition as Pearson’s 13th edition.

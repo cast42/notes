@@ -29,6 +29,8 @@ sources:
     resource: "https://www.pearson.com/store/pearsonplus/p/9780137536603.html"
   - id: google-books-preview
     resource: "https://books.google.com/books/about/Style.html?id=XD23AAAACAAJ"
+  - id: internet-archive-scan
+    resource: "https://archive.org/details/stylelessonsincl0000will"
 ---
 
 # Style: Lessons in Clarity and Grace
@@ -75,6 +77,7 @@ The title has appeared in several related editions and forms. The first version 
 
 - The **13th edition** is available as a licensed [Pearson+ eTextbook](https://www.pearson.com/store/pearsonplus/p/9780137536603.html), with search, highlighting, notes, audio, and other study features. It is commercial access, not an open full-text copy.
 - [Google Books](https://books.google.com/books/about/Style.html?id=XD23AAAACAAJ) provides bibliographic information and a limited preview for an earlier edition; it does not expose the complete book for free.
+- The [Internet Archive scan](https://archive.org/details/stylelessonsincl0000will) is a 2010 Longman edition (ISBN `9780205747467`, 265 pages). The item is marked access-restricted and appears to support controlled borrowing/streaming rather than unrestricted downloading.
 - I did not find an authorized free full-text edition. The [Pearson title page](https://www.pearson.com/en-us/subject-catalog/p/style-lessons-in-clarity-and-grace/P200000002140) provides the official description and table of contents.
 
 ## Why it remains useful
@@ -110,4 +113,5 @@ This is a useful modern application of Williams’s method. *Style* supplies the
 - [Linked discussion: *How To Write With an LLM*](https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/).
 - [Pearson+ licensed eTextbook](https://www.pearson.com/store/pearsonplus/p/9780137536603.html).
 - [Google Books limited preview](https://books.google.com/books/about/Style.html?id=XD23AAAACAAJ).
+- [Internet Archive restricted scan](https://archive.org/details/stylelessonsincl0000will).
 - [Raw source capture](raw/1981-01-01_book_joseph-m-williams_style-lessons-in-clarity-and-grace.raw.md)
