@@ -13,16 +13,16 @@ period:
 status: complete
 main_topic: cognitive_patterns
 source_scope: topics/**/*.md with frontmatter date in range
-generated_at: 2026-09-14T06:30:07+02:00
+generated_at: 2026-09-20T15:22:27+02:00
 ---
 # TWIL 2026 week 37: cognitive_patterns
 
 - **Period:** 2026-09-07 -> 2026-09-13
 - **Main topic:** `cognitive_patterns`
-- **Signal:** 14 notes, top topics: cognitive_patterns x8, agents x2, ai_adoption x2
+- **Signal:** 16 notes, top topics: cognitive_patterns x8, agents x2, ai_adoption x2
 
 ## TL;DR
-This week touched 14 dated topic notes. The strongest thread was **cognitive_patterns**, with the rest clustering around agents, ai_adoption, books.
+This week touched 16 dated topic notes. The strongest thread was **cognitive_patterns**, with the rest clustering around agents, ai_adoption, books, system_thinking.
 
 ## Highlights
 - [Omar Sar on proactive thought partners for writing](../topics/agents/2026-09-07_tweet_omar-sar_proactive-thought-partners-for-writing.md) — Omar Sar highlights Designing Proactive Thought Partners for Writing, a study of agents that proactively offer higher-level cognitive support instead of only completing text. _(dated 2026-09-07)_
@@ -39,9 +39,11 @@ This week touched 14 dated topic notes. The strongest thread was **cognitive_pat
 - [Examine a causal claim](../topics/cognitive_patterns/examine_a_causal_claim.md) — Define what would be compared for the same target population under an intervention and an alternative. Then inspect whether the available study supports that comparison. An observed difference can be accurate while its causal interpretation remains unsupported. _(dated 2026-09-07)_
 - [Margaret Roller on critical thinking in qualitative research](../topics/cognitive_patterns/raw/2026-09-08_tweet_margaret-roller-on-critical-thinking-in-qualitative-research.raw.md) — Margaret Roller on critical thinking in qualitative research _(dated 2026-09-08)_
 - [Test a plan across plausible futures](../topics/cognitive_patterns/test_a_plan_across_plausible_futures.md) — Compare a plan and its alternatives across the same plausible external conditions. Identify what remains useful, what depends on a condition, and what should change if that condition appears. Scenarios do not establish probabilities. _(dated 2026-09-07)_
+- [Mark Zuckerberg — empire, isolation, and the AI wager](../topics/system_thinking/2026-09-13_article_mark-zuckerberg-empire-isolation-and-the-ai-wager.md) — The profile uses the dictator’s dilemma to explain why extreme founder power creates epistemic isolation: the leader needs candid information while subordinates have incentives to filter it. _(dated 2026-09-13)_
+- [Mark Zuckerberg — empire, isolation, and the AI wager](../topics/system_thinking/raw/2026-09-13_article_mark-zuckerberg-empire-isolation-and-the-ai-wager.raw.md) — Mark Zuckerberg — empire, isolation, and the AI wager _(dated 2026-09-13)_
 
 ## This happened -> so that happened -> which led to...
-- **This happened:** 14 notes landed in `topics/` with dates between `2026-09-07` and `2026-09-13`.
+- **This happened:** 16 notes landed in `topics/` with dates between `2026-09-07` and `2026-09-13`.
 - **So that happened:** `cognitive_patterns` became the top-of-mind topic at `8` mentions across `8` files.
 - **Which led to...** a compact weekly map you can revisit without re-scanning the whole knowledge base.
 
@@ -60,3 +62,5 @@ This week touched 14 dated topic notes. The strongest thread was **cognitive_pat
 - [Examine a causal claim](../topics/cognitive_patterns/examine_a_causal_claim.md)
 - [Margaret Roller on critical thinking in qualitative research](../topics/cognitive_patterns/raw/2026-09-08_tweet_margaret-roller-on-critical-thinking-in-qualitative-research.raw.md)
 - [Test a plan across plausible futures](../topics/cognitive_patterns/test_a_plan_across_plausible_futures.md)
+- [Mark Zuckerberg — empire, isolation, and the AI wager](../topics/system_thinking/2026-09-13_article_mark-zuckerberg-empire-isolation-and-the-ai-wager.md)
+- [Mark Zuckerberg — empire, isolation, and the AI wager](../topics/system_thinking/raw/2026-09-13_article_mark-zuckerberg-empire-isolation-and-the-ai-wager.raw.md)
