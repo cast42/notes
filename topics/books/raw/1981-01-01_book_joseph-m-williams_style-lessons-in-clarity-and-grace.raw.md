@@ -109,6 +109,12 @@ The article recommends *Style: Lessons in Clarity and Grace* as a schematic for 
 
 The article is advice and personal practice, not an empirical finding about all LLMs or all readers. Its useful boundary is nevertheless clear: outsource diagnosis and comparison when helpful, but do not outsource the generative act that develops the writer’s meaning and voice.
 
+## Private working edition and copyright boundary
+
+Lode supplied a private PDF of the 11th edition, *Style: Lessons in Clarity and Grace*, by Joseph M. Williams and Joseph Bizup, Pearson, ISBN `9780321898685`. The PDF was used as local working material to verify and distill the book's revision procedure.
+
+The extracted text is kept outside the repository in an ignored local cache. It is not included in this raw capture, the public book note, or any public source link. The repository contains only a short, transformed procedure based on the book's ideas. The procedure is intended as a possible extension to the external DocWriter plain-writing skill, not as a reproduction of the book.
+
 ## Authorized online availability
 
 ### Pearson+

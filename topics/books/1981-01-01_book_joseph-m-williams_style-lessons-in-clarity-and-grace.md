@@ -100,6 +100,23 @@ The linked article draws a firm boundary between **writing** and **editing**:
 
 This is a useful modern application of Williams’s method. *Style* supplies the human-readable categories for diagnosis; an LLM can perform tedious scans across those categories; the writer retains authorship, judgment, and the final choice of words. The risk is not only bland prose. If the model supplies the wording too early, it can pre-empt the writer’s own discovery of what they mean—the very analytical work Williams treats revision as enabling.
 
+## A revision procedure suitable for a writing skill
+
+The book's principles can be turned into a bounded review procedure without turning them into absolute rules:
+
+1. State what the reader must understand next and check that the passage supports that path.
+2. Identify the main characters and actions. Use subjects for important actors and verbs for important actions when that makes agency clear.
+3. Put familiar information near the start of a sentence and important new information near the end.
+4. Bring the main verb close to its subject. Shorten long introductions, abstract subjects, and interruptions when they delay the point.
+5. Keep each paragraph's topic visible through consistent subjects, terms, and plain transitions.
+6. Check the larger structure. Make the purpose, problem, motivation, and order of support clear before polishing sentences.
+7. Remove filler, repetition, and obvious implications. Compress long phrases when the shorter form keeps the meaning.
+8. Split sentences with too many nested relationships, but keep a long sentence when its structure represents one connected idea clearly.
+9. Review the revision as a reader and confirm that it preserves the claim, evidence, qualifications, and intended emphasis.
+10. Use an LLM to flag structural problems and explain them, not to choose the final wording. The writer accepts only changes they understand and endorse.
+
+The procedure is mainly for revision. It treats style principles as predictions about reader effort, not as bans on passive voice, technical terms, long sentences, or negative constructions. A pending Skill Workshop proposal records this procedure as a possible reader-centered extension to the external DocWriter plain-writing skill; the proposal contains no reproduced book text.
+
 ## Related concepts
 
 - [The Elements of Style as a source for the plain-writing skill](../agentic_coding/2026-08-16_tweet_the-elements-of-style-as-a-source-for-the-plain-writing-skill.md) — a related, more rule-oriented source for clarity and readability.
