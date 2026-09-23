@@ -11,6 +11,10 @@ and change in complex systems.
 - [Why fitting a logistic is nearly impossible from early data](2026-09-19_article_why-fitting-a-logistic-curve-is-nearly-impossible-from-early-data.md) — Early-tail data can look exponential, making the limiting value weakly identified and highly sensitive to measurement error.
 - [The Origin of Wealth](../books/2006-01-01_book_eric-d-beinhocker_the-origin-of-wealth.md) — Complexity economics explains wealth creation as evolutionary variation, selection, and amplification in a complex adaptive system.
 
+## Infrastructure and transition
+
+- [Elia’s grid investments may go too far, says regulator](2026-09-23_de-standaard_elia-investeringen-elektriciteitsnet.md) — Demand assumptions, grid investment, network tariffs, and electrification form a feedback loop under uncertainty.
+
 ## Organizations and change
 
 - [The Technological Republic](2025-02-18_book_alexander-karp_nicholas-zamiska_the-technological-republic.md)
