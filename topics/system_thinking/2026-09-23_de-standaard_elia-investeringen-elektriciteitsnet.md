@@ -20,7 +20,7 @@ sources:
     author: "Wim Winckelmans"
 generated:
   by: "process:codex"
-  at: "2026-09-23T08:04:57+02:00"
+  at: "2026-09-23T08:08:11+02:00"
 created_at: "2026-09-23T08:04:57+02:00"
 extractor: "user-supplied-paywalled-excerpt"
 ---
@@ -33,6 +33,7 @@ extractor: "user-supplied-paywalled-excerpt"
 - Dat zou volgens de berichtgeving neerkomen op ongeveer 100 euro extra nettarief voor een modaal gezin, boven op de eerdere verdubbeling tot bijna 100 euro per jaar.
 - Elia verdedigt investeringen van in totaal 24 miljard euro met lagere groothandelsprijzen en meer leveringszekerheid; de Creg vindt de veronderstelde groei van de elektriciteitsvraag met 4 à 6 procent per jaar te optimistisch.
 - De beleidskeuze is dus niet simpelweg investeren of niet investeren: te weinig netcapaciteit kan elektrificatie blokkeren, maar te veel of te vroege capaciteit kan de nettarieven verhogen en dezelfde elektrificatie afremmen.
+- De Creg vraagt realistischere scenario’s die mogelijk minder investeringen vergen; minister van Energie Mathieu Bihet noemt een aanzienlijke maar efficiënte netversterking tegelijk onvermijdelijk.
 
 ## Kernpunten
 
@@ -47,6 +48,19 @@ extractor: "user-supplied-paywalled-excerpt"
 De kern van het debat is een feedbacklus. Elia plant netcapaciteit op basis van een sterke elektrificatie van gezinnen en bedrijven. Die investeringen kunnen op termijn de groothandelsprijs en het risico op schaarste verlagen, maar ze verhogen eerst de nettarieven. Hogere nettarieven maken elektrificatie minder aantrekkelijk, waardoor de vraagprognose waarop de investeringen zijn gebaseerd zelf kan veranderen.
 
 Daarom is de vraag niet alleen hoeveel infrastructuur België nodig heeft, maar ook hoe robuust de investeringsbeslissingen zijn wanneer de vraag lager, later of anders verdeeld uitvalt. De Creg vraagt in het artikel om realistischere scenario’s; dat is een vraag naar besluitvorming onder modelonzekerheid, niet noodzakelijk een pleidooi om alle investeringen te schrappen.
+
+## Beleidsreactie en projecten met verschillende zekerheden
+
+De beleidsreactie maakt de afruil expliciet. Minister van Energie Mathieu Bihet stelt dat investeringen nodig zijn om overbelasting van het net te vermijden, maar koppelt dat aan een efficiënte uitvoering en verwerpt een blanco cheque. De regulator vraagt dus niet noodzakelijk om de netversterking stop te zetten, maar om scenario’s waarin de omvang en timing van de investeringen beter aansluiten bij onzekere vraaggroei.
+
+De concrete projecten hebben bovendien niet dezelfde status:
+
+- De Creg dringt aan op een snelle uitvoering van de Boucle du Hainaut, als verlengstuk van de Ventilus-lijn, omdat die verbinding nodig is om meerdere nieuwe windparken op zee mogelijk te maken.
+- Voor de Nautilus-verbinding, de geplande onderzeese kabel via het energie-eiland naar Groot-Brittannië, vindt de Creg volgens het artikel de voorwaarden nog niet vervuld. Elia beschouwt het project wel als goedgekeurd en verdedigt de businesscase.
+- De beslissing over het energie-eiland is nog niet definitief. De bouw van het gelijkstroomgedeelte is stilgelegd nadat de kosten sterk opliepen; een afgeslankt voorstel ligt op tafel.
+- Ook de veiling voor het eerste nieuwe windpark op zee is nog niet hervat en wacht op goedkeuring van de Europese Commissie.
+
+Dit onderscheid voorkomt dat een debat over het totale investeringsvolume wordt behandeld alsof alle onderdelen even noodzakelijk, rijp of omkeerbaar zijn. Een realistisch ontwikkelingsplan kan daarom tegelijk urgente knelpunten versnellen en onzekere projecten uitstellen tot de voorwaarden duidelijker zijn.
 
 ## Wat de cijfers wel en niet aantonen
 
