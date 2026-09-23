@@ -13,6 +13,7 @@ and change in complex systems.
 
 ## Infrastructure and transition
 
+- [CREG-advies over Elia’s federaal ontwikkelingsplan 2028–2038](2026-07-10_pdf_advies-over-het-ontwerp-van-federaal-ontwikkelingsplan-2028-2038-van-elia-transm.md) — Transparante, conditionele projectgoedkeuring en scenario’s moeten de kosten en baten van netuitbreiding onder onzekerheid beheersbaar maken.
 - [Elia’s grid investments may go too far, says regulator](2026-09-23_de-standaard_elia-investeringen-elektriciteitsnet.md) — Demand assumptions, grid investment, network tariffs, and electrification form a feedback loop under uncertainty.
 
 ## Organizations and change
