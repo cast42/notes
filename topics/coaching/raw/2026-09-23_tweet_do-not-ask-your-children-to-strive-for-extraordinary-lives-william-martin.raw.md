@@ -53,6 +53,15 @@ everyday sensory experiences, learn to grieve when people and animals die, and
 experience the pleasure of human touch. It closes by saying that when the
 ordinary is made fully alive, the extraordinary can take care of itself.
 
+OCR excerpt (copyright-limited):
+
+> Do not ask your children to strive for extraordinary lives.
+>
+> The extraordinary will take care of itself.
+
+The full image transcription is not included in this public raw capture.
+Consult the linked source image for the complete text.
+
 Attribution context:
 The poem is commonly identified as “Do Not Ask Your Children to Strive” and
 as a passage from William Martin’s *The Parent’s Tao Te Ching: Ancient Advice
