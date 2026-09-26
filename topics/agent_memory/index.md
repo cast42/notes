@@ -7,6 +7,7 @@ time.
 
 - [Test-time evolution for agent memory](2026-02-04_x__philschmid_test_time_evolution_agent_memory.md) — memory as an active search, synthesis, refinement, and deletion process.
 - [Awesome AI memory](2026-02-07_github_awesome_ai_memory.md) — a collection of memory systems and resources.
+- [WFM: Wiki Foundation Model for Complex Agentic Reasoning](2026-09-23_tweet_wfm-wiki-foundation-model-for-complex-agentic-reasoning.md) — linked Markdown as both dense context and graph structure for agent memory and retrieval.
 
 ## Related areas
 
