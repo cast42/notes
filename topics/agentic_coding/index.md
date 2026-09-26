@@ -15,6 +15,7 @@ coding agents in collaboration with humans.
 - [Omar Sar’s minimal agent harness guide](2026-09-14_tweet_omar-sar-s-minimal-agent-harness-guide.md) — Build an understandable LLM–tools–loop core, observe it with logs and tasks, then add modular capabilities.
 - [SKILL.state for long-horizon agent skills](2026-09-18_paper_badhe-tiwari-chung_skill-state-scalable-long-horizon-agent-skills.md) — Replace replayed transcripts with validated structured execution state while retaining event logs for provenance and debugging.
 - [ffmpeg-skill: local, verified video editing for agents](2026-09-20_github_kajisho5_ffmpeg-skill.md) — Probe, plan, edit, check, verify, and visually inspect local FFmpeg transformations through typed tools.
+- [evident-charts: clear, honest, checked charts for coding agents](2026-09-26_other_evident-charts-clear-honest-checked-charts-for-coding-agents.md) — An evidence-aware chart workflow combining data checks, deterministic linting, and rendered-image review.
 - [Matt Pocock's skills repo workflow](2026-07-16_video_matt-pocock-s-skills-repo-end-to-end-workflow.md) — Interview, specify, split work into context-sized tickets, implement, and independently review.
 - [Pydantic Deep for production-grade deep agents](2026-03-18_x_pydantic_pydantic-deep_production-grade-deep-agents.md)
 - [Coding agents for data analysis](2026-03-16_article_simon-willison_coding-agents-for-data-analysis.md)
