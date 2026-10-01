@@ -13,7 +13,7 @@ period:
 status: complete
 main_topic: ai_adoption
 source_scope: topics/**/*.md with frontmatter date in range
-generated_at: 2026-09-28T06:30:07+02:00
+generated_at: 2026-10-01T13:23:06+02:00
 ---
 # TWIL 2026 week 39: ai_adoption
 
