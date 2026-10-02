@@ -15,9 +15,11 @@ sources:
     resource: "https://github.com/beatrizalmeidaf/papero-pdf-text-extractor"
   - id: xberg
     resource: "https://github.com/xberg-io/xberg"
+  - id: tesseract
+    resource: "https://github.com/tesseract-ocr/tesseract"
 generated:
   by: "process:codex"
-  at: "2026-10-02T07:31:10+02:00"
+  at: "2026-10-02T07:47:41+02:00"
 ---
 
 # Papero and Xberg compared on PDF Markdown extraction
@@ -31,6 +33,19 @@ On four selected pages from the user-supplied *Engineering a Safer World* PDF, P
 - Sample: PDF pages 32, 33, 63, and 115 (printed pages 11, 12, 42, and 94), chosen for prose and a labeled systems diagram.
 - Both tools received identical one-page PDF slices. Papero ran with `tika=False`, `ocr="off"`; Xberg used `output_format="markdown"`, `disable_ocr=True`, `use_cache=False`. The document has a usable text layer, so OCR was disabled to compare text/layout extraction rather than OCR engines.
 - Runs used isolated `uv run --with ...` environments; the notes repository's dependency files were not changed. Neither run downloaded LLM or OCR model weights.
+
+## Papero implementation and CLI
+
+Papero combines a geometry/layout engine built on PDFium with Apache Tika. PDFium reads glyphs and their positions to reconstruct reading order, tables, formulas, and figures; Tika adds metadata, tagged-PDF headings, OCR, and support for other formats. The OCR path uses the open-source Tesseract engine, which runs on CPU with language traineddata. Papero's Docker Compose setup includes Tika and Tesseract. Its main layout reconstruction requires no heavyweight ML/PyTorch model, but Tesseract OCR is a separate optional path. Papero is MIT licensed. ([architecture and setup](https://github.com/beatrizalmeidaf/papero-pdf-text-extractor#how-it-works), [license](https://github.com/beatrizalmeidaf/papero-pdf-text-extractor/blob/main/LICENSE), [Tesseract](https://github.com/tesseract-ocr/tesseract))
+
+For text-layer PDFs, run the CLI without Java/Tika or OCR:
+
+```sh
+uv run --with papero-extract papero-extract extract paper.pdf \
+  -p 1-3,5 --no-tika --ocr off -o paper.md
+```
+
+This command was checked against the supplied PDF with page 63. For scanned PDFs, use the Tika/Tesseract-backed setup instead; `uv --with` installs Papero's Python CLI, not those external services.
 
 ## Results
 
