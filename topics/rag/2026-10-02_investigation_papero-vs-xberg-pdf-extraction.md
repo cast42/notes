@@ -9,7 +9,7 @@ tags:
   - document-parsing
   - rag-ingestion
   - layout-analysis
-description: "A bounded comparison showing similar prose extraction but different treatment of a diagram in a born-digital book PDF."
+description: "A bounded comparison of Papero and Xberg on prose, a diagram, multi-column academic pages, tables, and equations in born-digital PDFs."
 sources:
   - id: papero
     resource: "https://github.com/beatrizalmeidaf/papero-pdf-text-extractor"
@@ -17,9 +17,11 @@ sources:
     resource: "https://github.com/xberg-io/xberg"
   - id: tesseract
     resource: "https://github.com/tesseract-ocr/tesseract"
+  - id: attention_is_all_you_need
+    resource: "https://arxiv.org/abs/1706.03762"
 generated:
   by: "process:codex"
-  at: "2026-10-02T07:47:41+02:00"
+  at: "2026-10-02T07:53:42+02:00"
 ---
 
 # Papero and Xberg compared on PDF Markdown extraction
@@ -53,6 +55,33 @@ This command was checked against the supplied PDF with page 63. For scanned PDFs
 - Page 63 contains Figure 2.9, a directed diagram connecting the designer's, operator's, and actual-system mental models. Papero identified one figure and retained its caption; its extracted labels were still partly reordered or conflated. Xberg detected two tables, placing diagram labels into table cells and mixing in surrounding annotations. This representation is misleading for downstream text retrieval even though the Xberg result reported `quality_score=1.0`.
 - The diagram's arrows and semantics were not recovered by either Markdown output. Preserve or separately index the source image when those relationships matter.
 - This was a four-page spot check, not a general accuracy or speed benchmark. It covered born-digital prose and one diagram—not scans, OCR, dense tables, or the whole book. Xberg's reported quality score is an internal signal, not an independent fidelity measure.
+
+## Multi-column paper test
+
+To exercise a denser academic layout, I used pages 6–8 of Vaswani et al., [*Attention Is All You Need*](https://arxiv.org/abs/1706.03762). These pages use a two-column layout and include Table 1 (a four-column comparison), Table 2 (nested column headings and grouped BLEU/training-cost values), and displayed equations. Both tools received the same three-page PDF slice; OCR was disabled because the paper is born-digital and has a text layer.
+
+Recreate the slice from the public PDF with `qpdf`, then run Papero and Xberg:
+
+```sh
+curl -L https://arxiv.org/pdf/1706.03762 -o attention.pdf
+qpdf --empty --pages attention.pdf 6-8 -- pages-6-8.pdf
+
+uv run --with papero-extract papero-extract extract pages-6-8.pdf \
+  --no-tika --ocr off --page-breaks -o papero.md
+
+xberg extract pages-6-8.pdf --no-config-discovery \
+  --content-format markdown --disable-ocr true --no-cache true \
+  --page-markers true -f json > xberg.json
+```
+
+The Papero command used Papero 3.1.0 via its `uv` CLI. Xberg was v1.3.2's official macOS CLI release binary (the `xberg` Python package does not provide this CLI entry point); it emitted Markdown in a JSON result, so its `content` field is the Markdown to compare. Runs were native/text-layer extraction, not OCR. Papero reported 2 tables and 5 formulas; Xberg reported 2 tables and `quality_score=1.0`.
+
+- **Table 1:** Papero preserved the four semantic columns and aligned the rows. Xberg generated a spurious fifth, blank column and shifted some maximum-path-length values into it.
+- **Table 2:** Both struggled with its grouped headers. Papero kept a recognizable table, but combined paired EN-DE/EN-FR scores and FLOP values into single cells, losing which value belongs to which subcolumn. Xberg was worse: it treated header/caption fragments as table rows and merged or shifted the paired values across cells.
+- **Equations:** Papero represented equations as display-math blocks, but joined the two positional-encoding equations on one line and did not preserve all subscript formatting cleanly. Xberg split the equation into prose-like fragments and lost the equation's clear symbolic structure.
+- **Surrounding prose:** Both returned readable two-column body text in this small sample, though neither output should be treated as a proof of perfect reading order or content fidelity.
+
+For this particular PDF sample, Papero is the better starting point for tables and formulas, but its Table 2 still needs checking against the PDF. Xberg's perfect self-reported quality score did not catch the visible structural errors. This is one paper and three pages—not a broad benchmark—and the extraction times and scores are not directly comparable quality measures.
 
 ## Takeaway for RAG ingestion
 
