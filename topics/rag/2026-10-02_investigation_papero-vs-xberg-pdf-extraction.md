@@ -21,14 +21,27 @@ sources:
     resource: "https://arxiv.org/abs/1706.03762"
 generated:
   by: "process:codex"
-  at: "2026-10-02T07:53:42+02:00"
+  at: "2026-10-02T08:40:00+02:00"
 ---
 
 # Papero and Xberg compared on PDF Markdown extraction
 
 ## TL;DR
 
-On four selected pages from the user-supplied *Engineering a Safer World* PDF, Papero 3.1.0 and Xberg 1.3.2 produced nearly identical Markdown for ordinary prose. They differed on a systems diagram: Papero emitted a figure with imperfectly ordered labels, while Xberg represented the diagram as two false-positive Markdown tables. Neither preserved the arrows or full relationships. For this PDF, Papero is the safer Markdown starting point, but diagrams should remain available as images when their structure matters.
+Papero is an MIT-licensed, CPU-only Python library and CLI for converting PDFs to structured Markdown; its layout extraction needs no GPU or ML model. A quick CLI run is:
+
+```sh
+uv run --with papero-extract papero-extract extract example.pdf -o example.md
+```
+
+To try it without installing anything, use the [Papero browser app](https://beatrizalmeidaf.github.io/papero-pdf-text-extractor/); its browser mode processes the PDF locally. Scanned-page OCR is a separate optional server path using Tika and Tesseract.
+
+Two small comparisons with Xberg 1.3.2:
+
+- **Book PDF — *Engineering a Safer World*:** prose extraction was nearly identical. Papero classified the tested systems diagram as a figure (but imperfectly ordered its labels); Xberg turned it into two false-positive tables. Neither recovered the diagram's arrows and full relationships.
+- **Two-column paper — *Attention Is All You Need*:** Papero better preserved the first table and rendered equations more legibly. Both damaged the more complex results table, with Xberg more severely scrambling grouped headings and values. Xberg's `quality_score=1.0` did not reflect those structural errors.
+
+These are bounded spot checks, not a general benchmark. For either PDF, keep the original page available when table, equation, or diagram structure matters.
 
 ## Method
 
