@@ -22,7 +22,7 @@ sources:
     title: "DS Economie, vrijdag 2 oktober"
 generated:
   by: "process:codex"
-  at: "2026-10-03T20:31:21+00:00"
+  at: "2026-10-03T20:35:00+00:00"
 extractor: "user-supplied-article-excerpt"
 ---
 
@@ -50,6 +50,11 @@ Huang ziet een verwante prioriteit bij latere regeringen: grootschalige infrastr
 ## Wat dit perspectief toevoegt
 
 Het interview verschuift de vraag van “hoeveel infrastructuur heeft China gebouwd?” naar “wie kon ondernemen, krediet krijgen en meeprofiteren van groei?” Het vestigt ook aandacht op institutionele voorwaarden achter groei: lokale beleidsruimte, pluraliteit in besluitvorming en toegang tot financiering. Die invalshoek is nuttig als tegenwicht bij verklaringen die alleen staatscapaciteit of technologie benadrukken.
+
+## Gerelateerde boeken
+
+- Yasheng Huang, [*Statism with Chinese Characteristics: A History of China’s Reforms and Reversals*](https://www.cambridge.org/core/books/statism-with-chinese-characteristics/ACFD528CEE9B6B4FBB4B706977E63776) — de tweede editie die in het interview wordt besproken.
+- Dan Wang, [*Breakneck: China’s Quest to Engineer the Future*](../system_thinking/2025-08-26_book_dan-wang_breakneck.md) — het boek waarmee de interviewer Huang’s kritiek op het infrastructuur- en groeiverhaal in verband brengt.
 
 ## Lees dit als een betoog
 
