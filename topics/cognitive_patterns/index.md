@@ -58,7 +58,7 @@ A cognitive pattern should not repeat factual content from a concept. Its value 
 - [Analyze capability accumulation](analyze_capability_accumulation.md) to explain how practical capability grows or decays.
 - [Compare ecosystems](compare_ecosystems.md) to compare actors, flows, feedback, and learning.
 - [Evaluate incentives](evaluate_incentives.md) to predict how rules, rewards, and constraints change behaviour.
-- [Find leverage points](find_leverage_points.md) to choose interventions that change system behaviour.
+- [Find leverage points](find_leverage_points.md) to choose interventions, including the best forgone use of scarce resources.
 - [Identify feedback loops](identify_feedback_loops.md) to explain change, resistance, growth, and decline over time.
 
 ## Examine plans and risks

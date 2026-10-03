@@ -26,7 +26,7 @@ sources:
     resource: "https://github.com/tjboudreaux/cc-thinking-skills/blob/32f612605ae79bb8fd5a343605d7b7b7806b6bed/evals/studies/scientific-method-vnext/tool-v1-disposition.json"
 generated:
   by: "process:codex"
-  at: "2026-09-07T10:50:21+00:00"
+  at: "2026-10-03T17:51:28+00:00"
 ---
 
 # Review of cc-thinking-skills version 1.0
@@ -111,6 +111,16 @@ For future local evaluation, record the exact pattern revision and compare it wi
 - Fixed router weights and numerical probability bands were not adopted because their apparent precision is not established for this local workflow.
 - The probabilistic skill's stronger preference for numbers does not justify invented base rates or calibrated intervals. Qualitative updates remain appropriate when inputs are weak.
 - The book-derived approximation record, easy-case checks, and independent human estimate protocol remain intact. The [book investigation](2026-07-20_investigation_art-of-insight-for-human-ai-cognitive-patterns.md) remains a record of their original rationale.
+
+## Follow-up review — October 3, 2026
+
+The latest upstream `main` revision is still `7b8fece345dfaa11773be7152ccd194589cb5437` (August 7, 2026), and `v1.0.0` remains the latest release. The current README describes 28 portable, manually invoked skills; no later skill-body or evidence changes require revising the September review.
+
+A structural scan of the 18 local cognitive patterns found that each has `Use when`, `Procedure`, `Failure modes`, and `Evaluation` guidance. This checks presence, not quality or effectiveness. The source's router, combination rules, and evaluation caveats are already represented in the local index, patterns, and September update.
+
+One focused opportunity-cost check is worth adding to [Find leverage points](find_leverage_points.md): when intervention choices compete for scarce resources, compare the selected intervention with the best feasible use of those same resources. The existing pattern already asks about impact, feasibility, reversibility, and risk, but it did not explicitly ask what the commitment displaces. This closes a specific prioritization gap without adding a standalone pattern. The check is optional for mandatory actions and resources with no real alternative use. It does not adopt the upstream skill's numeric value-delta formula or permanent-loss rule, which need case-specific evidence and values.
+
+This is an editorial adaptation based on the [opportunity-cost skill in v1.0.0](https://github.com/tjboudreaux/cc-thinking-skills/blob/32f612605ae79bb8fd5a343605d7b7b7806b6bed/skills/thinking-opportunity-cost/SKILL.md), not an outcome study. No controlled comparison was run, so the revision is not evidence that answers or decisions improve.
 
 ## Sources
 

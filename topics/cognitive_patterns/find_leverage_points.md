@@ -13,9 +13,10 @@ topics:
 resource: "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/"
 sources:
   - resource: "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/"
+  - resource: "https://github.com/tjboudreaux/cc-thinking-skills/blob/32f612605ae79bb8fd5a343605d7b7b7806b6bed/skills/thinking-opportunity-cost/SKILL.md"
 generated:
   by: "process:codex"
-  at: "2026-09-07T13:29:46+00:00"
+  at: "2026-10-03T17:51:28+00:00"
 ---
 
 # Find leverage points
@@ -58,6 +59,7 @@ Meadows presents a hierarchy while warning that it is not a recipe for locating 
 6. Identify who controls goals and incentives.
 7. Generate candidate interventions at several levels.
 8. Estimate impact, feasibility, reversibility, and risk.
+   When choices use scarce resources, also name the best feasible alternative those resources would otherwise support. Compare the options over the same horizon and keep the alternative's foregone benefit distinct from the chosen intervention's direct cost. Skip this check only when compliance leaves no feasible alternative or the resource has no real alternative use.
 9. Prefer portfolios when one intervention cannot unlock the system alone.
 10. Define measurements that reveal whether the intervention changed the loop.
 
@@ -67,10 +69,10 @@ Stop when the comparison supports a feasible action or identifies the specific m
 
 ## Decision table
 
-| Candidate | Expected impact | Feasibility | Reversibility | Learning value |
-|---|---:|---:|---:|---:|
-| Intervention A | High | Medium | High | High |
-| Intervention B | Medium | High | Medium | Medium |
+| Candidate | Expected impact | Feasibility | Risk and reversibility | Best forgone use | Learning value |
+|---|---:|---:|---:|---|---:|
+| Intervention A | High | Medium | Low risk, high reversibility | Intervention B | High |
+| Intervention B | Medium | High | Medium risk, medium reversibility | Intervention A | Medium |
 
 ## Failure modes
 
@@ -80,6 +82,7 @@ Stop when the comparison supports a feasible action or identifies the specific m
 - Focusing only on price signals.
 - Treating leverage points as isolated rather than interacting.
 - Failing to create a feedback mechanism for policy learning.
+- Comparing an intervention only with doing nothing when another feasible intervention would use the same scarce resources.
 
 ## Example
 
@@ -100,6 +103,7 @@ A strong leverage-point analysis should:
 - include implementation constraints;
 - identify second-order effects;
 - define how to learn from the intervention.
+- when scarce resources constrain the choice, identify the best feasible forgone use or explain why none exists.
 
 ## Related patterns
 
@@ -111,3 +115,4 @@ A strong leverage-point analysis should:
 
 - [Donella Meadows, Leverage Points: Places to Intervene in a System](https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/), especially the introduction, revised list, and discussion of parameters. The local procedure and examples are adaptations, not evidence that a particular intervention will work.
 - [Thinking in Systems](../system_thinking/2008-12-05_book_donella-meadows_thinking-in-systems.md) provides the wider systems context already used in this repository.
+- [Opportunity cost in Claude Code Thinking Skills, version 1.0](https://github.com/tjboudreaux/cc-thinking-skills/blob/32f612605ae79bb8fd5a343605d7b7b7806b6bed/skills/thinking-opportunity-cost/SKILL.md) motivates the optional comparison with the best feasible use of scarce resources. This local adaptation does not adopt its numerical value-delta formula or its permanent-loss decision rule.
