@@ -19,7 +19,7 @@ resource: "https://x.com/poteto/status/2102050467505430555"
 description: "Lauren Tan and Matt Pocock describe how verification, agent-friendly environments, and feedback loops can support higher-throughput engineering while retaining quality controls."
 generated:
   by: "process:codex"
-  at: "2026-10-05T09:33:13+00:00"
+  at: "2026-10-05T09:41:26+00:00"
 sources:
   - id: "original-talk-post"
     resource: "https://x.com/poteto/status/2102050467505430555"
@@ -52,15 +52,15 @@ sources:
 
 ### Build trust in layers
 
-Lauren’s talk presents five overlapping layers for turning repeated corrections into durable safeguards (about 15:25–18:55), rather than a formal maturity scale:
+At the close of the talk, Lauren says this is the one takeaway she most wants viewers to remember: when correcting an agent, decide which layer should absorb the lesson (about 36:09–37:25). Her five-step sequence is:
 
-- Keep the codebase a good example to imitate; agents tend to extend patterns they see.
-- Where possible, make bad patterns structurally impossible through architecture and data structures.
-- Enforce constraints with static analysis, compiler diagnostics, and CI.
-- Add guidance and checks through rules, review bots, and skills; these are useful but can be missed or ignored.
-- Use human style-guide review to find gaps, but do not rely on humans remembering every convention at high PR volume.
+- **Codebase:** Fix the example the agent will imitate. Prefer a clear paved path and refactor recurring bad patterns out of the code; architecture and data structures can make some mistakes impossible.
+- **Static analysis:** Turn repeatable constraints into lint rules, compiler diagnostics, or CI checks. This is more reliable than asking the agent to remember a correction.
+- **Rules / Bugbot:** Add explicit guidance and automated review for issues that static checks do not cover. These can still be missed or ignored, so they are not hard guarantees.
+- **Skills:** Encode the team’s reusable workflow—how to investigate, implement, and verify—so the agent can apply the process in context. Treat skills as guidance, not enforcement.
+- **Style guide:** Use human review for judgment and conventions that are not yet encoded elsewhere. Lauren cautions against relying on humans to catch every issue line by line at high PR volume.
 
-The practical ordering is to fix the environment or make a recurring mistake impossible first, then layer enforcement and guidance. She calls the agent-oriented framework Dune: it favors one paved path, tight boundaries, and conventions that make the easy route the right one. A codebase is also memory: existing workarounds can spread as readily as good patterns. She gives banning comments in one framework as a project-specific example, after finding that agents used comments to justify band-aids instead of addressing underlying problems (about 19:00–26:20). This is her team’s design choice, not a general recommendation to ban comments.
+The practical ordering is to fix the example or make a recurring mistake impossible first, then add increasingly softer enforcement and guidance. She calls the agent-oriented framework Dune: it favors one paved path, tight boundaries, and conventions that make the easy route the right one. A codebase is also memory: existing workarounds can spread as readily as good patterns. She gives banning comments in one framework as a project-specific example, after finding that agents used comments to justify band-aids instead of addressing underlying problems (about 19:00–26:20). This is her team’s design choice, not a general recommendation to ban comments.
 
 ### Verification is the core feedback loop
 
