@@ -19,7 +19,7 @@ resource: "https://x.com/poteto/status/2102050467505430555"
 description: "Lauren Tan and Matt Pocock describe how verification, agent-friendly environments, and feedback loops can support higher-throughput engineering while retaining quality controls."
 generated:
   by: "process:codex"
-  at: "2026-10-05T09:41:26+00:00"
+  at: "2026-10-05T09:51:21+00:00"
 sources:
   - id: "original-talk-post"
     resource: "https://x.com/poteto/status/2102050467505430555"
@@ -70,20 +70,20 @@ She distinguishes checking functional correctness from assessing performance or 
 
 ### Scale context and work, not just agents
 
-In the interview, Lauren describes an “outer loop” that pulls signals and context from sources such as bug reports, Slack, and monitoring into work, and an “inner loop” where agents investigate, implement, and verify changes (about 34:00–46:50). Coordinator or “chief of staff” agents can route and contextualize tasks; the aim is to teach agents to answer more of their own questions rather than make the human relay every detail. Matt’s “context, not control” framing captures this: invest in clear intent and a capable environment rather than continuous micromanagement.
+In the interview, Lauren describes an “outer loop” that pulls signals and context from sources such as bug reports, Slack, and monitoring into work, and an “inner loop” where agents investigate, implement, and verify changes (about 33:00–45:50 in the YouTube edit). Coordinator or “chief of staff” agents can route and contextualize tasks; the aim is to teach agents to answer more of their own questions rather than make the human relay every detail. Matt’s “context, not control” framing captures this: invest in clear intent and a capable environment rather than continuous micromanagement.
 
-She also describes sampling rather than inspecting every landed change: inspect code regularly and rigorously, look for recurring shortcuts, then improve constraints, linting, types, or skills in the environment (about 50:25–55:20). If several agents repeat a failure, treat it as evidence of an environmental gap, not just an individual agent mistake. She explicitly says the setup takes significant work and is not an easy switch to “dark factory” automation.
+She also describes sampling rather than inspecting every landed change: inspect code regularly and rigorously, look for recurring shortcuts, then improve constraints, linting, types, or skills in the environment (about 49:25–54:20 in the YouTube edit). If several agents repeat a failure, treat it as evidence of an environmental gap, not just an individual agent mistake. She explicitly says the setup takes significant work and is not an easy switch to “dark factory” automation.
 
 ### pstack and the throughput claim
 
-Lauren’s X post reports 2,500 PRs shipped in a month. The interview clarifies that these were not 2,500 features: she mentions bug fixing, gardening, and other maintenance, and describes work triggered by external signals as well as product development. The interview discusses PRs being merged after the verification loop, with review sampling afterward. The recordings do not independently establish the denominator, defect/revert rate, review burden, or durable user impact. The talk’s automatic-verification claim should therefore be understood as her account of one verifiable software context, not proof that the same autonomy is safe in every domain. She says one-way-door changes are harder to automate when they cannot be made effectively verifiable (about 57:00–60:40).
+Lauren’s X post reports 2,500 PRs shipped in a month. The interview clarifies that these were not 2,500 features: she mentions bug fixing, gardening, and other maintenance, and describes work triggered by external signals as well as product development. The interview discusses PRs being merged after the verification loop, with review sampling afterward. The recordings do not independently establish the denominator, defect/revert rate, review burden, or durable user impact. The talk’s automatic-verification claim should therefore be understood as her account of one verifiable software context, not proof that the same autonomy is safe in every domain. She says one-way-door changes are harder to automate when they cannot be made effectively verifiable (about 56:00–59:40 in the YouTube edit).
 
-In their interview, Lauren and Matt treat skills as workflows distilled into language. Lauren recommends reviewing one’s own agent transcripts for repeated corrections and interventions, then turning useful lessons into reusable skills or lint rules. She describes her Recall skill as a way to mine earlier conversations for relevant context when beginning a new chat (about 61:00–65:25). She sees the two skill collections as complementary and encourages adapting them, not adopting them wholesale. The official [pstack plugin](https://github.com/cursor/plugins/tree/main/pstack) is one implementation; its existence does not validate the throughput claim.
+In their interview, Lauren and Matt treat skills as workflows distilled into language. Lauren recommends reviewing one’s own agent transcripts for repeated corrections and interventions, then turning useful lessons into reusable skills or lint rules. She describes her Recall skill as a way to mine earlier conversations for relevant context when beginning a new chat (about 60:00–64:35 in the YouTube edit). She sees the two skill collections as complementary and encourages adapting them, not adopting them wholesale. The official [pstack plugin](https://github.com/cursor/plugins/tree/main/pstack) is one implementation; its existence does not validate the throughput claim.
 
 ## Links
 
 - [Lauren Tan’s original X video post](https://x.com/poteto/status/2102050467505430555)
-- [Lauren’s interview announcement and link](https://x.com/poteto/status/2106134336705843554) · [YouTube interview with Matt Pocock](https://www.youtube.com/watch?v=MN9dGgmLyso)
+- [Lauren’s interview announcement and link](https://x.com/poteto/status/2106134336705843554) · [YouTube interview with Matt Pocock](https://www.youtube.com/watch?v=MN9dGgmLyso&t=1s)
 - [Thecsguy’s follow-up post](https://x.com/thecsguy/status/2106398397506916410)
 - [Matt Pocock’s written recap](https://x.com/mattpocockuk/status/2103431302527508886)
 - [Official pstack plugin and documentation](https://github.com/cursor/plugins/tree/main/pstack)
@@ -92,4 +92,4 @@ In their interview, Lauren and Matt treat skills as workflows distilled into lan
 ## Raw
 
 - Transcript notes: [timestamped paraphrases and extraction provenance](https://github.com/cast42/notes/blob/main/topics/agentic_coding/raw/2026-09-21_video_lauren-tan-pstack-verification-and-agent-workflows.raw.md)
-- Extractor: local `whisper.cpp` `base.en` model on audio from both linked videos; timestamps are approximate, and automated speech recognition can mishear names or numbers. The full transcripts were used for this summary but are not included in the public note.
+- Extractor: local `whisper.cpp` `base.en` model on audio from both videos; the interview audio was downloaded directly from YouTube with `yt-dlp` because YouTube captions were unavailable. Timestamps are approximate, and automated speech recognition can mishear names or numbers. The full transcripts were used for this summary but are not included in the public note.
