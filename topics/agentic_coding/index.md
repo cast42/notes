@@ -9,6 +9,7 @@ coding agents in collaboration with humans.
 - [Codex app tips from Dominik Kundel](2026-02-02_x_dkundel_codex_app_tips.md)
 - [Claude Code workflow orchestration](2026-02-23_x_boris-cherny_workflow-orchestration.md)
 - [Long-horizon tasks with Codex](2026-03-01_article_openai-cookbook_long-horizon-tasks-codex.md)
+- [Lauren Tan on pstack, verification, and agent workflows](2026-09-21_video_lauren-tan-pstack-verification-and-agent-workflows.md) — Constrain agent behavior, make real-app verification machine-operable, and maintain a product feature map; treat the reported PR count as a volume claim, not a quality measure.
 - [Agent Skills with Anthropic course](2026-07-15_tweet_agent-skills-with-anthropic-deeplearning-ai-course.md) — Reusable agent expertise, progressive disclosure, and the boundaries between skills, tools, MCP, and subagents.
 - [Agent Native video-analysis skill](2026-09-06_skill_agentnative_video-analysis.md) — Analyze local video with Gemini using timestamped evidence, explicit uncertainty, and upload cleanup.
 - [AI model frontier skill for adaptive agent routing](2026-09-14_tweet_ai-model-frontier-skill-for-adaptive-agent-routing.md) — Turn current model quality/cost data into Pareto frontiers and informed Pi/Oh My Pi fallback choices.
