@@ -82,6 +82,7 @@ In their interview, Lauren and Matt treat skills as workflows distilled into lan
 
 ## Links
 
+- Related: [Lauren Tan's pstack skill stack and how to use it](2026-10-05_github_cursor_pstack_skills_by_lauren-tan.md)
 - [Lauren Tan’s original X video post](https://x.com/poteto/status/2102050467505430555)
 - [Lauren’s interview announcement and link](https://x.com/poteto/status/2106134336705843554) · [YouTube interview with Matt Pocock](https://www.youtube.com/watch?v=MN9dGgmLyso&t=1s)
 - [Thecsguy’s follow-up post](https://x.com/thecsguy/status/2106398397506916410)
