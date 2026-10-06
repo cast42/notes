@@ -43,6 +43,10 @@ Using the arXiv API query for “Test-Time Evolution agent memory”, the most d
   - arXiv (abs): https://arxiv.org/abs/2602.03224
   - PDF: https://arxiv.org/pdf/2602.03224
 
+## Related concept
+
+- [Agent Memory Repo: Git-backed memory and periodic dreaming](2026-10-06_cognition_agent-memory-repo-and-dreaming.md) describes a concrete repository workflow for maintaining persistent memory, including periodic deduplication and deletion.
+
 If you want, I can double-check this is exactly the paper referenced in the tweet once browser control is stable again (t.co card link extraction was flaky).
 
 ## Why I care (agent memory design)

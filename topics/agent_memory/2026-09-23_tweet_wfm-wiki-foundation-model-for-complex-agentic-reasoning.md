@@ -63,5 +63,6 @@ paper's benchmark and systems results still need independent reproduction.
 
 ## Related concepts
 
+- [Agent Memory Repo: Git-backed memory and periodic dreaming](2026-10-06_cognition_agent-memory-repo-and-dreaming.md)
 - [Test-time evolution for agent memory](2026-02-04_x__philschmid_test_time_evolution_agent_memory.md)
 - [Awesome AI memory](2026-02-07_github_awesome_ai_memory.md)
