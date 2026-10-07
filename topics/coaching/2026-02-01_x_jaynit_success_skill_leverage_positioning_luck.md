@@ -66,3 +66,5 @@ Embedded from the post:
 ![figure](https://pbs.twimg.com/media/HAEkdRaasAIaC-Q?format=png&name=medium)
 
 Local copies (repo): `topics/agentic_coding/assets/jaynit_success_formula/` (not moved)
+
+Related: [The Luck Field Manual](2026-10-05_x_polymathinvest1_luck-field-manual.md) expands on increasing encounters with opportunity, visibility, networks, and resilience.
