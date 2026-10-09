@@ -5,6 +5,7 @@ time.
 
 ## Concepts and sources
 
+- [LLM Wiki: a desktop app for building a persistent knowledge wiki](2026-10-09_github_nashsu_llm-wiki.md) — A concrete desktop implementation of Karpathy's LLM-Wiki pattern, with incremental source ingestion, linked Markdown, graph retrieval, and optional vector search.
 - [Agent Memory Repo: Git-backed memory and periodic dreaming](2026-10-06_cognition_agent-memory-repo-and-dreaming.md) — Persist linked agent memory in Git, then periodically consolidate cross-session patterns and prune or reconcile stale knowledge.
 - [Test-time evolution for agent memory](2026-02-04_x__philschmid_test_time_evolution_agent_memory.md) — memory as an active search, synthesis, refinement, and deletion process.
 - [Awesome AI memory](2026-02-07_github_awesome_ai_memory.md) — a collection of memory systems and resources.

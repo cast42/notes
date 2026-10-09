@@ -63,6 +63,7 @@ paper's benchmark and systems results still need independent reproduction.
 
 ## Related concepts
 
+- [LLM Wiki: a desktop app for building a persistent knowledge wiki](2026-10-09_github_nashsu_llm-wiki.md) — a practical application of the linked-wiki representation.
 - [Agent Memory Repo: Git-backed memory and periodic dreaming](2026-10-06_cognition_agent-memory-repo-and-dreaming.md)
 - [Test-time evolution for agent memory](2026-02-04_x__philschmid_test_time_evolution_agent_memory.md)
 - [Awesome AI memory](2026-02-07_github_awesome_ai_memory.md)
