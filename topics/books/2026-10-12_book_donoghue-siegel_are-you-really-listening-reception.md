@@ -48,6 +48,19 @@ sources:
 - A *U.S. News & World Report* article on listening interviews Donoghue as a psychologist and co-author, alongside Pamela Cooper, then vice president of the International Listening Association. It discusses habits such as interrupting, redirecting the conversation to oneself, rushing to fix a problem, and becoming defensive, then recommends practice and paraphrasing. This lends context to the subject-matter expertise around the book, but it is an article about listening—not a review of the book.
 - The cover credits a foreword by journalist Joan Lunden. That is a named contribution, but without the foreword text it should not be treated as a specific endorsement of the book’s claims.
 
+## Practical takeaways
+
+This checklist condenses the book’s later active-listening guidance as described in reader reviews and Donoghue’s public advice; it is not a chapter-by-chapter summary.
+
+1. **Give the speaker your attention.** Notice when you start planning your reply, checking something else, or mentally drifting.
+2. **Catch the ways you stop listening:** interrupting, taking over with your own story, listening only to find a problem to solve, or becoming defensive.
+3. **Pause before reacting or advising.** First make sure you have understood the other person’s point.
+4. **Paraphrase when it matters.** Restate the gist in your own words and ask whether you got it right; this is especially useful when a message could be misunderstood. You do not need to mechanically repeat every ordinary remark.
+5. **Repair attention lapses honestly.** If you realize you drifted, say so and ask for the missed part again rather than pretending you followed.
+6. **Practise and invite feedback.** Listening is a skill, and another person may notice your habits more clearly than you do.
+
+These actions are consistent with the reviewer-described sequence—listen, paraphrase, and do not react until you understand—and with Donoghue’s later advice to identify unhelpful habits, practise, paraphrase, and ask for correction when needed ([reader review](https://www.allbookstores.com/Are-You-Really-Listening-Keys/9781893732889); [*U.S. News & World Report* interview](https://health.usnews.com/health-news/health-wellness/articles/2013/08/21/how-to-be-a-good-listener)).
+
 ## Assessment
 
 The strongest defensible takeaway is modest: readers and practitioners appear to value the book as an approachable, concrete introduction to noticing listening failures and practicing more responsive conversation. The accessible examples and actionable later chapters are its apparent strengths; pacing and repetition in the setup are the clearest reported weakness. The sources located here do not establish the book’s effectiveness experimentally, and they provide little independent formal criticism. Treat it as a practical workbook-style guide from two practicing psychologists, not as a current evidence review of listening science.
