@@ -5,6 +5,7 @@ Books and source notes about how people interpret the past and how institutions,
 ## China
 
 - [Yasheng Huang over China’s groei en het achtergestelde platteland](2026-10-02_de-standaard_yasheng-huang_chinese-rural-growth.md), zijn betoog dat rurale ondernemingen, krediet en lokale beleidsruimte essentieel waren voor China’s vroege hervormingsgroei.
+- [Confucian self-correction and China's mathematics–AI initiative](../agi/2026-10-12_tweet_arnaud-bertrand_confucianism-and-china-ai-mathematics.md), a current interpretation connecting acknowledged capability gaps to learning and pragmatic method choice.
 
 ## Renaissance
 

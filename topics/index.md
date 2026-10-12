@@ -18,6 +18,7 @@ topic maps, and load individual concept files only when they are relevant.
 ## AI and technology
 
 - [agi](agi/)
+- [Confucian self-correction, pragmatic truth-seeking, and China's AI-mathematics initiative](agi/2026-10-12_tweet_arnaud-bertrand_confucianism-and-china-ai-mathematics.md) — a qualified reading of a new Chinese mathematics-and-AI alliance through Confucian learning and Deng-era pragmatism.
 - [Agents](agents/)
 - [Agentic search](agentic_search/)
 - [AI adoption](ai_adoption/)

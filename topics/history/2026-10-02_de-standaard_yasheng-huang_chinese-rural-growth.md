@@ -56,6 +56,10 @@ Het interview verschuift de vraag van “hoeveel infrastructuur heeft China gebo
 - Yasheng Huang, [*Statism with Chinese Characteristics: A History of China’s Reforms and Reversals*](https://www.cambridge.org/core/books/statism-with-chinese-characteristics/ACFD528CEE9B6B4FBB4B706977E63776) — de tweede editie die in het interview wordt besproken.
 - Dan Wang, [*Breakneck: China’s Quest to Engineer the Future*](../system_thinking/2025-08-26_book_dan-wang_breakneck.md) — het boek waarmee de interviewer Huang’s kritiek op het infrastructuur- en groeiverhaal in verband brengt.
 
+## Verwante perspectieven
+
+- [Confucian self-correction and China's mathematics–AI initiative](../agi/2026-10-12_tweet_arnaud-bertrand_confucianism-and-china-ai-mathematics.md) — a current, attributed cultural interpretation; Huang's account instead foregrounds local policy space and rural enterprise in the 1980s.
+
 ## Lees dit als een betoog
 
 De auteur presenteert Huang’s revisionistische interpretatie en toetst die niet systematisch aan concurrerende verklaringen. De genoemde aantallen TVE’s, inkomensveranderingen en groeicijfers zijn in deze notitie daarom toegeschreven claims uit het interview, geen onafhankelijk gecontroleerde gegevens. Voor een stevige historische of beleidsconclusie zijn Huang’s boek, definities van TVE’s en vergelijkbare tijdreeksen nodig; ook andere factoren zoals internationale handel, demografie en de bredere hervormingscontext kunnen hebben bijgedragen.
