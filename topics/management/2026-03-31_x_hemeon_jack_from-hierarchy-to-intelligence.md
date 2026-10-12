@@ -56,3 +56,6 @@ This is one of the clearest organizational-design arguments for AI as a structur
 ## Links
 - Hemeon post: https://x.com/hemeon/status/2039032368779141507?s=20
 - Jack article/post: https://x.com/jack/status/2039003879841362278
+
+## Related concepts
+- [AI, Smith, and Coase: the vanishing advantage of specialization](2026-10-12_paper_luis-garicano_ai-specialization-firm-boundaries.md) — a complementary account of how AI may change firm boundaries and the division of expert work.

@@ -10,6 +10,7 @@ and the conditions that help people do difficult work together.
 
 ## Teams and organizational design
 
+- [AI, Smith, and Coase: the vanishing advantage of specialization](2026-10-12_paper_luis-garicano_ai-specialization-firm-boundaries.md) — how cheaper knowledge can bring work inside firms while cheaper transactions can push it back out; evidence is preliminary.
 - [From hierarchy to intelligence](2026-03-31_x_hemeon_jack_from-hierarchy-to-intelligence.md)
 - [How to build a superteam that keeps getting better](2026-04-07_article_hbr_how-to-build-a-superteam-that-keeps-getting-better.md)
 
