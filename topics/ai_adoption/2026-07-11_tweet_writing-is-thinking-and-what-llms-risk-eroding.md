@@ -49,3 +49,7 @@ resource: "https://x.com/DrDominicNg/status/2024031389461737710"
 
 ## My notes
 -
+
+## Related concepts
+
+- [How to Avoid AI Brain Rot — Miles Cranmer](2026-10-16_video_miles-cranmer_avoid-ai-brain-rot.md) — a related argument for using AI without outsourcing the effort that builds skill and judgment.

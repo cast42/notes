@@ -22,6 +22,7 @@ topic maps, and load individual concept files only when they are relevant.
 - [Agents](agents/)
 - [Agentic search](agentic_search/)
 - [AI adoption](ai_adoption/)
+- [How to Avoid AI Brain Rot — Miles Cranmer](ai_adoption/2026-10-16_video_miles-cranmer_avoid-ai-brain-rot.md) — use AI to extend capability while preserving the learning and judgment needed to evaluate its work.
 - [GenBI](genbi/index.md)
 - [Local models](local_models/)
 - [magma](magma/index.md)
