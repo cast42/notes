@@ -74,6 +74,7 @@ The README explicitly invites people to fork, improve, and adapt pstack. That is
 ## Related concept
 
 - [Lauren Tan on pstack, verification, and agent workflows](2026-09-21_video_lauren-tan-pstack-verification-and-agent-workflows.md) — the talk and interview behind the verification-first engineering context; this note focuses on the published skill stack itself.
+- [pstack-claude across coding-agent harnesses](2026-10-15_github_michael-denyer_pstack-across-harnesses.md) — a community-maintained port adapting pstack to other runtimes.
 
 ## Sources
 
