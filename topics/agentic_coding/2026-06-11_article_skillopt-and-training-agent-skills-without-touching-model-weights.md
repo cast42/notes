@@ -51,3 +51,7 @@ description: "SkillOpt treats agent skills as trainable procedural artifacts, im
 
 ## My notes
 -
+
+## Related approach
+
+- [How to write and test agent skills with evals](2026-10-19_article_sergii-makarevych_agent-skill-evals.md) — pairs skill optimization with explicit adherence and effect measures, baseline comparisons, and a length control.
