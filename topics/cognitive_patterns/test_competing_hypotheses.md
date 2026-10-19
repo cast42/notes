@@ -111,6 +111,10 @@ A good hypothesis test should:
 - [Check evidence quality](check_evidence_quality.md)
 - [Examine a causal claim](examine_a_causal_claim.md)
 
+## Related application
+
+- [/hypothesis-grid for AI product managers](../agentic_coding/2026-10-16_skill_nurijanian_hypothesis-grid.md) — a product-management skill announcement that adapts Analysis of Competing Hypotheses to agent-assisted diagnosis; its implementation was not available for inspection.
+
 ## Sources
 
 - [Claude Code Thinking Skills and this notes repo](2026-07-20_github_tjboudreaux_cc-thinking-skills.md)
