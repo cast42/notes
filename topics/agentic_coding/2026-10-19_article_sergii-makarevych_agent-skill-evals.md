@@ -65,6 +65,7 @@ The author's example is a test-driven-development skill. He extracts individual 
 - [SkillOpt and training agent skills without touching model weights](2026-06-11_article_skillopt-and-training-agent-skills-without-touching-model-weights.md) — a related optimization approach using bounded edits and held-out validation.
 - [Agent Skills with Anthropic course](2026-07-15_tweet_agent-skills-with-anthropic-deeplearning-ai-course.md) — skill anatomy, progressive disclosure, and how skills compose with tools and subagents.
 - [Matt Pocock: Skills v1.3 — implement-spec, pr, and retro](2026-10-05_youtube_matt-pocock_skills-v1-3.md) — turn recurring agent-session failures into reusable improvements.
+- [How to use decision models for evals](2026-10-20_article_hamel-husain_decision-model-evals.md) — a concrete case of choosing metrics, thresholds, and calibration for an automated evaluator.
 
 ## Sources
 
