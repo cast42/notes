@@ -24,6 +24,7 @@ coding agents in collaboration with humans.
 - [pstack-claude: porting pstack across coding-agent harnesses](2026-10-15_github_michael-denyer_pstack-across-harnesses.md) — A community port showing how portable skill content still needs harness-specific routing, tools, and setup.
 - [How to write and test agent skills with evals](2026-10-19_article_sergii-makarevych_agent-skill-evals.md) — Define measurable objectives, separate adherence from impact, and compare skill effects against baseline and a length control.
 - [How to use decision models for evals](2026-10-20_article_hamel-husain_decision-model-evals.md) — Tune classifier thresholds to task-specific error costs; assess calibration, held-out quality, and cost separately.
+- [Evaluating agents on highly subjective tasks](2026-10-21_article_cameron-wolfe_subjective-evals.md) — Combine calibrated human judgments, validated offline judges, uncertainty estimates, and production A/B tests in an iterative evaluation loop.
 - [Pydantic Deep for production-grade deep agents](2026-03-18_x_pydantic_pydantic-deep_production-grade-deep-agents.md)
 - [Coding agents for data analysis](2026-03-16_article_simon-willison_coding-agents-for-data-analysis.md)
 
