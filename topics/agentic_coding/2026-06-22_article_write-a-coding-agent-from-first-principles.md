@@ -41,6 +41,7 @@ resource: "https://mathspp.com/blog/write-a-coding-agent-from-first-principles"
 - [https://mathspp.com/blog/write-a-coding-agent-from-first-principles](https://mathspp.com/blog/write-a-coding-agent-from-first-principles)
 - [https://github.com/mathspp/coding-agent-tutorial](https://github.com/mathspp/coding-agent-tutorial)
 - [Sequel: better tools](2026-07-06_article_mathspp_write-a-coding-agent-from-first-principles-better-tools.md)
+- [What is a harness?](2026-10-23_article_what-is-a-harness.md) — A plain-language definition of the runtime loop that the tutorial implements from first principles.
 
 ## Raw
 

@@ -57,6 +57,7 @@ The attached screenshot presents the ReAct loop as thought → action → observ
 ## Related concepts
 
 - [Write a coding agent from first principles](2026-06-22_article_write-a-coding-agent-from-first-principles.md) — Minimal agent mechanics and the controls that make a harness dependable.
+- [What is a harness?](2026-10-23_article_what-is-a-harness.md) — A compact definition of the runtime's tool-call cycle and its distinction from the user-facing interface.
 - [Why Mario built Pi](2026-04-03_youtube_mario_why-he-built-pi-coding-agent.md) — A minimal, extensible coding-agent harness as a practical counterpoint.
 - [Agent Skills with Anthropic course](2026-07-15_tweet_agent-skills-with-anthropic-deeplearning-ai-course.md) — Skills as modular procedure bundles added after the core agent loop.
 
