@@ -40,6 +40,7 @@ coding agents in collaboration with humans.
 - [Skill optimization without changing model weights](2026-06-11_article_skillopt-and-training-agent-skills-without-touching-model-weights.md)
 - [The Elements of Style as a source for the plain-writing skill](2026-08-16_tweet_the-elements-of-style-as-a-source-for-the-plain-writing-skill.md) — Strunk's composition rules supply clarity and readability principles for DocWriter's agent skill.
 - [Tim O'Reilly's Claude byline experiment](2026-10-23_article_tim-o-reilly-s-claude-byline-experiment.md) — A reported example of teaching Claude to write routine reporting, with light human editing and a byline; the underlying skill and evaluation are not disclosed.
+- [How to write a CLAUDE.md for an Obsidian vault](2026-10-24_article_how-to-write-a-claude-md-for-your-obsidian-vault.md) — A vault-instruction template and staged test plan, with cautions about destructive tests and the limits of instruction files.
 
 ## Related areas
 

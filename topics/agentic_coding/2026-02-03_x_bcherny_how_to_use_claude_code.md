@@ -119,6 +119,7 @@ c. Ask Claude to draw ASCII diagrams of new protocols and codebases to help you 
 
 d. Build a spaced-repetition learning skill: you explain your understanding, Claude asks follow-ups to fill gaps, stores the result
 
+Related: [How to write a CLAUDE.md for an Obsidian vault](2026-10-24_article_how-to-write-a-claude-md-for-your-obsidian-vault.md) expands on designing persistent instructions for a personal knowledge base.
 
 
 
