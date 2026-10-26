@@ -18,6 +18,7 @@ topic maps, and load individual concept files only when they are relevant.
 ## AI and technology
 
 - [agi](agi/)
+- [Cognitive Mercantilism](agi/2026-10-25_article_venkatesh-rao_cognitive-mercantilism.md) — Venkatesh Rao’s analogy between early capitalist demand creation and possible AI-enabled cognitive abundance.
 - [Confucian self-correction, pragmatic truth-seeking, and China's AI-mathematics initiative](agi/2026-10-12_tweet_arnaud-bertrand_confucianism-and-china-ai-mathematics.md) — a qualified reading of a new Chinese mathematics-and-AI alliance through Confucian learning and Deng-era pragmatism.
 - [Agents](agents/)
 - [Agentic search](agentic_search/)
@@ -44,6 +45,7 @@ topic maps, and load individual concept files only when they are relevant.
 
 - [Apple](apple/)
 - [Books](books/)
+- [The Relentless Revolution: A History of Capitalism](books/2010-01-01_book_joyce-appleby_the-relentless-revolution.md) — Joyce Appleby’s account of capitalism as a contingent historical and cultural development.
 - [Health](health/)
 - [History](history/index.md)
 - [Ideas](ideas/)
