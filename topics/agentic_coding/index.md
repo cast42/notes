@@ -5,6 +5,8 @@ coding agents in collaboration with humans.
 
 ## Agent workflows
 
+- [How the Claude Code team does code review](2026-10-15_article_anthropic_how-claude-code-team-does-code-review.md) — a layered AI-assisted review process that preserves human time through risk-based approvals, measurable guardrails, and rollback.
+
 - [Agentic search versus RAG](2026-02-01_x_bcherny_claude_code_agentic_search_vs_rag.md)
 - [Codex app tips from Dominik Kundel](2026-02-02_x_dkundel_codex_app_tips.md)
 - [Claude Code workflow orchestration](2026-02-23_x_boris-cherny_workflow-orchestration.md)
