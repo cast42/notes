@@ -9,6 +9,7 @@ Notes about what I’m learning.
 - [Learning to learn](2026-02-06_book_hamming_the_art_of_doing_science_and_engineering_learning_to_learn.md) — Hamming on becoming effective at hard intellectual work.
 - [How to become expert at a thing](2026-02-06_quote_karpathy_how_to_become_expert_at_a_thing.md) — compact guidance on expertise.
 - [Continuous learning game](2026-03-11_x_jaynitx_charlie-munger_continuous-learning-game.md) — lifelong compounding through learning.
+- [Becoming a Better Writer](2022-01-18_article_gergely-orosz_becoming-a-better-writer.md) — improve technical writing through reader-focused editing, specific feedback, good examples, and deliberate practice; writing also helps develop thought.
 
 ## Related areas
 

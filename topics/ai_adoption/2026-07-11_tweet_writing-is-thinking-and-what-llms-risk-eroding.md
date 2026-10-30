@@ -52,4 +52,5 @@ resource: "https://x.com/DrDominicNg/status/2024031389461737710"
 
 ## Related concepts
 
+- [Becoming a Better Writer](../learning/2022-01-18_article_gergely-orosz_becoming-a-better-writer.md) — a practical complement on writing practice, reader-focused editing, and the value of expressing one’s own experience.
 - [How to Avoid AI Brain Rot — Miles Cranmer](2026-10-16_video_miles-cranmer_avoid-ai-brain-rot.md) — a related argument for using AI without outsourcing the effort that builds skill and judgment.
