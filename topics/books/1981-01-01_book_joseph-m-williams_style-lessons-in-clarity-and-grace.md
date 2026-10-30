@@ -119,6 +119,8 @@ The procedure is mainly for revision. It treats style principles as predictions 
 
 ## Related concepts
 
+- [On Writing Well](1976-01-01_book_william-zinsser_on-writing-well.md) — a complementary guide focused on voice, clarity, and the nonfiction writer’s relationship with the reader.
+
 - [The Elements of Style as a source for the plain-writing skill](../agentic_coding/2026-08-16_tweet_the-elements-of-style-as-a-source-for-the-plain-writing-skill.md) — a related, more rule-oriented source for clarity and readability.
 - [Reader-centered revision skill](../../skills/reader-centered-revision/SKILL.md) — a reusable review procedure derived from the book's reader-centered principles.
 - [How To Write With an LLM](https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/) — a complementary argument for using language models as structural copyeditors while preserving the writer's voice.

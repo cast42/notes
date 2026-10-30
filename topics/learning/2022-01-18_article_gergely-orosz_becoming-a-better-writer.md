@@ -45,9 +45,14 @@ Orosz’s article focuses mainly on professional communication, but it also cite
 
 This is a useful counterweight to Orosz’s warning about low-quality AI prose. AI can assist with editing and feedback, but outsourcing the entire act of expressing an experience risks removing the process that turns experience into a considered point of view.
 
+## A useful order for practical writing
+
+An additional framing worth keeping: start with **why** the reader should care, then establish **who** is involved or affected, and then explain **how** it works or what to do. This is a compact way to orient the reader before the details. (This was Lode’s suggested advice; it is not attributed to Orosz’s article.)
+
 ## Related concepts
 
 - [Writing is thinking, and what LLMs risk eroding](../ai_adoption/2026-07-11_tweet_writing-is-thinking-and-what-llms-risk-eroding.md) — argues that outsourcing writing can also outsource the cognitive work of reflection and synthesis.
+- [On Writing Well](../books/1976-01-01_book_william-zinsser_on-writing-well.md) — the nonfiction-writing guide Orosz recommends.
 - [How to learn](2024-10-02_hamel_dev_how-to-learn-hamel.md) — a related practice-oriented approach to improving through deliberate work.
 
 ## Sources

@@ -10,6 +10,7 @@ Notes about what I’m learning.
 - [How to become expert at a thing](2026-02-06_quote_karpathy_how_to_become_expert_at_a_thing.md) — compact guidance on expertise.
 - [Continuous learning game](2026-03-11_x_jaynitx_charlie-munger_continuous-learning-game.md) — lifelong compounding through learning.
 - [Becoming a Better Writer](2022-01-18_article_gergely-orosz_becoming-a-better-writer.md) — improve technical writing through reader-focused editing, specific feedback, good examples, and deliberate practice; writing also helps develop thought.
+- [On Writing Well](../books/1976-01-01_book_william-zinsser_on-writing-well.md) — William Zinsser’s guide to clear, economical nonfiction prose and the writer-reader relationship.
 
 ## Related areas
 

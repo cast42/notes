@@ -45,6 +45,7 @@ topic maps, and load individual concept files only when they are relevant.
 
 - [Apple](apple/)
 - [Books](books/)
+- [On Writing Well: The Classic Guide to Writing Nonfiction](books/1976-01-01_book_william-zinsser_on-writing-well.md) — William Zinsser’s advice on clarity, concision, voice, and respect for the reader.
 - [The Relentless Revolution: A History of Capitalism](books/2010-01-01_book_joyce-appleby_the-relentless-revolution.md) — Joyce Appleby’s account of capitalism as a contingent historical and cultural development.
 - [Health](health/)
 - [History](history/index.md)
