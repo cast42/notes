@@ -68,6 +68,8 @@ The provocative thesis is not that specialists disappear. Their work may become 
 
 This complements [Hemeon and Jack's argument about AI changing information routing and hierarchy](2026-03-31_x_hemeon_jack_from-hierarchy-to-intelligence.md): Garicano focuses on the boundary between internal work and outside suppliers, while that note focuses on coordination layers inside organizations.
 
+For a related but distinct mechanism, see [Imas, Koh, and Legg's model of competence and agent coordination](2026-10-29_paper_imas-koh-legg_organizing-intelligence.md), which asks how coordination capability could change firm scale and market structure.
+
 ## Links
 
 - Juan Mateos Garcia's [X post](https://x.com/JMateosGarcia/status/2109553554394583294)
