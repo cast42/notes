@@ -37,3 +37,4 @@ Context: Graham is quoting Leslie Lamport to make the point that some thinking i
 
 ## Links
 - Essay: <https://paulgraham.com/writes.html>
+- [Writing and learning versus writing as assessment](2026-10-01_article_pedro-de-bruyckere_writing-thinking-learning.md) — a useful qualification: evidence that writing can support learning does not establish that written essays are the best way to assess thinking.

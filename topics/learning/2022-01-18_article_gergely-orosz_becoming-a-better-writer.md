@@ -52,6 +52,7 @@ An additional framing worth keeping: start with **why** the reader should care, 
 ## Related concepts
 
 - [Writing is thinking, and what LLMs risk eroding](../ai_adoption/2026-07-11_tweet_writing-is-thinking-and-what-llms-risk-eroding.md) — argues that outsourcing writing can also outsource the cognitive work of reflection and synthesis.
+- [Is writing really the best way to learn to think?](2026-10-01_article_pedro-de-bruyckere_writing-thinking-learning.md) — distinguishes writing's value as a learning activity from using essays to assess thinking.
 - [On Writing Well](../books/1976-01-01_book_william-zinsser_on-writing-well.md) — the nonfiction-writing guide Orosz recommends.
 - [How to learn](2024-10-02_hamel_dev_how-to-learn-hamel.md) — a related practice-oriented approach to improving through deliberate work.
 
