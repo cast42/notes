@@ -84,6 +84,7 @@ effect of generative AI on learning and critical thinking remains unresolved.
 - [https://doi.org/10.1073/pnas.2422633122](https://doi.org/10.1073/pnas.2422633122)
 - [https://doi.org/10.1038/s44159-025-00467-5](https://doi.org/10.1038/s44159-025-00467-5)
 - Related: [Writing is thinking, and what LLMs risk eroding](2026-07-11_tweet_writing-is-thinking-and-what-llms-risk-eroding.md)
+- Related: [Willingham on why critical thinking is hard to teach](../learning/2008-03-01_article_daniel-willingham_critical-thinking-hard-to-teach.md) — foundational account of domain knowledge, metacognitive cues, practice, and transfer.
 
 ## Raw
 
