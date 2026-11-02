@@ -67,7 +67,7 @@ This is a research-informed 2008 article, not a new experiment or a current syst
 
 ## Related concepts
 
-- [How to stay smart in the age of AI: the science of critical thinking](../ai_adoption/2026-09-23_article_how-to-stay-smart-in-the-age-of-AI-the-science-of-critical-thinking.md) — applies the knowledge-and-practice view to AI-supported learning and unaided transfer.
+- [How to stay smart in the age of AI: the science of critical thinking](../ai_adoption/2026-09-23_article_how-to-stay-smart-in-the-age-of-ai-the-science-of-critical-thinking.md) — applies the knowledge-and-practice view to AI-supported learning and unaided transfer.
 - [Margaret Roller on critical thinking in qualitative research](../cognitive_patterns/2026-09-08_tweet_margaret-roller-on-critical-thinking-in-qualitative-research.md) — a domain-specific account of reflective critical thinking in qualitative research.
 
 ## Sources
