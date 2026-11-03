@@ -5,6 +5,7 @@ coding agents in collaboration with humans.
 
 ## Agent workflows
 
+- [Critical thinking when agents do the work](2026-11-03_article_addy-osmani_critical-thinking-when-agents-do-the-work.md) — preserve ownership through hypotheses, meaningful verification, attention to agent decisions, and accountability scaled to stakes.
 - [How AI agents shape experts’ judgment calls](2026-10-27_paper_anthropic_agents-shape-expert-judgment.md) — a randomized study showing how an agent’s framing can influence expert analysis even when the expert makes the final recommendation.
 - [How the Claude Code team does code review](2026-10-15_article_anthropic_how-claude-code-team-does-code-review.md) — a layered AI-assisted review process that preserves human time through risk-based approvals, measurable guardrails, and rollback.
 
