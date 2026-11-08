@@ -5,6 +5,7 @@ coding agents in collaboration with humans.
 
 ## Agent workflows
 
+- [AI factual search and verification](2026-11-07_tweet_ethan-mollick_ai-factual-verification.md) — Mollick’s benchmark-based challenge to routine human verification, with important comparison and generalization limits.
 - [Ironies of Automation](1983-01-01_paper_lisanne-bainbridge_ironies-of-automation.md) — why automated systems can make human monitoring, skill maintenance, and recovery harder; implications for AI are an analogy.
 - [Critical thinking when agents do the work](2026-11-03_article_addy-osmani_critical-thinking-when-agents-do-the-work.md) — preserve ownership through hypotheses, meaningful verification, attention to agent decisions, and accountability scaled to stakes.
 - [How AI agents shape experts’ judgment calls](2026-10-27_paper_anthropic_agents-shape-expert-judgment.md) — a randomized study showing how an agent’s framing can influence expert analysis even when the expert makes the final recommendation.
