@@ -12,6 +12,7 @@ Notes about what I’m learning.
 - [Continuous learning game](2026-03-11_x_jaynitx_charlie-munger_continuous-learning-game.md) — lifelong compounding through learning.
 - [Becoming a Better Writer](2022-01-18_article_gergely-orosz_becoming-a-better-writer.md) — improve technical writing through reader-focused editing, specific feedback, good examples, and deliberate practice; writing also helps develop thought.
 - [Critical Thinking: Why Is It So Hard to Teach?](2008-03-01_article_daniel-willingham_critical-thinking-hard-to-teach.md) — critical reasoning depends on relevant domain knowledge, cues, and practice; generic strategies alone transfer poorly.
+- [Our Schools Must Teach How to Think!](2007-07-01_article_evald-ilyenkov_our-schools-must-teach-how-to-think.md) — Ilyenkov’s philosophical case for developing judgment through knowledge, problems, and conceptual understanding.
 - [Is writing really the best way to learn to think?](2026-10-01_article_pedro-de-bruyckere_writing-thinking-learning.md) — writing supports learning, but that does not prove it is the best way to develop thought or assess understanding.
 - [On Writing Well](../books/1976-01-01_book_william-zinsser_on-writing-well.md) — William Zinsser’s guide to clear, economical nonfiction prose and the writer-reader relationship.
 
