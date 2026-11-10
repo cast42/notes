@@ -6,6 +6,7 @@ Notes about what I’m learning.
 
 - [Inbox](inbox.md) — quick captures and questions to develop.
 - [How to learn](2024-10-02_hamel_dev_how-to-learn-hamel.md) — practical learning workflow.
+- [How to develop good research questions](2025-08-11_comment_megan-peters_develop-good-research-questions.md) — turn curiosity, critical reading and alternative explanations into a question and an approach.
 - [Drucker’s feedback analysis](2026-11-04_tweet_jose-luis-casal_drucker-feedback-analysis.md) — record expectations before decisions and compare them with outcomes to learn.
 - [Learning to learn](2026-02-06_book_hamming_the_art_of_doing_science_and_engineering_learning_to_learn.md) — Hamming on becoming effective at hard intellectual work.
 - [How to become expert at a thing](2026-02-06_quote_karpathy_how_to_become_expert_at_a_thing.md) — compact guidance on expertise.
