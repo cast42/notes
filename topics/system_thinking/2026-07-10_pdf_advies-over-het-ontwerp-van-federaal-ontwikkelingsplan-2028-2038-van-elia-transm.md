@@ -97,6 +97,7 @@ De officiële CREG-publicatie onderbouwt en nuanceert de eerder vastgelegde [not
 
 ## Links
 
+- [Elia: Nederlandstalige publieke raadpleging over het ontwerp van federaal ontwikkelingsplan 2028–2038](https://www.elia.be/nl/publieke-consultaties/20261013_public-consultation-on-federal-development-plan-for-the-belgian-transmission-system) — raadplegingspagina; de beschikbaarheid van de Nederlandstalige plantekst zelf is niet onafhankelijk gecontroleerd.
 - Permalink: [https://creg.be/nl/publicaties/advies-a3243](https://creg.be/nl/publicaties/advies-a3243)
 - [https://www.creg.be/sites/default/files/assets/Publications/Advices/A3243NL.pdf](https://www.creg.be/sites/default/files/assets/Publications/Advices/A3243NL.pdf)
 
