@@ -22,6 +22,12 @@ sources:
   - id: original-opinion
     resource: "https://www.nytimes.com/2026/09/29/opinion/writing-thinking-college-ai.html"
     title: "New York Times opinion essay by Joe Cruz, discussed by De Bruyckere"
+  - id: lamport-interview
+    resource: "https://www.developing.dev/p/turing-award-winner-on-working-with"
+    title: "Ryan Peterman interviews Leslie Lamport"
+  - id: lamport-clip
+    resource: "https://x.com/ryanlpeterman/status/2120880095204126820"
+    title: "Leslie Lamport on why writing improves your thinking"
 generated:
   by: "process:codex"
   at: "2026-11-02T21:28:23+01:00"
@@ -53,6 +59,12 @@ If the goal is to teach writing, students still need to write. If the goal is to
 
 Conversation, presentation, debate, or oral defense can reveal how a student responds and reasons in the moment. De Bruyckere does not argue that these are always better or that writing should be abandoned. A combination—writing with clearly stated AI rules, followed by questions or discussion—may reveal more than either a text or an oral test alone.
 
+## Lamport: writing exposes missing steps
+
+In a [clip from Ryan Peterman’s interview](https://x.com/ryanlpeterman/status/2120880095204126820), Leslie Lamport argues that writing can make an apparently obvious argument inspectable: steps left implicit may conceal gaps or errors. In the [full interview](https://www.developing.dev/p/turing-award-winner-on-working-with) (discussion starts around 54:45), he explains the context of building computer systems and describes organizing proofs hierarchically so that each step and its supporting argument can be examined. His example is expert experience and a proposed mechanism, not an experiment demonstrating that writing is superior to other thinking practices.
+
+**AI implication:** a polished AI-generated argument may conceal gaps from its human reader just as fluent prose can conceal them from its author. One possible practice is to sketch the reasoning yourself first, then use AI to challenge assumptions and missing steps. This is a practical inference, not a result established by Lamport’s interview.
+
 ## Reading stance
 
 The useful conclusion is not “writing is the best way to think.” It is more precise: writing can be a tool for learning and a way to make thought explicit, but the value of an assignment depends on its purpose. A text can be both a learning activity and a trace that teachers can inspect; those functions should not be confused. This complements the view that writing develops thought while adding an important qualification: the educational case for writing does not settle which assessment format is best.
@@ -68,3 +80,4 @@ The useful conclusion is not “writing is the best way to think.” It is more 
 - [Pedro De Bruyckere, “Is schrijven echt de beste manier om te leren denken?”](https://pedrodebruyckere.blog/2026/10/01/is-schrijven-echt-de-beste-manier-om-te-leren-denken/) (Dutch; 1 October 2026) [essay]
 - [Steve Graham, Sharlene A. Kiuhara, and Meade MacKay, “The Effects of Writing on Learning in Science, Social Studies, and Mathematics: A Meta-Analysis”](https://doi.org/10.3102/0034654320914744), *Review of Educational Research* (2020) [meta-analysis]
 - [Joe Cruz, New York Times opinion essay](https://www.nytimes.com/2026/09/29/opinion/writing-thinking-college-ai.html), as discussed by De Bruyckere [original-opinion]
+- [Ryan Peterman interviews Leslie Lamport](https://www.developing.dev/p/turing-award-winner-on-working-with), writing discussion from 54:45; [short clip](https://x.com/ryanlpeterman/status/2120880095204126820) [lamport-interview; lamport-clip]
