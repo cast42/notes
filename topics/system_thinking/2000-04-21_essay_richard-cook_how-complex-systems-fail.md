@@ -67,5 +67,6 @@ The essay presents **18 propositions**, not a statistical study or a universal t
 
 ## Sources
 
+- [How Complex Systems Fail](https://how.complexsystems.fail/) — readable web edition.
 - Richard I. Cook, [*How Complex Systems Fail*, revision D](https://gwern.net/doc/technology/2000-cook.pdf), 21 April 2000.
 - [Ethan Mollick’s post](https://x.com/emollick/status/1761504126897103190), 24 February 2024; links to a [ResearchGate copy](https://www.researchgate.net/publication/228797158_How_complex_systems_fail).
