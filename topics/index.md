@@ -45,7 +45,7 @@ topic maps, and load individual concept files only when they are relevant.
 
 - [Apple](apple/)
 - [Books](books/)
-- [The Mind of Napoleon](books/1934-01-01_book_r-mcnair-wilson_the-mind-of-napoleon.md) — Wilson’s 1934 political reading of Napoleon, Roosevelt, and finance, with a warning about a mislabeled Archive scan.
+- [The Mind of Napoleon](books/1955-01-01_book_napoleon_herold_the-mind-of-napoleon.md) — Herold’s selection of Napoleon’s written and spoken words and David Senra’s founder-focused reading.
 - [Hagakure: The Book of the Samurai](books/1716-01-01_book_yamamoto-tsunetomo_hagakure.md) — an early eighteenth-century collection of samurai reflections, later recast for modern readers.
 - [Start Doing Graph Theory](books/2025-12-21_book_mikhail-lavrov_start-doing-graph-theory.md) — Mikhail Lavrov’s open-access, proof-based introduction built around modeling problems and doing mathematics.
 - [On Writing Well: The Classic Guide to Writing Nonfiction](books/1976-01-01_book_william-zinsser_on-writing-well.md) — William Zinsser’s advice on clarity, concision, voice, and respect for the reader.
