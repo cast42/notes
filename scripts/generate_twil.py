@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import re
+import subprocess
 from collections import Counter
 from dataclasses import dataclass
 from pathlib import Path
@@ -30,6 +31,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--start", help="YYYY-MM-DD")
     parser.add_argument("--end", help="YYYY-MM-DD")
     parser.add_argument("--previous-week", action="store_true")
+    parser.add_argument("--activity", action="store_true", help="Select notes by Git activity rather than publication date")
     return parser.parse_args()
 
 
@@ -131,10 +133,19 @@ def extract_summary(text: str, title: str) -> str:
     return summary
 
 
-def load_notes(start: dt.date, end: dt.date) -> list[WeekNote]:
+def load_notes(start: dt.date, end: dt.date, *, activity: bool = False) -> list[WeekNote]:
     notes: list[WeekNote] = []
+    changed: set[Path] = set()
+    if activity:
+        # Use commit timestamps and preserve source dates in the note itself.
+        result = subprocess.run(
+            ["git", "log", "--format=", "--name-only", "--no-renames",
+             f"--since={start.isoformat()}T00:00:00", f"--until={end.isoformat()}T23:59:59",
+             "--", "topics/"], cwd=ROOT, check=True, capture_output=True, text=True,
+        )
+        changed = {ROOT / line for line in result.stdout.splitlines() if line.endswith(".md")}
     for path in sorted(TOPICS_DIR.rglob("*.md")):
-        if path.name in RESERVED:
+        if path.name in RESERVED or (activity and (path not in changed or "raw" in path.relative_to(TOPICS_DIR).parts)):
             continue
         text = path.read_text(encoding="utf-8", errors="replace")
         metadata = frontmatter(text)
@@ -145,7 +156,7 @@ def load_notes(start: dt.date, end: dt.date) -> list[WeekNote]:
             parsed_date = dt.date.fromisoformat(note_date)
         except ValueError:
             continue
-        if not (start <= parsed_date <= end):
+        if not activity and not (start <= parsed_date <= end):
             continue
         title = extract_title(path, text, metadata)
         notes.append(
@@ -191,7 +202,7 @@ def slugify_topic(topic: str) -> str:
     return slug or "weekly"
 
 
-def render(start: dt.date, end: dt.date, notes: list[WeekNote], main_topic: str) -> str:
+def render(start: dt.date, end: dt.date, notes: list[WeekNote], main_topic: str, *, activity: bool = False) -> str:
     iso_year, iso_week, _ = start.isocalendar()
     total_counter, file_counter = topic_signal(notes)[1:]
     ranked_topics = sorted_topics(total_counter, file_counter)
@@ -216,7 +227,7 @@ def render(start: dt.date, end: dt.date, notes: list[WeekNote], main_topic: str)
         f"  end: {end.isoformat()}",
         f"status: {status}",
         f"main_topic: {main_topic}",
-        "source_scope: topics/**/*.md with frontmatter date in range",
+        "source_scope: " + ("committed topic-note activity in period (excluding raw and indexes)" if activity else "topics/**/*.md with frontmatter date in range"),
         f"generated_at: {generated_at}",
         "---",
         f"# TWIL {iso_year} week {iso_week}: {main_topic}",
@@ -231,12 +242,12 @@ def render(start: dt.date, end: dt.date, notes: list[WeekNote], main_topic: str)
     if notes:
         adjacent_topics = ", ".join(topic for topic, _ in ranked_topics if topic != main_topic) or "adjacent ideas in the same area"
         out.append(
-            f"This week touched {len(notes)} dated topic notes. The strongest thread was **{main_topic}**, "
+            f"This week touched {len(notes)} {'updated' if activity else 'dated'} topic notes. The strongest thread was **{main_topic}**, "
             f"with the rest clustering around {adjacent_topics}."
         )
     else:
         out.append(
-            f"No `topics/**/*.md` notes with frontmatter `date:` fell inside ISO week {iso_week:02d}, "
+            f"No eligible topic notes {'had Git activity' if activity else 'had a frontmatter date'} inside ISO week {iso_week:02d}, "
             "so there was no dominant topic to compact. I still created the weekly note to preserve the chain and make the quiet week explicit."
         )
 
@@ -245,7 +256,7 @@ def render(start: dt.date, end: dt.date, notes: list[WeekNote], main_topic: str)
         for note in notes:
             relative = note.path.relative_to(ROOT)
             out.append(
-                f"- [{note.title}](../{relative.as_posix()}) — {note.summary} _(dated {note.note_date.isoformat()})_"
+                f"- [{note.title}](../{relative.as_posix()}) — {note.summary} _(source date {note.note_date.isoformat()})_"
             )
     else:
         out.append(f"- No eligible notes found in range `{start.isoformat()} -> {end.isoformat()}`.")
@@ -254,7 +265,7 @@ def render(start: dt.date, end: dt.date, notes: list[WeekNote], main_topic: str)
     if notes:
         out.extend(
             [
-                f"- **This happened:** {len(notes)} notes landed in `topics/` with dates between `{start.isoformat()}` and `{end.isoformat()}`.",
+                f"- **This happened:** {len(notes)} topic notes {'had Git activity' if activity else 'had source dates'} between `{start.isoformat()}` and `{end.isoformat()}`.",
                 f"- **So that happened:** `{main_topic}` became the top-of-mind topic at `{total_counter[main_topic]}` mentions across `{file_counter[main_topic]}` files.",
                 "- **Which led to...** a compact weekly map you can revisit without re-scanning the whole knowledge base.",
             ]
@@ -262,7 +273,7 @@ def render(start: dt.date, end: dt.date, notes: list[WeekNote], main_topic: str)
     else:
         out.extend(
             [
-                f"- **This happened:** no dated topic notes matched `{start.isoformat()} -> {end.isoformat()}`.",
+                f"- **This happened:** no eligible topic notes matched `{start.isoformat()} -> {end.isoformat()}`.",
                 "- **So that happened:** the topic tally stayed empty after excluding `twil`.",
                 "- **Which led to...** a continuity-only TWIL entry with `main_topic: weekly`.",
             ]
@@ -293,11 +304,11 @@ def main() -> int:
         raise SystemExit("--end must be on or after --start")
 
     TWIL_DIR.mkdir(parents=True, exist_ok=True)
-    notes = load_notes(start, end)
+    notes = load_notes(start, end, activity=args.activity)
     iso_year, iso_week, _ = start.isocalendar()
     main_topic, _, _ = topic_signal(notes)
     target = TWIL_DIR / f"{iso_year}_week_{iso_week:02d}_{slugify_topic(main_topic)}.md"
-    target.write_text(render(start, end, notes, main_topic), encoding="utf-8")
+    target.write_text(render(start, end, notes, main_topic, activity=args.activity), encoding="utf-8")
     print(f"{target.relative_to(ROOT)}: {len(notes)} dated notes")
     return 0
 

@@ -29,7 +29,16 @@ log "twil weekly start"
 
 git pull --ff-only origin main >> "$LOG_FILE" 2>&1 || log "git pull failed (continuing)"
 
-GENERATOR_OUTPUT="$(python3 "$WORKSPACE/scripts/generate_twil.py" --previous-week | tee -a "$LOG_FILE" | tail -n 1)"
+# The Sunday agent job may already have created this week's TWIL. Do not
+# overwrite its curated content or create a second file with another topic.
+WEEK_PREFIX="$(python3 -c 'import datetime as d; x=d.date.today()-d.timedelta(days=d.date.today().weekday()+1); y,w,_=x.isocalendar(); print(f"{y}_week_{w:02d}_")')"
+EXISTING_TWIL="$(find "$WORKSPACE/twil" -maxdepth 1 -name "${WEEK_PREFIX}*.md" -print -quit)"
+if [[ -n "$EXISTING_TWIL" ]]; then
+  log "TWIL already exists for ${WEEK_PREFIX%_}; leaving it unchanged"
+  exit 0
+fi
+
+GENERATOR_OUTPUT="$(python3 "$WORKSPACE/scripts/generate_twil.py" --previous-week --activity | tee -a "$LOG_FILE" | tail -n 1)"
 TARGET_FILE="${GENERATOR_OUTPUT%%:*}"
 
 # validate only the generated twil file

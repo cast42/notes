@@ -15,6 +15,7 @@ Notes about what I’m learning.
 - [Critical Thinking: Why Is It So Hard to Teach?](2008-03-01_article_daniel-willingham_critical-thinking-hard-to-teach.md) — critical reasoning depends on relevant domain knowledge, cues, and practice; generic strategies alone transfer poorly.
 - [Our Schools Must Teach How to Think!](2007-07-01_article_evald-ilyenkov_our-schools-must-teach-how-to-think.md) — Ilyenkov’s philosophical case for developing judgment through knowledge, problems, and conceptual understanding.
 - [Why books don’t work](2019-05-11_article_andy-matuschak_why-books-dont-work.md) — design learning media to support understanding, feedback, and practice rather than leaving that work entirely to the reader.
+- [Writing as a thinking tool](2026-11-07_article_murat-demirbas_writing-as-a-thinking-tool.md) — use freewriting, revision, and external memory to develop ideas while preserving independent thought alongside AI.
 - [Is writing really the best way to learn to think?](2026-10-01_article_pedro-de-bruyckere_writing-thinking-learning.md) — writing supports learning, but that does not prove it is the best way to develop thought or assess understanding.
 - [On Writing Well](../books/1976-01-01_book_william-zinsser_on-writing-well.md) — William Zinsser’s guide to clear, economical nonfiction prose and the writer-reader relationship.
 
