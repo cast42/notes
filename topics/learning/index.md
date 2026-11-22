@@ -12,6 +12,7 @@ Notes about what I’m learning.
 - [How to become expert at a thing](2026-02-06_quote_karpathy_how_to_become_expert_at_a_thing.md) — compact guidance on expertise.
 - [Continuous learning game](2026-03-11_x_jaynitx_charlie-munger_continuous-learning-game.md) — lifelong compounding through learning.
 - [Becoming a Better Writer](2022-01-18_article_gergely-orosz_becoming-a-better-writer.md) — improve technical writing through reader-focused editing, specific feedback, good examples, and deliberate practice; writing also helps develop thought.
+- [Close reading over writing advice](2026-11-15_article_henrik-karlsson_close-reading-writing.md) — study admired writing to develop a personal, provisional craft toolkit; accessible introduction only.
 - [Critical Thinking: Why Is It So Hard to Teach?](2008-03-01_article_daniel-willingham_critical-thinking-hard-to-teach.md) — critical reasoning depends on relevant domain knowledge, cues, and practice; generic strategies alone transfer poorly.
 - [Our Schools Must Teach How to Think!](2007-07-01_article_evald-ilyenkov_our-schools-must-teach-how-to-think.md) — Ilyenkov’s philosophical case for developing judgment through knowledge, problems, and conceptual understanding.
 - [Why books don’t work](2019-05-11_article_andy-matuschak_why-books-dont-work.md) — design learning media to support understanding, feedback, and practice rather than leaving that work entirely to the reader.
