@@ -19,6 +19,7 @@ coding agents in collaboration with humans.
 - [Agent Skills with Anthropic course](2026-07-15_tweet_agent-skills-with-anthropic-deeplearning-ai-course.md) — Reusable agent expertise, progressive disclosure, and the boundaries between skills, tools, MCP, and subagents.
 - [Agent Native video-analysis skill](2026-09-06_skill_agentnative_video-analysis.md) — Analyze local video with Gemini using timestamped evidence, explicit uncertainty, and upload cleanup.
 - [Gemini frontend design skill](2026-11-24_tweet_philipp-schmid_gemini-frontend-design-skill.md) — Experimental subject-led visual direction, anti-template heuristics and rendered-page review.
+- [Modern Web Guidance](2026-11-25_tweet_shubham-saboo_modern-web-guidance.md) — Searchable web-platform guidance, compatibility and fallbacks for coding agents.
 - [AI model frontier skill for adaptive agent routing](2026-09-14_tweet_ai-model-frontier-skill-for-adaptive-agent-routing.md) — Turn current model quality/cost data into Pareto frontiers and informed Pi/Oh My Pi fallback choices.
 - [Omar Sar’s minimal agent harness guide](2026-09-14_tweet_omar-sar-s-minimal-agent-harness-guide.md) — Build an understandable LLM–tools–loop core, observe it with logs and tasks, then add modular capabilities.
 - [What is a harness?](2026-10-23_article_what-is-a-harness.md) — A plain-language mental model of how a runtime connects an LLM to tools, and how that differs from the app interface.
