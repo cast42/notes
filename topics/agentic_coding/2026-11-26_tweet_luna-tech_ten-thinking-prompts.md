@@ -19,7 +19,7 @@ sources:
 
 ## Status
 
-Incomplete: prompts 1–4 of 10, transcribed verbatim from text supplied by Lode. The remaining thread was not accessible through the X API; do not infer the missing prompts.
+Incomplete: prompts 1–7 of 10, transcribed from text and an image supplied by Lode. The remaining thread was not accessible through the X API; do not infer the missing prompts.
 
 ## 1. The Thinking Partner
 
@@ -36,6 +36,18 @@ Incomplete: prompts 1–4 of 10, transcribed verbatim from text supplied by Lode
 ## 4. The Expert Simulator
 
 “Act as a top 1% expert in [field]. Evaluate my current approach, identify what beginners misunderstand, explain what experienced professionals do differently, and show me how to think at an advanced level.”
+
+## 5. The Decision Architect
+
+“I'm deciding between [option A] and [option B]. Build a decision framework that compares both options based on my priorities, risks, opportunity costs, and long-term consequences. Identify the option most likely to produce the best outcome.”
+
+## 6. The Opportunity Finder
+
+“Look at [industry, skill, or business]. Identify 10 overlooked opportunities most people aren't paying attention to. Explain why each opportunity exists, who would pay for it, and how I could realistically capitalize on it.”
+
+## 7. The Learning Accelerator
+
+“I want to master [skill] as efficiently as possible. Build a learning system using deliberate practice, active recall, spaced repetition, and real-world projects. Focus on the knowledge that creates the greatest practical advantage.”
 
 ## Source
 
