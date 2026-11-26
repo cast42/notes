@@ -2,7 +2,6 @@
 title: "Luna Tech: ten thinking prompts"
 date: 2026-11-26
 type: tweet
-status: draft
 topics:
   - agentic_coding
 tags:
@@ -10,16 +9,14 @@ tags:
   - thinking-partner
   - critical-thinking
 resource: "https://x.com/LunaTechAI/status/2125816959912779873"
-description: "A partial verbatim collection of Luna Tech's prompts for working with an AI thinking partner."
+description: "A verbatim collection of Luna Tech's ten prompts for working with an AI thinking partner."
 sources:
   - resource: "https://x.com/LunaTechAI/status/2125816959912779873"
 ---
 
 # Luna Tech: ten thinking prompts
 
-## Status
-
-Incomplete: prompts 1–7 of 10, transcribed from text and an image supplied by Lode. The remaining thread was not accessible through the X API; do not infer the missing prompts.
+Transcribed from text and images supplied by Lode.
 
 ## 1. The Thinking Partner
 
@@ -48,6 +45,18 @@ Incomplete: prompts 1–7 of 10, transcribed from text and an image supplied by 
 ## 7. The Learning Accelerator
 
 “I want to master [skill] as efficiently as possible. Build a learning system using deliberate practice, active recall, spaced repetition, and real-world projects. Focus on the knowledge that creates the greatest practical advantage.”
+
+## 8. The Systems Builder
+
+“Help me achieve [goal] consistently. Instead of giving me motivation or random tips, design a repeatable system with daily actions, triggers, checkpoints, feedback loops, and measurable progress.”
+
+## 9. The Knowledge Extractor
+
+“I'm going to give you [article, book, transcript, or document]. Don't just summarize it. Extract its most valuable insights, hidden assumptions, practical applications, counterintuitive lessons, and ideas I can use immediately.”
+
+## 10. The Strategic Advisor
+
+“Act as my strategic advisor. Here's my current situation: [context]. Here's what I want to achieve: [goal]. Identify my biggest leverage points, the highest-impact actions, what I should stop doing, and the next 3 moves that would create the most progress.”
 
 ## Source
 
