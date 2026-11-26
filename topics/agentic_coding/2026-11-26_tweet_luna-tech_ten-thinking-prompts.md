@@ -19,7 +19,7 @@ sources:
 
 ## Status
 
-Incomplete: prompts 1–3 of 10, transcribed verbatim from text supplied by Lode. The remaining thread was not accessible through the X API; do not infer the missing prompts.
+Incomplete: prompts 1–4 of 10, transcribed verbatim from text supplied by Lode. The remaining thread was not accessible through the X API; do not infer the missing prompts.
 
 ## 1. The Thinking Partner
 
@@ -32,6 +32,10 @@ Incomplete: prompts 1–3 of 10, transcribed verbatim from text supplied by Lode
 ## 3. The Reverse Engineer
 
 “I want to achieve [specific result]. Work backward from the desired outcome. Identify the exact steps, skills, tools, decisions, and milestones required to get there. Explain the most efficient path.”
+
+## 4. The Expert Simulator
+
+“Act as a top 1% expert in [field]. Evaluate my current approach, identify what beginners misunderstand, explain what experienced professionals do differently, and show me how to think at an advanced level.”
 
 ## Source
 
