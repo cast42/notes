@@ -61,3 +61,4 @@ Transcribed from text and images supplied by Lode.
 ## Source
 
 - [Luna Tech's thread](https://x.com/LunaTechAI/status/2125816959912779873).
+- [Structured Thinking skill](2026-11-26_skill_structured-thinking.md) — a procedural adaptation of these prompts.
