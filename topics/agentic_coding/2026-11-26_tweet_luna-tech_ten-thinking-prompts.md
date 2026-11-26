@@ -19,7 +19,7 @@ sources:
 
 ## Status
 
-Incomplete: prompts 1–2 of 10, transcribed verbatim from text supplied by Lode. The remaining thread was not accessible through the X API; do not infer the missing prompts.
+Incomplete: prompts 1–3 of 10, transcribed verbatim from text supplied by Lode. The remaining thread was not accessible through the X API; do not infer the missing prompts.
 
 ## 1. The Thinking Partner
 
@@ -28,6 +28,10 @@ Incomplete: prompts 1–2 of 10, transcribed verbatim from text supplied by Lode
 ## 2. The Brutal Critic
 
 “I'm going to share an idea with you. Your job isn't to agree with me. Find the 5 biggest weaknesses, challenge my assumptions, identify what I'm overlooking, and tell me what could make this fail.”
+
+## 3. The Reverse Engineer
+
+“I want to achieve [specific result]. Work backward from the desired outcome. Identify the exact steps, skills, tools, decisions, and milestones required to get there. Explain the most efficient path.”
 
 ## Source
 
