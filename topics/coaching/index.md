@@ -4,6 +4,7 @@ Quick capture and structured notes related to coaching.
 
 ## Curated concepts
 
+- [Technical career advice for coaching](2023-03-16_article_cassie-kozyrkov_technical-career-advice.md) — client-led questions on interviews, confidence, stakeholder context and motivation.
 - [Monitoring goal progress](2016-02-01_paper_harkin-et-al_monitoring-goal-progress.md) — experimental evidence for progress monitoring and a qualified, client-directed coaching application.
 - [Curate People](2025-11-18_x_naval_curate_people_recruiting.md), Naval Ravikant on recruiting small teams with a high talent bar.
 - [Do not ask your children to strive for extraordinary lives](2026-09-23_tweet_do-not-ask-your-children-to-strive-for-extraordinary-lives-william-martin.md), William Martin on presence, ordinary experience and achievement-first parenting.
