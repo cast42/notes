@@ -19,6 +19,7 @@ coding agents in collaboration with humans.
 - [Agent Skills with Anthropic course](2026-07-15_tweet_agent-skills-with-anthropic-deeplearning-ai-course.md) — Reusable agent expertise, progressive disclosure, and the boundaries between skills, tools, MCP, and subagents.
 - [Agent Native video-analysis skill](2026-09-06_skill_agentnative_video-analysis.md) — Analyze local video with Gemini using timestamped evidence, explicit uncertainty, and upload cleanup.
 - [Gemini frontend design skill](2026-11-24_tweet_philipp-schmid_gemini-frontend-design-skill.md) — Experimental subject-led visual direction, anti-template heuristics and rendered-page review.
+- [Gemini deep-research skill](2026-11-27_tweet_philipp-schmid_gemini-deep-research-skill.md) — Bounded parallel research, primary-source checks and sourced synthesis for Antigravity.
 - [Modern Web Guidance](2026-11-25_tweet_shubham-saboo_modern-web-guidance.md) — Searchable web-platform guidance, compatibility and fallbacks for coding agents.
 - [Structured Thinking](2026-11-26_skill_structured-thinking.md) — Ten routed reasoning workflows adapted from Luna Tech's prompts, with epistemic guardrails.
 - [AI model frontier skill for adaptive agent routing](2026-09-14_tweet_ai-model-frontier-skill-for-adaptive-agent-routing.md) — Turn current model quality/cost data into Pareto frontiers and informed Pi/Oh My Pi fallback choices.
